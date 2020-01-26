@@ -168,17 +168,27 @@
                         </span>
                     </div>
                 </div>
-                <form id="form-mobile" class="margin-t-30">
-                    <input type="hidden" name="_token" value="DE6yEUfGxzka53TDFCVPkXdiicgUft7Tz6Empbvb">
+                <form id="form-login" class="margin-t-30">
                     <p>
-                        Please provide your mobile number
+                        Welcome back!
                     </p>
-                    <div class="input-group margin-t-30">
-                        <input class="input input-mobile" name="int-tel" maxlength="16" type="tel" placeholder="Mobile" autocomplete="off" />
-                        <input type="hidden" name="mobile" value="+91">
+                    <div class="input-group margin-t-20">
+                        <span class="ico margin-l-2 margin-r-5 flex"><img src="images/icons/envelope.png" alt="envelope"></span>
+                        <input name="email" class="input" type="text" placeholder="Email" autocomplete="off" />
                     </div>
-                    <div class="text-center margin-t-30">
-                        <button type="submit" disabled class="button disabled">Next</button>
+
+                    <div class="input-group margin-t-20">
+                        <span class="ico margin-l-2 margin-r-5 flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path d="M12.917 13A6.002 6.002 0 0 1 1 12a6 6 0 0 1 11.917-1H23v2h-2v4h-2v-4h-2v4h-2v-4h-2.083zM7 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#959595" /></svg></span>
+                        <input name="password" class="input" type="password" placeholder="Password" autocomplete="off" />
+                    </div>
+                    <div class="text-center">
+                        <div class="buttons margin-t-30">
+                            <button type="submit" class="button">Login</button>
+                            <p class="margin-t-20 grey-light text-center"> Forgot Password?
+                            </p>
+                        </div>
                         <img class="loader-small hidden" src="web/atom/images/loading_1.gif" alt="loading" />
                     </div>
                 </form>
@@ -209,52 +219,13 @@
                         <input type="text" class="input pointer calendar-symbol" name="dob" id="signup-date" placeholder="Birthday">
                     </div>
 
-                    <div class="bg-grey-light padding-10 margin-t-20">
-                        <div class="grid">
-                            <div class="w-10-12">
-                                <span class="mobile"></span>
-                                <input type="hidden" name="mobile" />
-                            </div>
-                            <div class="w-2-12 text-right">
-                                <span class="green change-mobile pointer">Edit</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="margin-t-10 text-center">
+                    <div class="margin-t-20 text-center">
                         <div class="buttons">
                             <div class="margin-t-10 margin-b-10">
                                 <p class="By-Clicking-Sign-Up">By Clicking Sign Up, you are agree to our <a class="text-style-1" href="static/terms-and-conditions.html">Terms of Service</a> & that you have read our <a class="text-style-1" href="static/privacy-policy.html">Privacy Policy</a>
                                 </p>
                             </div>
                             <button type="submit" class="button margin-t-10">Done</button>
-                        </div>
-                        <img class="loader-small hidden" src="web/atom/images/loading_1.gif" alt="loading" />
-                    </div>
-                </form>
-                <form id="form-login" class="margin-t-30 hidden">
-                    <input type="hidden" name="_token" value="DE6yEUfGxzka53TDFCVPkXdiicgUft7Tz6Empbvb">
-                    <p>
-                        Welcome back!
-                    </p>
-                    <div class="bg-grey-light padding-10 margin-t-20">
-                        <div class="grid">
-                            <div class="w-10-12">
-                                <span class="mobile"></span>
-                                <input type="hidden" name="mobile" />
-                            </div>
-                            <div class="w-2-12 text-right">
-                                <span class="green change-mobile pointer">Edit</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="input-group margin-t-20">
-                        <input name="password" class="input" type="password" placeholder="Password" autocomplete="off" />
-                    </div>
-                    <div class="margin-t-30 text-center">
-                        <div class="buttons">
-                            <button type="submit" class="button margin-t-30">Login</button>
-                            <p class="margin-t-20 grey-light text-center"> Forgot Password?
-                            </p>
                         </div>
                         <img class="loader-small hidden" src="web/atom/images/loading_1.gif" alt="loading" />
                     </div>

@@ -1,0 +1,27 @@
+// stylelint-disable property-blacklist
+//
+// Font Size
+//
+
+//
+// Responsive font size
+// Generate font size based on on setting `$enable-fluid-fontsize`
+//
+// Parameters:
+// [optional] {String,Number} $fontsize - font size in rem and pm , RFS only support px and rem
+// [optional] {Map} $important - set important in css style
+//
+@mixin fontsize($fontsize: $fontsize-normal, $important: false) {
+  $fontsize-unit: if(type-of($fontsize) == "number", unit($fontsize), false);
+
+  @if $fontsize-unit == "px" {
+    @error "invalid value of font-size `#{$fontsize}` , The value unit must not be `px`";
+  }
+
+  @if $enable-fluid-fontsize {
+    // Do Fluid font stuff
+    @error "This feature `fluid-fontsize` is under development";
+  } @else {
+    font-size: #{$fontsize}#{if($important, !important, null)};
+  }
+}

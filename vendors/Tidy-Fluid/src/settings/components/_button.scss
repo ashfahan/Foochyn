@@ -1,0 +1,19 @@
+//
+// Button Settings
+//
+
+//
+// Inherit
+//
+$button-focus-boxshadow:                         $controls-focus-boxshadow !default;
+
+$button-font:                                    null !default;
+
+//
+// Setting
+//
+$button-theme:                                   $controls-theme !default;
+$button-theme-light:                             $controls-theme-light !default;
+$button-transition-minimal-before:               width, border-bottom-color !default;
+
+$button-disabled-background:                     $controls-disabled-background !default;

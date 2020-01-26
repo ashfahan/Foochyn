@@ -44,6 +44,7 @@
         <script src="plugins/jquery-ui-1.12.1/jquery-ui.min.js"></script>
         <script src="service-worker.js"></script>
         <link type="application/opensearchdescription+xml" href="opensearchdescription.xml" title="eazydiner.com" rel="search">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
         <script defer="">
             var IMAGE_URL = 'https://static.eazydiner.com/';
             var QUERY = '{"date":"24 Jan, 2020","time":"19:00:00","pax":2,"meal_period":"dinner"}';
@@ -182,7 +183,8 @@
                     <div class="input-group margin-t-20">
                         <span class="ico margin-l-2 margin-r-5 flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                                 <path fill="none" d="M0 0h24v24H0z"></path>
-                                <path d="M12.917 13A6.002 6.002 0 0 1 1 12a6 6 0 0 1 11.917-1H23v2h-2v4h-2v-4h-2v4h-2v-4h-2.083zM7 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#959595"></path></svg></span>
+                                <path d="M12.917 13A6.002 6.002 0 0 1 1 12a6 6 0 0 1 11.917-1H23v2h-2v4h-2v-4h-2v4h-2v-4h-2.083zM7 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#959595"></path>
+                            </svg></span>
                         <input class="input" name="password" type="password" placeholder="Password" autocomplete="off">
                     </div>
                     <div class="text-center">
@@ -210,7 +212,8 @@
                     <div class="input-group margin-t-20">
                         <span class="ico margin-l-2 margin-r-5 flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                                 <path fill="none" d="M0 0h24v24H0z"></path>
-                                <path d="M12.917 13A6.002 6.002 0 0 1 1 12a6 6 0 0 1 11.917-1H23v2h-2v4h-2v-4h-2v4h-2v-4h-2.083zM7 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#959595"></path></svg></span>
+                                <path d="M12.917 13A6.002 6.002 0 0 1 1 12a6 6 0 0 1 11.917-1H23v2h-2v4h-2v-4h-2v4h-2v-4h-2.083zM7 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#959595"></path>
+                            </svg></span>
                         <input class="input" name="password" type="password" placeholder="Password" autocomplete="off">
                     </div>
 
@@ -849,81 +852,26 @@
                 </script>
             </div>
         </div>
-        <div class="relative" id="main" style="background-image: url('images/web.jpg');height: 370px;">
-            <div class="absolute" style="bottom: 0;height: 150px; width: 100%;background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);"></div>
-            <div class="container">
-                <div class="absolute" style="top: 195px;max-width: 1080px;">
-                    <h1 class="h3 font-24 bold white margin-t-10">Book Top Restaurants online with best deals in India & Dubai</h1>
-                    <h2 class="white">Get instant free table reservation through App and Website. Enjoy Mind-blowing deals and offers on every booking</h2>
-                    <div class="relative margin-t-10" id="search-widget-home">
-                        <div class="grid">
-                            <div class="w-12-12">
-                                <form class="clear bold grey-dark" id="form-search" method="get" action="https://www.eazydiner.com/restaurants" autocomplete="off">
-                                    <div class="bd-left-0 h-50 flex input-group pull-left radius-0 radius-bottom-left-4 radius-top-left-4 w-2-12">
-                                        <span class="ico">
-                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <use xlink:href="images/icons.svg#sv_address"></use>
-                                            </svg>
-                                        </span>
-                                        <a class="padding-l-10 grey-dark" id="srchbar" href="javascript:void(0)">
-                                            Delhi NCR</a>
-                                    </div>
-                                    <div class="input-group flex radius-0 w-2-12 pull-left h-50 bd-grey">
-                                        <span class="ico"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <use xlink:href="images/icons.svg#sv_date"></use>
-                                            </svg></span>
-                                        <input class="input datepicker pointer bg-down-arrow" id="changeDate" name="date" type="text" placeholder="Date" value="24 Jan, 2020">
-                                    </div>
-                                    <div class="input-group flex radius-0 w-2-12 pull-left h-50 bd-left-0">
-                                        <span class="ico"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 63">
-                                                <g>
-                                                    <path d="M62,32A30,30,0,1,1,32,2,30,30,0,0,1,62,32Z" transform="translate(-0.5 -0.5)" style="fill:none;stroke:#fa4616;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"></path>
-                                                    <polyline points="30.2 17.1 30.2 31.5 45.9 45.9" style="fill:none;stroke:#fa4616;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"></polyline>
-                                                </g>
-                                            </svg></span>
-                                        <div class="select">
-                                            <select class="w-100 select" id="nav_meal_period" name="meal_period">
-                                                <option value="high_tea">
-                                                    High Tea
-                                                </option>
-                                                <option value="dinner" selected>
-                                                    Dinner
-                                                </option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="input-group flex h-50 radius-0 w-4-12 pull-left bd-left-0 grey-dark">
-                                        <span class="ico margin-l-20"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.9 62.9">
-                                                <defs>
-                                                    <style>
-                                                        .a {
-                                                            fill: #616161;
-                                                        }
-                                                    </style>
-                                                </defs>
-                                                <title>searchpath</title>
-                                                <path class="a" d="M26.7,52.9A26.2,26.2,0,1,1,52.9,26.7,26.23,26.23,0,0,1,26.7,52.9Zm0-51.4A25.2,25.2,0,1,0,51.9,26.7,25.22,25.22,0,0,0,26.7,1.5Z" transform="translate(-0.5 -0.5)"></path>
-                                                <rect class="a" x="53.46" y="41.11" width="1" height="25.7" transform="translate(-22.85 53.46) rotate(-45)"></rect>
-                                            </svg></span>
-                                        <input class="input autocomplete padding-l-5" data-container="#search-widget-home-parent" value placeholder="Locality, City or Restaurants">
-                                        <input id="location" name="location" data-content="home" type="hidden" value>
-                                    </div>
-                                    <div class="padding-5 hidden error-msg absolute" style="right: 28%;top: 50px;">
-                                        <span class="primary small">Please select a location or restaurant!</span>
-                                    </div>
-                                    <div class="input-group w-2-12 radius-0 pull-left search h-50">
-                                        <button class="button btn-search text-bold" id="apxor_search">Find a Restaurant</button>
-                                    </div>
-                                </form>
-                            </div>
-                            <p class="white padding-t-10"> If Delhi NCR is not your City?
-                                <a class="primary pointer" id="srchbar" href="javascript:void(0)">Change City </a>
-                            </p>
-                        </div>
-                    </div>
+        <section class="pt-10 pb-6 img-bg txt-center clr-white" style="background-image: linear-gradient(to bottom, #00000000, #000000), url('images/web.jpg');">
+            <h3 class="font-bold">Explore <span>Chakwal</span></h3>
+            <div>Let's discover the best place to eat,drink and shop near you</div>
+            <div class="bg-white-25 container p-2 my-2 flex">
+                <div class="group flex-grow mr-1rem">
+                    <label class="control has-icon-left">
+                        <input class="input is-dark" type="text" style="padding-left: 12.5%;" placeholder="E.g: Food, Service, Barber, Hotel">
+                        <div class="icon clr-black is-left" style="left:5% !important">What</div>
+                    </label>
+                    <label class="control has-icon-left border-left">
+                        <input class="input is-dark" type="text" style="padding-left: 12.5%;" placeholder="City">
+                        <div class="icon clr-black is-left" style="left:5% !important">Where</div>
+                    </label>
                 </div>
+                <button class="btn is-sld is-primary flex px-2"><i class="icon ri-search-line mr-6"></i>Search</button>
             </div>
-        </div>
+            <div>Just looking around ? Let us suggest you</div>
+            <div>Something hot & happeining !</div>
+
+        </section>
         <div class="container margin-t-30 margin-b-30 ">
             <h2 class="font-18 black bold margin-b-10">Discover best deals in Delhi, Gurgaon, Noida</h2>
             <div class="grid gutter-grid">

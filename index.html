@@ -214,28 +214,8 @@
                             </div>
                         </div>
                     </div>
-                    <p class="margin-t-20 grey-light small">
-                        Enter OTP sent to your mobile number
-                    </p>
-                    <div class="input-group margin-t-5">
-                        <input name="otp" class="input" maxlength="4" type="text" oninput="this.value = this.value.replace(/[^0-9]/g, '');" placeholder="OTP" />
-                    </div>
-
                     <div class="margin-t-10 text-center">
                         <div class="buttons">
-                            <p class="grey-light resend-message">
-                                Didn't receive OTP? <span class="green resend-otp pointer">RESEND</span>
-                            </p>
-                            <p class="otp-sent-message hidden"><a href="#">OTP is on the way.</a></p>
-                            <div class="margin-t-20 margin-b-10">
-                                <!-- .squaredThree -->
-                                <div class="squaredThree">
-                                    <input type="checkbox" value="1" checked id="whatsappoptin" name="whatsappoptin" />
-                                    <label for="whatsappoptin" class="enable-whatsapp-perm"><span class="text-style-1">Enable Whatsapp Permissions</span> to receive updates about booking confirmation, latest offers and other alerts.
-                                    </label>
-                                </div>
-                                <!-- end .squaredThree -->
-                            </div>
                             <div class="margin-t-10 margin-b-10">
                                 <p class="By-Clicking-Sign-Up">By Clicking Sign Up, you are agree to our <a class="text-style-1" href="static/terms-and-conditions.html">Terms of Service</a> & that you have read our <a class="text-style-1" href="static/privacy-policy.html">Privacy Policy</a>
                                 </p>
@@ -267,41 +247,10 @@
                     <div class="margin-t-30 text-center">
                         <div class="buttons">
                             <button type="submit" class="button margin-t-30">Login</button>
-                            <p class="margin-t-20 grey-light text-center">
-                                Forgot Password? <span class="green forgot-btn pointer">Login With OTP</span>
+                            <p class="margin-t-20 grey-light text-center"> Forgot Password?
                             </p>
                         </div>
                         <img class="loader-small hidden" src="web/atom/images/loading_1.gif" alt="loading" />
-                    </div>
-                </form>
-                <form id="form-otp" class="margin-t-30 hidden">
-                    <input type="hidden" name="_token" value="DE6yEUfGxzka53TDFCVPkXdiicgUft7Tz6Empbvb">
-                    <div class="bg-grey-light padding-10 margin-t-20">
-                        <div class="grid">
-                            <div class="w-10-12">
-                                <span class="mobile"></span>
-                                <input type="hidden" name="mobile" />
-                            </div>
-                            <div class="w-2-12 text-right">
-                                <span class="green change-mobile pointer">Edit</span>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="margin-t-20 grey-light small">
-                        Enter OTP sent to your mobile number
-                    </p>
-                    <div class="input-group margin-t-5">
-                        <input name="otp" class="input" type="tel" maxlength="4" placeholder="OTP" autocomplete="off" />
-                    </div>
-                    <div class="margin-t-10 text-center">
-                        <div class="buttons">
-                            <p class="grey-light resend-message">
-                                Didn't receive OTP? <span class="green resend-otp pointer">RESEND</span>
-                            </p>
-                            <p class="otp-sent-message hidden"><a href="#">OTP is on the way.</a></p>
-                            <button type="submit" disabled class="button disabled margin-t-30">Done</button>
-                            <img class="loader-small margin-t-30 hidden" src="web/atom/images/loading_1.gif" alt="loading" />
-                        </div>
                     </div>
                 </form>
             </div>

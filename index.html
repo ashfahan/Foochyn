@@ -168,7 +168,7 @@
                         </span>
                     </div>
                 </div>
-                <form id="form-login" class="margin-t-30">
+                <form id="form-login" class="margin-t-30 hidden">
                     <p>
                         Welcome back!
                     </p>
@@ -216,7 +216,7 @@
 
                     <div class="input-group margin-t-20">
                         <span class="ico margin-l-2 margin-r-5 flex"><img src="images/icons/birthday-cake.png" alt="birthday-cake"></span>
-                        <input type="text" class="input pointer calendar-symbol" name="dob" id="signup-date" placeholder="Birthday">
+                        <input type="text" class="input pointer calendar-symbol" name="dob" id="Date-of-birth" placeholder="Birthday">
                     </div>
 
                     <div class="margin-t-20 text-center">
@@ -317,8 +317,17 @@
                                 <div class="padding-10 hidden-sm margin-r-20">
                                     <a href="static/contact-us.html" class="href"><span class="grey" id="help">Help</span></a>
                                 </div>
-                                <a role="button" class="open-popup margin-r-30" data-popup="#popup-login"><span class="grey">Login</span></a>
-                                <a role="button" class="open-popup button text-center bold" style="flex-basis: 80px;" data-popup="#popup-login">Sign Up </a>
+                                <a role="button" onclick="login()" class="open-popup margin-r-30" data-popup="#popup-login"><span class="grey">Login</span></a>
+                                <a role="button" onclick="signup()" class="open-popup button text-center bold" style="flex-basis: 80px;" data-popup="#popup-login">Sign Up </a>
+                                <script>
+                                    function login() {
+                                        document.getElementById("form-login").classList.remove("hidden")
+                                        document.getElementById("form-register").classList.add("hidden")
+                                    } function signup() {
+                                        document.getElementById("form-login").classList.add("hidden")
+                                        document.getElementById("form-register").classList.remove("hidden")
+                                    }
+                                </script>
                             </div>
                         </div>
                     </div>

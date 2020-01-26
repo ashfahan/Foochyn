@@ -80,21 +80,21 @@
 // Components
 //
 
-@import "./components/input";
-@import "./components/button";
-@import "./components/file";
-@import "./components/radio";
-@import "./components/checkbox";
-@import "./components/range";
-@import "./components/switch";
-@import "./components/menu";
-@import "./components/dropdown";
-@import "./components/blockquote";
-@import "./components/list";
-@import "./components/control";
-@import "./components/group";
-@import "./components/embed";
-@import "./components/breadcrumb";
+// @import "./components/input";
+// @import "./components/button";
+// @import "./components/file";
+// @import "./components/radio";
+// @import "./components/checkbox";
+// @import "./components/range";
+// @import "./components/switch";
+// @import "./components/menu";
+// @import "./components/dropdown";
+// @import "./components/blockquote";
+// @import "./components/list";
+// @import "./components/control";
+// @import "./components/group";
+// @import "./components/embed";
+// @import "./components/breadcrumb";
 
 //
 // Utilities
@@ -132,7 +132,7 @@
 
 // sizing
 @import "./utilities/sizing/width";
-@import "./utilities/sizing/height";
+// @import "./utilities/sizing/height";
 
 // color
 @import "./utilities/color";
@@ -181,5 +181,3 @@
 // Spacing
 @import "./objects/spacing+ive";
 @import "./objects/spacing-ive";
-
-@import "./../../../styles.scss";

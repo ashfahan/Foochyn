@@ -1,3 +1,6 @@
 {
-  "html-css-class-completion.includeGlobPattern": "**/Tidy-Fluid/temp/*.{css}"
+  "html-css-class-completion.includeGlobPattern": "**/Tidy-Fluid/temp/*.{css}",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }

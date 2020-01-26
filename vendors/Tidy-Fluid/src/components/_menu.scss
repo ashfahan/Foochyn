@@ -128,6 +128,7 @@
       content: "";
       align-self: center;
       margin-left: auto; // align .menu-trigger caret to end of flex
+      margin-left: .25em;
       @include triangle(bottom, $menu-trigger-caret-size, $menu-trigger-caret-color);
     }
 

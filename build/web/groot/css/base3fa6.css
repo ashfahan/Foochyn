@@ -409,18 +409,6 @@ ui-autocompletehtml {
   font-display: swap;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-weight: 400;
-}
-  color: #00a186;
-  text-decoration: none;
-}
 img {
   display: inline-block;
 }

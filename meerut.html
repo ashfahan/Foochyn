@@ -1286,18 +1286,7 @@
             var id = $(this).data('id');
             window.location.href = href;
         });
-        document.addEventListener("DOMContentLoaded", function(){
-            if (!navigator.geolocation){
-                return;
-            }
-            function success(position) {
-                var latitude  = position.coords.latitude;
-                var longitude = position.coords.longitude;
-            }
-            function error() {
-            }
-            navigator.geolocation.getCurrentPosition(success, error);
-        });
+
     </script>
                 <script defer>
             var AD_URL = 'ad.html';

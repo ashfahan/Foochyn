@@ -2001,18 +2001,6 @@
         <script src="build/web/groot/js/base2d52.js?id=c440e8083d31159b92c0"></script>
         <script src="build/web/groot/js/citye891.js?id=69bb8476f6e174701254"></script>
         <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                if (!navigator.geolocation) {
-                    return;
-                }
-                function success(position) {
-                    var latitude = position.coords.latitude;
-                    var longitude = position.coords.longitude;
-                }
-                function error() {
-                }
-                navigator.geolocation.getCurrentPosition(success, error);
-            });
             $('.apxor_click').on('click', function () {
                 var collection, trimData, source;
                 collection = $(this).parents('.bucket_home').find('.collection_name').text();

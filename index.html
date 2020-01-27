@@ -258,84 +258,42 @@
                 </div>
             </div>
         </div>
-        <header class="shadow bg-white" id="header">
-            <div class="bg-grey-light">
-                <div id="header-main">
-                    <div class="grid v-center">
-                        <div class="w-2-12 padding-10 text-center bd-right-grey-light">
-                            <a href="index.html">
-                                <img src="images/logo.svg" alt="EazyDiner" style="max-width: 145px">
-                            </a>
-                        </div>
-                        <!--City selection-->
-                        <input name="cityname" type="hidden" value="Delhi NCR">
-                        <input name="code" data-view="home" type="hidden">
-                        <div class="w-2-12 center padding-10">
-                            <div class="flex">
-                                <span class="ico">
-                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <use xlink:href="images/icons.svg#sv_address_grey"></use>
-                                    </svg>
-                                </span>
-                                <a id="srchbar" data-view="home" href="javascript:void(0)">
-                                    <span class="grey padding-l-5 padding-r-5">Delhi NCR </span>
-                                    <span><img src="images/down-arrow.png"></span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="w-4-12 bd-left-grey-light bd-right-grey-light header-flex padding-10 relative">
-                            <div class="flex flex-center flex-auto">
-                                <div class="padding-10 flex flex-center relative">
-                                    <ul class="list nav_link_apxor">
-                                        <li class="exp relative">
-                                            <a class="grey bold hidden-lg eazygo-animate new-launch padding-20" data-before="Explore Offer">Explore Deals</a>
-                                            <ul class="list ed-top-links submenu1">
-                                                <li><a class="grey nav_link_apxor" href="delhi-ncr/hot-deals-offers.html">Fast Food<span class="bold"> Offers</span></a></li>
-                                                <li class="new-launch relative">
-                                                    <a class="grey" data-before="New" href="restaurants6179.html?location=delhi-ncr&amp;buckets%5B%5D=eazysave-deals">Prepaid <span class="bold"> Deals</span></a>
-                                                    <div class="submenu menu-shadow hidden-sm">
-                                                        <div class="ed-menu-title">
-                                                            <h2 class="grey bold">Grab the best prepaid deals in town</h2>
-                                                        </div>
-                                                        <div class="ed-menu-banner padding-t-15">
-                                                            <a href="restaurants6179.html?location=delhi-ncr&amp;buckets%5B%5D=eazysave-deals">
-                                                                <img class="full-width" src="./eazymedia/eazysave/hover/all_city.jpg" alt="Eazysave Deals">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--user Profile-->
-                        <div class="w-4-12 padding-l-10 padding-r-10">
-                            <div class="flex flex-end align-v-center">
-                                <div class="grey flex padding-r-30">
-                                    <span class="ico"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <use xlink:href="images/icons.svg#sv_concierge"></use>
-                                        </svg> </span> <span class="padding-l-10"> <span class="nowrap"><a class="primary bold" href="tel:7861004444">786 100 4444</a></span></span>
-                                </div>
-                                <div class="padding-10 hidden-sm margin-r-20">
-                                    <a class="href" href="static/contact-us.html"><span class="grey" id="help">Help</span></a>
-                                </div>
-                                <a class="open-popup margin-r-30" data-popup="#popup-login" role="button" onclick="login()"><span class="grey">Login</span></a>
-                                <a class="open-popup button text-center bold" data-popup="#popup-login" role="button" onclick="signup()" style="flex-basis: 80px;">Sign Up </a>
-                                <script>
-                                    function login() {
-                                        document.getElementById("form-login").classList.remove("hidden")
-                                        document.getElementById("form-register").classList.add("hidden")
-                                    } function signup() {
-                                        document.getElementById("form-login").classList.add("hidden")
-                                        document.getElementById("form-register").classList.remove("hidden")
-                                    }
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <header class="lyt-header shadow bg-white txt-center border-top-none">
+            <div class="w-4 border-right pr-10px">
+                <a href="index.html"> <img class="img w-17" src="./images/logo.svg" alt="EazyDiner" /> </a>
+            </div>
+            <div class="w-4 border-right pr-10px">
+                <select class="input w-16 is-unstyle">
+                    <option hidden="">Please Select</option>
+                    <optgroup label="Asia">
+                        <option selected>City 1</option>
+                        <option>City 2</option>
+                        <option>City 3</option>
+                        <option>City 4</option>
+                        <option>City 5</option>
+                    </optgroup>
+
+                    <optgroup label="Europe">
+                        <option>City 6</option>
+                        <option>City 7</option>
+                        <option>City 8</option>
+                        <option>City 9</option>
+                        <option>City 10</option>
+                        <option>City 11</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="w-8 border-right pr-10px">
+                <span>Fast Food <b>Offers</b></span>
+                <span class="mx-10px border-right border-black"></span>
+                <span>Prepaid <b>Deals</b></span>
+            </div>
+            <a class="font-bold clr-error w-4 pr-10px">786 100 4444</a>
+
+            <div class="w-4 flex justify-between align-middle pl-10px">
+                <a href="#">Help</a>
+                <a href="#">Login</a>
+                <a href="#" class="btn is-sld is-primary font-bold">Sign Up</a>
             </div>
         </header>
         <div class="bg-white full-width h-100 hidden top-0 left-0" id="searchpanel" style="position: fixed;z-index: 999;">

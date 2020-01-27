@@ -1,0 +1,15 @@
+.card-zoom {
+  .overflow-hidden {
+    height: 175px;
+  }
+
+  .img-bg {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  &:hover {
+    .img-bg {
+      transform: scale(1.25);
+    }
+  }
+}

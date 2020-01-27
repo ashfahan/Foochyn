@@ -20,7 +20,6 @@ nbproject
 
 
 # Log and Temp extensions
-/temp
 .cache
 *.diff
 *.err

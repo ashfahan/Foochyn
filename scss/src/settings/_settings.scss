@@ -13,7 +13,7 @@ $design-rounded-else-box:                     true !default;    // * Let you cho
 $breakpoints-readable-else-short:             false !default;   // Let you chose between shorter words like `sm` vs understandable words like `mobile`
 $breakpoints-prefix:                          "@" !default;     // Symbol used to prefix Breakpoints
 $enable-grid-gap:                             true !default;    // Enable Spacing/Gutter between Grid elements
-$enable-all-color-variant:                    false !default;   // Generate Every Color styles
+$enable-all-color-variant:                    true !default;   // Generate Every Color styles
 $enable-transitions:                          true !default;    // Enable transitions and animations
 $enable-prefers-reduced-motion-media-query:   true !default;    // Disable transitions in Reduced Motion Media Query
 $enable-fluid-fontsize:                       false !default;   // * Enable Fluid typography

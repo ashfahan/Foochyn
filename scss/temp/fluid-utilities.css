@@ -10,7 +10,7 @@
 
 .lyt-sidebar.fixed:target + .overlay, .lyt-sidebar.fixed.active + .overlay, .overlay.active { visibility: visible; opacity: 1; }
 
-.lyt-header { background-image: linear-gradient(to bottom, #fff, #f0f0f0 50%, #fff); z-index: 15; display: flex; flex-wrap: wrap; align-items: center; width: 100%; min-height: 64px; padding-right: 24px; padding-left: 24px; border-top: 3px solid #399FE1; color: #0f0f0f; background-color: #fff; transition: min-height 0.35s ease-in-out,line-height 0.35s ease-in-out; }
+.lyt-header { z-index: 15; display: flex; flex-wrap: wrap; align-items: center; width: 100%; min-height: 64px; padding-right: 24px; padding-left: 24px; border-top: 3px solid #399FE1; color: #0f0f0f; background-color: #fff; transition: min-height 0.35s ease-in-out,line-height 0.35s ease-in-out; }
 
 .lyt-header.is-collapse { min-height: 48px; }
 

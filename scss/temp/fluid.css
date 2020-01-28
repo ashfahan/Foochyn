@@ -461,7 +461,7 @@ pre > code[data-lang]::before { content: attr(data-lang); position: absolute; to
   .off-22\@xl { margin-left: 91.66667%; }
   .off-23\@xl { margin-left: 95.83333%; } }
 
-.lyt-header { background-image: linear-gradient(to bottom, #fff, #f0f0f0 50%, #fff); z-index: 15; display: flex; flex-wrap: wrap; align-items: center; width: 100%; min-height: 64px; padding-right: 24px; padding-left: 24px; border-top: 3px solid #399FE1; color: #0f0f0f; background-color: #fff; transition: min-height 0.35s ease-in-out,line-height 0.35s ease-in-out; }
+.lyt-header { z-index: 15; display: flex; flex-wrap: wrap; align-items: center; width: 100%; min-height: 64px; padding-right: 24px; padding-left: 24px; border-top: 3px solid #399FE1; color: #0f0f0f; background-color: #fff; transition: min-height 0.35s ease-in-out,line-height 0.35s ease-in-out; }
 
 .lyt-header.is-collapse { min-height: 48px; }
 

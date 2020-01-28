@@ -8,7 +8,6 @@
   //
   .lyt-header {
     @extend %position-relative;
-    background-image: linear-gradient(to bottom, $white, $gray-100 50%, $white);
     z-index: $header-zindex;
     display: flex;
     flex-wrap: wrap;

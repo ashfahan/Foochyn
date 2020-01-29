@@ -1,9 +1,13 @@
-@media (prefers-reduced-motion: reduce) { .card-zoom .img-bg { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .card-zoom .img-bg, .card-hover { transition: none; } }
 
 .card-zoom .overflow-hidden { height: 175px; }
 
 .card-zoom .img-bg { transition: transform 0.3s ease-in-out; }
 
 .card-zoom.hover .img-bg, .card-zoom:hover .img-bg { transform: scale(1.25); }
+
+.card-hover { transition: box-shadow 0.15s ease-in-out,transform 0.15s ease-in-out; box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.075); }
+
+.card-hover.hover, .card-hover:hover { transform: translateY(-5%); box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.15); }
 
 /*# sourceMappingURL=index.css.map */

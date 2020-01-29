@@ -18,3 +18,13 @@
     }
   }
 }
+
+.card-hover {
+  @include transition(box-shadow, transform);
+  box-shadow: box-shadow($boxshadow-small);
+
+  @include hover {
+    transform: translateY(-5%);
+    box-shadow: box-shadow($boxshadow-default);
+  }
+}

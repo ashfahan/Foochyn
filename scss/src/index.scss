@@ -1,13 +1,18 @@
+@import "./vendors/vendors";
+@import "./tools/tools";
+@import "./settings/settings";
+@import "./settings/placeholders/prefers-reduced-motion";
+
 .card-zoom {
   .overflow-hidden {
     height: 175px;
   }
 
   .img-bg {
-    transition: transform .3s ease-in-out;
+    @include transition(transform .3s ease-in-out);
   }
 
-  &:hover {
+  @include hover {
     .img-bg {
       transform: scale(1.25);
     }

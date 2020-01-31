@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "index.css",
+	"file": "base.css",
 	"sources": [
-		"../src/index.scss",
+		"../src/base.scss",
 		"../src/vendors/_vendors.scss",
 		"../src/tools/_tools.scss",
 		"../src/tools/functions/_prefix.scss",

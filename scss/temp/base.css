@@ -10,4 +10,8 @@
 
 .card-hover.hover, .card-hover:hover { transform: translateY(-5%); box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.15); }
 
+.triangle-left { position: relative; margin-left: 21px; }
+
+.triangle-left::before { content: ""; position: absolute; right: 100%; top: 0; bottom: 0; border: 17px solid transparent; border-right-color: #399fe1; border-left: 0; }
+
 /*# sourceMappingURL=base.css.map */

@@ -43,6 +43,7 @@
 		"../src/tools/mixins/_transitions.scss",
 		"../src/tools/mixins/shapes/_animated.scss",
 		"../src/tools/mixins/shapes/_basic.scss",
+		"../src/tools/mixins/components/_table.scss",
 		"../src/tools/mixins/components/_button.scss",
 		"../src/tools/mixins/components/_input.scss",
 		"../src/tools/mixins/components/_range.scss",
@@ -68,6 +69,7 @@
 		"../src/settings/typography/_hr.scss",
 		"../src/settings/misc/_misc.scss",
 		"../src/settings/components/_controls.scss",
+		"../src/settings/components/_table.scss",
 		"../src/settings/components/_input.scss",
 		"../src/settings/components/_button.scss",
 		"../src/settings/components/_radio.scss",
@@ -85,5 +87,5 @@
 		"../src/settings/placeholders/_prefers-reduced-motion.scss"
 	],
 	"names": [],
-	"mappings": "AgFEE,MAAM,EAAE,sBAAsB,EAAE,MAAM,IhFGxC,AgFJA,UhFIU,CAKR,OAAO,EAWT,WAAW,CgFpBa,EAGpB,UAAU,EAAE,IAAI,GAEnB;;AhFDD,AACE,UADQ,CACR,gBAAgB,CAAC,EACf,MAAM,EAAE,KAAK,GACd;;AAHH,AAKE,UALQ,CAKR,OAAO,CAAC,EsCIN,UAAU,EbUkB,0BAA+D,GzBZ5F;;AAPH,AAUI,UAVM,AoCuBP,MAAM,CpCbL,OAAO,EAVX,UAAU,AoCwBP,MAAM,CpCdL,OAAO,CAAC,EACN,SAAS,EAAE,WAAW,GACvB;;AAIL,AAAA,WAAW,CAAC,EsCPR,UAAU,EbUkB,wDAA+D,EzBD7F,UAAU,E0BeK,kCAA8B,G1BT9C;;AARD,AoCOE,WpCPS,AoCOR,MAAM,EpCPT,WAAW,AoCQR,MAAM,CAAC,EpCHN,SAAS,EAAE,eAAe,EAC1B,UAAU,E0BWG,iCAA8B,GUP5C;;ApCAH,AAAA,cAAc,CAAC,EACb,QAAQ,EAAE,QAAQ,EAClB,WAAW,EAAE,IAAI,GASlB;;AAXD,AqCtBE,crCsBY,AqCtBX,QAAQ,CAAC,ErC0BR,OAAO,EAAE,EAAE,EACX,QAAQ,EAAE,QAAQ,EAClB,KAAK,EAAE,IAAI,EACX,GAAG,EAAE,CAAC,EACN,MAAM,EAAE,CAAC,EwC1BX,MAAM,ExC2BoB,IAAI,CwC3BhB,KAAK,CAAC,WAAW,EAC/B,kBAAkC,EWPpB,OAAO,EXQrB,WAAoB,EAAS,CAAC,GHJ7B"
+	"mappings": "AkFEE,MAAM,EAAE,sBAAsB,EAAE,MAAM,IlFGxC,AkFJA,UlFIU,CAKR,OAAO,EAWT,WAAW,CkFpBa,EAGpB,UAAU,EAAE,IAAI,GAEnB;;AlFDD,AACE,UADQ,CACR,gBAAgB,CAAC,EACf,MAAM,EAAE,KAAK,GACd;;AAHH,AAKE,UALQ,CAKR,OAAO,CAAC,EsCIN,UAAU,EbUkB,0BAA+D,GzBZ5F;;AAPH,AAUI,UAVM,AoCuBP,MAAM,CpCbL,OAAO,EAVX,UAAU,AoCwBP,MAAM,CpCdL,OAAO,CAAC,EACN,SAAS,EAAE,WAAW,GACvB;;AAIL,AAAA,WAAW,CAAC,EsCPR,UAAU,EbUkB,wDAA+D,EzBD7F,UAAU,E0BeK,kCAA8B,G1BT9C;;AARD,AoCOE,WpCPS,AoCOR,MAAM,EpCPT,WAAW,AoCQR,MAAM,CAAC,EpCHN,SAAS,EAAE,eAAe,EAC1B,UAAU,E0BWG,iCAA8B,GUP5C;;ApCAH,AAAA,cAAc,CAAC,EACb,QAAQ,EAAE,QAAQ,EAClB,WAAW,EAAE,IAAI,GASlB;;AAXD,AqCtBE,crCsBY,AqCtBX,QAAQ,CAAC,ErC0BR,OAAO,EAAE,EAAE,EACX,QAAQ,EAAE,QAAQ,EAClB,KAAK,EAAE,IAAI,EACX,GAAG,EAAE,CAAC,EACN,MAAM,EAAE,CAAC,EwC1BX,MAAM,ExC2BoB,IAAI,CwC3BhB,KAAK,CAAC,WAAW,EAC/B,kBAAkC,EYPpB,OAAO,EZQrB,WAAoB,EAAS,CAAC,GHJ7B"
 }

@@ -95,6 +95,7 @@ $enable-debugging:                            false !default;   // Enable Debugg
 //
 
 @import "./components/controls";
+@import "./components/table";
 @import "./components/input";
 @import "./components/button";
 @import "./components/radio";

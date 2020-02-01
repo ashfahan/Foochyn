@@ -192,38 +192,39 @@
                       </div>
                     </div>
 
-                    <div class="menu w-24">
+                    <section class="menu w-24">
                       <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bold">Menu</button>
-                      <div class="grid">
+                      <div class="grid Fooditems">
                         <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between"><span>food</span> <span>5$</span></div>
+                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
                         </div>
                         <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between"><span>food</span> <span>5$</span></div>
+                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
                         </div>
                         <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between"><span>food</span> <span>5$</span></div>
+                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
                         </div>
                         <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between"><span>food</span> <span>5$</span></div>
+                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
                         </div>
                         <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between"><span>food</span> <span>5$</span></div>
+                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
                         </div>
                         <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between"><span>food</span> <span>5$</span></div>
+                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
                         </div>
                         <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between"><span>food</span> <span>5$</span></div>
+                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
                         </div>
                       </div>
 
                       <div class="grid mt-1rem">
-                        <div class="column"><input type="text" placeholder="Food Name" class="input" /></div>
-                        <div class="column"><input type="text" placeholder="Food Price" class="input" /></div>
-                        <div class="column"><button class="btn is-sld is-primary" type="button">Add Item</button></div>
+                        <div class="column"><input type="text" placeholder="Food Name" name="FoodName" class="input" /></div>
+                        <div class="column"><input type="number" placeholder="Food Price" name="FoodPrice" class="input" /></div>
+                        <div class="column"><button class="btn is-sld is-primary" onclick="addfooditem(this.closest('div.grid'))" type="button">Add Item</button></div>
+                        <input name="Fooditems" type="hidden">
                       </div>
-                    </div>
+                    </section>
                   </div>
                 </div>
               </div>
@@ -234,5 +235,33 @@
     </div>
   </body>
   <script src="./js/base.js"></script>
+  <script src="./vendors/jquery-3.4.1.min.js"></script>
+  <script>
+    var Fooditems = []
+    $.each($('.Fooditem'), (index, value) => {
+      child = $(value).children();
+      Fooditems.push({ name: child[0].innerHTML, price: child[1].innerHTML })
+    })
+
+
+    $("[name=Fooditems]").val(JSON.stringify(Fooditems));
+
+    function addfooditem(element) {
+      var foodname = $('input[name="FoodName"]');
+      var foodprice = $('input[name="FoodPrice"]');
+      if (foodname.val() && foodprice.val() && foodname.val() != "" && foodprice.val() != "") {
+        Fooditems.push({ name: foodname.val(), price: foodprice.val() })
+        $(".Fooditems").append(`<div class="column w-8"><div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>${foodname.val()}</span> <span>${foodprice.val()}$</span></div></div>`)
+      } else {
+        foodname.addClass("is-error")
+        foodprice.addClass("is-error")
+        setTimeout(() => {
+          foodname.removeClass("is-error")
+          foodprice.removeClass("is-error")
+        }, 2000);
+      }
+    }
+
+  </script>
 
 </html>

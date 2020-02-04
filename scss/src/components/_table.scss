@@ -10,8 +10,8 @@
     width: 100%;
     margin-bottom: $space-typography;
     color: $table-color;
-    vertical-align: $table-cell-vertical-align;
     background-color: $table-bg; // Reset for nesting within parents with `background-color`.
+    vertical-align: $table-cell-vertical-align;
 
     th,
     td {
@@ -24,8 +24,8 @@
     }
 
     thead th {
-      vertical-align: bottom;
       border-bottom-color: $table-head-border-color;
+      vertical-align: bottom;
     }
 
     tbody + tbody {
@@ -89,7 +89,7 @@
 
   .is-hover {
     tbody tr {
-      &:hover {
+      @include hover {
         color: $table-hover-color;
         background-color: $table-hover-bg;
       }
@@ -119,17 +119,17 @@
   .table {
     .thead-dark {
       th {
+        border-color: $table-dark-border-color;
         color: $table-dark-color;
         background-color: $table-dark-bg;
-        border-color: $table-dark-border-color;
       }
     }
 
     .thead-light {
       th {
+        border-color: $table-border-color;
         color: $table-head-color;
         background-color: $table-head-bg;
-        border-color: $table-border-color;
       }
     }
   }
@@ -156,7 +156,7 @@
 
     &.is-hover {
       tbody tr {
-        &:hover {
+        @include hover {
           color: $table-dark-hover-color;
           background-color: $table-dark-hover-bg;
         }

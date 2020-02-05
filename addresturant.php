@@ -99,133 +99,131 @@
               </div>
             </div>
             <div class="bg-white shadow border p-2 is-round grid has-gap-lg">
-              <div class="column grid w-24">
-                <label class="column control w-12 py-2">
-                  <span>Restaurant Name</span>
-                  <input class="input mt-1rem" type="text" />
-                </label>
+              <label class="column control w-12 py-2">
+                <span>Restaurant Name</span>
+                <input class="input mt-1rem" type="text" />
+              </label>
 
-                <label class="column control w-12 py-2">
-                  <span>Restaurant Email</span>
-                  <input class="input mt-1rem" type="email" />
-                </label>
+              <label class="column control w-12 py-2">
+                <span>Restaurant Email</span>
+                <input class="input mt-1rem" type="email" />
+              </label>
 
-                <label class="column control w-12 py-2">
-                  <span>Restaurant Phone</span>
-                  <input class="input mt-1rem" type="tel" />
-                </label>
+              <label class="column control w-12 py-2">
+                <span>Restaurant Phone</span>
+                <input class="input mt-1rem" type="tel" />
+              </label>
 
-                <label class="column control w-12 py-2">
-                  <span>Job Title in Restaurant</span>
-                  <input class="input mt-1rem" type="tel" />
-                </label>
+              <label class="column control w-12 py-2">
+                <span>Job Title in Restaurant</span>
+                <input class="input mt-1rem" type="tel" />
+              </label>
 
-                <label class="column control w-12 py-2">
-                  <span>Address</span>
-                  <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
-                </label>
+              <label class="column control w-12 py-2">
+                <span>Address</span>
+                <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
+              </label>
 
-                <div class="off-12"></div>
-                <div class="menu w-24">
-                  <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Extra Details</button>
-                  <div class="grid is-adjust">
-                    <label class="column control w-12 py-2">
-                      <span>Restaurant Detail</span>
-                      <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
-                    </label>
+              <div class="off-12"></div>
+              <div class="menu w-24">
+                <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Extra Details</button>
+                <div class="grid is-adjust">
+                  <label class="column control w-12 py-2">
+                    <span>Restaurant Detail</span>
+                    <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
+                  </label>
 
-                    <label class="column control w-12 py-2">
-                      <span>Restaurant Facilities & Features</span>
-                      <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
-                    </label>
+                  <label class="column control w-12 py-2">
+                    <span>Restaurant Facilities & Features</span>
+                    <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
+                  </label>
 
-                    <div class="menu w-24">
-                      <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Open hours</button>
-                      <div>
-                        <div class="grid font-bold">
-                          <div class="column">Day</div>
-                          <div class="column">From</div>
-                          <div class="column">To</div>
-                        </div>
+                  <div class="menu w-24">
+                    <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Open hours</button>
+                    <div>
+                      <div class="grid font-bold">
+                        <div class="column">Day</div>
+                        <div class="column">From</div>
+                        <div class="column">To</div>
+                      </div>
 
-                        <div class="grid align-middle">
-                          <div class="column">Monday</div>
-                          <div class="column"><input class="input" type="time" /></div>
-                          <div class="column"><input class="input" type="time" /></div>
-                        </div>
+                      <div class="grid align-middle">
+                        <div class="column">Monday</div>
+                        <div class="column"><input class="input" type="time" /></div>
+                        <div class="column"><input class="input" type="time" /></div>
+                      </div>
 
-                        <div class="grid align-middle">
-                          <div class="column">Tuesday</div>
-                          <div class="column"><input class="input" type="time" /></div>
-                          <div class="column"><input class="input" type="time" /></div>
-                        </div>
+                      <div class="grid align-middle">
+                        <div class="column">Tuesday</div>
+                        <div class="column"><input class="input" type="time" /></div>
+                        <div class="column"><input class="input" type="time" /></div>
+                      </div>
 
-                        <div class="grid align-middle">
-                          <div class="column">Wednessday</div>
-                          <div class="column"><input class="input" type="time" /></div>
-                          <div class="column"><input class="input" type="time" /></div>
-                        </div>
+                      <div class="grid align-middle">
+                        <div class="column">Wednessday</div>
+                        <div class="column"><input class="input" type="time" /></div>
+                        <div class="column"><input class="input" type="time" /></div>
+                      </div>
 
-                        <div class="grid align-middle">
-                          <div class="column">Thursday</div>
-                          <div class="column"><input class="input" type="time" /></div>
-                          <div class="column"><input class="input" type="time" /></div>
-                        </div>
+                      <div class="grid align-middle">
+                        <div class="column">Thursday</div>
+                        <div class="column"><input class="input" type="time" /></div>
+                        <div class="column"><input class="input" type="time" /></div>
+                      </div>
 
-                        <div class="grid align-middle">
-                          <div class="column">Friday</div>
-                          <div class="column"><input class="input" type="time" /></div>
-                          <div class="column"><input class="input" type="time" /></div>
-                        </div>
+                      <div class="grid align-middle">
+                        <div class="column">Friday</div>
+                        <div class="column"><input class="input" type="time" /></div>
+                        <div class="column"><input class="input" type="time" /></div>
+                      </div>
 
-                        <div class="grid align-middle">
-                          <div class="column">Saturday</div>
-                          <div class="column"><input class="input" type="time" /></div>
-                          <div class="column"><input class="input" type="time" /></div>
-                        </div>
+                      <div class="grid align-middle">
+                        <div class="column">Saturday</div>
+                        <div class="column"><input class="input" type="time" /></div>
+                        <div class="column"><input class="input" type="time" /></div>
+                      </div>
 
-                        <div class="grid align-middle">
-                          <div class="column">Sunday</div>
-                          <div class="column"><input class="input" type="time" /></div>
-                          <div class="column"><input class="input" type="time" /></div>
-                        </div>
+                      <div class="grid align-middle">
+                        <div class="column">Sunday</div>
+                        <div class="column"><input class="input" type="time" /></div>
+                        <div class="column"><input class="input" type="time" /></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <section class="menu w-24">
+                    <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Menu</button>
+                    <div class="grid Fooditems">
+                      <div class="column w-8">
+                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
+                      </div>
+                      <div class="column w-8">
+                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
+                      </div>
+                      <div class="column w-8">
+                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
+                      </div>
+                      <div class="column w-8">
+                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
+                      </div>
+                      <div class="column w-8">
+                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
+                      </div>
+                      <div class="column w-8">
+                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
+                      </div>
+                      <div class="column w-8">
+                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
                       </div>
                     </div>
 
-                    <section class="menu w-24">
-                      <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Menu</button>
-                      <div class="grid Fooditems">
-                        <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                        </div>
-                        <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                        </div>
-                        <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                        </div>
-                        <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                        </div>
-                        <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                        </div>
-                        <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                        </div>
-                        <div class="column w-8">
-                          <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                        </div>
-                      </div>
-
-                      <div class="grid mt-1rem">
-                        <div class="column"><input type="text" placeholder="Food Name" name="FoodName" class="input" /></div>
-                        <div class="column"><input type="number" placeholder="Food Price" name="FoodPrice" class="input" /></div>
-                        <div class="column"><button class="btn is-sld is-primary" onclick="addfooditem(this.closest('div.grid'))" type="button">Add Item</button></div>
-                        <input name="Fooditems" type="hidden">
-                      </div>
-                    </section>
-                  </div>
+                    <div class="grid mt-1rem">
+                      <div class="column"><input type="text" placeholder="Food Name" name="FoodName" class="input" /></div>
+                      <div class="column"><input type="number" placeholder="Food Price" name="FoodPrice" class="input" /></div>
+                      <div class="column"><button class="btn is-sld is-primary" onclick="addfooditem(this.closest('div.grid'))" type="button">Add Item</button></div>
+                      <input name="Fooditems" type="hidden">
+                    </div>
+                  </section>
                 </div>
               </div>
             </div>

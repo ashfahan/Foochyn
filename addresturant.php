@@ -103,45 +103,19 @@
               <section>
                 <h6>General information</h6>
                 <div class="grid">
-                  <label class="column control w-12 py-2">
-                    <span>Restaurant Name</span>
-                    <input class="input mt-1rem" type="text" />
-                  </label>
-
-                  <label class="column control w-12 py-2">
-                    <span>Restaurant Email</span>
-                    <input class="input mt-1rem" type="email" />
-                  </label>
-
-                  <label class="column control w-12 py-2">
-                    <span>Restaurant Phone</span>
-                    <input class="input mt-1rem" type="tel" />
-                  </label>
-
-                  <label class="column control w-12 py-2">
-                    <span>Job Title in Restaurant</span>
-                    <input class="input mt-1rem" type="tel" />
-                  </label>
-
-                  <label class="column control w-12 py-2">
-                    <span>Address</span>
-                    <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
-                  </label>
+                  <label class="column control w-12 py-2"><span>Restaurant Name</span><input class="input mt-1rem" type="text" /></label>
+                  <label class="column control w-12 py-2"><span>Restaurant Email</span><input class="input mt-1rem" type="email" /></label>
+                  <label class="column control w-12 py-2"><span>Restaurant Phone</span><input class="input mt-1rem" type="tel" /></label>
+                  <label class="column control w-12 py-2"><span>Job Title in Restaurant</span><input class="input mt-1rem" type="tel" /></label>
+                  <label class="column control w-12 py-2"><span>Address</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
                 </div>
               </section>
 
               <div class="menu">
                 <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bolder">Extra Details</button>
                 <div class="grid is-adjust">
-                  <label class="column control w-12 py-2">
-                    <span>Restaurant Detail</span>
-                    <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
-                  </label>
-
-                  <label class="column control w-12 py-2">
-                    <span>Restaurant Facilities & Features</span>
-                    <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
-                  </label>
+                  <label class="column control w-12 py-2"><span>Restaurant Detail</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
+                  <label class="column control w-12 py-2"><span>Restaurant Facilities & Features</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
 
                   <section class="menu w-24">
                     <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bolder">Pick Open hours</button>

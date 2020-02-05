@@ -1,3 +1,5 @@
 .openhours > input:checked ~ .column { visibility: hidden; }
 
+.openhours > input:checked ~ input { pointer-events: none; opacity: 0.5; }
+
 /*# sourceMappingURL=addresturant.css.map */

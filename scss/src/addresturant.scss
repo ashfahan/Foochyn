@@ -3,8 +3,13 @@
 @import "./settings/settings";
 @import "./settings/placeholders/prefers-reduced-motion";
 
-.openhours {
-  > input:checked ~ .column {
+.openhours > input:checked {
+  ~ .column {
     visibility: hidden;
+  }
+
+  ~ input {
+    pointer-events: none;
+    opacity: $controls-disabled-opacity;
   }
 }

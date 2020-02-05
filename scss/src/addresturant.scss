@@ -1,0 +1,10 @@
+@import "./vendors/vendors";
+@import "./tools/tools";
+@import "./settings/settings";
+@import "./settings/placeholders/prefers-reduced-motion";
+
+.openhours {
+  > input:checked ~ .column {
+    visibility: hidden;
+  }
+}

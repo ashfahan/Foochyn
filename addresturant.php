@@ -117,76 +117,87 @@
                   <label class="column control w-12 py-2"><span>Restaurant Detail</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
                   <label class="column control w-12 py-2"><span>Restaurant Facilities & Features</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
 
-                  <section class="menu w-24">
-                    <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bolder">Pick Open hours</button>
-                    <div>
-                      <div class="grid align-middle">
-                        <div class="column"></div>
-                        <div class="column"></div>
-                        <div class="column"></div>
-                        <div class="column">From</div>
-                        <div class="column">To</div>
-                      </div>
+                  <section class="menu w-24 my-7px">
+                    <h5 class="mb-0">Open hours</h5>
+                    <div>Open hours</div>
 
-                      <div class="grid align-middle openhours">
-                        <div class="column">Monday</div>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">24 hours</span>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">Closed</span>
-                        <div class="column"><input class="input" type="time" /></div>
-                        <div class="column"><input class="input" type="time" /></div>
-                      </div>
+                    <div class="grid align-middle">
+                      <div class="column w-5 off-13">From</div>
+                      <div class="column w-5">To</div>
+                    </div>
 
-                      <div class="grid align-middle openhours">
-                        <div class="column">Tuesday</div>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">24 hours</span>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">Closed</span>
-                        <div class="column"><input class="input" type="time" /></div>
-                        <div class="column"><input class="input" type="time" /></div>
-                      </div>
+                    <div class="grid align-middle openhours">
+                      <div class="column w-7">Monday</div>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">24 hours</span>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">Closed</span>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                    </div>
 
-                      <div class="grid align-middle openhours">
-                        <div class="column">Wednessday</div>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">24 hours</span>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">Closed</span>
-                        <div class="column"><input class="input" type="time" /></div>
-                        <div class="column"><input class="input" type="time" /></div>
-                      </div>
+                    <div class="grid align-middle openhours">
+                      <div class="column w-7">Tuesday</div>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">24 hours</span>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">Closed</span>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                    </div>
 
-                      <div class="grid align-middle openhours">
-                        <div class="column">Thursday</div>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">24 hours</span>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">Closed</span>
-                        <div class="column"><input class="input" type="time" /></div>
-                        <div class="column"><input class="input" type="time" /></div>
-                      </div>
+                    <div class="grid align-middle openhours">
+                      <div class="column w-7">Wednessday</div>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">24 hours</span>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">Closed</span>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                    </div>
 
-                      <div class="grid align-middle openhours">
-                        <div class="column">Friday</div>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">24 hours</span>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">Closed</span>
-                        <div class="column"><input class="input" type="time" /></div>
-                        <div class="column"><input class="input" type="time" /></div>
-                      </div>
+                    <div class="grid align-middle openhours">
+                      <div class="column w-7">Thursday</div>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">24 hours</span>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">Closed</span>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                    </div>
 
-                      <div class="grid align-middle openhours">
-                        <div class="column">Saturday</div>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">24 hours</span>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">Closed</span>
-                        <div class="column"><input class="input" type="time" /></div>
-                        <div class="column"><input class="input" type="time" /></div>
-                      </div>
+                    <div class="grid align-middle openhours">
+                      <div class="column w-7">Friday</div>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">24 hours</span>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">Closed</span>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                    </div>
 
-                      <div class="grid align-middle openhours">
-                        <div class="column">Sunday</div>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">24 hours</span>
-                        <input class="checkbox" type="checkbox" /><span class="mx-7px">Closed</span>
-                        <div class="column"><input class="input" type="time" /></div>
-                        <div class="column"><input class="input" type="time" /></div>
-                      </div>
+                    <div class="grid align-middle openhours">
+                      <div class="column w-7">Saturday</div>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">24 hours</span>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">Closed</span>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                    </div>
+
+                    <div class="grid align-middle openhours">
+                      <div class="column w-7">Sunday</div>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">24 hours</span>
+                      <input class="checkbox w-1" type="checkbox" />
+                      <span class="w-2">Closed</span>
+                      <div class="column w-5"><input class="input" type="time" /></div>
+                      <div class="column w-5"><input class="input" type="time" /></div>
                     </div>
                   </section>
 
-                  <section class="menu w-24">
+                  <section class="menu w-24 my-7px">
                     <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body font-bolder">Pick Cuisine Categories</button>
                     <div class="grid">
                       <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">African</span></label>
@@ -343,10 +354,11 @@
                       <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Welsh</span></label>
                       <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Wine Bar</span></label>
                       <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Xinjiang</span></label>
-                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Yunnan</span></label> </div>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Yunnan</span></label>
+                    </div>
                   </section>
 
-                  <section class="menu w-24">
+                  <section class="menu w-24 my-7px">
                     <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body font-bolder">Pick Dishes</button>
                     <div class="grid">
                       <label class="control column w-8"><input type="checkbox" class="checkbox"><span class="label">Acai Bowls</span></label>

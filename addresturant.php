@@ -101,7 +101,7 @@
             <div class="bg-white shadow border p-2 is-round grid has-gap-lg">
               <div class="column grid w-24">
                 <label class="column control w-12 py-2">
-                  <span>Restaurant Full Name</span>
+                  <span>Restaurant Name</span>
                   <input class="input mt-1rem" type="text" />
                 </label>
 
@@ -127,7 +127,7 @@
 
                 <div class="off-12"></div>
                 <div class="menu w-24">
-                  <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Additional Deatil</button>
+                  <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Extra Details</button>
                   <div class="grid">
                     <label class="column control w-12 py-2">
                       <span>Restaurant Detail</span>
@@ -140,12 +140,12 @@
                     </label>
 
                     <div class="menu w-24">
-                      <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bold">Timging</button>
+                      <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Open hours</button>
                       <div>
                         <div class="grid font-bold">
                           <div class="column">Day</div>
-                          <div class="column">Start time</div>
-                          <div class="column">End time</div>
+                          <div class="column">From</div>
+                          <div class="column">To</div>
                         </div>
 
                         <div class="grid align-middle">
@@ -193,7 +193,7 @@
                     </div>
 
                     <section class="menu w-24">
-                      <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bold">Menu</button>
+                      <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Menu</button>
                       <div class="grid Fooditems">
                         <div class="column w-8">
                           <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>

@@ -213,7 +213,7 @@
                   </section>
 
                   <section class="menu w-24">
-                    <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bolder">Pick Cuisine Categories</button>
+                    <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body font-bolder">Pick Cuisine Categories</button>
                     <div class="grid">
                       <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">African</span></label>
                       <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Albanian</span></label>
@@ -373,7 +373,7 @@
                   </section>
 
                   <section class="menu w-24">
-                    <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bolder">Pick Dishes</button>
+                    <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body font-bolder">Pick Dishes</button>
                     <div class="grid">
                       <label class="control column w-8"><input type="checkbox" class="checkbox"><span class="label">Acai Bowls</span></label>
                       <label class="control column w-8"><input type="checkbox" class="checkbox"><span class="label">Adobo</span></label>

@@ -128,7 +128,7 @@
                 <div class="off-12"></div>
                 <div class="menu w-24">
                   <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active">Extra Details</button>
-                  <div class="grid">
+                  <div class="grid is-adjust">
                     <label class="column control w-12 py-2">
                       <span>Restaurant Detail</span>
                       <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>

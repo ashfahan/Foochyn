@@ -143,7 +143,7 @@
                     <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea>
                   </label>
 
-                  <div class="menu w-24">
+                  <section class="menu w-24">
                     <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bolder">Pick Open hours</button>
                     <div>
                       <div class="grid align-middle">
@@ -210,7 +210,7 @@
                         <div class="column"><input class="input" type="time" /></div>
                       </div>
                     </div>
-                  </div>
+                  </section>
 
                   <section class="menu w-24">
                     <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bolder">Pick Cuisine Categories</button>

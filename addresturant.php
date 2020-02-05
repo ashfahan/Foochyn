@@ -96,7 +96,7 @@
                 <li class="breadcrumb-item" data-separator="/" aria-current="page">Add Restaurant</li>
               </ol>
               <div>
-                <button class="btn is-sld is-valid is-pill">Update</button>
+                <button class="btn is-sld is-valid is-pill">Submit</button>
               </div>
             </div>
             <div class="bg-white shadow border p-2 is-round">

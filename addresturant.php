@@ -1020,39 +1020,6 @@
                     </div>
                   </section>
 
-                  <section class="menu w-24">
-                    <button type="button" class="pl-0 menu-trigger menu-item bg-hide clr-body active font-bolder">Menu</button>
-                    <div class="grid Fooditems">
-                      <div class="column w-8">
-                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                      </div>
-                      <div class="column w-8">
-                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                      </div>
-                      <div class="column w-8">
-                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                      </div>
-                      <div class="column w-8">
-                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                      </div>
-                      <div class="column w-8">
-                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                      </div>
-                      <div class="column w-8">
-                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                      </div>
-                      <div class="column w-8">
-                        <div class="border p-6 is-round shadow-round flex justify-between Fooditem"><span>food</span> <span>5$</span></div>
-                      </div>
-                    </div>
-
-                    <div class="grid mt-1rem">
-                      <div class="column"><input type="text" placeholder="Food Name" name="FoodName" class="input" /></div>
-                      <div class="column"><input type="number" placeholder="Food Price" name="FoodPrice" class="input" /></div>
-                      <div class="column"><button class="btn is-sld is-primary" onclick="addfooditem(this.closest('div.grid'))" type="button">Add Item</button></div>
-                      <input name="Fooditems" type="hidden">
-                    </div>
-                  </section>
                 </div>
               </div>
             </div>

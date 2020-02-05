@@ -994,6 +994,81 @@
                     </div>
                   </section>
 
+                  <section class="menu w-24 my-1rem">
+                    <h5 class="mb-0">Features</h5>
+                    <div>What features and amenities does this restaurant have?</div>
+                    <div class="grid">
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Reservations</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Delivery</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Takeout</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Seating</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Outdoor Seating</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Free Wifi</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Television</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Parking Available</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Private Dining</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Cash Only</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Accepts Credit Cards</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Digital Payments</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Serves Alcohol</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Full Bar</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Wine and Beer</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Buffet</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Highchairs Available</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Wheelchair Accessible</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Dog Friendly</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Playgrounds</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">BYOB</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Beach</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Drive Thru</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Jazz Bar</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Waterfront</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Live Music</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Table Service</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Non-smoking restaurants</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Family style</span></label>
+                      <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">Sports bars</span></label>
+                    </div>
+                  </section>
+
+                  <section class="menu w-24 my-1rem">
+                    <h5 class="mb-0">Type</h5>
+                    <div>What is this restaurant good for?</div>
+                    <div class="grid">
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Kids</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Business meetings</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Large groups</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Romantic</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Bar scene</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Special occasions</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Scenic view</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Local cuisine</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Hidden Gems</span></label>
+                      <label class="control column w-12"><input type="checkbox" class="checkbox"><span class="label">Hot New Restaurants</span></label>
+                    </div>
+                  </section>
+
+                  <section class="menu w-24 my-1rem">
+                    <h5 class="mb-0">Serve</h5>
+                    <div>What meals does this restaurant serve?</div>
+                    <div class="grid">
+                      <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Breakfast</span></label>
+                      <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Brunch</span></label>
+                      <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Lunch</span></label>
+                      <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Dinner</span></label>
+                      <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Drinks</span></label>
+                      <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Late Night</span></label>
+                    </div>
+                  </section>
+
+                  <section class="menu w-24 my-1rem my-2">
+                    <h5 class="mb-0">Price</h5>
+                    <div>How expensive is this restaurant?</div>
+                    <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Cheap Eats - quick serve or self-service</span></label>
+                    <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Mid-range - casual, table service</span></label>
+                    <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Fine Dining - More formal or dressy</span></label>
+                  </section>
+
                 </div>
               </div>
             </div>

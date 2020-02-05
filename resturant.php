@@ -357,7 +357,25 @@
               </div>
             </section>
 
+            <div class="flex justify-center">
+              <button class="btn is-out is-primary inline-flex"><span class="icon is-lg"><i class="ri-arrow-left-s-fill"></i></span></button>
+              <div class="group mx-7px">
+                <button class="btn is-out is-primary">1</button>
+                <button class="btn is-out is-primary">2</button>
+                <button class="btn is-out is-primary">3</button>
+                <button class="btn is-out is-primary">4</button>
+                <button class="btn is-out is-primary">5</button>
+                <button class="btn is-out is-primary">6</button>
+                <button class="btn is-out is-primary">7</button>
+                <button class="btn is-out is-primary">8</button>
+                <button class="btn is-out is-primary">9</button>
+                <button class="btn is-out is-primary">10</button>
+              </div>
+              <button class="btn is-out is-primary inline-flex"><span class="icon is-lg"><i class="ri-arrow-right-s-fill"></i></span></button>
+            </div>
+
           </section>
+
         </div>
 
         <div class="column">
@@ -456,6 +474,7 @@
             <img class="img w-24 mt-1rem" src="./images/ad4.webp" />
             <img class="img w-24 mt-1rem" src="./images/ad3.jpg" />
           </section>
+
         </div>
       </div>
     </main>

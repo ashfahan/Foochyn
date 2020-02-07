@@ -199,9 +199,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -219,9 +219,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -239,9 +239,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -259,9 +259,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -279,9 +279,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -299,9 +299,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -319,9 +319,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -339,9 +339,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -359,9 +359,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -379,9 +379,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                     <div class="column w-6">
@@ -399,9 +399,9 @@
                                     <li class="mr-0 ri-star-fill icon is-lg"></li>
                                     <li class="mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
-                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
-                            <div>South Padre Island, TX</div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
                 </section>

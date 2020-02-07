@@ -1077,10 +1077,9 @@
               </section>
 
             </div>
+          </form>
+        </main>
       </div>
-      </form>
-      </main>
-    </div>
     </div>
   </body>
   <script src="./js/base.js"></script>

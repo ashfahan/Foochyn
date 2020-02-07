@@ -16,9 +16,10 @@
         <link rel="stylesheet" href="./vendors/remixicon/remixicon.css">
         <link href="./vendors/remixicon/remixicon.css" rel="stylesheet">
         <style>
-            .more::after{
+            .more::after {
                 content: none;
             }
+
             .more.active {
                 display: none;
             }
@@ -169,7 +170,7 @@
                 </form>
             </div>
             <div class="column w-19">
-                <div class="flex justify-between align-middle">
+                <div class="flex justify-between align-middle mb-7px">
                     <h5>Book Best Restaurants in Powai</h5>
                     <div class="input px-1rem py-0 inline-flex align-middle w-auto event-none">
                         <span class="clr-disabled">Sort By </span>
@@ -182,157 +183,227 @@
                     </div>
                 </div>
 
-                <section>
-                    <div class="bg-white p-7px my-1rem is-round grid has-gap-lg" style="min-height:200px;">
-                        <div class="column w-6 img-bg is-round-sm" style="background-image: url('./images/resturant/1.webp');"></div>
-                        <div class="column p-0 pl-1rem flex justify-between">
-                            <div class="flex is-y justify-between">
-                                <h5 class="">Sigree Global Grill</h5>
-                                <div class="clr-disabled">Powai, Central Mumbai</div>
-                                <div>
-                                    <div class="inline clr-disabled">Cost for two <span class="clr-body">₹ 2000 approx</span></div>
-                                    <div class="inline clr-disabled">Cuisine <span class="clr-body">Cafe</span></div>
-                                </div>
-                                <div class="flex align-middle">
-                                    <div class="flex align-middle">
-                                        <svg class="icon is-lg mr-7px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                            <path d="M20.005 2C21.107 2 22 2.898 22 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H4v-4H2v-2h2v-3H2v-2h2V8H2V6h2V2h16.005zM8 4H6v16h2V4zm12 0H10v16h10V4z" />
-                                        </svg>
-                                        View Menu
-                                    </div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-map-pin-2-line"></i> See Location</div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-store-2-line"></i> View all outlet</div>
-                                </div>
-                                <div class="font-bold"><span class="px-7px bg-primary clr-white is-pill mr-7px">Free Reservation</span> A free mocktail per persons</div>
+                <section class="grid">
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
                             </div>
-                            <div class="column w-6 txt-right flex is-y align-bottom justify-between">
-                                <div class="p-2 bg-valid clr-white is is-round-sm">4.0</div>
-                                <button class="btn font-bold is-sld is-primary is-block clr-white">Book A table</button>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
                             </div>
-
+                            <div>South Padre Island, TX</div>
                         </div>
                     </div>
-
-                    <div class="bg-white p-7px my-1rem is-round grid has-gap-lg" style="min-height:200px;">
-                        <div class="column w-6 img-bg is-round-sm" style="background-image: url('./images/resturant/1.webp');"></div>
-                        <div class="column p-0 pl-1rem flex justify-between">
-                            <div class="flex is-y justify-between">
-                                <h5 class="">Sigree Global Grill</h5>
-                                <div class="clr-disabled">Powai, Central Mumbai</div>
-                                <div>
-                                    <div class="inline clr-disabled">Cost for two <span class="clr-body">₹ 2000 approx</span></div>
-                                    <div class="inline clr-disabled">Cuisine <span class="clr-body">Cafe</span></div>
-                                </div>
-                                <div class="flex align-middle">
-                                    <div class="flex align-middle">
-                                        <svg class="icon is-lg mr-7px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                            <path d="M20.005 2C21.107 2 22 2.898 22 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H4v-4H2v-2h2v-3H2v-2h2V8H2V6h2V2h16.005zM8 4H6v16h2V4zm12 0H10v16h10V4z" />
-                                        </svg>
-                                        View Menu
-                                    </div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-map-pin-2-line"></i> See Location</div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-store-2-line"></i> View all outlet</div>
-                                </div>
-                                <div class="font-bold"><span class="px-7px bg-primary clr-white is-pill mr-7px">Free Reservation</span> A free mocktail per persons</div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
                             </div>
-                            <div class="column w-6 txt-right flex is-y align-bottom justify-between">
-                                <div class="p-2 bg-valid clr-white is is-round-sm">4.0</div>
-                                <button class="btn font-bold is-sld is-primary is-block clr-white">Book A table</button>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
                             </div>
-
+                            <div>South Padre Island, TX</div>
                         </div>
                     </div>
-
-                    <div class="bg-white p-7px my-1rem is-round grid has-gap-lg" style="min-height:200px;">
-                        <div class="column w-6 img-bg is-round-sm" style="background-image: url('./images/resturant/1.webp');"></div>
-                        <div class="column p-0 pl-1rem flex justify-between">
-                            <div class="flex is-y justify-between">
-                                <h5 class="">Sigree Global Grill</h5>
-                                <div class="clr-disabled">Powai, Central Mumbai</div>
-                                <div>
-                                    <div class="inline clr-disabled">Cost for two <span class="clr-body">₹ 2000 approx</span></div>
-                                    <div class="inline clr-disabled">Cuisine <span class="clr-body">Cafe</span></div>
-                                </div>
-                                <div class="flex align-middle">
-                                    <div class="flex align-middle">
-                                        <svg class="icon is-lg mr-7px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                            <path d="M20.005 2C21.107 2 22 2.898 22 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H4v-4H2v-2h2v-3H2v-2h2V8H2V6h2V2h16.005zM8 4H6v16h2V4zm12 0H10v16h10V4z" />
-                                        </svg>
-                                        View Menu
-                                    </div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-map-pin-2-line"></i> See Location</div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-store-2-line"></i> View all outlet</div>
-                                </div>
-                                <div class="font-bold"><span class="px-7px bg-primary clr-white is-pill mr-7px">Free Reservation</span> A free mocktail per persons</div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
                             </div>
-                            <div class="column w-6 txt-right flex is-y align-bottom justify-between">
-                                <div class="p-2 bg-valid clr-white is is-round-sm">4.0</div>
-                                <button class="btn font-bold is-sld is-primary is-block clr-white">Book A table</button>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
                             </div>
-
+                            <div>South Padre Island, TX</div>
                         </div>
                     </div>
-
-                    <div class="bg-white p-7px my-1rem is-round grid has-gap-lg" style="min-height:200px;">
-                        <div class="column w-6 img-bg is-round-sm" style="background-image: url('./images/resturant/1.webp');"></div>
-                        <div class="column p-0 pl-1rem flex justify-between">
-                            <div class="flex is-y justify-between">
-                                <h5 class="">Sigree Global Grill</h5>
-                                <div class="clr-disabled">Powai, Central Mumbai</div>
-                                <div>
-                                    <div class="inline clr-disabled">Cost for two <span class="clr-body">₹ 2000 approx</span></div>
-                                    <div class="inline clr-disabled">Cuisine <span class="clr-body">Cafe</span></div>
-                                </div>
-                                <div class="flex align-middle">
-                                    <div class="flex align-middle">
-                                        <svg class="icon is-lg mr-7px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                            <path d="M20.005 2C21.107 2 22 2.898 22 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H4v-4H2v-2h2v-3H2v-2h2V8H2V6h2V2h16.005zM8 4H6v16h2V4zm12 0H10v16h10V4z" />
-                                        </svg>
-                                        View Menu
-                                    </div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-map-pin-2-line"></i> See Location</div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-store-2-line"></i> View all outlet</div>
-                                </div>
-                                <div class="font-bold"><span class="px-7px bg-primary clr-white is-pill mr-7px">Free Reservation</span> A free mocktail per persons</div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
                             </div>
-                            <div class="column w-6 txt-right flex is-y align-bottom justify-between">
-                                <div class="p-2 bg-valid clr-white is is-round-sm">4.0</div>
-                                <button class="btn font-bold is-sld is-primary is-block clr-white">Book A table</button>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
                             </div>
-
+                            <div>South Padre Island, TX</div>
                         </div>
                     </div>
-
-                    <div class="bg-white p-7px my-1rem is-round grid has-gap-lg" style="min-height:200px;">
-                        <div class="column w-6 img-bg is-round-sm" style="background-image: url('./images/resturant/1.webp');"></div>
-                        <div class="column p-0 pl-1rem flex justify-between">
-                            <div class="flex is-y justify-between">
-                                <h5 class="">Sigree Global Grill</h5>
-                                <div class="clr-disabled">Powai, Central Mumbai</div>
-                                <div>
-                                    <div class="inline clr-disabled">Cost for two <span class="clr-body">₹ 2000 approx</span></div>
-                                    <div class="inline clr-disabled">Cuisine <span class="clr-body">Cafe</span></div>
-                                </div>
-                                <div class="flex align-middle">
-                                    <div class="flex align-middle">
-                                        <svg class="icon is-lg mr-7px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                            <path d="M20.005 2C21.107 2 22 2.898 22 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H4v-4H2v-2h2v-3H2v-2h2V8H2V6h2V2h16.005zM8 4H6v16h2V4zm12 0H10v16h10V4z" />
-                                        </svg>
-                                        View Menu
-                                    </div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-map-pin-2-line"></i> See Location</div>
-                                    <div class="flex align-middle"><i class="icon is-lg mr-7px ri-store-2-line"></i> View all outlet</div>
-                                </div>
-                                <div class="font-bold"><span class="px-7px bg-primary clr-white is-pill mr-7px">Free Reservation</span> A free mocktail per persons</div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
                             </div>
-                            <div class="column w-6 txt-right flex is-y align-bottom justify-between">
-                                <div class="p-2 bg-valid clr-white is is-round-sm">4.0</div>
-                                <button class="btn font-bold is-sld is-primary is-block clr-white">Book A table</button>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
                             </div>
-
+                            <div>South Padre Island, TX</div>
                         </div>
                     </div>
-
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                            </div>
+                            <div>South Padre Island, TX</div>
+                        </div>
+                    </div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                            </div>
+                            <div>South Padre Island, TX</div>
+                        </div>
+                    </div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                            </div>
+                            <div>South Padre Island, TX</div>
+                        </div>
+                    </div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                            </div>
+                            <div>South Padre Island, TX</div>
+                        </div>
+                    </div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                            </div>
+                            <div>South Padre Island, TX</div>
+                        </div>
+                    </div>
+                    <div class="column w-6">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline">500 reviews</div>
+                            </div>
+                            <div>South Padre Island, TX</div>
+                        </div>
+                    </div>
                 </section>
 
             </div>

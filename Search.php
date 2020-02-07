@@ -16,6 +16,9 @@
         <link rel="stylesheet" href="./vendors/remixicon/remixicon.css">
         <link href="./vendors/remixicon/remixicon.css" rel="stylesheet">
         <style>
+            .more::after{
+                content: none;
+            }
             .more.active {
                 display: none;
             }
@@ -67,27 +70,15 @@
             <div class="column w-5">
                 <form class="bg-white p-1rem is-round italic" nosubmit>
                     <div class="menu">
-                        <button class="btn is-unstyle is-block txt-left py-7px">LOCATION</button>
-                        <select class="input">
-                            <option hidden="">Please Select</option>
-                            <optgroup label="Asia">
-                                <option selected="">City 1</option>
-                                <option>City 2</option>
-                                <option>City 3</option>
-                                <option>City 4</option>
-                                <option>City 5</option>
-                            </optgroup>
-
-                            <optgroup label="Europe">
-                                <option>City 6</option>
-                                <option>City 7</option>
-                                <option>City 8</option>
-                                <option>City 9</option>
-                                <option>City 10</option>
-                                <option>City 11</option>
-                            </optgroup>
-                        </select>
-                    </div>
+                        <button class="btn is-unstyle is-block txt-left py-7px">Date And Meal Period</button>
+                        <input type="date" class="input" value="2020-01-08">
+                        <select class="input my-7px">
+                            <option>Midnight</option>
+                            <option>Breakfast</option>
+                            <option>Lunch</option>
+                            <option>High Tea</option>
+                            <option>Dinner</option>
+                        </select> </div>
 
                     <div class="menu">
                         <button class="menu-trigger active btn is-unstyle is-block py-7px">DEAL TYPE</button>

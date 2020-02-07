@@ -75,7 +75,7 @@
             </li>
           </ul>
         </div>
-        <form class="column">
+        <form class="column has-gap-lg">
           <h5>Personal data</h5>
           <div class="grid has-gap-lg">
             <div class="column w-24"> <input class="input" type="text" required placeholder="Name and Last Name"> </div>
@@ -108,7 +108,7 @@
             </div>
           </div>
 
-          <div class="mt-1rem font-bold">i am not a robot</div>
+          <div class="mt-1rem font-bold">I am not a robot</div>
           <div class="column w-12"> <input class="input" type="text" required placeholder="Human verify: 3+1=?"> </div>
 
           <div class="txt-center"><button class="btn is-sld is-primary font-bold mt-1rem">Submit</button></div>

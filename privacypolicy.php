@@ -52,7 +52,7 @@
     </header>
 
     <main class="py-8 lyt-main bg-white">
-      <section class="container grid">
+      <section class="container grid has-gap-lg">
         <div class="column is-lg">
           <h1>Stand out in search results</h1>
           <div class="mb-1rem">Through Promoted Results you can:</div>
@@ -75,13 +75,43 @@
             </li>
           </ul>
         </div>
-        <form class="column grid is-y">
-          <input class="input column my-7px" name="firstname" type="text" required placeholder="First Name*">
-          <input class="input column my-7px" name="lastname" type="text" required placeholder="Last Name*">
-          <input class="input column my-7px" name="email" type="email" required placeholder="Email address*">
-          <input class="input column my-7px" name="phone" type="tel" required placeholder="Phone Number*">
-          <input class="input column my-7px" name="restaurant" type="text" required placeholder="Resturant Name*">
-          <div class="txt-center"><button class="btn is-sld is-primary is-lg font-bold is-pill px-10">Contact Us</button></div>
+        <form class="column">
+          <h5>Personal data</h5>
+          <div class="grid has-gap-lg">
+            <div class="column w-24"> <input class="input" type="text" required placeholder="Name and Last Name"> </div>
+            <div class="column w-24"> <input class="input" type="email" required placeholder="Email Address"> </div>
+          </div>
+
+          <h5 class="mt-1rem">Resturant data</h5>
+          <div class="grid has-gap-lg">
+            <div class="column w-24"> <input class="input" type="text" required placeholder="Restaurant Name"> </div>
+            <div class="column w-24">
+              <div class="">ARE YOU THE OWNER OR MANAGER OF THIS PLACE?*</div>
+              <label class="control">
+                <input class="radio" name="owner" type="radio">
+                <span class="label">i'm not the owner/manager</span>
+              </label>
+              <label class="control">
+                <input class="radio" name="owner" type="radio">
+                <span class="label">i'm the owner/manager</span>
+              </label>
+            </div>
+            <div class="column w-24"> <input class="input" type="text" required placeholder="Address"> </div>
+            <div class="column w-12"> <input class="input" type="text" required placeholder="City"> </div>
+            <div class="column w-12">
+              <select class="input">
+                <option selected hidden>Country</option>
+                <option>Country X</option>
+                <option>Country Y</option>
+                <option>Country Z</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mt-1rem font-bold">i am not a robot</div>
+          <div class="column w-12"> <input class="input" type="text" required placeholder="Human verify: 3+1=?"> </div>
+
+          <div class="txt-center"><button class="btn is-sld is-primary font-bold mt-1rem">Submit</button></div>
         </form>
       </section>
     </main>

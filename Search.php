@@ -15,6 +15,11 @@
         <link href="./fonts/Quicksand/fonts.css" rel="stylesheet">
         <link rel="stylesheet" href="./vendors/remixicon/remixicon.css">
         <link href="./vendors/remixicon/remixicon.css" rel="stylesheet">
+        <style>
+            .more.active {
+                display: none;
+            }
+        </style>
     </head>
 
     <body>
@@ -100,16 +105,19 @@
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">10% Discount</span></label>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Mindblowing 50% Discount</span></label>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Beverages</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Cocktail or Mocktail</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">30% Discount</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Dessert</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Happy Hours</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Glass of Wine</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Appetizer</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Beer</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Other Offers</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">40% Discount</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Extra 200 EazyPoints </span> </label>
+                            <button class="menu-trigger btn is-unstyle is-block clr-primary more">+9 more</button>
+                            <div>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Cocktail or Mocktail</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">30% Discount</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Dessert</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Happy Hours</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Glass of Wine</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Appetizer</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Free Beer</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Other Offers</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">40% Discount</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Extra 200 EazyPoints </span> </label>
+                            </div>
                         </div>
                     </div>
                     <div class="menu">
@@ -122,18 +130,21 @@
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Cafe</span></label>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Pan Asian</span></label>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">South Indian</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Fast Food</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Finger Food</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Fusion</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Indian</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Mughlai</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">European</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Lebanese</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Greek</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Bengali</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Gujarati</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Goan</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Multicuisine</span></label>
+                            <button class="menu-trigger btn is-unstyle is-block clr-primary more">+11 more</button>
+                            <div>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Fast Food</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Finger Food</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Fusion</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Indian</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Mughlai</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">European</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Lebanese</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Greek</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Bengali</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Gujarati</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Goan</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Multicuisine</span></label>
+                            </div>
                         </div>
                     </div>
 
@@ -147,8 +158,11 @@
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Sweet Shop</span></label>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Cafe/Bakery</span></label>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Delivery Only</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Takeaway</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Other</span></label>
+                            <button class="menu-trigger btn is-unstyle is-block clr-primary more">+1 more</button>
+                            <div>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Takeaway</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Other</span></label>
+                            </div>
                         </div>
                     </div>
 
@@ -164,23 +178,15 @@
                 </form>
             </div>
             <div class="column w-19">
-                <div class="flex justify-between">
+                <div class="flex justify-between align-middle">
                     <h5>Book Best Restaurants in Powai</h5>
-                    <div class="input py-0 inline-flex align-middle w-auto event-none">
-                        <span>Sort By :</span>
+                    <div class="input px-1rem py-0 inline-flex align-middle w-auto event-none">
+                        <span class="clr-disabled">Sort By </span>
                         <select class="input is-unstyle w-auto event-auto">
-                            <option hidden="">Please Select</option>
-                            <option selected="">City 1</option>
-                            <option>City 2</option>
-                            <option>City 3</option>
-                            <option>City 4</option>
-                            <option>City 5</option>
-                            <option>City 6</option>
-                            <option>City 7</option>
-                            <option>City 8</option>
-                            <option>City 9</option>
-                            <option>City 10</option>
-                            <option>City 11</option>
+                            <option>Popularity</option>
+                            <option>Critic Rating</option>
+                            <option>Cost Low to High</option>
+                            <option>Cost High to Low</option>
                         </select>
                     </div>
                 </div>

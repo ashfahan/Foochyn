@@ -113,7 +113,7 @@
                         </div>
                     </div>
                     <div class="menu">
-                        <button class="menu-trigger btn is-unstyle is-block py-7px">CUISINES</button>
+                        <button class="menu-trigger btn is-unstyle is-block py-7px active">CUISINES</button>
                         <div>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">North Indian</span></label>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox"> <span class="label">Chinese</span></label>
@@ -184,7 +184,7 @@
                 </div>
 
                 <section class="grid">
-                    <div class="column w-6">
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -204,7 +204,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -224,7 +225,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -244,7 +246,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -264,7 +267,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -284,7 +288,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -304,7 +309,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -324,7 +330,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -344,7 +351,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -364,7 +372,8 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -384,7 +393,407 @@
                             <div class="clr-disabled">South Padre Island, TX</div>
                         </div>
                     </div>
-                    <div class="column w-6">
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
+                        <div class="bg-white p-7px">
+                            <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                                <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
+                                <i style="right: 1rem;" class="absolute clr-white ri-heart-line ri-2x"></i>
+                            </div>
+                            <h5 class="my-7px">Ceciches Ceciches</h5>
+                            <div class="flex align-middle">
+                                <ul class="list is-inline mb-0">
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                </ul>
+                                <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
+                            </div>
+                            <div class="clr-disabled">South Padre Island, TX</div>
+                        </div>
+                    </div>
+
+                    <div class="column w-8">
                         <div class="bg-white p-7px">
                             <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
                                 <i style="right: 1rem;" class="absolute clr-body ri-heart-fill ri-2x"></i>
@@ -405,6 +814,23 @@
                         </div>
                     </div>
                 </section>
+
+                <div class="flex justify-center mt-1rem">
+                    <button class="btn is-out bg-white is-primary inline-flex"><span class="icon is-lg"><i class="ri-arrow-left-s-fill"></i></span></button>
+                    <div class="group mx-7px">
+                        <button class="btn is-out bg-white is-primary">1</button>
+                        <button class="btn is-out bg-white is-primary">2</button>
+                        <button class="btn is-out bg-white is-primary">3</button>
+                        <button class="btn is-out bg-white is-primary">4</button>
+                        <button class="btn is-out bg-white is-primary">5</button>
+                        <button class="btn is-out bg-white is-primary">6</button>
+                        <button class="btn is-out bg-white is-primary">7</button>
+                        <button class="btn is-out bg-white is-primary">8</button>
+                        <button class="btn is-out bg-white is-primary">9</button>
+                        <button class="btn is-out bg-white is-primary">10</button>
+                    </div>
+                    <button class="btn is-out bg-white is-primary inline-flex"><span class="icon is-lg"><i class="ri-arrow-right-s-fill"></i></span></button>
+                </div>
 
             </div>
         </section>

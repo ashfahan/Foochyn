@@ -22,9 +22,9 @@
 
         <section class="grid align-middle" style="min-height: 90vh;">
             <div class="w-8 off-4">
-                <h1 class="column clr-primary">Sign Up for FooChyn</h1>
+                <h1 class="column clr-primary">Sign Up for FOoChyn</h1>
                 <h4 class="column">Connect with great local businesses</h4>
-                <div class="column">By continuing, you agree to FooChyn’s <a href="#">Terms of Service</a> and acknowledge FooChyn’s <a href="#">Privacy Policy</a></div>
+                <div class="column">By continuing, you agree to FOoChyn’s <a href="#">Terms of Service</a> and acknowledge FOoChyn’s <a href="#">Privacy Policy</a></div>
                 <form class="grid">
                     <div class="column w-12"><input class="input" type="text" placeholder="First Name"></div>
                     <div class="column w-12"><input class="input" type="text" placeholder="Last Name"></div>
@@ -33,7 +33,7 @@
                     <div class="column w-24"><input class="input" type="number" placeholder="Zip Code"></div>
                     <h6 class="column w-24">Birtday <span class="clr-disabled">optional</span></h6>
                     <div class="column w-24"><input class="input" type="date" placeholder="Zip Code"></div>
-                    <div class="column w-24">You also understand that FooChyn may send marketing emails about FooChyn’s products, services, and local events. You can unsubscribe at any time</div>
+                    <div class="column w-24">You also understand that FOoChyn may send marketing emails about FOoChyn’s products, services, and local events. You can unsubscribe at any time</div>
                     <button class="column mt-1rem btn is-sld is-lg is-primary">Sign Up</button>
                 </form>
             </div>

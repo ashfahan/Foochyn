@@ -6,7 +6,7 @@
     <link type="image/png" href="images/favicon.png" rel="icon" />
     <meta name="format-detection" content="telephone=no" />
     <meta charset="utf-8" />
-    <title>Foochyn</title>
+    <title>FOoChyn</title>
     <meta name="description" content="description" />
     <link href="./index.html" rel="canonical" />
     <link href="./scss/temp/fluid.css" rel="stylesheet" />

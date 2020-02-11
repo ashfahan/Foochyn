@@ -2,19 +2,19 @@
   <div class="column w-8">
     <h3>Diners</h3>
     <div>Join more than 440,000 diners</div>
-    <div>who discover new restaurants with Foochyn</div>
+    <div>who discover new restaurants with FOoChyn</div>
     <div class="mt-1rem"><button class="btn is-sld is-light is-lg">Learn More</button></div>
   </div>
   <div class="column w-8">
     <h3>Restaurants</h3>
     <div>Join more than 1,300 resturants</div>
-    <div>who promote their restaurant with Foochyn</div>
+    <div>who promote their restaurant with FOoChyn</div>
     <div class="mt-1rem"><button class="btn is-sld is-light is-lg">Learn More</button></div>
   </div>
   <div class="column w-8">
     <h3>Follow Us</h3>
     <div>Join more than 180,000 fans</div>
-    <div>who rave absolute Foochyn on social</div>
+    <div>who rave absolute FOoChyn on social</div>
     <div class="mt-1rem">
       <a class="clr-white" href="#"><i class="icon title is-sm ri-facebook-box-line"></i></a>
       <a class="clr-white" href="#"><i class="icon title is-sm ri-instagram-line"></i></a>

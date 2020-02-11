@@ -23,41 +23,7 @@
     </head>
 
     <body>
-        <header class="lyt-header shadow-sm bg-white txt-center border-top-none">
-            <div class="w-4 border-right pr-7px">
-                <a href="index.html"> <img class="img w-17" src="./images/logo.svg" alt="EazyDiner" /> </a>
-            </div>
-            <div class="w-4 pr-7px">
-                <select class="input w-16 is-unstyle">
-                    <option hidden="">Please Select</option>
-                    <optgroup label="Asia">
-                        <option selected="">City 1</option>
-                        <option>City 2</option>
-                        <option>City 3</option>
-                        <option>City 4</option>
-                        <option>City 5</option>
-                    </optgroup>
-
-                    <optgroup label="Europe">
-                        <option>City 6</option>
-                        <option>City 7</option>
-                        <option>City 8</option>
-                        <option>City 9</option>
-                        <option>City 10</option>
-                        <option>City 11</option>
-                    </optgroup>
-                </select>
-            </div>
-            <div class="w-8 pr-7px">
-            </div>
-            <a href="#" class="txt-decor-none font-bold border-right clr-error w-4 pr-7px"><i class="ri-phone-line icon mr-7px"></i>786 100 4444</a>
-
-            <div class="w-4 flex justify-between align-middle pl-7px">
-                <a class="btn" href="#">Help</a>
-                <a class="btn" href="#">Login</a>
-                <a class="btn is-sld is-primary font-bold" href="#">Sign Up</a>
-            </div>
-        </header>
+        <?php include 'header.php';?>
 
         <main class="container  my-4">
             <section class="p-2 txt-center bg-primary clr-white">
@@ -1067,40 +1033,7 @@
 
         </main>
 
-        <footer class="bg-dark p-2 clr-white grid txt-center">
-            <div class="column w-8">
-                <h3>Diners</h3>
-                <div>Join more than 440,000 diners</div>
-                <div>who discover new restaurants with Foochyn</div>
-                <div class="mt-1rem"> <button class="btn is-sld is-light is-lg">Learn More</button> </div>
-            </div>
-            <div class="column w-8">
-                <h3>Restaurants</h3>
-                <div>Join more than 1,300 resturants</div>
-                <div>who promote their restaurant with Foochyn</div>
-                <div class="mt-1rem"> <button class="btn is-sld is-light is-lg">Learn More</button> </div>
-            </div>
-            <div class="column w-8">
-                <h3>Follow Us</h3>
-                <div>Join more than 180,000 fans</div>
-                <div>who rave absolute Foochyn on social</div>
-                <div class="mt-1rem">
-                    <a href="#" class="clr-white"><i class="icon title is-sm ri-facebook-box-line"></i></a>
-                    <a href="#" class="clr-white"><i class="icon title is-sm ri-instagram-line"></i></a>
-                </div>
-            </div>
-            <div class=" column w-15 mx-auto mt-2 mb-7px flex justify-between">
-                <a href="#" class="clr-white">About us</a>
-                <a href="#" class="clr-white">FAQ</a>
-                <a href="#" class="clr-white">Contact US</a>
-                <a href="#" class="clr-white">Partner With us</a>
-                <a href="#" class="clr-white">Terms & Conditions</a>
-                <a href="#" class="clr-white">Privacy Policy</a>
-                <a href="#" class="clr-white">Restaurateurs</a>
-            </div>
-            <div class="border-bottom w-24"></div>
-            <div class=column w-24"> © First Table (Australia) Pty Ltd 2014 - 2020. All rights reserved. The First Table logo and name are trademarks of First Table Limited. </div>
-        </footer>
+        <?php include 'footer.php';?>
     </body>
     <script src="./js/base.js"></script>
 

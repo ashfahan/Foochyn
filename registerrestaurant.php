@@ -2,22 +2,20 @@
 <html lang="en">
 
   <head>
-    <meta id="customViewPort" name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-    <link type="image/png" href="images/favicon.png" rel="icon">
-    <meta name="format-detection" content="telephone=no">
-    <meta charset="utf-8">
+    <meta id="customViewPort" name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
+    <link type="image/png" href="images/favicon.png" rel="icon" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta charset="utf-8" />
     <title>Foochyn</title>
-    <meta name="description" content="description">
-    <link href="./index.html" rel="canonical">
-    <link href="./scss/temp/fluid.css" rel="stylesheet">
-    <link href="./scss/temp/fluid-component.css" rel="stylesheet">
-    <link href="./vendors/remixicon/remixicon.css" rel="stylesheet">
-    <link href="./scss/temp/base.css" rel="stylesheet">
+    <meta name="description" content="description" />
+    <link href="./index.html" rel="canonical" />
+    <link href="./scss/temp/fluid.css" rel="stylesheet" />
+    <link href="./scss/temp/fluid-component.css" rel="stylesheet" />
+    <link href="./vendors/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="./scss/temp/base.css" rel="stylesheet" />
   </head>
 
   <body>
-    <?php include 'header.php';?>
-
     <main class="py-8 lyt-main bg-white">
       <section class="container grid has-gap-lg">
         <div class="column is-lg">
@@ -45,29 +43,38 @@
         <form class="column has-gap-lg">
           <h5>Personal data</h5>
           <div class="grid has-gap-lg">
-            <div class="column w-24"> <input class="input" type="text" required placeholder="Name and Last Name"> </div>
-            <div class="column w-24"> <input class="input" type="email" required placeholder="Email Address"> </div>
+            <div class="column w-24"><input class="input" type="text" required placeholder="Name and Last Name" /></div>
+            <div class="column w-24"><input class="input" type="email" required placeholder="Email Address" /></div>
           </div>
 
           <h5 class="mt-1rem">Resturant data</h5>
           <div class="grid has-gap-lg">
-            <div class="column w-24"> <input class="input" type="text" required placeholder="Restaurant Name"> </div>
+            <div class="column w-24"><input class="input" type="text" required placeholder="Restaurant Name" /></div>
             <div class="column w-24">
-              <div class="">ARE YOU THE OWNER OR MANAGER OF THIS PLACE?*</div>
-              <label class="control">
-                <input class="radio" name="owner" type="radio">
-                <span class="label">i'm not the owner/manager</span>
-              </label>
-              <label class="control">
-                <input class="radio" name="owner" type="radio">
-                <span class="label">i'm the owner/manager</span>
-              </label>
+              <select class="input" required>
+                <option value selected hidden>Which of the following best describe this resturant?</option>
+                <option>in the process of opening a new resturant</option>
+                <option>My resturant doesnt take reservations</option>
+                <option>My resturant only takes phone take reservations</option>
+                <option>My resturant currently have a reservation system</option>
+              </select>
             </div>
-            <div class="column w-24"> <input class="input" type="text" required placeholder="Address"> </div>
-            <div class="column w-12"> <input class="input" type="text" required placeholder="City"> </div>
+            <div class="column w-24">
+              <select class="input" required>
+                <option value selected hidden>Which of the following best describe your role at this resturant?</option>
+                <option>Owner</option>
+                <option>Chef</option>
+                <option>Director of Operations</option>
+                <option>General Manager</option>
+                <option>Manager</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="column w-24"><input class="input" type="text" required placeholder="Address" /></div>
+            <div class="column w-12"><input class="input" type="text" required placeholder="City" /></div>
             <div class="column w-12">
-              <select class="input">
-                <option selected hidden>Country</option>
+              <select class="input" required>
+                <option value selected hidden>Country</option>
                 <option>Country X</option>
                 <option>Country Y</option>
                 <option>Country Z</option>
@@ -76,15 +83,12 @@
           </div>
 
           <div class="mt-1rem font-bold">I am not a robot</div>
-          <div class="column w-12"> <input class="input" type="text" required placeholder="Human verify: 3+1=?"> </div>
+          <div class="column w-12"><input class="input" type="text" required placeholder="Human verify: 3+1=?" /></div>
 
           <div class="txt-center"><button class="btn is-sld is-primary font-bold mt-1rem">Submit</button></div>
         </form>
       </section>
     </main>
-
-    <?php include 'footer.php';?>
-
   </body>
   <script src="./js/base.js"></script>
 

@@ -16,6 +16,8 @@
   </head>
 
   <body>
+    <?php include 'header.php';?>
+
     <main class="py-8 lyt-main bg-white">
       <section class="container grid has-gap-lg">
         <div class="column is-lg">
@@ -89,6 +91,8 @@
         </form>
       </section>
     </main>
+
+    <?php include 'footer.php';?>
   </body>
   <script src="./js/base.js"></script>
 

@@ -108,6 +108,7 @@
                   <label class="column control w-12 py-2"><span>Restaurant Phone</span><input class="input mt-1rem" type="tel" /></label>
                   <label class="column control w-12 py-2"><span>Job Title in Restaurant</span><input class="input mt-1rem" type="tel" /></label>
                   <label class="column control w-12 py-2"><span>Address</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
+                  <label class="column control w-12 py-2"><img src="./images/dummy_map.jpg" alt="" class="img"></label>
                 </div>
               </section>
 

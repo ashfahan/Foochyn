@@ -1,5 +1,5 @@
 <header class="lyt-header shadow-sm bg-white txt-center border-top-none">
-  <div class="w-4 border-right pr-7px">
+  <div class="w-4 txt-center border-right pr-7px">
     <a href="index.html"> <img class="img w-17" src="./images/logo.svg" alt="EazyDiner"> </a>
   </div>
   <div class="w-4 pr-7px">

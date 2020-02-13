@@ -35,34 +35,19 @@
             <span>Profile</span>
           </button>
           <button class="menu-item py-1rem">
-            <svg class="icon is-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M22 21H2v-2h1V4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v5h2v10h1v2zm-5-2h2v-8h-6v8h2v-6h2v6zm0-10V5H5v14h6V9h6zM7 11h2v2H7v-2zm0 4h2v2H7v-2zm0-8h2v2H7V7z"></path>
-            </svg>
-            <span>Add Restaurant</span>
+            <i class="icon is-lg ri-hotel-line"></i> <span>Add Restaurant</span>
           </button>
           <button class="menu-item py-1rem">
-            <svg class="icon is-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M3 19V5.7a1 1 0 0 1 .658-.94l9.671-3.516a.5.5 0 0 1 .671.47v4.953l6.316 2.105a1 1 0 0 1 .684.949V19h2v2H1v-2h2zm2 0h7V3.855L5 6.401V19zm14 0v-8.558l-5-1.667V19h5z"></path>
-            </svg>
-            <span>Joined Restaurants</span>
+            <i class="icon is-lg ri-building-2-line"></i> <span>Joined Restaurants</span>
           </button>
           <button class="menu-item py-1rem">
-            <svg class="icon is-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M21 20h2v2H1v-2h2V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v17zm-2 0V4H5v16h14zM8 11h3v2H8v-2zm0-4h3v2H8V7zm0 8h3v2H8v-2zm5 0h3v2h-3v-2zm0-4h3v2h-3v-2zm0-4h3v2h-3V7z"></path>
-            </svg>
-            <span>Pending Restaurants</span>
+            <i class="icon is-lg ri-building-4-line"></i> <span>Pending Restaurants</span>
           </button>
           <button class="menu-item py-1rem">
-            <svg class="icon is-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M12 4a8 8 0 0 0-8 8h3a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7C2 6.477 6.477 2 12 2s10 4.477 10 10v7a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h3a8 8 0 0 0-8-8zM4 14v5h3v-5H4zm13 0v5h3v-5h-3z"></path>
-            </svg>
-            <span>Support</span>
+            <i class="icon is-lg ri-phone-line"></i> <span>Support</span>
           </button>
           <button class="menu-item py-1rem">
-            <svg class="icon is-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M19 22H5a3 3 0 0 1-3-3V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12h4v4a3 3 0 0 1-3 3zm-1-5v2a1 1 0 0 0 2 0v-2h-2zm-2 3V4H4v15a1 1 0 0 0 1 1h11zM6 7h8v2H6V7zm0 4h8v2H6v-2zm0 4h5v2H6v-2z"></path>
-            </svg>
-            <span>Sales Report</span>
+            <i class="icon is-lg ri-pie-chart-2-line"></i> <span>Sales Report</span>
           </button>
         </aside>
       </div>

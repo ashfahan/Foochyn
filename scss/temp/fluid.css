@@ -491,7 +491,7 @@ pre > code[data-lang]::before { content: attr(data-lang); position: absolute; to
 
 .container + .container { margin-top: .5rem; }
 
-.icon { display: inline-flex; align-items: center; align-self: center; justify-content: center; width: 1em; height: 1em; }
+.icon { display: inline-flex; align-items: center; align-self: center; justify-content: center; vertical-align: middle; width: 1em; height: 1em; }
 
 .icon svg { vertical-align: baseline; }
 

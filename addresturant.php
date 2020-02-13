@@ -25,7 +25,7 @@
       </ol>
     </div>
 
-    <div class="grid has-gap-lg container">
+    <div class="grid has-gap-lg container overflow-hidden">
       <div class="column w-6">
         <aside class="menu bg-white is-round border shadow">
           <button class="menu-item py-1rem">

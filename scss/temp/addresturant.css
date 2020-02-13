@@ -2,21 +2,22 @@
 
 .OPENHOURS > input:checked ~ input { pointer-events: none; opacity: 0.5; }
 
-/*form styles*/
 .MULTISTEPFORM { position: relative; }
 
-.MULTISTEPFORM fieldset, .MULTISTEPFORM .STEP { top: 0; /*stacking fieldsets above each other*/ position: relative; }
+.MULTISTEPFORM fieldset, .MULTISTEPFORM .STEP { position: relative; top: 0; }
 
 .MULTISTEPFORM fieldset:not(:first-of-type), .MULTISTEPFORM .STEP:not(:first-of-type) { display: none; }
 
-.MULTISTEPFORM .STEPS { margin-bottom: 30px; overflow: hidden; display: flex; /*CSS counters to number the steps*/ counter-reset: step; }
+.MULTISTEPFORM .STEPS { counter-reset: step; display: flex; overflow: hidden; margin-bottom: 30px; }
 
-.MULTISTEPFORM .STEPS li { text-align: center; list-style-type: none; width: 100%; position: relative; }
+.MULTISTEPFORM .STEPS li { position: relative; list-style-type: none; width: 100%; text-align: center; }
 
-.MULTISTEPFORM .STEPS li:before { content: counter(step); counter-increment: step; width: 20px; line-height: 20px; display: block; font-size: 10px; background: #fff; border-radius: 3px; margin: 0 auto 5px auto; }
+.MULTISTEPFORM .STEPS li::before { counter-increment: step; content: counter(step); position: relative; z-index: 1; display: block; width: 20px; margin: 0 auto 5px; border-radius: 3px; background: #fff; line-height: 20px; font-size: 0.71429em; }
 
-.MULTISTEPFORM .STEPS li:first-child:after { /*connector not needed before the first step*/ content: none; }
+.MULTISTEPFORM .STEPS li::after { content: ""; position: absolute; top: 9px; left: -50%; width: 100%; height: 2px; background: #fff; }
 
-.MULTISTEPFORM .STEPS li.active:before { background: #399fe1; color: #fff; }
+.MULTISTEPFORM .STEPS li:first-child::after { content: none; }
+
+.MULTISTEPFORM .STEPS li.active::before, .MULTISTEPFORM .STEPS li.active::after { color: #fff; background: #399fe1; }
 
 /*# sourceMappingURL=addresturant.css.map */

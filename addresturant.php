@@ -69,13 +69,6 @@
 
       <div class="column">
         <main class="lyt-main">
-          <!-- <form class="bg-white shadow border p-2 is-round">
-
-            <div class="txt-right">
-              <button class="btn is-sld is-valid is-pill">Submit</button>
-            </div>
-          </form> -->
-
           <form class="MULTISTEPFORM">
             <ul class="STEPS">
               <li class="active">General information</li>

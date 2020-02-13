@@ -14,17 +14,16 @@
   }
 }
 
-/*form styles*/
+//  form styles
 
 .MULTISTEPFORM {
   position: relative;
 
   fieldset,
   .STEP {
-    top: 0;
-
-    /*stacking fieldsets above each other*/
+    //  stacking fieldsets above each other
     position: relative;
+    top: 0;
 
     &:not(:first-of-type) {
       display: none;
@@ -32,40 +31,54 @@
   }
 
   .STEPS {
-    margin-bottom: 30px;
-    overflow: hidden;
-    display: flex;
-
-    /*CSS counters to number the steps*/
+    //  CSS counters to number the steps
     counter-reset: step;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 30px;
 
     li {
-      text-align: center;
-      list-style-type: none;
-      width: 100%
-      ;
       position: relative;
+      list-style-type: none;
+      width: 100%;
+      text-align: center;
 
-      &:before {
-        content: counter(step);
+      @include before {
         counter-increment: step;
-        width: 20px;
-        line-height: 20px;
+        content: counter(step);
+        position: relative;
+        z-index: 1;
         display: block;
-        font-size: 10px;
-        background: $white;
+        width: 20px;
+        margin: 0 auto 5px;
         border-radius: 3px;
-        margin: 0 auto 5px auto;
+        background: $white;
+        line-height: 20px;
+        @include fontsize(convert-unit(10px, em));
       }
 
-      &:first-child:after {
-        /*connector not needed before the first step*/
-        content: none;
+      @include after {
+        content: "";
+        position: absolute;
+        top: 9px;
+        left: -50%;
+        width: 100%;
+        height: 2px;
+        background: $white;
       }
 
-      &.active:before {
-        background: $primary;
-        color: $white;
+      &:first-child {
+        @include after {
+          //  connector not needed before the first step
+          content: none;
+        }
+      }
+
+      &.active {
+        @include before-after {
+          color: $white;
+          background: $primary;
+        }
       }
     }
   }

@@ -25,31 +25,9 @@
       </ol>
     </div>
 
-    <div class="grid has-gap-lg container overflow-hidden">
+    <div class="grid has-gap-lg container my-1rem">
       <div class="column w-6">
-        <aside class="menu bg-white is-round border shadow">
-          <button class="menu-item py-1rem">
-            <svg class="icon is-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M2 3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H2.992A.993.993 0 0 1 2 20.007V3.993zM4 5v14h16V5H4zm2 2h6v6H6V7zm2 2v2h2V9H8zm-2 6h12v2H6v-2zm8-8h4v2h-4V7zm0 4h4v2h-4v-2z"></path>
-            </svg>
-            <span>Profile</span>
-          </button>
-          <button class="menu-item py-1rem">
-            <i class="icon is-lg ri-hotel-line"></i> <span>Add Restaurant</span>
-          </button>
-          <button class="menu-item py-1rem">
-            <i class="icon is-lg ri-building-2-line"></i> <span>Joined Restaurants</span>
-          </button>
-          <button class="menu-item py-1rem">
-            <i class="icon is-lg ri-building-4-line"></i> <span>Pending Restaurants</span>
-          </button>
-          <button class="menu-item py-1rem">
-            <i class="icon is-lg ri-phone-line"></i> <span>Support</span>
-          </button>
-          <button class="menu-item py-1rem">
-            <i class="icon is-lg ri-pie-chart-2-line"></i> <span>Sales Report</span>
-          </button>
-        </aside>
+        <?php include 'adminsidebar.php';?>
       </div>
 
       <div class="column">

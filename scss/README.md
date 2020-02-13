@@ -57,7 +57,7 @@
 
 ##### Using CDN
 
-1. Just copy stylelint link into HTML <head> tag `https://cdn.jsdelivr.net/npm/fluid-css/dist/fluid.min.css`.
+1. Just copy stylesheet link into HTML <head> tag `<link href="https://cdn.jsdelivr.net/npm/fluid-css/dist/fluid.min.css" rel="stylesheet" />`.
 2. Start using Fluid
 
 ##### Using NPM
@@ -119,7 +119,7 @@ src
 
 ## 💅 CSS only
 
-Fluid is a `CSS implementation only` means it components are `faster than JavaScript` Components but being a CSS only framework also means that for components like Alerts Popup, User have to implement there own JavaScript Implementation and logics.
+Fluid is a `CSS implementation only` means it components are `faster than JavaScript` Components but being a CSS only framework also means that for components like Alerts Popup, User have to implement their own JavaScript Implementation and logics.
 
 ## 🌐 Browser Support
 

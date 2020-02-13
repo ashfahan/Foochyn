@@ -34,7 +34,7 @@ pre, textarea { overflow: auto; }
 
 select:not([disabled]):not(:disabled), button:not([disabled]):not(:disabled), [type="file"]:not([disabled]):not(:disabled), [type="button"]:not([disabled]):not(:disabled), [type="reset"]:not([disabled]):not(:disabled), [type="submit"]:not([disabled]):not(:disabled), [type="range"]:not([disabled]):not(:disabled) { cursor: pointer; }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { margin-bottom: 0.5em; font-weight: bolder; line-height: 1.2; }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { margin-bottom: 0.5em; font-weight: 700; line-height: 1.2; }
 
 *, *::before, *::after { box-sizing: inherit; }
 
@@ -138,6 +138,10 @@ svg:not(:root) { overflow: hidden; }
 
 caption { caption-side: bottom; padding-top: 0.75rem; padding-bottom: 0.75rem; color: #9c9c9c; text-align: left; }
 
+table { vertical-align: top; }
+
+table tbody { vertical-align: inherit; }
+
 label { margin-bottom: 0.5em; }
 
 legend { margin-bottom: .5rem; font-size: 1.25rem; }
@@ -162,7 +166,7 @@ p { margin-bottom: 0.5em; }
 
 mark { padding: 0.25em; background-color: #ffe58f; }
 
-hr { margin: 1em 0; opacity: 0.9; }
+hr { margin: 1em 0; opacity: 0.5; }
 
 blockquote { margin: 0 0 0.5em; }
 

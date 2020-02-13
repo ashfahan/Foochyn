@@ -51,6 +51,11 @@
   .is-loading {
     @include loading-spinner($controls-color);
 
+    //
+    // Note : Experimental Feature
+    // Issue : -
+    // Doc : add doc
+    //
     &:not(.btn) {
       background-color: $body-background;
 

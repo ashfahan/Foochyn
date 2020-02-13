@@ -35,7 +35,7 @@
       top: 0;
       bottom: 0;
       // directly use variable value for direction
-      #{$menu-item-border-side}: 0;
+      #{$menu-item-border-direction}: 0;
       border-left: 0 solid;
       border-left-color: inherit;
       @include transition($menu-item-before-transition, border-color 1s cubic-bezier(1, 0, 1, 0)); // retain border-color till border width be 0
@@ -72,13 +72,12 @@
   // Color variants
   //
   @each $color, $value in $theme-colors {
-    @if $menu-item-themes {
+    @if $menu-item-themes-generate {
       .menu-item.is-#{$color},
       .menu.is-#{$color} .menu-item {
         @include menu-variant($value);
       }
     }@else {
-      .menu-item.is-#{$color},
       .menu.is-#{$color} .menu-item {
         @include menu-variant($value);
       }

@@ -1,5 +1,22 @@
-.openhours > input:checked ~ .column { visibility: hidden; }
+.OPENHOURS > input:checked ~ .column { visibility: hidden; }
 
-.openhours > input:checked ~ input { pointer-events: none; opacity: 0.5; }
+.OPENHOURS > input:checked ~ input { pointer-events: none; opacity: 0.5; }
+
+/*form styles*/
+.MULTISTEPFORM { position: relative; }
+
+.MULTISTEPFORM fieldset, .MULTISTEPFORM .STEP { top: 0; /*stacking fieldsets above each other*/ position: relative; }
+
+.MULTISTEPFORM fieldset:not(:first-of-type), .MULTISTEPFORM .STEP:not(:first-of-type) { display: none; }
+
+.MULTISTEPFORM .STEPS { margin-bottom: 30px; overflow: hidden; display: flex; /*CSS counters to number the steps*/ counter-reset: step; }
+
+.MULTISTEPFORM .STEPS li { text-align: center; list-style-type: none; width: 100%; position: relative; }
+
+.MULTISTEPFORM .STEPS li:before { content: counter(step); counter-increment: step; width: 20px; line-height: 20px; display: block; font-size: 10px; background: #fff; border-radius: 3px; margin: 0 auto 5px auto; }
+
+.MULTISTEPFORM .STEPS li:first-child:after { /*connector not needed before the first step*/ content: none; }
+
+.MULTISTEPFORM .STEPS li.active:before { background: #399fe1; color: #fff; }
 
 /*# sourceMappingURL=addresturant.css.map */

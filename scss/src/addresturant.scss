@@ -3,7 +3,7 @@
 @import "./settings/settings";
 @import "./settings/placeholders/prefers-reduced-motion";
 
-.openhours > input:checked {
+.OPENHOURS > input:checked {
   ~ .column {
     visibility: hidden;
   }
@@ -11,5 +11,62 @@
   ~ input {
     pointer-events: none;
     opacity: $controls-disabled-opacity;
+  }
+}
+
+/*form styles*/
+
+.MULTISTEPFORM {
+  position: relative;
+
+  fieldset,
+  .STEP {
+    top: 0;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+
+    &:not(:first-of-type) {
+      display: none;
+    }
+  }
+
+  .STEPS {
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+
+    li {
+      text-align: center;
+      list-style-type: none;
+      width: 100%
+      ;
+      position: relative;
+
+      &:before {
+        content: counter(step);
+        counter-increment: step;
+        width: 20px;
+        line-height: 20px;
+        display: block;
+        font-size: 10px;
+        background: $white;
+        border-radius: 3px;
+        margin: 0 auto 5px auto;
+      }
+
+      &:first-child:after {
+        /*connector not needed before the first step*/
+        content: none;
+      }
+
+      &.active:before {
+        background: $primary;
+        color: $white;
+      }
+    }
   }
 }

@@ -24,7 +24,7 @@
     </select>
   </div>
   <div class="w-8 pr-7px"></div>
-  <a class="txt-decor-none font-bold border-right clr-error w-4 pr-7px" href="#"><i class="ri-phone-line icon mr-7px"></i>786 100 4444</a>
+  <a class="txt-decor-none font-bold border-right clr-primary w-4 pr-7px" href="#"><i class="ri-phone-line icon mr-7px"></i>786 100 4444</a>
 
   <div class="w-4 flex justify-between align-middle pl-7px">
     <a class="btn" href="#">Help</a>

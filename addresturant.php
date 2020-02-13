@@ -1543,7 +1543,7 @@
               <h5 class="mb-0">Menu</h5>
               <div>Type of Food served at restaurant</div>
 
-              <div class="menu my-7px">
+              <div class="menu is-primary my-7px">
                 <button type="button" class="menu-trigger menu-item bg-primary clr-white font-bolder">Pick Cuisine Categories</button>
                 <div class="grid">
                   <label class="control column w-6"><input type="checkbox" class="checkbox"><span class="label">African</span></label>
@@ -1704,7 +1704,7 @@
                 </div>
               </div>
 
-              <div class="menu my-7px">
+              <div class="menu is-primary my-7px">
                 <button type="button" class="menu-trigger menu-item bg-primary clr-white font-bolder">Pick Dishes</button>
                 <div class="grid">
                   <label class="control column w-8"><input type="checkbox" class="checkbox"><span class="label">Acai Bowls</span></label>

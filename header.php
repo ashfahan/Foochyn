@@ -4,7 +4,7 @@
   </div>
   <div class="w-4 pr-7px">
     <select class="input w-16 is-unstyle">
-      <option>Please Select</option>
+      <option hidden>City</option>
       <optgroup label="Asia">
         <option>City 1</option>
         <option>City 2</option>

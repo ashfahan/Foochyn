@@ -78,7 +78,7 @@
                 <label class="column control block w-8 py-2">
                   <span>Nation</span>
                   <select class="input mt-1rem">
-                    <option hidden="">Please Select</option>
+                    <option hidden="">Country</option>
                     <optgroup label="Asia">
                       <option>Country 1</option>
                       <option>Country 2</option>

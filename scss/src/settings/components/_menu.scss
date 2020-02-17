@@ -11,6 +11,7 @@ $menu-trigger-caret-size:                 $control-feedback-arrow-size !default;
 $menu-item-before-borderwidth:            $borderwidth-wide !default;
 $menu-item-border-direction:              right !default;
 $menu-item-themes-generate:               true !default;
+$menu-item-indent:                        $controls-padding-x * 1.5 !default;
 
 //
 // Setting
@@ -19,6 +20,6 @@ $menu-trigger-caret-color:                currentColor !default;
 
 $menu-item-before-transition:             border-width .15s linear !default;
 
-$nestedMenu-indent:                       $controls-padding-x * 2 !default;
+$nestedMenu-indent:                       $menu-item-indent * .35 !default;
 $nestedMenu-animationname:                fadein !default;
 $nestedMenu-animationduration:            .3s !default;

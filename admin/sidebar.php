@@ -1,43 +1,37 @@
 <aside class="menu bg-white is-round border shadow overflow-hidden">
-  <button class="menu-item py-1rem">
+  <a href="#" class="menu-item py-1rem">
     <i class="icon is-lg ri-article-line"></i>&nbsp;<span>Profile</span>
-  </button>
+  </a>
   <div class="menu">
-    <button class="menu-trigger py-1rem menu-item">
+    <a href="#" class="menu-trigger py-1rem menu-item">
       <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Restaurant</span>
-    </button>
+    </a>
     <div class="menu">
-      <button class="menu-item py-1rem">
+      <a href="#" class="menu-item py-1rem">
+        <i class="icon is-lg ri-building-2-line"></i>&nbsp;<span>All Restaurants</span>
+      </a>
+      <a href="#" class="menu-item py-1rem">
         <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Add Restaurant</span>
-      </button>
-      <button class="menu-item py-1rem">
-        <i class="icon is-lg ri-building-2-line"></i>&nbsp;<span>Joined Restaurants</span>
-      </button>
-      <button class="menu-item py-1rem">
-        <i class="icon is-lg ri-building-4-line"></i>&nbsp;<span>Pending Restaurants</span>
-      </button>
-      <button class="menu-item py-1rem">
-        <i class="icon is-lg ri-pie-chart-2-line"></i>&nbsp;<span>Analytics</span>
-      </button>
+      </a>
     </div>
   </div>
   <div class="menu">
-    <button class="menu-trigger py-1rem menu-item">
+    <a href="#" class="menu-trigger py-1rem menu-item">
       <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Users</span>
-    </button>
+    </a>
     <div class="menu">
-      <button class="menu-item py-1rem">
+      <a href="#" class="menu-item py-1rem">
         <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Add Users</span>
-      </button>
-      <button class="menu-item py-1rem">
+      </a>
+      <a href="#" class="menu-item py-1rem">
         <i class="icon is-lg ri-building-2-line"></i>&nbsp;<span>Joined Userss</span>
-      </button>
-      <button class="menu-item py-1rem">
+      </a>
+      <a href="#" class="menu-item py-1rem">
         <i class="icon is-lg ri-building-4-line"></i>&nbsp;<span>Pending Userss</span>
-      </button>
-      <button class="menu-item py-1rem">
-        <i class="icon is-lg ri-pie-chart-2-line"></i>&nbsp;<span>Analytics</span>
-      </button>
+      </a>
     </div>
   </div>
+  <a href="#" class="menu-item py-1rem">
+    <i class="icon is-lg ri-pie-chart-2-line"></i>&nbsp;<span>Analytics</span>
+  </a>
 </aside>

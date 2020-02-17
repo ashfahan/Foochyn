@@ -1256,7 +1256,7 @@ textarea.input { height: auto; min-height: 2.4em; }
 
 .menu .menu-item.active { color: #fff; background-color: #636363; }
 
-.menu-item { display: block; width: 100%; padding-right: 1.5em; padding-left: 1.5em; border: 0; border-radius: 0; color: inherit; text-align: inherit; font-size: inherit; }
+.menu-item { display: block; width: 100%; padding-right: 1.125em; padding-left: 1.125em; border: 0; border-radius: 0; color: inherit; text-align: inherit; font-size: inherit; }
 
 .menu-item::before { content: ""; position: absolute; top: 0; bottom: 0; right: 0; border-left: 0 solid; border-left-color: inherit; transition: border-width 0.15s linear,border-color 1s cubic-bezier(1, 0, 1, 0); }
 
@@ -1376,11 +1376,11 @@ textarea.input { height: auto; min-height: 2.4em; }
 
 .menu > .menu { overflow: hidden; font-size: inherit; }
 
-.menu > .menu > * { padding-right: 3em; margin-left: 1.5em; }
+.menu > .menu > * { padding-right: 0.7875em; margin-left: 0.39375em; }
 
 .menu > .menu > .menu { padding-right: 0; }
 
-.menu > .menu > .menu-trigger { padding-right: 1.5em; margin-left: 0; }
+.menu > .menu > .menu-trigger { padding-right: 1.125em; margin-left: 0; }
 
 .menu-trigger { display: inline-flex; }
 

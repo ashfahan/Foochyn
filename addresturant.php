@@ -2444,12 +2444,12 @@
                   </div>
                   <div>
                     <button class="btn is-sld is-primary previous" type="button" class="previous">Previous</button>
-                    <button class="btn is-sld is-primary" type="submit" class="next">Submit</button>
+                    <button class="btn is-sld is-primary next" type="button" class="next">Next</button>
                   </div>
                 </div>
-                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Cheap Eats - quick serve or self-service</span></label>
-                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Mid-range - casual, table service</span></label>
-                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Fine Dining - More formal or dressy</span></label>
+                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Cheap Eats - quick serve or self-service <span class="italic">(100-1000 PKR for 2 people)</span></span></label>
+                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Mid-range - casual, table service <span class="italic">(1000-5000 PKR for 2 people)</span></span></label>
+                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Fine Dining - More formal or dressy <span class="italic">(5000-10000 PKR for 2 people)</span></span></label>
               </fieldset>
             </div>
           </form>

@@ -8,14 +8,15 @@
     <meta charset="utf-8" />
     <title>FOoChyn</title>
     <meta name="description" content="description" />
-    <link href="./index.html" rel="canonical" />
-    <link href="./scss/temp/fluid.css" rel="stylesheet" />
-    <link href="./scss/temp/fluid-component.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./vendors/remixicon/remixicon.css">
+    <link href="../index.html" rel="canonical" />
+    <link href="../scss/temp/fluid.css" rel="stylesheet" />
+    <link href="../scss/temp/fluid-component.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../vendors/remixicon/remixicon.css">
   </head>
 
   <body>
-    <?php include 'adminheader.php';?>
+
+    <?php include 'header.php';?>
 
     <div class="container">
       <ol class="breadcrumb column w-24 w-20@sm mt-1rem">
@@ -26,14 +27,14 @@
 
     <div class="grid has-gap-lg container my-1rem">
       <div class="column w-6">
-        <?php include 'adminsidebar.php';?>
+        <?php include 'sidebar.php';?>
       </div>
 
       <div class="column">
         <main class="lyt-main">
           <form>
             <div class="bg-white shadow border p-2 is-round">
-              <h5>Pending Restaurants</h5>
+              <h5>Joined Restaurants</h5>
               <table class="table">
                 <th>Name</th>
                 <th>Date</th>
@@ -53,7 +54,6 @@
                   <td>date</td>
                   <td>Pending</td>
                 </tr>
-
               </table>
             </div>
           </form>
@@ -64,7 +64,7 @@
     <?php include 'footer.php';?>
 
   </body>
-  <script src="./js/base.js"></script>
-  <script src="./vendors/jquery-3.4.1.min.js"></script>
+  <script src="../js/base.js"></script>
+  <script src="../vendors/jquery-3.4.1.min.js"></script>
 
 </html>

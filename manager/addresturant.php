@@ -8,15 +8,15 @@
     <meta charset="utf-8" />
     <title>FOoChyn</title>
     <meta name="description" content="description" />
-    <link href="./index.html" rel="canonical" />
-    <link rel="stylesheet" href="./vendors/remixicon/remixicon.css">
-    <link href="./scss/temp/fluid.css" rel="stylesheet" />
-    <link href="./scss/temp/fluid-component.css" rel="stylesheet" />
-    <link href="./scss/temp/addresturant.css" rel="stylesheet" />
+    <link href="../index.html" rel="canonical" />
+    <link rel="stylesheet" href="../vendors/remixicon/remixicon.css">
+    <link href="../scss/temp/fluid.css" rel="stylesheet" />
+    <link href="../scss/temp/fluid-component.css" rel="stylesheet" />
+    <link href="../scss/temp/addresturant.css" rel="stylesheet" />
   </head>
 
   <body>
-    <?php include 'adminheader.php';?>
+    <?php include 'header.php';?>
 
     <div class="container">
       <ol class="breadcrumb column w-24 w-20@sm mt-1rem">
@@ -27,7 +27,7 @@
 
     <div class="grid has-gap-lg container my-1rem">
       <div class="column w-6">
-        <?php include 'adminsidebar.php';?>
+        <?php include 'sidebar.php';?>
       </div>
 
       <div class="column">
@@ -62,7 +62,7 @@
                   <label class="column control w-12 py-2"><span class="font-bold">Restaurant Phone</span><input placeholder="+44 (0) 20 3310 2000" class="input mt-1rem" type="tel" /></label>
                   <label class="column control w-12 py-2"><span class="font-bold">Job Title in Restaurant</span><input placeholder="Manager" class="input mt-1rem" type="text" /></label>
                   <label class="column control w-12 py-2"><span class="font-bold">Address</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
-                  <label class="column control w-12 py-2"><img src="./images/dummy_map.jpg" alt="" class="img"></label>
+                  <label class="column control w-12 py-2"><img src="../images/dummy_map.jpg" alt="" class="img"></label>
                   <div class="column control w-24">
                     <div class="mb-1rem font-bold">Restaurant Images</div>
                     <input class="file" id="Images" type="file"><label class="label btn is-sld is-primary" for="Images">Upload Images</label>
@@ -2474,9 +2474,9 @@
 
     <?php include 'footer.php';?>
   </body>
-  <script src="./vendors/jquery-3.4.1.min.js"></script>
-  <script src="./vendors/jquery-ui/jquery-ui.min.js"></script>
-  <script src="./js/base.js"></script>
-  <script src="./js/MULTISTEPFORM.js"></script>
+  <script src="../vendors/jquery-3.4.1.min.js"></script>
+  <script src="../vendors/jquery-ui/jquery-ui.min.js"></script>
+  <script src="../js/base.js"></script>
+  <script src="../js/MULTISTEPFORM.js"></script>
 
 </html>

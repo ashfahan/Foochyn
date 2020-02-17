@@ -459,7 +459,6 @@
     <?php include 'footer.php';?>
   </body>
   <script src="./vendors/jquery-3.4.1.min.js"></script>
-  <script src="./js/base.js"></script>
   <script src="./vendors/slick/slick.min.js"></script>
   <script>
     $(".slick").slick({

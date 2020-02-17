@@ -8,11 +8,11 @@
     <meta charset="utf-8" />
     <title>FOoChyn</title>
     <meta name="description" content="description" />
-    <link href="./index.html" rel="canonical" />
-    <link href="./scss/temp/fluid.css" rel="stylesheet" />
-    <link href="./scss/temp/fluid-component.css" rel="stylesheet" />
-    <link href="./vendors/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="./scss/temp/base.css" rel="stylesheet" />
+    <link href="../index.html" rel="canonical" />
+    <link href="../scss/temp/fluid.css" rel="stylesheet" />
+    <link href="../scss/temp/fluid-component.css" rel="stylesheet" />
+    <link href="../vendors/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="../scss/temp/base.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -94,6 +94,6 @@
 
     <?php include 'footer.php';?>
   </body>
-  <script src="./js/base.js"></script>
+  <script src="../js/base.js"></script>
 
 </html>

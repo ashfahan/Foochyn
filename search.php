@@ -831,6 +831,5 @@
             </div>
         </section>
     </body>
-    <script src="./js/base.js"></script>
 
 </html>

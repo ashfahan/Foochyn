@@ -32,3 +32,5 @@
   <div class="border-bottom w-24"></div>
   <div class="container column w-24">© First Table (Australia) Pty Ltd 2014 - 2020. All rights reserved. The First Table logo and name are trademarks of First Table Limited.</div>
 </footer>
+
+<script src="../js/base.js"></script>

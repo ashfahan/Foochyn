@@ -46,7 +46,7 @@
           <h5>Personal data</h5>
           <div class="grid has-gap-lg">
             <div class="column w-24"><input class="input" type="text" required placeholder="Name and Last Name" /></div>
-            <div class="column w-24"><input class="input" type="email" required placeholder="Email Address" /></div>
+            <div class="column w-24"><input class="input" type="tel" required placeholder="Phone Number" /></div>
           </div>
 
           <h5 class="mt-1rem">Resturant data</h5>

@@ -25,12 +25,31 @@
             <div>Let's uncover the best places to eat, drink and shop nearest to you</div>
             <div class="bg-white-25 mx-auto w-15 p-1rem my-4 flex">
                 <div class="group flex-grow mr-1rem">
-                    <label class="control has-icon-left">
-                        <input class="input is-dark p-7px border-none" type="text" style="padding-left: 4em !important" placeholder="E.g: Food, Service, Barber, Hotel" />
+                    <label class="control w-16 has-icon-left">
+                        <input class="input is-dark p-7px border-none" type="text" style="padding-left: 4.5em !important" placeholder="E.g: Food, Service, Barber, Hotel" />
                         <div class="icon is-left font-bold o-100" style="left:1.6em !important">What</div>
                     </label>
                     <label class="control has-icon-left border-left">
-                        <input class="input is-dark p-7px border-none" type="text" style="padding-left: 4em !important" placeholder="City" />
+                        <select class="input clr-disabled is-dark p-7px border-none" style="padding-left: 4.5em !important">
+                            <option hidden>City</option>
+                            <optgroup class="clr-body" label="Asia">
+                                <option>City 1</option>
+                                <option>City 2</option>
+                                <option>City 3</option>
+                                <option>City 4</option>
+                                <option>City 5</option>
+                            </optgroup>
+
+                            <optgroup class="clr-body" label="Europe">
+                                <option>City 6</option>
+                                <option>City 7</option>
+                                <option>City 8</option>
+                                <option>City 9</option>
+                                <option>City 10</option>
+                                <option>City 11</option>
+                            </optgroup>
+                        </select>
+
                         <div class="icon is-left font-bold o-100" style="left:1.6em !important">Where</div>
                     </label>
                 </div>

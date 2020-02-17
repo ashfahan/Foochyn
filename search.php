@@ -47,12 +47,6 @@
                     </div>
 
                     <div class="menu">
-                        <button class="menu-trigger active btn is-unstyle is-block py-7px">DEAL TYPE</button>
-                        <div>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Prime Exclusive</span> </label>
-                        </div>
-                    </div>
-                    <div class="menu">
                         <button class="menu-trigger active btn is-unstyle is-block py-7px">DISCOUNTED</button>
                         <div>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Prepaid Deals</span></label>

@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="menu">
-                        <button class="menu-trigger active btn is-unstyle is-block py-7px">Pricing</button>
+                        <button class="menu-trigger active btn is-unstyle is-block py-7px">PRICING</button>
                         <div>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">100-1000 PKR for 2 people</span></label>
                             <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">1000-5000 PKR for 2 people</span></label>

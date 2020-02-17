@@ -3,16 +3,17 @@
 
   <head>
     <meta id="customViewPort" name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
-    <link type="image/png" href="images/favicon.png" rel="icon" />
     <meta name="format-detection" content="telephone=no" />
     <meta charset="utf-8" />
-    <title>FOoChyn</title>
     <meta name="description" content="description" />
-    <link href="./index.html" rel="canonical" />
+    <title>FOoChyn</title>
+    <link type="image/png" href="images/favicon.png" rel="icon" />
     <link href="./scss/temp/fluid.css" rel="stylesheet" />
     <link href="./scss/temp/fluid-component.css" rel="stylesheet" />
     <link href="./vendors/remixicon/remixicon.css" rel="stylesheet" />
     <link href="./scss/temp/base.css" rel="stylesheet" />
+    <link href="./vendors/slick/slick.css" rel="stylesheet" />
+    <link href="./vendors/slick/slick-theme.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -37,7 +38,16 @@
           </section>
 
           <section class="is-round-sm my-2">
-            <div class="bg-white relative card-zoom">
+            <div class="bg-white relative card-zoom slick">
+              <div class="overflow-hidden" style="height: 250px;">
+                <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/1.webp');"></div>
+              </div>
+              <div class="overflow-hidden" style="height: 250px;">
+                <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/1.webp');"></div>
+              </div>
+              <div class="overflow-hidden" style="height: 250px;">
+                <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/1.webp');"></div>
+              </div>
               <div class="overflow-hidden" style="height: 250px;">
                 <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/1.webp');"></div>
               </div>
@@ -448,6 +458,19 @@
 
     <?php include 'footer.php';?>
   </body>
+  <script src="./vendors/jquery-3.4.1.min.js"></script>
   <script src="./js/base.js"></script>
+  <script src="./vendors/slick/slick.min.js"></script>
+  <script>
+    $(".slick").slick({
+      accessibility: true,
+      adaptiveHeight: true,
+      draggable: true,
+      autoplay: true,
+      arrows: true,
+      dots: true,
+      mobileFirst: true
+    });
+  </script>
 
 </html>

@@ -1,6 +1,6 @@
 <aside class="menu bg-white is-round border shadow overflow-hidden">
   <a href="#" class="menu-item py-1rem">
-    <i class="icon is-lg ri-article-line"></i>&nbsp;<span>Profile</span>
+    <i class="icon is-lg ri-article-line"></i>&nbsp;<span>Account Setting</span>
   </a>
   <div class="menu">
     <a href="#" class="menu-trigger py-1rem menu-item">
@@ -12,6 +12,19 @@
       </a>
       <a href="#" class="menu-item py-1rem">
         <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Add Restaurant</span>
+      </a>
+    </div>
+  </div>
+  <div class="menu">
+    <a href="#" class="menu-trigger py-1rem menu-item">
+      <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Locations</span>
+    </a>
+    <div class="menu">
+      <a href="#" class="menu-item py-1rem">
+        <i class="icon is-lg ri-building-2-line"></i>&nbsp;<span>All Locationss</span>
+      </a>
+      <a href="#" class="menu-item py-1rem">
+        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Add Locations</span>
       </a>
     </div>
   </div>

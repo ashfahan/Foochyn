@@ -47,54 +47,62 @@
                     </div>
 
                     <div class="menu">
+                        <button class="menu-trigger active btn is-unstyle is-block py-7px">Pricing</button>
+                        <div>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Cheap Eats - quick serve or self-service <span class="italic">(100-1000 PKR for 2 people)</span></span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Mid-range - casual, table service <span class="italic">(1000-5000 PKR for 2 people)</span></span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Fine Dining - More formal or dressy <span class="italic">(5000-10000 PKR for 2 people)</span></span></label>
+                        </div>
+                    </div>
+                    <div class="menu">
                         <button class="menu-trigger active btn is-unstyle is-block py-7px">DISCOUNTED</button>
                         <div>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Prepaid Deals</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">15% Discount</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">25% Discount</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">20% Discount</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">10% Discount</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Mindblowing 50% Discount</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Free Beverages</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Prepaid Deals</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">15% Discount</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">25% Discount</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">20% Discount</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">10% Discount</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Mindblowing 50% Discount</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Free Beverages</span></label>
                             <button class="menu-trigger btn is-unstyle is-block clr-primary more">+9 more</button>
                             <div>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Free Cocktail or Mocktail</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">30% Discount</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Free Dessert</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Happy Hours</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Free Glass of Wine</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Free Appetizer</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Free Beer</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Other Offers</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">40% Discount</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Extra 200 EazyPoints </span> </label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Free Cocktail or Mocktail</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">30% Discount</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Free Dessert</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Happy Hours</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Free Glass of Wine</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Free Appetizer</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Free Beer</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Other Offers</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">40% Discount</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Extra 200 EazyPoints </span> </label>
                             </div>
                         </div>
                     </div>
                     <div class="menu">
                         <button class="menu-trigger btn is-unstyle is-block py-7px active">CUISINES</button>
                         <div>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">North Indian</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Chinese</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Modern Indian</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Italian</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Cafe</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Pan Asian</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">South Indian</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">North Indian</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Chinese</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Modern Indian</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Italian</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Cafe</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Pan Asian</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">South Indian</span></label>
                             <button class="menu-trigger btn is-unstyle is-block clr-primary more">+11 more</button>
                             <div>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Fast Food</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Finger Food</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Fusion</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Indian</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Mughlai</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">European</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Lebanese</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Greek</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Bengali</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Gujarati</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Goan</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Multicuisine</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Fast Food</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Finger Food</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Fusion</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Indian</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Mughlai</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">European</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Lebanese</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Greek</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Bengali</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Gujarati</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Goan</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Multicuisine</span></label>
                             </div>
                         </div>
                     </div>
@@ -102,17 +110,17 @@
                     <div class="menu">
                         <button class="menu-trigger btn is-unstyle is-block py-7px">CATEGORIES</button>
                         <div>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Casual Dining</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Luxury Dining</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Hotel Dining</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Bar/Pub</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Sweet Shop</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Cafe/Bakery</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Delivery Only</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Casual Dining</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Luxury Dining</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Hotel Dining</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Bar/Pub</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Sweet Shop</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Cafe/Bakery</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Delivery Only</span></label>
                             <button class="menu-trigger btn is-unstyle is-block clr-primary more">+1 more</button>
                             <div>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Takeaway</span></label>
-                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Other</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Takeaway</span></label>
+                                <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Other</span></label>
                             </div>
                         </div>
                     </div>
@@ -120,9 +128,9 @@
                     <div class="menu">
                         <button class="menu-trigger btn is-unstyle is-block py-7px">MEAL TYPES</button>
                         <div>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Set Menu</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">A`la carte</span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label">Buffet</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Set Menu</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">A`la carte</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Buffet</span></label>
                         </div>
                     </div>
                 </form>

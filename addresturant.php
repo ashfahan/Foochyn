@@ -40,6 +40,7 @@
               <li>Features</li>
               <li>Type</li>
               <li>Price</li>
+              <li>Affiliate</li>
             </ul>
 
             <div class="relative">
@@ -2450,6 +2451,20 @@
                 <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Cheap Eats - quick serve or self-service <span class="italic">(100-1000 PKR for 2 people)</span></span></label>
                 <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Mid-range - casual, table service <span class="italic">(1000-5000 PKR for 2 people)</span></span></label>
                 <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Fine Dining - More formal or dressy <span class="italic">(5000-10000 PKR for 2 people)</span></span></label>
+              </fieldset>
+
+              <fieldset class="STEP bg-white is-round shadow p-4 w-24">
+                <div class="flex justify-between">
+                  <div>
+                    <h5>Reference</h5>
+                    <div>Referenced by someone?</div>
+                  </div>
+                  <div>
+                    <button class="btn is-sld is-primary previous" type="button" class="previous">Previous</button>
+                    <button class="btn is-sld is-primary" type="submit" class="next">Submit</button>
+                  </div>
+                </div>
+                <input type="text" class="input mt-1rem" placeholder="Enter their Reference ID">
               </fieldset>
             </div>
           </form>

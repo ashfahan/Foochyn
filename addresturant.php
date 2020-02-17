@@ -1547,6 +1547,12 @@
                   <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label">Late Night</span></label>
                 </div>
 
+                <div class="column control w-24">
+                  <div class="mb-1rem font-bold">Menu Images</div>
+                  <input class="file" id="Images" type="file"><label class="label btn is-sld is-primary" for="Images">Upload Images</label>
+                  <div class="is-sm mt-1rem">Supported image format: .jpeg, .jpg, .png . Can Select Multiple Images</div>
+                </div>
+
                 <div class="menu is-primary my-7px">
                   <button type="button" class="menu-trigger menu-item bg-primary clr-white font-bolder">Pick Cuisine Categories</button>
                   <div class="grid">

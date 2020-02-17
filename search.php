@@ -35,14 +35,41 @@
             <div class="column w-5">
                 <form class="bg-white p-1rem is-round italic" nosubmit>
                     <div class="menu">
-                        <button class="btn is-unstyle is-block txt-left py-7px">Date And Meal Period</button>
+                        <button class="btn is-unstyle is-block txt-left py-7px">DATE</button>
                         <input class="input" type="date" value="2020-01-08" />
-                        <select class="input my-7px">
+                    </div>
+
+                    <div class="menu">
+                        <button class="btn is-unstyle is-block txt-left py-7px">MEAL</button>
+                        <select class="input">
                             <option>Midnight</option>
                             <option>Breakfast</option>
                             <option>Lunch</option>
                             <option>High Tea</option>
                             <option>Dinner</option>
+                        </select>
+                    </div>
+
+                    <div class="menu">
+                        <button class="btn is-unstyle is-block txt-left py-7px">LOCATION</button>
+                        <select class="input">
+                            <option hidden>City</option>
+                            <optgroup label="Asia">
+                                <option>City 1</option>
+                                <option>City 2</option>
+                                <option>City 3</option>
+                                <option>City 4</option>
+                                <option>City 5</option>
+                            </optgroup>
+
+                            <optgroup label="Europe">
+                                <option>City 6</option>
+                                <option>City 7</option>
+                                <option>City 8</option>
+                                <option>City 9</option>
+                                <option>City 10</option>
+                                <option>City 11</option>
+                            </optgroup>
                         </select>
                     </div>
 

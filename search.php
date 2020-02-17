@@ -49,9 +49,9 @@
                     <div class="menu">
                         <button class="menu-trigger active btn is-unstyle is-block py-7px">Pricing</button>
                         <div>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Cheap Eats - quick serve or self-service <span class="italic">(100-1000 PKR for 2 people)</span></span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Mid-range - casual, table service <span class="italic">(1000-5000 PKR for 2 people)</span></span></label>
-                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">Fine Dining - More formal or dressy <span class="italic">(5000-10000 PKR for 2 people)</span></span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">100-1000 PKR for 2 people</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">1000-5000 PKR for 2 people</span></label>
+                            <label class="control w-24 my-2"> <input class="checkbox" type="checkbox" /> <span class="label block">5000-10000 PKR for 2 people</span></label>
                         </div>
                     </div>
                     <div class="menu">

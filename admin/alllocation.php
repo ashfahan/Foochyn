@@ -31,36 +31,40 @@
       </div>
 
       <div class="column">
-        <main class="lyt-main">
+        <main class="lyt-main bg-white shadow border p-2 is-round">
           <form>
-            <div class="bg-white shadow border p-2 is-round">
-              <h5>Joined Restaurants</h5>
+            <div>
+              <h5>All Location</h5>
               <table class="table">
-                <th>Name</th>
-                <th>Date</th>
-                <th>Status</th>
+                <th>Area</th>
+                <th>Location</th>
                 <th>Action</th>
                 <tr>
-                  <td><a href="#">xyz</a></td>
-                  <td>date</td>
-                  <td>Pending</td>
+                  <td>Area</td>
+                  <td>Location Name</td>
                   <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
                 <tr>
-                  <td><a href="#">xyz</a></td>
-                  <td>date</td>
-                  <td>Pending</td>
+                  <td>Area</td>
+                  <td>Location Name</td>
                   <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
                 <tr>
-                  <td><a href="#">xyz</a></td>
-                  <td>date</td>
-                  <td>Pending</td>
+                  <td>Area</td>
+                  <td>Location Name</td>
                   <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
               </table>
             </div>
           </form>
+
+          <h6 class="mt-4">Add Location</h6>
+          <form class="grid align-middle">
+            <div class="column"><input type="text" class="input" placeholder="Area"></div>
+            <div class="column"><input type="text" class="input" placeholder="Location"></div>
+            <button type="submit" class="btn is-sld is-primary">Add</button>
+          </form>
+
         </main>
       </div>
     </div>

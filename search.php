@@ -51,24 +51,24 @@
                     </div>
 
                     <div class="menu">
-                        <button class="btn is-unstyle is-block txt-left py-7px">LOCATION</button>
+                        <button class="btn is-unstyle is-block txt-left py-7px">Area</button>
                         <select class="input">
                             <option hidden>City</option>
-                            <optgroup label="Asia">
-                                <option>City 1</option>
-                                <option>City 2</option>
-                                <option>City 3</option>
-                                <option>City 4</option>
-                                <option>City 5</option>
+                            <optgroup label="City 1">
+                                <option>Area 1</option>
+                                <option>Area 2</option>
+                                <option>Area 3</option>
+                                <option>Area 4</option>
+                                <option>Area 5</option>
                             </optgroup>
 
-                            <optgroup label="Europe">
-                                <option>City 6</option>
-                                <option>City 7</option>
-                                <option>City 8</option>
-                                <option>City 9</option>
-                                <option>City 10</option>
-                                <option>City 11</option>
+                            <optgroup label="City 2">
+                                <option>Area 6</option>
+                                <option>Area 7</option>
+                                <option>Area 8</option>
+                                <option>Area 9</option>
+                                <option>Area 10</option>
+                                <option>Area 11</option>
                             </optgroup>
                         </select>
                     </div>

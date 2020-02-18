@@ -9,9 +9,10 @@
     <title>FOoChyn</title>
     <meta name="description" content="description" />
     <link href="../index.html" rel="canonical" />
+    <link rel="stylesheet" href="../vendors/remixicon/remixicon.css">
     <link href="../scss/temp/fluid.css" rel="stylesheet" />
     <link href="../scss/temp/fluid-component.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../vendors/remixicon/remixicon.css">
+    <link href="../scss/temp/addresturant.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -30,30 +31,21 @@
       </div>
 
       <div class="column">
-        <main class="lyt-main">
-          <form>
-            <div class="bg-white shadow border p-2 is-round grid">
-              <div class="column control block w-24 py-2 txt-right">
-                <button class="btn is-sld is-valid is-pill">Update</button>
-              </div>
-
-              <label class="column control block w-12 py-2">
-                <span>Username</span>
-                <input value="admin" class="input mt-1rem" type="text" />
-              </label>
-
-              <label class="column control block w-12 py-2">
-                <span>Password</span>
-                <input class="input mt-1rem" type="password" />
-              </label>
-            </div>
+      <main class="lyt-main bg-white is-round shadow p-2 w-24">
+          <h4>Add User</h4>
+          <form class="grid">
+            <div class="column w-12"><input type="text" class="input" placeholder="Username"></div>
+            <div class="column w-12"><input type="text" class="input" placeholder="Password"></div>
           </form>
         </main>
       </div>
     </div>
 
     <?php include 'footer.php';?>
-
   </body>
+  <script src="../vendors/jquery-3.4.1.min.js"></script>
+  <script src="../vendors/jquery-ui/jquery-ui.min.js"></script>
+  <script src="../js/base.js"></script>
+  <script src="../js/MULTISTEPFORM.js"></script>
 
 </html>

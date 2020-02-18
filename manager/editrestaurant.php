@@ -44,19 +44,19 @@
                   <td><a href="#">xyz</a></td>
                   <td>date</td>
                   <td>Pending</td>
-                  <td><i class="icon ri-pencil-line"></i> Edit</td>
+                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
                 <tr>
                   <td><a href="#">xyz</a></td>
                   <td>date</td>
                   <td>Pending</td>
-                  <td><i class="icon ri-pencil-line"></i> Edit</td>
+                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
                 <tr>
                   <td><a href="#">xyz</a></td>
                   <td>date</td>
                   <td>Pending</td>
-                  <td><i class="icon ri-pencil-line"></i> Edit</td>
+                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
               </table>
             </div>

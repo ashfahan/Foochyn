@@ -15,6 +15,7 @@
   </head>
 
   <body>
+
     <?php include 'header.php';?>
 
     <div class="container">
@@ -32,20 +33,28 @@
       <div class="column">
         <main class="lyt-main">
           <form>
-            <div class="bg-white shadow border p-2 is-round grid">
-              <div class="column control block w-24 py-2 txt-right">
-                <button class="btn is-sld is-valid is-pill">Update</button>
-              </div>
-
-              <label class="column control block w-12 py-2">
-                <span>Username</span>
-                <input value="admin" class="input mt-1rem" type="text" />
-              </label>
-
-              <label class="column control block w-12 py-2">
-                <span>Password</span>
-                <input class="input mt-1rem" type="password" />
-              </label>
+            <div class="bg-white shadow border p-2 is-round">
+              <h5>All Users</h5>
+              <table class="table">
+                <th>Name</th>
+                <th>Date Joined</th>
+                <th>Action</th>
+                <tr>
+                  <td><a href="#">xyz</a></td>
+                  <td>date</td>
+                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">xyz</a></td>
+                  <td>date</td>
+                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">xyz</a></td>
+                  <td>date</td>
+                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
+                </tr>
+              </table>
             </div>
           </form>
         </main>
@@ -55,5 +64,7 @@
     <?php include 'footer.php';?>
 
   </body>
+  <script src="../js/base.js"></script>
+  <script src="../vendors/jquery-3.4.1.min.js"></script>
 
 </html>

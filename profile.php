@@ -78,22 +78,22 @@
                 <label class="column control block w-8 py-2">
                   <span>Nation</span>
                   <select class="input mt-1rem">
-                    <option hidden="">Country</option>
-                    <optgroup label="Asia">
-                      <option>Country 1</option>
-                      <option>Country 2</option>
-                      <option>Country 3</option>
-                      <option>Country 4</option>
-                      <option>Country 5</option>
+                    <option hidden="">Location</option>
+                    <optgroup label="City 1">
+                      <option>Area 1</option>
+                      <option>Area 2</option>
+                      <option>Area 3</option>
+                      <option>Area 4</option>
+                      <option>Area 5</option>
                     </optgroup>
 
-                    <optgroup label="Europe">
-                      <option>Country 6</option>
-                      <option>Country 7</option>
-                      <option>Country 8</option>
-                      <option>Country 9</option>
-                      <option>Country 10</option>
-                      <option>Country 11</option>
+                    <optgroup label="City 2">
+                      <option>Area 6</option>
+                      <option>Area 7</option>
+                      <option>Area 8</option>
+                      <option>Area 9</option>
+                      <option>Area 10</option>
+                      <option>Area 11</option>
                     </optgroup>
                   </select>
                 </label>

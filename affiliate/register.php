@@ -63,23 +63,33 @@
             </div>
             <div class="column w-24">
               <select class="input" required>
+                <option value selected hidden>Number of Location</option>
+                <option>Number of Location 1</option>
+                <option>Number of Location 2-5</option>
+                <option>Number of Location 5-10</option>
+                <option>Number of Location 11-25</option>
+                <option>Number of Location 25+</option>
+              </select>
+            </div>
+            <div class="column w-24">
+              <select class="input" required>
                 <option value selected hidden>Which of the following best describe your role at this resturant?</option>
-                <option>Owner</option>
-                <option>Chef</option>
-                <option>Director of Operations</option>
-                <option>General Manager</option>
-                <option>Manager</option>
-                <option>Other</option>
+                <option>I Am Owner</option>
+                <option>I Am Chef</option>
+                <option>I Am Director of Operations</option>
+                <option>I Am General Manager</option>
+                <option>I Am Manager</option>
+                <option>I Am Other</option>
               </select>
             </div>
             <div class="column w-24"><input class="input" type="text" required placeholder="Address" /></div>
             <div class="column w-12"><input class="input" type="text" required placeholder="City" /></div>
             <div class="column w-12">
               <select class="input" required>
-                <option value selected hidden>Country</option>
-                <option>Country X</option>
-                <option>Country Y</option>
-                <option>Country Z</option>
+                <option value selected hidden="">Location</option>
+                <option>Area 1</option>
+                <option>Area 2</option>
+                <option>Area 3</option>
               </select>
             </div>
           </div>

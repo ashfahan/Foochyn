@@ -195,6 +195,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -216,6 +217,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -237,6 +239,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -258,6 +261,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -279,6 +283,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -300,6 +305,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -321,6 +327,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -342,6 +349,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -363,6 +371,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -384,6 +393,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -405,6 +415,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -426,6 +437,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -447,6 +459,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -468,6 +481,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -489,6 +503,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -510,6 +525,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -531,6 +547,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -552,6 +569,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -573,6 +591,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -594,6 +613,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -615,6 +635,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -636,6 +657,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -657,6 +679,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -678,6 +701,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -699,6 +723,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -720,6 +745,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -741,6 +767,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -762,6 +789,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -783,6 +811,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
 
@@ -804,6 +833,7 @@
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
                             <div class="clr-disabled">South Padre Island, TX</div>
+                            <div class="clr-disabled">1000-5000 PKR Approx for 2 Person</div>
                         </div>
                     </div>
                 </section>

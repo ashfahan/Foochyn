@@ -185,12 +185,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -206,12 +206,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -227,12 +227,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -248,12 +248,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -269,12 +269,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -290,12 +290,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -311,12 +311,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -332,12 +332,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -353,12 +353,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -374,12 +374,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -395,12 +395,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -416,12 +416,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -437,12 +437,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -458,12 +458,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -479,12 +479,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -500,12 +500,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -521,12 +521,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -542,12 +542,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -563,12 +563,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -584,12 +584,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -605,12 +605,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -626,12 +626,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -647,12 +647,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -668,12 +668,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -689,12 +689,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -710,12 +710,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -731,12 +731,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -752,12 +752,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -773,12 +773,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>
@@ -794,12 +794,12 @@
                             </div>
                             <h5 class="my-7px">Ceciches Ceciches</h5>
                             <div class="flex align-middle">
-                                <ul class="list is-inline mb-0">
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-fill icon is-lg"></li>
-                                    <li class="mr-0 ri-star-line icon is-lg"></li>
+                                <ul class="list is-inline mb-0 clr-valid">
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                    <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
                                 </ul>
                                 <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                             </div>

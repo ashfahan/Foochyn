@@ -42,17 +42,17 @@
                 <tr>
                   <td>Area</td>
                   <td>Location Name</td>
-                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
+                  <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
                 <tr>
                   <td>Area</td>
                   <td>Location Name</td>
-                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
+                  <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
                 <tr>
                   <td>Area</td>
                   <td>Location Name</td>
-                  <td><a href="#"><i class="icon ri-pencil-line"></i> Edit</a><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
+                  <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
               </table>
             </div>

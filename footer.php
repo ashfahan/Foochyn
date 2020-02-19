@@ -37,9 +37,10 @@
 <script src="./vendors/jquery-ui/jquery-ui.min.js"></script>
 <script src="./js/MULTISTEPFORM.js"></script>
 <script src="./js/base.js"></script>
-<script src="./vendors/choices/public/assets/scripts/choices.min.js"></script>
+<script src="./vendors/choices/public/assets/scripts/choices.js"></script>
 <script>
-  let choices = new Choices('select');
-  console.log(choices);
+  $.each($('select'), (index, elem) => {
+    new Choices(elem);
+  })
 
 </script>

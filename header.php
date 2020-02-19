@@ -4,7 +4,7 @@
 <link href="./vendors/remixicon/remixicon.css" rel="stylesheet" />
 <link href="./vendors/slick/slick.css" rel="stylesheet" />
 <link href="./vendors/slick/slick-theme.css" rel="stylesheet" />
-<link href="./vendors/choices/public/assets/styles/choices.min.css" rel="stylesheet" />
+<link href="./vendors/choices/public/assets/styles/choices.css" rel="stylesheet" />
 
 <header class="lyt-header shadow-sm bg-white txt-center border-top-none">
   <div class="w-4 txt-center border-right pr-7px">

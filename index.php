@@ -46,7 +46,7 @@
                             </optgroup>
                         </select>
 
-                        <div class="icon is-left font-bold o-100" style="left:1.6em !important">Where</div>
+                        <div class="clr-body icon is-left font-bold o-100" style="left:1.6em !important">Where</div>
                     </label>
                 </div>
                 <button class="btn is-sld is-primary flex px-2 font-bold"><i class="icon ri-search-line mr-6"></i>Search</button>

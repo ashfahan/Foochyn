@@ -9,7 +9,7 @@
     <title>FOoChyn</title>
     <meta name="description" content="description" />
     <link href="../index.html" rel="canonical" />
-    </head>
+  </head>
 
   <body>
     <?php include 'header.php';?>

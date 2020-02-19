@@ -14,7 +14,13 @@
         <i class="icon is-lg ri-building-2-line"></i>&nbsp;<span>All Restaurants</span>
       </a>
       <a href="#" class="menu-item py-1rem">
-        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Add Restaurant</span>
+        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Restaurant's Oweners</span>
+      </a>
+      <a href="#" class="menu-item py-1rem">
+        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Restaurant Review</span>
+      </a>
+      <a href="#" class="menu-item py-1rem">
+        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Make Reservation</span>
       </a>
     </div>
   </div>

@@ -204,6 +204,11 @@
                   </select>
                 </div>
               </div>
+              <div class="column w-24">
+                <hr>
+              </div>
+              <div class="column w-12"> <button type="submit" class="btn is-out is-primary">Seat Now</button> </div>
+              <div class="column w-12 txt-right"> <button type="submit" class="btn is-sld is-primary">Book Now</button> </div>
             </div>
           </form>
         </main>

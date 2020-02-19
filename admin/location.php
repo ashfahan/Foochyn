@@ -55,6 +55,28 @@
             </div>
           </form>
 
+          <div class="flex justify-center mt-1rem">
+                    <button class="btn is-out bg-white is-primary inline-flex">
+                        <span class="icon is-lg"><i class="ri-arrow-left-s-fill"></i></span>
+                    </button>
+                    <div class="group mx-7px">
+                        <button class="btn is-out bg-white is-primary">1</button>
+                        <button class="btn is-out bg-white is-primary">2</button>
+                        <button class="btn is-out bg-white is-primary">3</button>
+                        <button class="btn is-out bg-white is-primary">4</button>
+                        <button class="btn is-out bg-white is-primary">5</button>
+                        <button class="btn is-out bg-white is-primary">6</button>
+                        <button class="btn is-out bg-white is-primary">7</button>
+                        <button class="btn is-out bg-white is-primary">8</button>
+                        <button class="btn is-out bg-white is-primary">9</button>
+                        <button class="btn is-out bg-white is-primary">10</button>
+                    </div>
+                    <button class="btn is-out bg-white is-primary inline-flex">
+                        <span class="icon is-lg"><i class="ri-arrow-right-s-fill"></i></span>
+                    </button>
+                </div>
+
+
           <h6 class="mt-4">Add Location</h6>
           <form class="grid align-middle">
             <div class="column"><input type="text" class="input" placeholder="Area"></div>

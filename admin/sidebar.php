@@ -14,9 +14,6 @@
         <i class="icon is-lg ri-building-2-line"></i>&nbsp;<span>All Restaurants</span>
       </a>
       <a href="#" class="menu-item py-1rem">
-        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Restaurant's Oweners</span>
-      </a>
-      <a href="#" class="menu-item py-1rem">
         <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Restaurant Review</span>
       </a>
       <a href="#" class="menu-item py-1rem">
@@ -30,10 +27,10 @@
     </a>
     <div class="menu">
       <a href="#" class="menu-item py-1rem">
-        <i class="icon is-lg ri-building-2-line"></i>&nbsp;<span>Joined Users</span>
+        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Customers</span>
       </a>
       <a href="#" class="menu-item py-1rem">
-        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Add Users</span>
+        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Restaurant's Oweners</span>
       </a>
     </div>
   </div>

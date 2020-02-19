@@ -11,16 +11,12 @@
         <title>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum perspiciatis rem praesentium eaque mollitia minima corporis fugit accusantium voluptas ducimus vero itaque voluptatibus maiores laboriosam, dolor id esse. Est, odit?</title>
         <link type="image/png" href="images/favicon.png" rel="icon" />
         <link href="index.html" rel="canonical" />
-        <link href="./scss/temp/fluid.css" rel="stylesheet" />
-        <link href="./scss/temp/base.css" rel="stylesheet" />
-        <link href="./fonts/Quicksand/fonts.css" rel="stylesheet" />
-        <link href="./vendors/remixicon/remixicon.css" rel="stylesheet" />
         <style>
             section {
                 box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.075);
             }
         </style>
-    </head>
+      </head>
 
     <body>
         <?php include 'header.php';?>

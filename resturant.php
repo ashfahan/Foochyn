@@ -8,14 +8,6 @@
     <meta name="description" content="description" />
     <title>FOoChyn</title>
     <link type="image/png" href="images/favicon.png" rel="icon" />
-    <link href="./scss/temp/fluid.css" rel="stylesheet" />
-    <link href="./scss/temp/fluid-component.css" rel="stylesheet" />
-    <link href="./vendors/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="./scss/temp/base.css" rel="stylesheet" />
-    <link href="./vendors/slick/slick.css" rel="stylesheet" />
-    <link href="./vendors/slick/slick-theme.css" rel="stylesheet" />
-  </head>
-
   <body>
     <?php include 'header.php';?>
 

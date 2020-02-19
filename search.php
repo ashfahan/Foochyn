@@ -11,10 +11,6 @@
         <title>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum perspiciatis rem praesentium eaque mollitia minima corporis fugit accusantium voluptas ducimus vero itaque voluptatibus maiores laboriosam, dolor id esse. Est, odit?</title>
         <link type="image/png" href="images/favicon.png" rel="icon" />
         <link href="index.html" rel="canonical" />
-        <link href="./scss/temp/fluid.css" rel="stylesheet" />
-        <link href="./fonts/Quicksand/fonts.css" rel="stylesheet" />
-        <link href="./vendors/remixicon/remixicon.css" rel="stylesheet" />
-        <link href="./vendors/remixicon/remixicon.css" rel="stylesheet" />
         <style>
             .more::after {
                 content: none;
@@ -24,7 +20,7 @@
                 display: none;
             }
         </style>
-    </head>
+      </head>
 
     <body>
         <section class="py-2 txt-center">

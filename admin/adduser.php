@@ -9,11 +9,7 @@
     <title>FOoChyn</title>
     <meta name="description" content="description" />
     <link href="../index.html" rel="canonical" />
-    <link rel="stylesheet" href="../vendors/remixicon/remixicon.css">
-    <link href="../scss/temp/fluid.css" rel="stylesheet" />
-    <link href="../scss/temp/fluid-component.css" rel="stylesheet" />
-    <link href="../scss/temp/addresturant.css" rel="stylesheet" />
-  </head>
+    </head>
 
   <body>
     <?php include 'header.php';?>
@@ -43,9 +39,5 @@
 
     <?php include '../footer.php';?>
   </body>
-  <script src="../vendors/jquery-3.4.1.min.js"></script>
-  <script src="../vendors/jquery-ui/jquery-ui.min.js"></script>
-  <script src="../js/base.js"></script>
-  <script src="../js/MULTISTEPFORM.js"></script>
 
 </html>

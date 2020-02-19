@@ -33,4 +33,13 @@
   <div class="container column w-24">© First Table (Australia) Pty Ltd 2014 - 2020. All rights reserved. The First Table logo and name are trademarks of First Table Limited.</div>
 </footer>
 
-<script src="../js/base.js"></script>
+<script src="./vendors/jquery-3.4.1.min.js"></script>
+<script src="./vendors/jquery-ui/jquery-ui.min.js"></script>
+<script src="./js/MULTISTEPFORM.js"></script>
+<script src="./js/base.js"></script>
+<script src="./vendors/choices/public/assets/scripts/choices.min.js"></script>
+<script>
+  let choices = new Choices('select');
+  console.log(choices);
+
+</script>

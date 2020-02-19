@@ -9,10 +9,7 @@
     <title>FOoChyn</title>
     <meta name="description" content="description" />
     <link href="../index.html" rel="canonical" />
-    <link href="../scss/temp/fluid.css" rel="stylesheet" />
-    <link href="../scss/temp/fluid-component.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../vendors/remixicon/remixicon.css">
-  </head>
+    </head>
 
   <body>
 

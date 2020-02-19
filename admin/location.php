@@ -37,7 +37,7 @@
                 <th>Location</th>
                 <th>Action</th>
                 <tr>
-                  <td><input type="text" class="input is-unstyle p-0" value="Area"></td>
+                  <td>Area</td>
                   <td>Location Name</td>
                   <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>

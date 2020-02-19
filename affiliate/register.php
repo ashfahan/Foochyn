@@ -98,7 +98,7 @@
       </section>
     </main>
 
-    <?php include '../footer.php';?>
+    <?php include './footer.php';?>
   </body>
   <script src="../js/base.js"></script>
 

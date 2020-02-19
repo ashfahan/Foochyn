@@ -42,5 +42,10 @@
   $.each($('select'), (index, elem) => {
     new Choices(elem);
   })
+</script>
 
+<link href="./vendors/DataTables/datatables.css" rel="stylesheet">
+<script src="./vendors/DataTables/datatables.js"></script>
+<script>
+  $('table').DataTable();
 </script>

@@ -40,7 +40,7 @@
                 <th>Location</th>
                 <th>Action</th>
                 <tr>
-                  <td>Area</td>
+                  <td><input type="text" class="input is-unstyle p-0" value="Area"></td>
                   <td>Location Name</td>
                   <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                 </tr>
@@ -69,8 +69,7 @@
       </div>
     </div>
 
-    <?php include 'footer.php';?>
-
+    <?php include '../footer.php';?>
   </body>
   <script src="../js/base.js"></script>
   <script src="../vendors/jquery-3.4.1.min.js"></script>

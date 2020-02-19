@@ -34,9 +34,11 @@
               <h5>All Location</h5>
               <table class="table">
                 <thead>
+                  <tr>
                   <th>Area</th>
                   <th>Location</th>
                   <th>Action</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>

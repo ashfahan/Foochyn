@@ -31,7 +31,7 @@
         <main class="lyt-main">
           <form class="bg-white shadow border p-2 is-round">
             <div class="has-table-responsive">
-              <h5>All Restaurants</h5>
+              <h5>All Review</h5>
               <table class="table">
                 <thead>
                   <tr>

@@ -15,7 +15,7 @@
     <?php include 'header.php';?>
 
     <div class="container">
-      <ol class="breadcrumb column w-24 w-20@sm mt-1rem">
+      <ol class="breadcrumb column w-24 w-20@sm my-7px">
         <h2 class="breadcrumb-item mb-0" data-separator="/">Dashboard</h2>
         <li class="breadcrumb-item" data-separator="/" aria-current="page">Add Restaurant</li>
       </ol>

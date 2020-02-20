@@ -19,7 +19,7 @@
         <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Restaurant Review</span>
       </a>
       <a href="#" class="menu-item py-1rem">
-        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Make Reservation</span>
+        <i class="icon is-lg ri-hotel-line"></i>&nbsp;<span>Upcoming Reservations</span>
       </a>
     </div>
   </div>

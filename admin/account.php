@@ -27,21 +27,30 @@
       </div>
 
       <div class="column">
-        <main class="lyt-main">
+        <main class="lyt-main h-min-100vh">
           <form>
             <div class="bg-white shadow border p-2 is-round grid">
-              <div class="column control block w-24 py-2 txt-right">
-                <button class="btn is-sld is-valid is-pill">Update</button>
-              </div>
+              <h5>Accont Setting</h5>
+                <div class="column control block w-24 py-2 txt-right">
+                  <button class="btn is-sld is-valid is-pill">Update</button>
+                </div>
 
-              <label class="column control block w-12 py-2">
+              <label class="column control block w-13 py-2">
                 <span>Username</span>
                 <input value="admin" class="input mt-1rem" type="text" />
               </label>
 
-              <label class="column control block w-12 py-2">
-                <span>Password</span>
-                <input class="input mt-1rem" type="password" />
+              <label class="column control block w-13">
+                <span>Old Password</span>
+                <input class="input" type="password" />
+              </label>
+              <label class="column control block w-13">
+                <span>New Password</span>
+                <input class="input" type="password" />
+              </label>
+              <label class="column control block w-13">
+                <span>Confirm Password</span>
+                <input class="input" type="password" />
               </label>
             </div>
           </form>

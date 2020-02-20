@@ -325,7 +325,5 @@
       <?php include './footer.php';?>
     </div>
   </body>
-  <script src="../js/base.js"></script>
-  <script src="../vendors/jquery-3.4.1.min.js"></script>
 
 </html>

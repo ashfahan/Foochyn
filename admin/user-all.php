@@ -27,9 +27,8 @@
             <li class="breadcrumb-item" data-separator="/" aria-current="page">Add Restaurant</li>
           </ol>
 
-        <main class="lyt-main mb-1rem">
-          <form>
-            <div class="bg-white shadow border p-2 is-round has-table-responsive">
+          <main class="lyt-main mb-1rem bg-white shadow border p-2 is-round ">
+            <form class="has-table-responsive" \>
               <h5>All Users</h5>
               <table class="table">
                 <thead>
@@ -316,13 +315,15 @@
                   </tr>
                 </tbody>
               </table>
-            </div>
-          </form>
-        </main>
-      </div>
-    </div>
+            </form>
 
-    <?php include './footer.php';?>
+            <div class="txt-right mt-1rem"><button class="btn is-sld is-primary"><span class="icon"><i class="ri-file-list-2-line"></i></span> Export All users</button></div>
+          </main>
+        </div>
+      </div>
+
+      <?php include './footer.php';?>
+    </div>
   </body>
   <script src="../js/base.js"></script>
   <script src="../vendors/jquery-3.4.1.min.js"></script>

@@ -61,8 +61,8 @@
                 </section>
                 <section class="my-4">
                     <h6>When did you visit?</h6>
-                    <select class="input CHOICES">
-                        <option hidden selected>Select one</option>
+                    <select class="input choices">
+                        <option value="" hidden selected>Select one</option>
                         <option value="Breakfast">Breakfast</option>
                         <option value="Brunch">Brunch</option>
                         <option value="Lunch">Lunch</option>
@@ -77,8 +77,8 @@
                 </section>
                 <section class="my-4">
                     <h6>When did you visit?</h6>
-                    <select class="input CHOICES">
-                        <option hidden selected>Select one</option>
+                    <select class="input choices">
+                        <option value="" hidden selected>Select one</option>
                         <option name="trip_date_month_year" value="1,2020">January 2020</option>
                         <option name="trip_date_month_year" value="2,2020">February 2020</option>
                         <option name="trip_date_month_year" value="3,2020">March 2020</option>

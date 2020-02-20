@@ -34,510 +34,510 @@
               <table class="table">
                 <thead>
                   <tr>
-                  <th>Area</th>
+                  <th>City</th>
                   <th>Location</th>
                   <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 2</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 3</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 4</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 5</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 6</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 7</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 8</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 9</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 10</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 11</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 12</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 13</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 14</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 15</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 16</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 17</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 18</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 19</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 20</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 21</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 22</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 23</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 24</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 25</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 26</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 27</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 28</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 29</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 30</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 31</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 32</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 33</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 34</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 35</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 36</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 37</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 38</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 39</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 40</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 41</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 42</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 43</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 44</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 45</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 46</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 47</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 48</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 49</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 50</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 51</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 52</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 53</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 54</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 55</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 56</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 57</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 58</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 59</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 60</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 61</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 62</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 63</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 64</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 65</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 66</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 67</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 68</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 69</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 70</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 71</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 72</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 73</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 74</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 75</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 76</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 77</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 78</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 79</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 80</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 81</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 82</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 83</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 84</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 85</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 86</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 87</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 88</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 89</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 90</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 91</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 92</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 93</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 94</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 95</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 96</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 97</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 98</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 99</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 100</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                   <tr>
+                    <td>City Name</td>
                     <td>Area 1</td>
-                    <td>Location Name</td>
                     <td><a class="ml-1rem" href="#"><i class="icon ri-delete-bin-2-line"></i> Remove</a></td>
                   </tr>
                 </tbody>

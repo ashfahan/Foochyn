@@ -49,7 +49,7 @@
           <div class="grid has-gap-lg">
             <div class="column w-24"><input class="input" type="text" required placeholder="Restaurant Name" /></div>
             <div class="column w-24">
-              <select class="input CHOICES" required>
+              <select class="input choices" required>
                 <option value selected hidden>Which of the following best describe this resturant?</option>
                 <option>in the process of opening a new resturant</option>
                 <option>My resturant doesnt take reservations</option>
@@ -58,7 +58,7 @@
               </select>
             </div>
             <div class="column w-24">
-              <select class="input CHOICES" required>
+              <select class="input choices" required>
                 <option value selected hidden>Number of Location</option>
                 <option>Number of Location 1</option>
                 <option>Number of Location 2-5</option>
@@ -68,7 +68,7 @@
               </select>
             </div>
             <div class="column w-24">
-              <select class="input CHOICES" required>
+              <select class="input choices" required>
                 <option value selected hidden>Which of the following best describe your role at this resturant?</option>
                 <option>I Am Owner</option>
                 <option>I Am Chef</option>
@@ -81,8 +81,8 @@
             <div class="column w-24"><input class="input" type="text" required placeholder="Address" /></div>
             <div class="column w-12"><input class="input" type="text" required placeholder="City" /></div>
             <div class="column w-12">
-              <select class="input CHOICES" required>
-                <option value selected hidden="">Location</option>
+              <select class="input choices" required>
+                <option value selected >Location</option>
                 <option>Area 1</option>
                 <option>Area 2</option>
                 <option>Area 3</option>

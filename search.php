@@ -39,7 +39,7 @@
 
                     <div class="menu">
                         <button class="btn is-unstyle is-block txt-left py-7px">MEAL</button>
-                        <select class="input CHOICES">
+                        <select class="input choices">
                             <option>Midnight</option>
                             <option>Breakfast</option>
                             <option>Lunch</option>
@@ -50,8 +50,8 @@
 
                     <div class="menu">
                         <button class="btn is-unstyle is-block txt-left py-7px">Area</button>
-                        <select class="input CHOICES">
-                            <option hidden>City</option>
+                        <select class="input choices">
+                            <option value="" hidden>City</option>
                             <optgroup label="City 1">
                                 <option>Area 1</option>
                                 <option>Area 2</option>

@@ -39,7 +39,7 @@
 <script src="./js/base.js"></script>
 <script src="./vendors/choices/public/assets/scripts/choices.js"></script>
 <script>
-  $.each($('.CHOICES'), (index, elem) => {
+  $.each($('.choices'), (index, elem) => {
     new Choices(elem);
   })
 </script>

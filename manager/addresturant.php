@@ -65,7 +65,6 @@
                       <input class="file" id="Images" type="file"><label class="label btn is-sld is-primary" for="Images">Upload Images</label>
                       <div class="is-sm mt-1rem">Supported image format: .jpeg, .jpg, .png . Can Select Multiple Images</div>
                     </div>
-
                   </div>
 
                 </fieldset>
@@ -87,7 +86,7 @@
                     <input class="checkbox w-1" type="checkbox" />
                     <span class="w-2">Closed</span>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -187,7 +186,7 @@
                       </select>
                     </div>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -293,7 +292,7 @@
                     <input class="checkbox w-1" type="checkbox" />
                     <span class="w-2">Closed</span>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -393,7 +392,7 @@
                       </select>
                     </div>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -499,7 +498,7 @@
                     <input class="checkbox w-1" type="checkbox" />
                     <span class="w-2">Closed</span>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -599,7 +598,7 @@
                       </select>
                     </div>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -705,7 +704,7 @@
                     <input class="checkbox w-1" type="checkbox" />
                     <span class="w-2">Closed</span>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -805,7 +804,7 @@
                       </select>
                     </div>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -911,7 +910,7 @@
                     <input class="checkbox w-1" type="checkbox" />
                     <span class="w-2">Closed</span>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -1011,7 +1010,7 @@
                       </select>
                     </div>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -1117,7 +1116,7 @@
                     <input class="checkbox w-1" type="checkbox" />
                     <span class="w-2">Closed</span>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -1217,7 +1216,7 @@
                       </select>
                     </div>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -1322,7 +1321,7 @@
                     <input class="checkbox w-1" type="checkbox" />
                     <span class="w-2">Closed</span>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>
@@ -1422,7 +1421,7 @@
                       </select>
                     </div>
                     <div class="column w-5">
-                      <select class="input CHOICES">
+                      <select class="input choices">
                         <option>12:15 am</option>
                         <option>12:30 am</option>
                         <option>12:45 am</option>

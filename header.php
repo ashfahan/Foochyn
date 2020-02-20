@@ -11,8 +11,8 @@
     <a href="."> <img class="img w-17" src="./images/logo.svg" alt="EazyDiner"> </a>
   </div>
   <div class="column w-4 pr-7px">
-    <select class="input CHOICES w-16 is-unstyle">
-      <option hidden="">City</option>
+    <select class="input choices w-16 is-unstyle">
+      <option value="" >City</option>
       <optgroup label="City 1">
         <option>Area 1</option>
         <option>Area 2</option>

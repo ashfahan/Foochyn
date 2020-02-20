@@ -23,6 +23,8 @@
     </head>
 
     <body>
+        <?php include 'header.php';?>
+
         <section class="py-2 txt-center">
             <img src="./images/Ad1.jpg" />
         </section>
@@ -856,6 +858,8 @@
                 </div>
             </div>
         </section>
+
+        <?php include 'footer.php';?>
     </body>
 
 </html>

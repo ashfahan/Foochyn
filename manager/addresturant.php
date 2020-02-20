@@ -81,13 +81,13 @@
                       </select>
                     </label>
                     <label class="column control w-12 py-2"><img src="../images/dummy_map.jpg" alt="" class="img"></label>
+                    <label class="column control w-12 py-2"><span class="font-bold">About us</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
                     <div class="column control w-24">
                       <div class="mb-1rem font-bold">Restaurant Images</div>
                       <input class="file" id="Images" type="file"><label class="label btn is-sld is-primary" for="Images">Upload Images</label>
                       <div class="is-sm mt-1rem">Supported image format: .jpeg, .jpg, .png . Can Select Multiple Images</div>
                     </div>
                   </div>
-
                 </fieldset>
 
                 <fieldset class="STEP bg-white is-round shadow p-4 w-24">

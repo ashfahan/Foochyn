@@ -27,7 +27,7 @@
       </div>
 
       <div class="column">
-        <main class="lyt-main">
+        <main class="lyt-main mb-1rem">
           <form>
             <div class="bg-white shadow border p-2 is-round grid has-gap-lg">
               <div class="column w-10 flex is-y align-middle justify-center">

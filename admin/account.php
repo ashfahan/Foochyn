@@ -28,7 +28,7 @@
             <li class="breadcrumb-item" data-separator="/" aria-current="page">Add Restaurant</li>
           </ol>
 
-          <main class="lyt-main">
+          <main class="lyt-main mb-1rem">
             <form>
               <div class="bg-white shadow border p-2 is-round grid">
                 <h5>Accont Setting</h5>

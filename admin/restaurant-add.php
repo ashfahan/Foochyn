@@ -27,7 +27,7 @@
             <li class="breadcrumb-item" data-separator="/" aria-current="page">Add Restaurant</li>
           </ol>
 
-        <main class="lyt-main">
+        <main class="lyt-main mb-1rem">
           <form class="MULTISTEPFORM">
             <ul class="STEPS">
               <li class="active">General information</li>

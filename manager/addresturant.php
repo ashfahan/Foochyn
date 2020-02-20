@@ -58,7 +58,28 @@
                     <label class="column control w-12 py-2"><span class="font-bold">Restaurant Email</span><input placeholder="email@Restaurant.com" class="input mt-1rem" type="email" /></label>
                     <label class="column control w-12 py-2"><span class="font-bold">Restaurant Phone</span><input placeholder="+44 (0) 20 3310 2000" class="input mt-1rem" type="tel" /></label>
                     <label class="column control w-12 py-2"><span class="font-bold">Job Title in Restaurant</span><input placeholder="Manager" class="input mt-1rem" type="text" /></label>
-                    <label class="column control w-12 py-2"><span class="font-bold">Address</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
+                    <label class="column control w-12 py-2">
+                      <span class="font-bold">Address</span>
+                      <select class="input choices w-16 is-unstyle">
+                        <option value="">City</option>
+                        <optgroup label="City 1">
+                          <option>Area 1</option>
+                          <option>Area 2</option>
+                          <option>Area 3</option>
+                          <option>Area 4</option>
+                          <option>Area 5</option>
+                        </optgroup>
+
+                        <optgroup label="City 2">
+                          <option>Area 6</option>
+                          <option>Area 7</option>
+                          <option>Area 8</option>
+                          <option>Area 9</option>
+                          <option>Area 10</option>
+                          <option>Area 11</option>
+                        </optgroup>
+                      </select>
+                    </label>
                     <label class="column control w-12 py-2"><img src="../images/dummy_map.jpg" alt="" class="img"></label>
                     <div class="column control w-24">
                       <div class="mb-1rem font-bold">Restaurant Images</div>

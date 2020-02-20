@@ -12,7 +12,7 @@
     </head>
 
   <body>
-    <?php include 'adminheader.php';?>
+    <?php include 'header.php';?>
 
     <div class="container">
       <ol class="breadcrumb column w-24 w-20@sm mt-1rem">
@@ -23,7 +23,7 @@
 
     <div class="grid has-gap-lg container my-1rem">
       <div class="column w-6">
-        <?php include 'adminsidebar.php';?>
+        <?php include 'sidebar.php';?>
       </div>
 
       <div class="column">

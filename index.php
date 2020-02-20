@@ -26,7 +26,7 @@
                         <div class="icon is-left font-bold o-100" style="left:1.6em !important">What</div>
                     </label>
                     <label class="control has-icon-left border-left">
-                        <select class="input clr-disabled is-dark p-7px border-none" style="padding-left: 4.5em !important">
+                        <select class="input CHOICES clr-disabled is-dark p-7px border-none" style="padding-left: 4.5em !important">
                             <option hidden>City</option>
                             <optgroup class="clr-body" label="City 1">
                                 <option>Area 1</option>

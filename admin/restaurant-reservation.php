@@ -32,7 +32,7 @@
             <div class="grid">
               <div class="column w-12">
                 <div>Restaurant Name:</div>
-                <select class="input">
+                <select class="input CHOICES">
                   <option selected hidden> Select Restaurant Name</option>
                   <option>Amanyara</option>
                   <option>Apna Panjab</option>
@@ -198,7 +198,7 @@
               <div class="column w-12">
                 <div>Booking Time Slot</div>
                 <div class="group">
-                  <select class="input" required="required">
+                  <select class="input CHOICES" required="required">
                     <option value="? undefined:undefined ?"></option>
                   </select>
                 </div>

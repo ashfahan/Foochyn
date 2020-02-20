@@ -20,7 +20,7 @@
                 display: none;
             }
         </style>
-      </head>
+    </head>
 
     <body>
         <section class="py-2 txt-center">
@@ -37,7 +37,7 @@
 
                     <div class="menu">
                         <button class="btn is-unstyle is-block txt-left py-7px">MEAL</button>
-                        <select class="input">
+                        <select class="input CHOICES">
                             <option>Midnight</option>
                             <option>Breakfast</option>
                             <option>Lunch</option>
@@ -48,7 +48,7 @@
 
                     <div class="menu">
                         <button class="btn is-unstyle is-block txt-left py-7px">Area</button>
-                        <select class="input">
+                        <select class="input CHOICES">
                             <option hidden>City</option>
                             <optgroup label="City 1">
                                 <option>Area 1</option>

@@ -74,7 +74,7 @@
 
                 <label class="column control block w-8 py-2">
                   <span>Nation</span>
-                  <select class="input mt-1rem">
+                  <select class="input CHOICES mt-1rem">
                     <option hidden="">Location</option>
                     <optgroup label="City 1">
                       <option>Area 1</option>
@@ -97,7 +97,7 @@
 
                 <label class="column control w-8 py-2">
                   <span>Gender</span>
-                  <select class="input mt-1rem">
+                  <select class="input CHOICES mt-1rem">
                     <option>Male</option>
                     <option>Female</option>
                     <option>Other</option>
@@ -105,7 +105,7 @@
                 </label>
                 <label class="column control w-8 py-2">
                   <span>Language</span>
-                  <select class="input mt-1rem">
+                  <select class="input CHOICES mt-1rem">
                     <option>Male</option>
                     <option>Female</option>
                     <option>Other</option>
@@ -114,7 +114,7 @@
 
                 <label class="column w-8 control py-2">
                   <span>Date</span>
-                  <select class="input mt-1rem">
+                  <select class="input CHOICES mt-1rem">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -150,7 +150,7 @@
                 </label>
                 <label class="column w-8 control py-2">
                   <span>Month</span>
-                  <select class="input mt-1rem">
+                  <select class="input CHOICES mt-1rem">
                     <option>Jan</option>
                     <option>Feb</option>
                     <option>Mar</option>
@@ -167,7 +167,7 @@
                 </label>
                 <label class="column w-8 control py-2">
                   <span>Year</span>
-                  <select class="input mt-1rem">
+                  <select class="input CHOICES mt-1rem">
                     <option>1950</option>
                     <option>1951</option>
                     <option>1952</option>

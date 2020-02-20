@@ -86,7 +86,7 @@
                   <input class="checkbox w-1" type="checkbox" />
                   <span class="w-2">Closed</span>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -186,7 +186,7 @@
                     </select>
                   </div>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -292,7 +292,7 @@
                   <input class="checkbox w-1" type="checkbox" />
                   <span class="w-2">Closed</span>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -392,7 +392,7 @@
                     </select>
                   </div>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -498,7 +498,7 @@
                   <input class="checkbox w-1" type="checkbox" />
                   <span class="w-2">Closed</span>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -598,7 +598,7 @@
                     </select>
                   </div>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -704,7 +704,7 @@
                   <input class="checkbox w-1" type="checkbox" />
                   <span class="w-2">Closed</span>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -804,7 +804,7 @@
                     </select>
                   </div>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -910,7 +910,7 @@
                   <input class="checkbox w-1" type="checkbox" />
                   <span class="w-2">Closed</span>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -1010,7 +1010,7 @@
                     </select>
                   </div>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -1116,7 +1116,7 @@
                   <input class="checkbox w-1" type="checkbox" />
                   <span class="w-2">Closed</span>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -1216,7 +1216,7 @@
                     </select>
                   </div>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -1321,7 +1321,7 @@
                   <input class="checkbox w-1" type="checkbox" />
                   <span class="w-2">Closed</span>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>
@@ -1421,7 +1421,7 @@
                     </select>
                   </div>
                   <div class="column w-5">
-                    <select class="input">
+                    <select class="input CHOICES">
                       <option>12:15 am</option>
                       <option>12:30 am</option>
                       <option>12:45 am</option>

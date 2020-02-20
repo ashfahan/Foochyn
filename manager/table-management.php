@@ -14,7 +14,7 @@
 
   <body>
     <div class="grid has-gap-0">
-      <div class="column w-6">
+      <div class="column w-5">
         <?php include 'sidebar.php';?>
       </div>
 

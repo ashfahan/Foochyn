@@ -22,7 +22,7 @@
     </div>
 
     <div class="grid has-gap-lg container my-1rem">
-      <div class="column w-6">
+      <div class="column w-5">
         <?php include 'sidebar.php';?>
       </div>
 

@@ -7,6 +7,7 @@
 <link href="../vendors/choices/public/assets/styles/choices.css" rel="stylesheet" />
 
 <header class="lyt-header shadow-sm bg-white txt-center grid border-top-none">
+  <button class="btn"><span class="icon is-lg"><i class="ri-menu-line"></i></span></button>
   <div class="column w-4 txt-center border-right pr-7px">
     <a href="."> <img class="img w-17" src="../images/logo.svg" alt="EazyDiner"> </a>
   </div>

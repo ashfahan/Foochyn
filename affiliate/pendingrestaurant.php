@@ -12,21 +12,20 @@
     </head>
 
   <body>
-    <?php include 'header.php';?>
-
-    <div class="container">
-      <ol class="breadcrumb column w-24 w-20@sm mt-1rem">
-        <h2 class="breadcrumb-item mb-0" data-separator="/">Dashboard</h2>
-        <li class="breadcrumb-item" data-separator="/" aria-current="page">Add Restaurant</li>
-      </ol>
-    </div>
-
-    <div class="grid has-gap-lg container my-1rem">
+    <div class="grid has-gap-0">
       <div class="column w-6">
         <?php include 'sidebar.php';?>
       </div>
 
       <div class="column">
+        <?php include 'header.php';?>
+
+        <div class="px-2">
+          <ol class="breadcrumb column w-24 w-20@sm mt-1rem">
+            <h2 class="breadcrumb-item mb-0" data-separator="/">Dashboard</h2>
+            <li class="breadcrumb-item" data-separator="/" aria-current="page">Add Restaurant</li>
+          </ol>
+
         <main class="lyt-main">
           <form>
             <div class="bg-white shadow border p-2 is-round">

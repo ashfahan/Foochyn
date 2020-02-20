@@ -167,6 +167,7 @@
                         <span class="clr-disabled">Sort By </span>
                         <select class="input is-unstyle w-auto event-auto">
                             <option>Popularity</option>
+                            <option>Saved</option>
                             <option>Critic Rating</option>
                             <option>Cost Low to High</option>
                             <option>Cost High to Low</option>

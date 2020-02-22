@@ -11,7 +11,7 @@
         <title>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum perspiciatis rem praesentium eaque mollitia minima corporis fugit accusantium voluptas ducimus vero itaque voluptatibus maiores laboriosam, dolor id esse. Est, odit?</title>
         <link type="image/png" href="images/favicon.png" rel="icon">
         <link href="index.html" rel="canonical">
-      </head>
+    </head>
 
     <body>
         <?php include 'header.php';?>
@@ -32,14 +32,19 @@
                     <hr>
                     <div class="flex align-middle justify-between">
                         <h6 class="column">Your overall rating of this restaurant</h6>
-                        <div class="column flex align-middle justify-end">
-                            <div class="mr-7px ri-star-line ri-2x"></div>
-                            <div class="mr-7px ri-star-line ri-2x"></div>
-                            <div class="mr-7px ri-star-line ri-2x"></div>
-                            <div class="mr-7px ri-star-line ri-2x"></div>
-                            <div class="mr-7px ri-star-line ri-2x"></div>
-                            <div class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left">Click to rate</div>
-                        </div>
+                        <fieldset class="column flex-grow rating">
+                            <span class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left float-right">Click to rate</span><input type="radio" id="star5" name="rating" value="5"><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half"><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4"><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half"><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3"><label class="full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half"><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2"><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half"><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half"><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
+                    </div>
                 </section>
                 <section class="my-4">
                     <h6>Title of your review</h6>
@@ -150,36 +155,48 @@
                     <hr>
                     <div class="grid align-middle pl-1rem my-1rem">
                         <div class="column">Service</div>
-                        <div class="flex align-middle">
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                        </div>
-                        <div class="font-bold bg-primary p-7px clr-white triangle-left">Click to rate</div>
+                        <fieldset class="column flex-grow rating">
+                            <span class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left float-right">Click to rate</span><input type="radio" id="star5" name="rating" value="5"><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half"><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4"><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half"><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3"><label class="full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half"><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2"><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half"><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half"><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
                     </div>
                     <div class="grid align-middle pl-1rem my-1rem">
                         <div class="column">Food</div>
-                        <div class="flex align-middle">
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                        </div>
-                        <div class="font-bold bg-primary p-7px clr-white triangle-left">Click to rate</div>
+                        <fieldset class="column flex-grow rating">
+                            <span class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left float-right">Click to rate</span><input type="radio" id="star5" name="rating" value="5"><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half"><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4"><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half"><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3"><label class="full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half"><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2"><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half"><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half"><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
                     </div>
                     <div class="grid align-middle pl-1rem my-1rem">
                         <div class="column">Value</div>
-                        <div class="flex align-middle">
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                            <div><i class="ri-star-line ri-2x"></i></div>
-                        </div>
-                        <div class="font-bold bg-primary p-7px clr-white triangle-left">Click to rate</div>
+                        <fieldset class="column flex-grow rating">
+                            <span class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left float-right">Click to rate</span><input type="radio" id="star5" name="rating" value="5"><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half"><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4"><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half"><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3"><label class="full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half"><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2"><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half"><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half"><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
                     </div>
                 </section>
                 <section class="my-4">

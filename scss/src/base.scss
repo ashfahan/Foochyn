@@ -9,7 +9,7 @@
   }
 
   .img-bg {
-    @include transition(transform .3s ease-in-out);
+    @include transition(transform 0.3s ease-in-out);
   }
 
   @include hover {
@@ -40,4 +40,68 @@
     bottom: 0;
     @include triangle(left, 17px, $primary);
   }
+}
+
+fieldset,
+label {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 20px;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+  border: none;
+  float: left;
+
+  @include after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.rating > input {
+  display: none;
+}
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: "remixicon";
+  display: inline-block;
+  content: "\efe1";
+}
+
+.rating > .half:before {
+  content: "\efe1";
+  position: absolute;
+  width: 0.5em;
+  overflow: hidden;
+}
+
+.rating > label {
+  color: #ddd;
+  float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+} /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label {
+  color: #ffed85;
 }

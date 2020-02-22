@@ -66,42 +66,56 @@ h1 {
     display: block;
     clear: both;
   }
-}
 
-.rating > input {
-  display: none;
-}
-.rating > label:before {
-  margin: 5px;
-  font-size: 1.25em;
-  font-family: "remixicon";
-  display: inline-block;
-  content: "\efe1";
-}
+  input {
+    display: none;
+  }
 
-.rating > .half:before {
-  content: "\efe1";
-  position: absolute;
-  width: 0.5em;
-  overflow: hidden;
-}
+  label:before {
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: "remixicon";
+    display: inline-block;
+    content: "\efe1";
+  }
 
-.rating > label {
-  color: #ddd;
-  float: right;
+  .half:before {
+    content: "\efe1";
+    position: absolute;
+    width: 0.5em;
+    overflow: hidden;
+  }
+
+  label {
+    color: #ddd;
+    float: right;
+  }
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/
 
-.rating > input:checked ~ label, /* show gold star when clicked */
-.rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label {
-  color: #ffd700;
-} /* hover previous stars in list */
+.rating {
+  input:checked ~ label {
+    color: #ffd700; // hover previous stars in list
+  }
 
-.rating > input:checked + label:hover, /* hover current star when changing rating */
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label {
-  color: #ffed85;
+  &:not(:checked) > label:hover {
+    color: #ffd700; // hover previous stars in list
+
+    ~ label {
+      color: #ffd700; // hover previous stars in list
+    }
+  }
+
+  input:checked {
+    + label:hover,
+    ~ label:hover {
+      color: #ffed85;
+    }
+  }
+
+  label:hover ~ input:checked ~ label,
+  input:checked ~ label:hover ~ label {
+    color: #ffed85;
+  }
 }

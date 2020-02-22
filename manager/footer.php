@@ -35,8 +35,8 @@
 
 <script src="../vendors/jquery-3.4.1.min.js"></script>
 <script src="../vendors/jquery-ui/jquery-ui.min.js"></script>
-<script src="../js/MULTISTEPFORM.js"></script>
-<script src="../js/base.js"></script>
 <script src="../vendors/choices/public/assets/scripts/choices.js"></script>
 <link href="../vendors/DataTables/datatables.css" rel="stylesheet">
 <script src="../vendors/DataTables/datatables.js"></script>
+<script src="../js/base.js"></script>
+<script src="../js/MULTISTEPFORM.js"></script>

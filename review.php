@@ -34,15 +34,15 @@
                         <h6 class="column">Your overall rating of this restaurant</h6>
                         <fieldset class="column flex-grow rating">
                             <span class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left float-right">Click to rate</span><input type="radio" id="star5" name="rating" value="5"><label class="full" for="star5" title="Awesome - 5 stars"></label>
-                            <input type="radio" id="star4half" name="rating" value="4 and a half"><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-                            <input type="radio" id="star4" name="rating" value="4"><label class="full" for="star4" title="Pretty good - 4 stars"></label>
-                            <input type="radio" id="star3half" name="rating" value="3 and a half"><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-                            <input type="radio" id="star3" name="rating" value="3"><label class="full" for="star3" title="Meh - 3 stars"></label>
-                            <input type="radio" id="star2half" name="rating" value="2 and a half"><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-                            <input type="radio" id="star2" name="rating" value="2"><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
-                            <input type="radio" id="star1half" name="rating" value="1 and a half"><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-                            <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Sucks big time - 1 star"></label>
-                            <input type="radio" id="starhalf" name="rating" value="half"><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            <input type="radio" id="overallrating_4half" name="overallrating" value="4 and a half"><label class="half" for="overallrating_4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="overallrating_4" name="overallrating" value="4"><label class="full" for="overallrating_4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="overallrating_3half" name="overallrating" value="3 and a half"><label class="half" for="overallrating_3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="overallrating_3" name="overallrating" value="3"><label class="full" for="overallrating_3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="overallrating_2half" name="overallrating" value="2 and a half"><label class="half" for="overallrating_2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="overallrating_2" name="overallrating" value="2"><label class="full" for="overallrating_2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="overallrating_1half" name="overallrating" value="1 and a half"><label class="half" for="overallrating_1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="overallrating_1" name="overallrating" value="1"><label class="full" for="overallrating_1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="overallrating_half" name="overallrating" value="half"><label class="half" for="overallrating_half" title="Sucks big time - 0.5 stars"></label>
                         </fieldset>
                     </div>
                 </section>
@@ -157,45 +157,45 @@
                         <div class="column">Service</div>
                         <fieldset class="column flex-grow rating">
                             <span class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left float-right">Click to rate</span><input type="radio" id="star5" name="rating" value="5"><label class="full" for="star5" title="Awesome - 5 stars"></label>
-                            <input type="radio" id="star4half" name="rating" value="4 and a half"><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-                            <input type="radio" id="star4" name="rating" value="4"><label class="full" for="star4" title="Pretty good - 4 stars"></label>
-                            <input type="radio" id="star3half" name="rating" value="3 and a half"><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-                            <input type="radio" id="star3" name="rating" value="3"><label class="full" for="star3" title="Meh - 3 stars"></label>
-                            <input type="radio" id="star2half" name="rating" value="2 and a half"><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-                            <input type="radio" id="star2" name="rating" value="2"><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
-                            <input type="radio" id="star1half" name="rating" value="1 and a half"><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-                            <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Sucks big time - 1 star"></label>
-                            <input type="radio" id="starhalf" name="rating" value="half"><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            <input type="radio" id="service_4half" name="Service" value="4 and a half"><label class="half" for="service_4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="service_4" name="Service" value="4"><label class="full" for="service_4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="service_3half" name="Service" value="3 and a half"><label class="half" for="service_3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="service_3" name="Service" value="3"><label class="full" for="service_3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="service_2half" name="Service" value="2 and a half"><label class="half" for="service_2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="service_2" name="Service" value="2"><label class="full" for="service_2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="service_1half" name="Service" value="1 and a half"><label class="half" for="service_1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="service_1" name="Service" value="1"><label class="full" for="service_1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="service_half" name="Service" value="half"><label class="half" for="service_half" title="Sucks big time - 0.5 stars"></label>
                         </fieldset>
                     </div>
                     <div class="grid align-middle pl-1rem my-1rem">
                         <div class="column">Food</div>
                         <fieldset class="column flex-grow rating">
                             <span class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left float-right">Click to rate</span><input type="radio" id="star5" name="rating" value="5"><label class="full" for="star5" title="Awesome - 5 stars"></label>
-                            <input type="radio" id="star4half" name="rating" value="4 and a half"><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-                            <input type="radio" id="star4" name="rating" value="4"><label class="full" for="star4" title="Pretty good - 4 stars"></label>
-                            <input type="radio" id="star3half" name="rating" value="3 and a half"><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-                            <input type="radio" id="star3" name="rating" value="3"><label class="full" for="star3" title="Meh - 3 stars"></label>
-                            <input type="radio" id="star2half" name="rating" value="2 and a half"><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-                            <input type="radio" id="star2" name="rating" value="2"><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
-                            <input type="radio" id="star1half" name="rating" value="1 and a half"><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-                            <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Sucks big time - 1 star"></label>
-                            <input type="radio" id="starhalf" name="rating" value="half"><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            <input type="radio" id="food_4half" name="food" value="4 and a half"><label class="half" for="food_4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="food_4" name="food" value="4"><label class="full" for="food_4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="food_3half" name="food" value="3 and a half"><label class="half" for="food_3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="food_3" name="food" value="3"><label class="full" for="food_3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="food_2half" name="food" value="2 and a half"><label class="half" for="food_2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="food_2" name="food" value="2"><label class="full" for="food_2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="food_1half" name="food" value="1 and a half"><label class="half" for="food_1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="food_1" name="food" value="1"><label class="full" for="food_1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="food_half" name="food" value="half"><label class="half" for="food_half" title="Sucks big time - 0.5 stars"></label>
                         </fieldset>
                     </div>
                     <div class="grid align-middle pl-1rem my-1rem">
                         <div class="column">Value</div>
                         <fieldset class="column flex-grow rating">
                             <span class="mr-4 txt-super font-bold bg-primary p-7px clr-white triangle-left float-right">Click to rate</span><input type="radio" id="star5" name="rating" value="5"><label class="full" for="star5" title="Awesome - 5 stars"></label>
-                            <input type="radio" id="star4half" name="rating" value="4 and a half"><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-                            <input type="radio" id="star4" name="rating" value="4"><label class="full" for="star4" title="Pretty good - 4 stars"></label>
-                            <input type="radio" id="star3half" name="rating" value="3 and a half"><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-                            <input type="radio" id="star3" name="rating" value="3"><label class="full" for="star3" title="Meh - 3 stars"></label>
-                            <input type="radio" id="star2half" name="rating" value="2 and a half"><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-                            <input type="radio" id="star2" name="rating" value="2"><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
-                            <input type="radio" id="star1half" name="rating" value="1 and a half"><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-                            <input type="radio" id="star1" name="rating" value="1"><label class="full" for="star1" title="Sucks big time - 1 star"></label>
-                            <input type="radio" id="starhalf" name="rating" value="half"><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            <input type="radio" id="value_4half" name="value" value="4 and a half"><label class="half" for="value_4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="value_4" name="value" value="4"><label class="full" for="value_4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="value_3half" name="value" value="3 and a half"><label class="half" for="value_3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="value_3" name="value" value="3"><label class="full" for="value_3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="value_2half" name="value" value="2 and a half"><label class="half" for="value_2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="value_2" name="value" value="2"><label class="full" for="value_2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="value_1half" name="value" value="1 and a half"><label class="half" for="value_1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="value_1" name="value" value="1"><label class="full" for="value_1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="value_half" name="value" value="half"><label class="half" for="value_half" title="Sucks big time - 0.5 stars"></label>
                         </fieldset>
                     </div>
                 </section>

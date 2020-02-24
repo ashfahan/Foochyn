@@ -18,6 +18,20 @@
       <form class="container grid">
         <div class="column">
           <section class="my-1rem bg-white is-round p-4 grid has-gap-lg">
+            <h5 class="column w-24">Additional Information</h5>
+            <div class="column w-12">
+              <select class="input choices">
+                <option selected hidden value=""> Select Table</option>
+                <option>Table 1 (Circle) Capacity 2</option>
+                <option>Table 2 (Square) Capacity 4</option>
+                <option>Table 3 (Rectangle) Capacity 8</option>
+                <option>Table 4 (Circle) Capacity 16</option>
+              </select>
+            </div>
+
+          </section>
+
+          <section class="my-1rem bg-white is-round p-4 grid has-gap-lg">
             <h5 class="column w-24">Continue as Guest</h5>
             <div class="column w-12"><input class="input" type="text" placeholder="Full Name"></div>
             <div class="column w-12"><input class="input" type="tel" placeholder="Mobile Number"></div>

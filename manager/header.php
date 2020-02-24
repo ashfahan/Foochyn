@@ -13,8 +13,150 @@
   </div>
 
   <div class="column txt-right">
-    <div class="icon is-lg mx-1rem"><i class="ri-settings-line"></i> </div>
-    <div class="icon is-lg mx-1rem"><i class="ri-notification-2-line"></i></div>
-    <div class="icon mx-1rem border border-wide border-dark is-circle img-bg" style="padding: 1.5rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+    <button class="btn is-circle is-lg"><i class="ri-settings-line"></i></button>
+    <div class="dropdown">
+      <button class="btn is-circle is-lg dropdown-trigger after-hide ri-notification-2-line active"></button>
+      <div class="py-1rem menu is-primary right-0 overflow-y-scroll notification" style="min-width: 400px; max-height: 500px;">
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+        <a class="block">
+          <div class="flex align-middle txt-nowrap px-1rem">
+            <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
+            <div><span>mamunalizai</span> liked your photo.<time class="clr-disabled ml-7px">17h</time></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="icon mx-1rem border border-wide border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>
   </div>
 </header>

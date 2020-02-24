@@ -14,6 +14,10 @@
 
 .triangle-left::before { content: ""; position: absolute; top: 0; right: 100%; bottom: 0; border: 17px solid transparent; border-right-color: #399fe1; border-left: 0; }
 
+.before-hide::before { content: none; }
+
+.after-hide::after { content: none; }
+
 /****** Style Star Rating Widget *****/
 .rating { border: none; float: left; }
 
@@ -37,5 +41,9 @@
 .rating input:checked + label:hover, .rating input:checked ~ label:hover { color: #ffed85; }
 
 .rating label:hover ~ input:checked ~ label, .rating input:checked ~ label:hover ~ label { color: #ffed85; }
+
+.notification > a::after { display: block; content: ""; border-bottom: 1px solid #d4d4d4; margin: 0.75em 5% 0.75em 10%; }
+
+.notification > a:last-child::after { content: none; }
 
 /*# sourceMappingURL=base.css.map */

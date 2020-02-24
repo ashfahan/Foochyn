@@ -42,6 +42,17 @@
   }
 }
 
+.before-hide {
+  @include before {
+    content: none;
+  }
+}
+
+.after-hide {
+  @include after {
+    content: none;
+  }
+}
 /****** Style Star Rating Widget *****/
 
 .rating {
@@ -104,5 +115,22 @@
   label:hover ~ input:checked ~ label,
   input:checked ~ label:hover ~ label {
     color: #ffed85;
+  }
+}
+
+.notification {
+  > a {
+    @include after {
+      display: block;
+      content: "";
+      border-bottom: $border-default;
+      margin: 0.75em 5% 0.75em 10%;
+    }
+  }
+
+  > a:last-child {
+    @include after {
+      content: none;
+    }
   }
 }

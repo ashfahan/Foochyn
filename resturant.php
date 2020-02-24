@@ -31,7 +31,7 @@
           </section>
 
           <section class="is-round-sm my-2">
-            <div class="bg-white relative card-zoom slick">
+            <div class="bg-white relative card-zoom slick img-bg" style="background-image: url('./images/resturant/imagesbackground.svg');">
               <div class="overflow-hidden" style="height: 250px;">
                 <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/1.webp');"></div>
               </div>

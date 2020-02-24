@@ -8,6 +8,7 @@
     <meta name="description" content="description" />
     <title>FOoChyn</title>
     <link type="image/png" href="images/favicon.png" rel="icon" />
+
   <body>
     <?php include 'header.php';?>
 
@@ -411,14 +412,43 @@
           </section>
 
           <section class="is-round-sm my-2 bg-white p-1rem">
-            <h5 class="mb-1rem">1 deal at 2:00 AM</h5>
-            <div class="bg-white shadow-round p-4">
-              <div>
+            <h5 class="mb-1rem">Find deal for</h5>
+            <div class="grid">
+              <div class="column"> <input type="date" class="input"> </div>
+              <div class="column"> <input type="time" class="input"> </div>
+            </div>
+            <h5 class="my-1rem">4 deal at 2:00 AM</h5>
+            <div>
+              <div class="bg-white shadow-round p-4 my-1rem">
                 <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
                 <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
                 <div class="flex justify-between">
                   <button class="btn is-unstyle is-lg">View info ›</button>
-                  <button class="btn is-out is-primary font-bold">Select</button>
+                  <button class="btn is-out is-primary font-bold">Book</button>
+                </div>
+              </div>
+              <div class="bg-white shadow-round p-4 my-1rem">
+                <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
+                <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
+                <div class="flex justify-between">
+                  <button class="btn is-unstyle is-lg">View info ›</button>
+                  <button class="btn is-out is-primary font-bold">Book</button>
+                </div>
+              </div>
+              <div class="bg-white shadow-round p-4 my-1rem">
+                <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
+                <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
+                <div class="flex justify-between">
+                  <button class="btn is-unstyle is-lg">View info ›</button>
+                  <button class="btn is-out is-primary font-bold">Book</button>
+                </div>
+              </div>
+              <div class="bg-white shadow-round p-4 my-1rem">
+                <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
+                <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
+                <div class="flex justify-between">
+                  <button class="btn is-unstyle is-lg">View info ›</button>
+                  <button class="btn is-out is-primary font-bold">Book</button>
                 </div>
               </div>
             </div>
@@ -450,7 +480,6 @@
 
     <?php include 'footer.php';?>
   </body>
-  <script src="./vendors/jquery-3.4.1.min.js"></script>
   <script src="./vendors/slick/slick.min.js"></script>
   <script>
     $(".slick").slick({

@@ -67,4 +67,14 @@ $.each($("select"), (index, elem) => {
   });
 });
 
+function todigit(number, value = 2) {
+  value = value - 1;
+  return number < Number.parseInt(1 + "0".repeat(value)) ? "0".repeat(value) + number : number;
+}
+
 $("table").DataTable();
+
+var now = new Date();
+
+$("input[type=date]").val(now.getFullYear() + "-" + todigit(now.getMonth(), 2) + "-" + todigit(now.getDate(), 2));
+$("input[type=time]").val(now.getHours() + ":" + todigit(now.getMinutes(), 2));

@@ -423,7 +423,7 @@
                 <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
                 <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
                 <div class="flex justify-between">
-                  <button class="btn is-unstyle is-lg">View info ›</button>
+                  <button class="btn is-unstyle">View info ›</button>
                   <button class="btn is-out is-primary font-bold">Book</button>
                 </div>
               </div>
@@ -431,7 +431,7 @@
                 <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
                 <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
                 <div class="flex justify-between">
-                  <button class="btn is-unstyle is-lg">View info ›</button>
+                  <button class="btn is-unstyle">View info ›</button>
                   <button class="btn is-out is-primary font-bold">Book</button>
                 </div>
               </div>
@@ -439,7 +439,7 @@
                 <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
                 <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
                 <div class="flex justify-between">
-                  <button class="btn is-unstyle is-lg">View info ›</button>
+                  <button class="btn is-unstyle">View info ›</button>
                   <button class="btn is-out is-primary font-bold">Book</button>
                 </div>
               </div>
@@ -447,7 +447,7 @@
                 <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
                 <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
                 <div class="flex justify-between">
-                  <button class="btn is-unstyle is-lg">View info ›</button>
+                  <button class="btn is-unstyle">View info ›</button>
                   <button class="btn is-out is-primary font-bold">Book</button>
                 </div>
               </div>

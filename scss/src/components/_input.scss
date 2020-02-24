@@ -14,7 +14,6 @@
     width: 100%;
     border-color: $input-bordercolor;
     background-color: $input-background;
-    box-shadow: box-shadow($input-boxshadow-inner);
 
     @include hover {
       box-shadow: box-shadow($input-boxshadow-inner, $controls-focus-boxshadow rgba($controls-theme, .5)); // Fix: hover state box-shadow transition

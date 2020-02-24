@@ -2,219 +2,83 @@
 <html lang="en">
 
   <head>
-    <meta id="customViewPort" name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
-    <link type="image/png" href="images/favicon.png" rel="icon" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta charset="utf-8" />
+    <meta id="customViewPort" name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link type="image/png" href="images/favicon.png" rel="icon">
+    <meta name="format-detection" content="telephone=no">
+    <meta charset="utf-8">
     <title>FOoChyn</title>
-    <meta name="description" content="description" />
-    <link href="../index.html" rel="canonical" />
+    <meta name="description" content="description">
+    <link href="../index.html" rel="canonical">
   </head>
 
   <body>
+    <?php include 'header.php';?>
 
-    <div class="grid has-gap-0">
-      <div class="column w-5">
-        <?php include 'sidebar.php';?>
-      </div>
-
-      <div class="column">
-        <?php include 'header.php';?>
-
-        <div class="px-2">
-          <ol class="breadcrumb column w-24 w-20@sm my-7px">
-            <h2 class="breadcrumb-item mb-0" data-separator="/">Dashboard</h2>
-            <li class="breadcrumb-item" data-separator="/" aria-current="page">Add Restaurant</li>
-          </ol>
-
-          <main class="lyt-main mb-1rem">
-            <form class="bg-white shadow border p-2 is-round">
-              <div class="grid">
-                <div class="column w-12">
-                  <div>Restaurant Name:</div>
-                  <select class="input choices">
-                    <option selected hidden> Select Restaurant Name</option>
-                    <option>Amanyara</option>
-                    <option>Apna Panjab</option>
-                    <option>Arabian Knife</option>
-                    <option>Awadh</option>
-                    <option>Baonecci Ristorante</option>
-                    <option>Chez Bruce</option>
-                    <option>CK Restaurant</option>
-                    <option>Elea</option>
-                    <option>evening post</option>
-                    <option>Gormoh Restaurant</option>
-                    <option>Great House</option>
-                    <option>HAVEN Riverfront Restaurant and Bar</option>
-                    <option>Havmour</option>
-                    <option>Honest</option>
-                    <option>Jassi De Parathe</option>
-                    <option>Jay Ambe 12121</option>
-                    <option>Kilis Kitchen</option>
-                    <option>Kuro - The Asian Bistro</option>
-                    <option>Leuca</option>
-                    <option>Limewood Bar &amp; Restaurant</option>
-                    <option>Magic Chicken</option>
-                    <option>Mirch Masala</option>
-                    <option>Northwest Point Resort</option>
-                    <option>Other Mama</option>
-                    <option>Pizza Plus</option>
-                    <option>Pizza point</option>
-                    <option>Sandbox</option>
-                    <option>Sankalp</option>
-                    <option>Sankalp</option>
-                    <option>Sasuji Dining Hall</option>
-                    <option>Shark Restaurant</option>
-                    <option>Shree Mehfil</option>
-                    <option>Table 34</option>
-                    <option>test</option>
-                    <option>The Deck</option>
-                    <option>The Green House</option>
-                    <option>The Green House</option>
-                    <option>The Green House</option>
-                    <option>The Ledbury</option>
-                    <option>The Ledbury</option>
-                    <option>The Ledbury</option>
-                    <option>The Lion</option>
-                    <option>The Raj Thaal and Restaurant</option>
-                    <option>Waterbar</option>
-                    <option>Zest at Wymara Resort</option>
-                  </select>
-                </div>
-                <div class="column w-12">
-                  <div>Zip Code</div>
-                  <input required class="input" type="text">
-                </div>
-                <div class="column w-12">
-                  <div>Number of people</div>
-                  <input required class="input" type="text">
-                </div>
-                <div class="column w-12">
-                  <div>Name of Customer:</div>
-                  <select required="required">
-                    <option value="" hidden selected>-- Select Customer Name --</option>
-                    <option>Paras vanakdi</option>
-                    <option>paras patel</option>
-                    <option>harsukh shah</option>
-                    <option>anil gupta</option>
-                    <option>Ashish Patel</option>
-                    <option>vijay mishra</option>
-                    <option>saurabh gopani</option>
-                    <option>yashgohil</option>
-                    <option>YashGohil</option>
-                    <option>ChrishBolt</option>
-                    <option>JohnSmith</option>
-                    <option>RonakParmar</option>
-                    <option>Umesh Ladumor</option>
-                    <option>SamirDeraiya</option>
-                    <option>paras vankadi</option>
-                    <option>priyank patel</option>
-                    <option>SamirDeraiya</option>
-                    <option>ronak </option>
-                    <option>alexsmith</option>
-                    <option>Alex</option>
-                    <option>UmeshLadumor</option>
-                    <option>samderaiya</option>
-                    <option>samderaiya</option>
-                    <option>samderaiya</option>
-                    <option>samderaiya</option>
-                    <option>samderaiya</option>
-                    <option>peterwalker</option>
-                    <option>ronak </option>
-                    <option>byyhyhy </option>
-                    <option>Umesh Ladumor</option>
-                    <option>yashgohil</option>
-                    <option>Umesh Ladumor</option>
-                    <option>JohnSmith</option>
-                    <option>Umesh Ladumor</option>
-                    <option>vuvubjbj </option>
-                    <option>Yash Gohil</option>
-                    <option>uh </option>
-                    <option>uh </option>
-                    <option>Paras vanakdi</option>
-                    <option>f </option>
-                    <option>Paras vanakdi</option>
-                    <option>Yash Gohil</option>
-                    <option>Yash Gohil</option>
-                    <option>parag </option>
-                    <option>paras patel</option>
-                    <option>dhrit</option>
-                    <option>Chirag</option>
-                    <option>Paras vanakdi</option>
-                    <option>dhrit</option>
-                    <option>vijay mishra</option>
-                    <option>dhrittt</option>
-                    <option>khh </option>
-                    <option>harsukh shah</option>
-                    <option>Ashoka</option>
-                    <option>Chirag</option>
-                    <option>Manish</option>
-                    <option>Abu</option>
-                    <option>dhhrriitt</option>
-                    <option>helly </option>
-                    <option>dhrit</option>
-                    <option>dhrittt</option>
-                    <option>ronakparmar</option>
-                    <option>Ronak Parmar</option>
-                    <option>harsukh shah</option>
-                    <option>SaddamVohara</option>
-                    <option>ronakparmar</option>
-                    <option>teased</option>
-                    <option>sever</option>
-                    <option>ferf </option>
-                    <option>the</option>
-                    <option>ronakk </option>
-                    <option>www </option>
-                    <option>Ray Colon</option>
-                    <option>hgj </option>
-                    <option>tarnish</option>
-                    <option>tarnish</option>
-                    <option>tarnish</option>
-                    <option>joenuc</option>
-                    <option>srarh</option>
-                    <option>srect</option>
-                    <option>anil gupta</option>
-                    <option>Radu </option>
-                    <option>dhritt </option>
-                    <option>dhriiittt </option>
-                  </select>
-                </div>
-                <div class="column w-12">
-                  <div>Source Type:</div>
-                  <select required="required">
-                    <option>-- Select source type --</option>
-                    <option>app</option>
-                    <option>phone</option>
-                    <option>walk_ins</option>
-                    <option>website</option>
-                  </select>
-                </div>
-                <div class="column w-12">
-                  <div>Booking Date</div>
-                  <div class="group">
-                    <input class="input" type="date">
-                  </div>
-                </div>
-                <div class="column w-12">
-                  <div>Booking Time Slot</div>
-                  <div class="group">
-                    <select class="input choices" required="required">
-                      <option value="? undefined:undefined ?"></option>
-                    </select>
-                  </div>
-                </div>
-                <div class="column w-24">
-                  <hr>
-                </div>
-                <div class="column w-12"> <button type="submit" class="btn is-out is-primary">Seat Now</button> </div>
-                <div class="column w-12 txt-right"> <button type="submit" class="btn is-sld is-primary">Book Now</button> </div>
-              </div>
-            </form>
-          </main>
+    <main class="lyt-main mb-1rem">
+      <form class="container grid">
+        <div class="column">
+          <section class="my-1rem bg-white is-round p-4 grid has-gap-lg">
+            <h5 class="column w-24">Continue as Guest</h5>
+            <div class="column w-12"><input class="input" type="text" placeholder="Full Name"></div>
+            <div class="column w-12"><input class="input" type="tel" placeholder="Mobile Number"></div>
+            <div class="column w-12"><input class="input" type="text" placeholder="Email"></div>
+            <div class="column w-12"><input class="input" type="text" placeholder="Sepecial request"></div>
+            <label class="column control w-24"><input class="checkbox" type="checkbox"><span class="label">Register with eazydiner</span> </label>
+            <a class="column w-24" href="#">Already have an account? Log In</a>
+          </section>
+          <section class="my-1rem bg-white is-round p-4">
+            <h5>Got a Promocode</h5>
+            <div class="my-1rem group">
+              <input class="input" type="text" placeholder="Have a code specially meant for you?">
+              <button class="btn is-sld">Apply</button>
+            </div>
+            <label class="control"><input class="checkbox" type="checkbox"> <span class="label block"><span class="font-bold">Enable Whatsapp Permissions</span> to receive updates about booking confirmation, latest offers and other alerts.</span></label>
+            <div class="my-1rem txt-center">By clicking on the BOOK button you agree to the <a href="#">terms & conditions</a>.</div>
+            <button class="btn is-sld is-primary is-block">Book</button>
+          </section>
         </div>
-      </div>
+        <div class="column w-8">
+          <section class="my-1rem bg-white is-round overflow-hidden">
+            <div class="p-4">
+              <div class="flex justify-between align-middle">
+                <h5 class="mb-0">Booking Summary</h5>
+                <button class="btn"><i class="icon ri-edit-2-line"></i> Edit</button>
+              </div>
+              <hr>
+              <div class="font-bold">Resturant Name</div>
+              <div class="clr-disabled">Resturant Address</div>
+              <hr>
+              <div class="grid">
+                <div class="column">
+                  <div class="clr-disabled">Date</div>
+                  <div>24 Feb, Mon</div>
+                </div>
+                <div class="column">
+                  <div class="clr-disabled">Time</div>
+                  <div>11:00 PM</div>
+                </div>
+                <div class="column">
+                  <div class="clr-disabled">Guests</div>
+                  <div>2</div>
+                </div>
+              </div>
+            </div>
+            <div style="background-color: #fafafa;" class="p-4">
+              <div class="py-7px px-1rem bg-white border border-valid clr-valid is-pill inline-block"> DEAL </div>
+              <h6 class="my-1rem">1+1 on Food</h6>
+              <h5 class="clr-disabled">TERMS AND CONDITIONS</h5>
+              <ul class="clr-disabled">
+                <li>Cannot be clubbed with any other deal.</li>
+                <li>Prior reservation is mandatory to avail this deal.</li>
+                <li>Deals might not be applicable on festive days, special occasions (e.g. valentine’s day or holi) and national holidays.</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </form>
+    </main>
 
-      <?php include './footer.php';?>
+    <?php include 'footer.php';?>
   </body>
 
 </html>

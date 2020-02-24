@@ -43,9 +43,10 @@
                   <label class="column control w-12 py-2"><span class="font-bold">Restaurant Email</span><input placeholder="email@Restaurant.com" class="input mt-1rem" type="email" /></label>
                   <label class="column control w-12 py-2"><span class="font-bold">Restaurant Phone</span><input placeholder="+44 (0) 20 3310 2000" class="input mt-1rem" type="tel" /></label>
                   <label class="column control w-12 py-2"><span class="font-bold">Job Title in Restaurant</span><input placeholder="Manager" class="input mt-1rem" type="text" /></label>
-                  <label class="column control w-12 py-2"><span class="font-bold">Address</span><textarea class="input mt-1rem" style="resize: none" rows="3"></textarea></label>
-                  <label class="column control w-12 py-2"><img src="../images/dummy_map.jpg" alt="" class="img"></label>
-                  <div class="column control w-24">
+                  <div class="column w-24 font-bold">Address</div>
+                  <div class="column w-12"> <textarea class="input mt-1rem" style="resize: none" rows="3"></textarea> </div>
+                  <div class="column control w-12 "><img src="../images/dummy_map.jpg" alt="" class="mt-1rem img"></div>
+                  <div class="column control w-12">
                     <div class="mb-1rem font-bold">Restaurant Images</div>
                     <input class="file" id="Images" type="file"><label class="label btn is-sld is-primary" for="Images">Upload Images</label>
                     <div class="is-sm mt-1rem">Supported image format: .jpeg, .jpg, .png . Can Select Multiple Images</div>

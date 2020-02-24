@@ -15,7 +15,7 @@
   <div class="column txt-right">
     <button class="btn is-circle is-lg"><i class="ri-settings-line"></i></button>
     <div class="dropdown">
-      <button class="btn is-circle is-lg dropdown-trigger after-hide ri-notification-2-line active"></button>
+      <button class="btn is-circle is-lg dropdown-trigger after-hide ri-notification-2-line"></button>
       <div class="py-1rem menu is-primary right-0 overflow-y-scroll notification" style="min-width: 400px; max-height: 500px;">
         <a class="block">
           <div class="flex align-middle txt-nowrap px-1rem">

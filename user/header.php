@@ -6,16 +6,16 @@
 <link href="../vendors/slick/slick-theme.css" rel="stylesheet" />
 <link href="../vendors/choices/public/assets/styles/choices.css" rel="stylesheet" />
 
-<header class="lyt-header shadow-sm bg-white txt-center grid border-top-none">
-  <button class="btn"><span class="icon is-lg"><i class="ri-menu-line"></i></span></button>
+<header class="lyt-header bg-dark shadow-sm txt-center grid border-top-none">
+  <button class="btn clr-white"><span class="icon is-lg"><i class="ri-menu-line"></i></span></button>
   <div class="column w-4 txt-center border-right pr-7px">
     <a href="."> <img class="img w-17" src="../images/logo.svg" alt="EazyDiner"> </a>
   </div>
 
   <div class="column txt-right">
-    <button class="btn is-circle is-lg"><i class="ri-settings-line"></i></button>
+    <button class="btn clr-white is-circle is-lg"><i class="ri-settings-line"></i></button>
     <div class="dropdown">
-      <button class="btn is-circle is-lg dropdown-trigger after-hide ri-notification-2-line"></button>
+      <button class="btn clr-white is-circle is-lg dropdown-trigger after-hide ri-notification-2-line"></button>
       <div class="py-1rem menu is-primary right-0 overflow-y-scroll notification" style="min-width: 400px; max-height: 500px;">
         <a class="block">
           <div class="flex align-middle txt-nowrap px-1rem">

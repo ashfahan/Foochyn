@@ -414,57 +414,25 @@
           <section class="is-round-sm my-2 bg-white p-1rem">
             <h5 class="mb-1rem">Find deal for</h5>
             <div class="grid">
-              <div class="column"> <input type="date" class="input"> </div>
-              <div class="column"> <input type="time" class="input"> </div>
-            </div>
-            <h5 class="my-1rem">4 deal at 2:00 AM</h5>
-            <div>
-              <div class="bg-white shadow-round p-4 my-1rem">
-                <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
-                <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
-                <div class="flex justify-between">
-                  <button class="btn is-unstyle">View info ›</button>
-                  <button class="btn is-out is-primary font-bold">Book</button>
-                </div>
+              <div class="column w-12"> <input type="date" class="input"> </div>
+              <div class="column w-12">
+                <select class="choices">
+                  <option value="">No of Guests</option>
+                  <option>0 Guest</option>
+                  <option>1 Guest</option>
+                  <option>2 Guest</option>
+                  <option>3 Guest</option>
+                  <option>7 Guest</option>
+                  <option>4 Guest</option>
+                  <option>5 Guest</option>
+                  <option>6 Guest</option>
+                  <option>8 Guest</option>
+                  <option>9 Guest</option>
+                  <option>10 Guest</option>
+                </select>
               </div>
-              <div class="bg-white shadow-round p-4 my-1rem">
-                <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
-                <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
-                <div class="flex justify-between">
-                  <button class="btn is-unstyle">View info ›</button>
-                  <button class="btn is-out is-primary font-bold">Book</button>
-                </div>
-              </div>
-              <div class="bg-white shadow-round p-4 my-1rem">
-                <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
-                <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
-                <div class="flex justify-between">
-                  <button class="btn is-unstyle">View info ›</button>
-                  <button class="btn is-out is-primary font-bold">Book</button>
-                </div>
-              </div>
-              <div class="bg-white shadow-round p-4 my-1rem">
-                <span class="inline-block px-7px bg-light is-pill my-2">Alacarte</span>
-                <div class="font-bold mb-4">Upload your bill & earn a super bonus of 500 EazyPoints. Get to your free meal faster!</div>
-                <div class="flex justify-between">
-                  <button class="btn is-unstyle">View info ›</button>
-                  <button class="btn is-out is-primary font-bold">Book</button>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="my-2 bg-white p-1rem">
-            <h5 class="mb-1rem">Deals not available at 2:00 AM</h5>
-            <div class="bg-white shadow-round p-4">
-              <div class="grid align-middle">
-                <div class="column w-4"><i class="ri-time-line ri-3x"></i></div>
-                <div class="column">
-                  <h5 class="clr-primary">Deals in other time slots</h5>
-                  <div>update date and time to avail these deals.</div>
-                </div>
-                <div class="column w-2"><i class="ri-arrow-right-s-line ri-2x"></i></div>
-              </div>
+              <div class="column w-24"> <input type="time" class="input"> </div>
+              <div class="column w-24"> <button class="btn is-sld is-block is-primary">Book Table</button> </div>
             </div>
           </section>
 

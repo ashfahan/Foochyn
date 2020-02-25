@@ -48,7 +48,9 @@
             </div>
             <label class="control"><input class="checkbox" type="checkbox"> <span class="label block"><span class="font-bold">Enable Whatsapp Permissions</span> to receive updates about booking confirmation, latest offers and other alerts.</span></label>
             <div class="my-1rem txt-center">By clicking on the BOOK button you agree to the <a href="#">terms & conditions</a>.</div>
-            <button class="btn is-sld is-primary is-block">Book</button>
+            <div class="txt-center">
+              <button class="btn is-sld is-primary w-12">Book</button>
+            </div>
           </section>
         </div>
         <div class="column w-8">

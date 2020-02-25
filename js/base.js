@@ -77,4 +77,4 @@ $("table").DataTable();
 var now = new Date();
 
 $("input[type=date]").val(now.getFullYear() + "-" + todigit(now.getMonth(), 2) + "-" + todigit(now.getDate(), 2));
-$("input[type=time]").val(now.getHours() + ":" + todigit(now.getMinutes(), 2));
+$("input[type=time]").val(todigit(now.getHours(), 2) + ":" + todigit(now.getMinutes(), 2));

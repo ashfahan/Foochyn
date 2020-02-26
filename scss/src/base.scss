@@ -155,3 +155,15 @@
     background-color: #a0a0a5;
   }
 }
+
+.has-table-responsive {
+  padding-bottom: $space-typography;
+}
+
+.dataTables_info {
+  float: right !important;
+}
+
+.dataTables_paginate {
+  float: left !important;
+}

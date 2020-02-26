@@ -192,7 +192,6 @@
                 <div class="column w-5 txt-center">
                   <img class="img is-circle overflow-hidden" src="./images/profile.jpg" />
                   <div>Mini Ribeiro Speaks</div>
-                  <address>Address line 1, Address line 2</address>
                 </div>
                 <div class="column">
                   <ul class="list mb-7px inline-flex align-middle is-inline">
@@ -225,7 +224,6 @@
                 <div class="column w-5 txt-center">
                   <img class="img is-circle overflow-hidden" src="./images/profile.jpg" />
                   <div>Mini Ribeiro Speaks</div>
-                  <address>Address line 1, Address line 2</address>
                 </div>
                 <div class="column">
                   <ul class="list mb-7px inline-flex align-middle is-inline">
@@ -258,7 +256,6 @@
                 <div class="column w-5 txt-center">
                   <img class="img is-circle overflow-hidden" src="./images/profile.jpg" />
                   <div>Mini Ribeiro Speaks</div>
-                  <address>Address line 1, Address line 2</address>
                 </div>
                 <div class="column">
                   <ul class="list mb-7px inline-flex align-middle is-inline">
@@ -291,7 +288,6 @@
                 <div class="column w-5 txt-center">
                   <img class="img is-circle overflow-hidden" src="./images/profile.jpg" />
                   <div>Mini Ribeiro Speaks</div>
-                  <address>Address line 1, Address line 2</address>
                 </div>
                 <div class="column">
                   <ul class="list mb-7px inline-flex align-middle is-inline">

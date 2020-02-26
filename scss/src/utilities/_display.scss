@@ -8,7 +8,6 @@
     properties: display,
     selector: "",
     values: (
-      hidden: none,
       inline: inline,
       inline-block: inline-block,
       block: block,
@@ -16,7 +15,8 @@
       table-row: table-row,
       table-cell: table-cell,
       flex: flex,
-      inline-flex: inline-flex
+      inline-flex: inline-flex,
+      hidden: none
     ),
     disable-prefix-values-keys: true,
     enable-important-values: true
@@ -29,7 +29,6 @@
       properties: display,
       selector: "print",
       values: (
-        hidden: none,
         inline: inline,
         inline-block: inline-block,
         block: block,
@@ -37,7 +36,8 @@
         table-row: table-row,
         table-cell: table-cell,
         flex: flex,
-        inline-flex: inline-flex
+        inline-flex: inline-flex,
+        hidden: none
       ),
       enable-important-values: true
     );

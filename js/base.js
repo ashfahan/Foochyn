@@ -74,6 +74,14 @@ function todigit(number, value = 2) {
 
 $("table").DataTable();
 
+$("#login_open").on("click", function() {
+  $("#login_popup").removeClass("hidden");
+});
+
+$("#login_close").on("click", function() {
+  $("#login_popup").addClass("hidden");
+});
+
 var now = new Date();
 
 $("input[type=date]").val(now.getFullYear() + "-" + todigit(now.getMonth(), 2) + "-" + todigit(now.getDate(), 2));

@@ -154,8 +154,6 @@
 
 .overflow-y-visible { overflow-y: visible !important; }
 
-.hidden { display: none !important; }
-
 .inline { display: inline !important; }
 
 .inline-block { display: inline-block !important; }
@@ -172,55 +170,57 @@
 
 .inline-flex { display: inline-flex !important; }
 
-@media (min-width: 576px) { .hidden\@sm { display: none !important; }
-  .inline\@sm { display: inline !important; }
+.hidden { display: none !important; }
+
+@media (min-width: 576px) { .inline\@sm { display: inline !important; }
   .inline-block\@sm { display: inline-block !important; }
   .block\@sm { display: block !important; }
   .table\@sm { display: table !important; }
   .table-row\@sm { display: table-row !important; }
   .table-cell\@sm { display: table-cell !important; }
   .flex\@sm { display: flex !important; }
-  .inline-flex\@sm { display: inline-flex !important; } }
+  .inline-flex\@sm { display: inline-flex !important; }
+  .hidden\@sm { display: none !important; } }
 
-@media (min-width: 768px) { .hidden\@md { display: none !important; }
-  .inline\@md { display: inline !important; }
+@media (min-width: 768px) { .inline\@md { display: inline !important; }
   .inline-block\@md { display: inline-block !important; }
   .block\@md { display: block !important; }
   .table\@md { display: table !important; }
   .table-row\@md { display: table-row !important; }
   .table-cell\@md { display: table-cell !important; }
   .flex\@md { display: flex !important; }
-  .inline-flex\@md { display: inline-flex !important; } }
+  .inline-flex\@md { display: inline-flex !important; }
+  .hidden\@md { display: none !important; } }
 
-@media (min-width: 992px) { .hidden\@lg { display: none !important; }
-  .inline\@lg { display: inline !important; }
+@media (min-width: 992px) { .inline\@lg { display: inline !important; }
   .inline-block\@lg { display: inline-block !important; }
   .block\@lg { display: block !important; }
   .table\@lg { display: table !important; }
   .table-row\@lg { display: table-row !important; }
   .table-cell\@lg { display: table-cell !important; }
   .flex\@lg { display: flex !important; }
-  .inline-flex\@lg { display: inline-flex !important; } }
+  .inline-flex\@lg { display: inline-flex !important; }
+  .hidden\@lg { display: none !important; } }
 
-@media (min-width: 1200px) { .hidden\@xl { display: none !important; }
-  .inline\@xl { display: inline !important; }
+@media (min-width: 1200px) { .inline\@xl { display: inline !important; }
   .inline-block\@xl { display: inline-block !important; }
   .block\@xl { display: block !important; }
   .table\@xl { display: table !important; }
   .table-row\@xl { display: table-row !important; }
   .table-cell\@xl { display: table-cell !important; }
   .flex\@xl { display: flex !important; }
-  .inline-flex\@xl { display: inline-flex !important; } }
+  .inline-flex\@xl { display: inline-flex !important; }
+  .hidden\@xl { display: none !important; } }
 
-@media print { .print-hidden { display: none !important; }
-  .print-inline { display: inline !important; }
+@media print { .print-inline { display: inline !important; }
   .print-inline-block { display: inline-block !important; }
   .print-block { display: block !important; }
   .print-table { display: table !important; }
   .print-table-row { display: table-row !important; }
   .print-table-cell { display: table-cell !important; }
   .print-flex { display: flex !important; }
-  .print-inline-flex { display: inline-flex !important; } }
+  .print-inline-flex { display: inline-flex !important; }
+  .print-hidden { display: none !important; } }
 
 .obj-contain { object-fit: contain !important; }
 

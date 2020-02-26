@@ -12,8 +12,6 @@
   </head>
 
   <body>
-    </div>
-
     <?php include 'header.php';?>
 
     <div class="grid has-gap-0">
@@ -22,7 +20,6 @@
       </div>
 
       <div class="column">
-
 
         <div class="px-2">
           <ol class="breadcrumb column w-24 w-20@sm my-7px">

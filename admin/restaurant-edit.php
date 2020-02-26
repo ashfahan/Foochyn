@@ -14,13 +14,14 @@
 
   <body>
 
+    <?php include 'header.php';?>
+
     <div class="grid has-gap-0">
       <div class="column w-5">
-        <?php include './sidebar.php';?>
+        <?php include 'sidebar.php';?>
       </div>
 
       <div class="column">
-        <?php include './header.php';?>
 
         <div class="px-2">
           <ol class="breadcrumb column w-24 w-20@sm my-7px">

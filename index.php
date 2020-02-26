@@ -25,7 +25,7 @@
                         <input class="input is-dark p-7px border-none" type="text" style="padding-left: 4.5em !important" placeholder="E.g: Food, Service, Barber, Hotel" />
                         <div class="icon is-left font-bold o-100" style="left:1.6em !important">What</div>
                     </label>
-                    <label class="control has-icon-left border-left">
+                    <label class="control has-icon-left border-left" id="search_city">
                         <select class="input choices clr-disabled is-dark p-7px border-none" style="padding-left: 4.5em !important">
                             <option value="" hidden>City</option>
                             <optgroup class="clr-body" label="City 1">
@@ -46,7 +46,7 @@
                             </optgroup>
                         </select>
 
-                        <div class="clr-body icon is-left font-bold o-100" style="left:1.6em !important">Where</div>
+                        <div class="clr-body icon is-left font-bold o-100 txt-nowrap" style="left:2.6em !important">Where <i class="pl-1rem icon ri-focus-3-line"></i></div>
                     </label>
                 </div>
                 <button class="btn is-sld is-primary flex px-2 font-bold"><i class="icon ri-search-line mr-6"></i>Search</button>
@@ -468,5 +468,9 @@
 
         <?php include 'footer.php';?>
     </body>
+
+    <script>
+        $("#search_city").find(".choices").addClass("h-100 border-hide");
+    </script>
 
 </html>

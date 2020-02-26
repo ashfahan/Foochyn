@@ -18,6 +18,6 @@
 
 .MULTISTEPFORM .STEPS li:first-child::after { content: none; }
 
-.MULTISTEPFORM .STEPS li.active::before, .MULTISTEPFORM .STEPS li.active::after { color: #fff; background: #399fe1; }
+.MULTISTEPFORM .STEPS li.active::before, .MULTISTEPFORM .STEPS li.active::after { color: #fff; background: #b32000; }
 
 /*# sourceMappingURL=addresturant.css.map */

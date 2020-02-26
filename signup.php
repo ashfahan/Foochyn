@@ -47,8 +47,14 @@
                             </optgroup>
                         </select>
                     </div>
-                    <h6 class="column w-24">Birtday <span class="clr-disabled">optional</span></h6>
-                    <div class="column w-24"><input class="input" type="date" placeholder="Zip Code"></div>
+                    <div class="column w-24">
+                        <select class="input choices">
+                            <option value="">Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
                     <div class="column w-24">You also understand that FOoChyn may send marketing emails about FOoChyn’s products, services, and local events. You can unsubscribe at any time</div>
                     <button class="column mt-1rem btn is-sld is-lg is-primary">Sign Up</button>
                 </form>

@@ -16,7 +16,7 @@
     <button class="btn clr-white is-circle is-lg"><i class="ri-settings-line"></i></button>
     <div class="dropdown">
       <button class="btn clr-white is-circle is-lg dropdown-trigger after-hide ri-notification-2-line"></button>
-      <div class="py-1rem menu is-primary right-0 overflow-y-scroll notification" style="min-width: 400px; max-height: 500px;">
+      <div class="py-1rem menu scrollbar is-primary right-0 overflow-y-scroll notification" style="min-width: 400px; max-height: 500px;">
         <a class="block">
           <div class="flex align-middle txt-nowrap px-1rem">
             <div class="icon mr-1rem border border-dark is-circle img-bg" style="padding: 1.25rem; background-image: url('../images/profile.jpg');"><i class="z--10 ri-user-line"></i></div>

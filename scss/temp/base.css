@@ -46,4 +46,12 @@
 
 .notification > a:last-child::after { content: none; }
 
+.scrollbar::-webkit-scrollbar { background-color: transparent; height: 4px; width: 4px; }
+
+.scrollbar::-webkit-scrollbar-track { background-color: transparent; }
+
+.scrollbar::-webkit-scrollbar-thumb { background-color: #babac0; border-radius: 99px; }
+
+.scrollbar::-webkit-scrollbar-thumb:hover { background-color: #a0a0a5; }
+
 /*# sourceMappingURL=base.css.map */

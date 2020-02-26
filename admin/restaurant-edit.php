@@ -2502,6 +2502,18 @@
                 <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label block">Fine Dining - More formal or dressy <span class="italic">(5000-10000 PKR for 2 people)</span></span></label>
               </fieldset>
 
+              <fieldset class="my-1rem bg-white is-round shadow p-4 w-24">
+                <div class="flex justify-between">
+                  <div>
+                    <h5>Insider Tips</h5>
+                    <div>Tips given by our staff</div>
+                  </div>
+                </div>
+                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label block">This place offers an elaborate midnight buffet</span></span></label>
+                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label block">Look out for the exciting promotions they offer</span></span></label>
+                <label class="control column w-24"><input type="checkbox" class="checkbox"><span class="label block">There is a special kids section on the menu</span></span></label>
+              </fieldset>
+
             </div>
             <div class="column w-24">
               <fieldset class="my-1rem bg-white is-round shadow p-4 w-24">

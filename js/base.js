@@ -7,7 +7,7 @@ Object.keys(dropdowntrigger).forEach(k => (dropdowntrigger[k].onclick = e => e.t
 var nosubmit = document.querySelectorAll("[nosubmit]");
 Object.keys(nosubmit).forEach(k => (nosubmit[k].onsubmit = e => e.preventDefault()));
 
-$.each($("select"), (index, elem) => {
+$.each($("select.choices"), (index, elem) => {
   new Choices(elem, {
     addItems: true,
     addItemFilter: null,

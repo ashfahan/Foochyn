@@ -171,15 +171,6 @@
                 </div>
               </div>
             </div>
-
-            <hr>
-            <div class="grid my-1rem">
-              <div class="column w-3"><img class="img" src="./images/resturant/staff_member.webp" /></div>
-              <div class="column">
-                <h5>Top Rated Staff Member</h5>
-                <div>RAHUL is the top rated staff member at Poolside, highly recommended as prompt service, suggestive, courteous, efficient</div>
-              </div>
-            </div>
             <hr>
             <div class="grid my-1rem">
               <div class="column w-3"><img class="img" src="./images/resturant/recommended_dish.png" /></div>

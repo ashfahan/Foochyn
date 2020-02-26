@@ -11,7 +11,7 @@
         <title>FOoChyn</title>
         <link type="image/png" href="images/favicon.png" rel="icon" />
         <link href="index.html" rel="canonical" />
-      </head>
+    </head>
 
     <body>
         <?php include 'header.php';?>
@@ -106,55 +106,87 @@
             </div>
             <div class="grid has-gap-lg">
                 <div class="column w-6">
-                    <div class="bg-white is-round overflow-hidden relative card-zoom">
-                        <div class="overflow-hidden">
-                            <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/4.webp');"></div>
+                    <div class="bg-white p-7px">
+                        <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/4.webp');">
+                            <i class="absolute clr-body ri-heart-fill ri-2x" style="right: 1rem;"></i>
+                            <i class="absolute clr-white ri-heart-line ri-2x" style="right: 1rem;"></i>
                         </div>
-                        <div class="p-4">
-                            <h5>Food Name</h5>
-                            <div class="clr-disabled mb-1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla</div>
-                            <div class="font-bold clr-primary"><span>0</span> Offers</div>
+                        <h5 class="my-7px">Ceciches Ceciches</h5>
+                        <div class="clr-disabled">South Padre Island, TX</div>
+                        <div class="clr-disabled"><span>1000-5000</span> PKR Approx for 2 Person | <span>Barbecue, Chinese , Fase Food , North Indian</span></div>
+                        <div class="flex align-middle">
+                            <ul class="list is-inline mb-0 clr-valid">
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
+                            </ul>
+                            <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                         </div>
-                        <a class="absolute top-0 left-0 right-0 bottom-0 z-100" href="#"></a>
                     </div>
                 </div>
                 <div class="column w-6">
-                    <div class="bg-white is-round overflow-hidden relative card-zoom">
-                        <div class="overflow-hidden">
-                            <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/3.webp');"></div>
+                    <div class="bg-white p-7px">
+                        <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/3.webp');">
+                            <i class="absolute clr-body ri-heart-fill ri-2x" style="right: 1rem;"></i>
+                            <i class="absolute clr-white ri-heart-line ri-2x" style="right: 1rem;"></i>
                         </div>
-                        <div class="p-4">
-                            <h5>Food Name</h5>
-                            <div class="clr-disabled mb-1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla</div>
-                            <div class="font-bold clr-primary"><span>0</span> Offers</div>
+                        <h5 class="my-7px">Ceciches Ceciches</h5>
+                        <div class="clr-disabled">South Padre Island, TX</div>
+                        <div class="clr-disabled"><span>1000-5000</span> PKR Approx for 2 Person | <span>Barbecue, Chinese , Fase Food , North Indian</span></div>
+                        <div class="flex align-middle">
+                            <ul class="list is-inline mb-0 clr-valid">
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
+                            </ul>
+                            <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                         </div>
-                        <a class="absolute top-0 left-0 right-0 bottom-0 z-100" href="#"></a>
                     </div>
                 </div>
                 <div class="column w-6">
-                    <div class="bg-white is-round overflow-hidden relative card-zoom">
-                        <div class="overflow-hidden">
-                            <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/2.webp');"></div>
+                    <div class="bg-white p-7px">
+                        <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/2.webp');">
+                            <i class="absolute clr-body ri-heart-fill ri-2x" style="right: 1rem;"></i>
+                            <i class="absolute clr-white ri-heart-line ri-2x" style="right: 1rem;"></i>
                         </div>
-                        <div class="p-4">
-                            <h5>Food Name</h5>
-                            <div class="clr-disabled mb-1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla</div>
-                            <div class="font-bold clr-primary"><span>0</span> Offers</div>
+                        <h5 class="my-7px">Ceciches Ceciches</h5>
+                        <div class="clr-disabled">South Padre Island, TX</div>
+                        <div class="clr-disabled"><span>1000-5000</span> PKR Approx for 2 Person | <span>Barbecue, Chinese , Fase Food , North Indian</span></div>
+                        <div class="flex align-middle">
+                            <ul class="list is-inline mb-0 clr-valid">
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
+                            </ul>
+                            <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                         </div>
-                        <a class="absolute top-0 left-0 right-0 bottom-0 z-100" href="#"></a>
                     </div>
                 </div>
                 <div class="column w-6">
-                    <div class="bg-white is-round overflow-hidden relative card-zoom">
-                        <div class="overflow-hidden">
-                            <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/1.webp');"></div>
+                    <div class="bg-white p-7px">
+                        <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                            <i class="absolute clr-body ri-heart-fill ri-2x" style="right: 1rem;"></i>
+                            <i class="absolute clr-white ri-heart-line ri-2x" style="right: 1rem;"></i>
                         </div>
-                        <div class="p-4">
-                            <h5>Food Name</h5>
-                            <div class="clr-disabled mb-1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla</div>
-                            <div class="font-bold clr-primary"><span>0</span> Offers</div>
+                        <h5 class="my-7px">Ceciches Ceciches</h5>
+                        <div class="clr-disabled">South Padre Island, TX</div>
+                        <div class="clr-disabled"><span>1000-5000</span> PKR Approx for 2 Person | <span>Barbecue, Chinese , Fase Food , North Indian</span></div>
+                        <div class="flex align-middle">
+                            <ul class="list is-inline mb-0 clr-valid">
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
+                            </ul>
+                            <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                         </div>
-                        <a class="absolute top-0 left-0 right-0 bottom-0 z-100" href="#"></a>
                     </div>
                 </div>
             </div>
@@ -258,59 +290,87 @@
             </div>
             <div class="grid has-gap-lg">
                 <div class="column w-6">
-                    <div class="bg-white is-round overflow-hidden relative card-zoom">
-                        <div class="overflow-hidden">
-                            <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/1.webp');"></div>
+                    <div class="bg-white p-7px">
+                        <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/1.webp');">
+                            <i class="absolute clr-body ri-heart-fill ri-2x" style="right: 1rem;"></i>
+                            <i class="absolute clr-white ri-heart-line ri-2x" style="right: 1rem;"></i>
                         </div>
-                        <div class="p-4">
-                            <h5>Food Name</h5>
-                            <div class="clr-disabled mb-1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla</div>
-                            <div class="font-bold clr-primary"><span>0</span> Offers</div>
+                        <h5 class="my-7px">Ceciches Ceciches</h5>
+                        <div class="clr-disabled">South Padre Island, TX</div>
+                        <div class="clr-disabled"><span>1000-5000</span> PKR Approx for 2 Person | <span>Barbecue, Chinese , Fase Food , North Indian</span></div>
+                        <div class="flex align-middle">
+                            <ul class="list is-inline mb-0 clr-valid">
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
+                            </ul>
+                            <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                         </div>
-                        <div class="font-bold bg-primary p-2 clr-white absolute top-0 left-0">4.5</div>
-                        <a class="absolute top-0 left-0 right-0 bottom-0 z-100" href="#"></a>
                     </div>
                 </div>
                 <div class="column w-6">
-                    <div class="bg-white is-round overflow-hidden relative card-zoom">
-                        <div class="overflow-hidden">
-                            <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/2.webp');"></div>
+                    <div class="bg-white p-7px">
+                        <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/2.webp');">
+                            <i class="absolute clr-body ri-heart-fill ri-2x" style="right: 1rem;"></i>
+                            <i class="absolute clr-white ri-heart-line ri-2x" style="right: 1rem;"></i>
                         </div>
-                        <div class="p-4">
-                            <h5>Food Name</h5>
-                            <div class="clr-disabled mb-1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla</div>
-                            <div class="font-bold clr-primary"><span>0</span> Offers</div>
+                        <h5 class="my-7px">Ceciches Ceciches</h5>
+                        <div class="clr-disabled">South Padre Island, TX</div>
+                        <div class="clr-disabled"><span>1000-5000</span> PKR Approx for 2 Person | <span>Barbecue, Chinese , Fase Food , North Indian</span></div>
+                        <div class="flex align-middle">
+                            <ul class="list is-inline mb-0 clr-valid">
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
+                            </ul>
+                            <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                         </div>
-                        <div class="font-bold bg-primary p-2 clr-white absolute top-0 left-0">4.5</div>
-                        <a class="absolute top-0 left-0 right-0 bottom-0 z-100" href="#"></a>
                     </div>
                 </div>
                 <div class="column w-6">
-                    <div class="bg-white is-round overflow-hidden relative card-zoom">
-                        <div class="overflow-hidden">
-                            <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/3.webp');"></div>
+                    <div class="bg-white p-7px">
+                        <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/3.webp');">
+                            <i class="absolute clr-body ri-heart-fill ri-2x" style="right: 1rem;"></i>
+                            <i class="absolute clr-white ri-heart-line ri-2x" style="right: 1rem;"></i>
                         </div>
-                        <div class="p-4">
-                            <h5>Food Name</h5>
-                            <div class="clr-disabled mb-1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla</div>
-                            <div class="font-bold clr-primary"><span>0</span> Offers</div>
+                        <h5 class="my-7px">Ceciches Ceciches</h5>
+                        <div class="clr-disabled">South Padre Island, TX</div>
+                        <div class="clr-disabled"><span>1000-5000</span> PKR Approx for 2 Person | <span>Barbecue, Chinese , Fase Food , North Indian</span></div>
+                        <div class="flex align-middle">
+                            <ul class="list is-inline mb-0 clr-valid">
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
+                            </ul>
+                            <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                         </div>
-                        <div class="font-bold bg-primary p-2 clr-white absolute top-0 left-0">4.5</div>
-                        <a class="absolute top-0 left-0 right-0 bottom-0 z-100" href="#"></a>
                     </div>
                 </div>
                 <div class="column w-6">
-                    <div class="bg-white is-round overflow-hidden relative card-zoom">
-                        <div class="overflow-hidden">
-                            <div class="img-bg h-100 w-24" style="background-image: url('./images/resturant/4.webp');"></div>
+                    <div class="bg-white p-7px">
+                        <div class="img-bg is-round-sm txt-right relative" style="min-height:200px; background-image: url('./images/resturant/4.webp');">
+                            <i class="absolute clr-body ri-heart-fill ri-2x" style="right: 1rem;"></i>
+                            <i class="absolute clr-white ri-heart-line ri-2x" style="right: 1rem;"></i>
                         </div>
-                        <div class="p-4">
-                            <h5>Food Name</h5>
-                            <div class="clr-disabled mb-1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla</div>
-                            <div class="font-bold clr-primary"><span>0</span> Offers</div>
+                        <h5 class="my-7px">Ceciches Ceciches</h5>
+                        <div class="clr-disabled">South Padre Island, TX</div>
+                        <div class="clr-disabled"><span>1000-5000</span> PKR Approx for 2 Person | <span>Barbecue, Chinese , Fase Food , North Indian</span></div>
+                        <div class="flex align-middle">
+                            <ul class="list is-inline mb-0 clr-valid">
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-fill icon is-lg"></li>
+                                <li class="txt-baseline mr-0 ri-star-line icon is-lg"></li>
+                            </ul>
+                            <div class="ml-7px inline txt-baseline clr-disabled">500 reviews</div>
                         </div>
-                        <div class="font-bold bg-primary p-2 clr-white absolute top-0 left-0">4.5</div>
-                        <a class="absolute top-0 left-0 right-0 bottom-0 z-100" href="#"></a>
                     </div>
                 </div>
             </div>

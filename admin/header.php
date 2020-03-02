@@ -1,6 +1,7 @@
 <link href="../scss/temp/fluid.css" rel="stylesheet" />
 <link href="../scss/temp/base.css" rel="stylesheet" />
 <link href="../fonts/Quicksand/fonts.css" rel="stylesheet" />
+<link href="../fonts/OpenSans/fonts.css" rel="stylesheet" />
 <link href="../vendors/remixicon/remixicon.css" rel="stylesheet" />
 <link href="../vendors/slick/slick.css" rel="stylesheet" />
 <link href="../vendors/slick/slick-theme.css" rel="stylesheet" />

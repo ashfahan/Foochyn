@@ -72,9 +72,7 @@ function todigit(number, value = 2) {
   return number < Number.parseInt(1 + "0".repeat(value)) ? "0".repeat(value) + number : number;
 }
 
-if (typeof define === "DataTable") {
-  $("table").DataTable();
-}
+$("table").DataTable();
 
 $("#login_open").on("click", function() {
   $("#login_popup").removeClass("hidden");

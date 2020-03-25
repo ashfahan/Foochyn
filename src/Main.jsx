@@ -35,9 +35,9 @@ class Main extends Component {
 
   render() {
     return (
-      <Layout className="txt-center">
+      <Layout>
         <Header />
-        <Layout.Content>
+        <Layout.Content className="lyt-main">
           <Switch>
             <Route path="/" component={() => <Home />} exact />
             <Route component={() => <Error error={404} />} />

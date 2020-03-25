@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { Button } from "antd";
-
 import { NavLink } from "react-router-dom";
+import { Button } from "antd";
 
 class Home extends Component {
   render() {

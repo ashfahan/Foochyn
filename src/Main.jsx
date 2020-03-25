@@ -8,11 +8,11 @@ import { Route, Switch } from "react-router-dom";
 import { withRouter } from "react-router";
 
 import "antd/dist/antd.css";
-import "remixicon/fonts/remixicon.css";
+import "./scss/ant-reset.scss";
 import "./scss/Fluid/fluid.scss";
 import "./scss/base.scss";
 
-import "./fonts/Jt-Leonor/fonts.css";
+import "./fonts/Poppins/fonts.css";
 
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";

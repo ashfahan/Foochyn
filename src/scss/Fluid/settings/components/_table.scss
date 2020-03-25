@@ -1,0 +1,39 @@
+//
+// Table Settings
+//
+
+//
+// Inherit
+//
+$label-marginbottom:                                 $space-typography !default;
+
+$table-rows-border-width:                            $borderwidth-default !default;
+$table-body-inner-width:                             $borderwidth-wide !default;
+//
+// Settings
+//
+$table-cell-padding:                                 .8em !default;
+
+$table-border-color:                                 $border-color !default;
+$table-border-width-wide:                            ceil($borderwidth-wide / 2) !default;
+
+$table-head-color:                                   null !default;
+$table-head-background:                              null !default;
+$table-head-border-color:                            $dark !default;
+$table-head-border-width:                            $table-border-width-wide !default;
+
+$table-body-vertical-align:                          middle !default;
+
+$table-body-hover-background:                        $gray-200 !default;
+
+$table-striped-order:                                odd !default;
+$table-stripped-background:                          $light !default;
+
+$table-caption-color:                                $disabled !default;
+
+// $table-background-level:                             -9 !default;
+// $table-border-level:                                 -6 !default;
+
+// $table-hover-color:                                  $table-color !default;
+// $table-body-hover-background:                             rgba($black, .075) !default;
+// $table-active-background:                            $table-body-hover-background !default;

@@ -1,0 +1,144 @@
+//
+// Table
+//
+
+@if $generate-component-classes {
+  //
+  // Base Style
+  //
+  .table {
+    th,
+    td {
+      padding: $table-cell-padding; // padding inside table's cell
+      border: 0 solid $table-border-color;
+      border-bottom-width: $table-rows-border-width;
+    }
+
+    thead {
+      // td,
+      // th {
+        padding-top: .5em; // padding inside table's cell
+        padding-bottom: .5em; // padding inside table's cell
+        border-bottom: $table-head-border-width solid $table-head-border-color;
+        color: $table-head-color;
+        background-color: $table-head-background;
+      // }
+    }
+
+    tfoot,
+    tbody + tbody {
+      // extra border between multiple table bodies and table footer
+      border-top: $table-body-inner-width solid $table-border-color;
+    }
+  }
+
+  //
+  // Striped rows
+  //
+  // stripped style table rows
+  // works only for tbody in table
+
+  .is-striped {
+    tbody tr:nth-of-type(#{$table-striped-order}) {
+      background-color: $table-stripped-background;
+    }
+
+    th,
+    td {
+      border-width: 0; // remover border from zebra
+    }
+  }
+
+  //
+  // Striped rows
+  //
+  // stripped style table rows
+
+  .table.is-auto {
+    table-layout: auto;
+  }
+
+  .table.is-fixed {
+    table-layout: fixed;
+  }
+
+  //
+  // Bordered Table
+  //
+  // Add or remove borders all around the table and between all the columns.
+
+  .is-bordered {
+    border: $table-head-border-width solid $table-border-color;
+
+    th,
+    td {
+      border-width: $table-rows-border-width;
+    }
+  }
+
+  //
+  // Bordered Table
+  //
+  // Add or remove borders all around the table and between all the columns.
+
+  .is-borderless {
+    th,
+    td,
+    thead,
+    tbody + tbody {
+      border: 0;
+    }
+  }
+
+  //
+  // Hover effect
+  //
+  // Placed here since it has to come after the potential zebra striping
+
+  .on-hover {
+    tbody tr {
+      @include hover {
+        border-width: 3px;
+        background-color: $table-body-hover-background;
+      }
+    }
+  }
+
+  //
+  // Responsive tables
+  //
+
+  .has-table-responsive {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  @if $enable-experimental-css {
+    //
+    // Note : Experimental Feature
+    // Issue : Doesn't work on Internet Explorer
+    // Doc : add doc
+    //
+
+    .table.has-sticky-scope {
+      [scope] {
+        position: sticky;
+        background: if($table-head-background == null, $body-background, $table-head-background);
+      }
+
+      [scope="row"] {
+        left: 0;
+        z-index: 1;
+      }
+
+      [scope="col"] {
+        top: 0;
+        z-index: 2;
+        box-shadow: box-shadow(0 2px 0 0 $table-head-border-color); // doesn't appear on Edge 44
+      }
+    }
+  }
+}

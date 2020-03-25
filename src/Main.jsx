@@ -17,6 +17,7 @@ import "./fonts/Poppins/fonts.css";
 
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
+import Sidebar from "./pages/Sidebar";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 
@@ -36,16 +37,19 @@ class Main extends Component {
 
   render() {
     return (
-      <Layout>
-        <Header />
-        <Layout.Content className="lyt-main">
-          <Switch>
-            <Route path="/" component={() => <Home />} exact />
-            <Route component={() => <Error error={404} />} />
-          </Switch>
-          <BackTop className="top" />
-        </Layout.Content>
-        <Footer />
+      <Layout className="grid has-gap-0 is-x">
+        <Sidebar className="column">as</Sidebar>
+        <div className="column">
+          <Header />
+          <Layout.Content className="lyt-main">
+            <Switch>
+              <Route path="/" component={() => <Home />} exact />
+              <Route component={() => <Error error={404} />} />
+            </Switch>
+          </Layout.Content>
+          <Footer />
+        </div>
+        <BackTop className="top" />
       </Layout>
     );
   }

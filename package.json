@@ -9,7 +9,9 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "animate.css": "^3.7.2",
     "antd": "^4.0.4",
+    "headroom.js": "^0.11.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

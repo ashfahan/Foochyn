@@ -29,6 +29,10 @@
   }
 }
 
+.lyt-header.shadow {
+  box-shadow: 6px 0 6px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
 .lyt-sidebar.collapsed {
   width: 70px;
   flex: none;

@@ -9,6 +9,7 @@ import { withRouter } from "react-router";
 
 import "antd/dist/antd.css";
 import "./scss/ant-reset.scss";
+import "animate.css";
 import "./scss/Fluid/fluid.scss";
 import "remixicon/fonts/remixicon.css";
 import "./scss/base.scss";

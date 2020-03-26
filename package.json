@@ -32,8 +32,7 @@
     "start": "set BROWSER=C:\\Program Files (x86)\\Google\\Chrome Beta\\Application\\chrome.exe && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "echo Skip build on Heroku"
+    "eject": "react-scripts eject"
   },
   "engines": {
     "node": "10.18.0",

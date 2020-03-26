@@ -14,7 +14,7 @@ export default class Sidebar extends Component {
         <Route
           path="/"
           render={() => (
-            <aside className={"hidden flex@md is-y align-middle justify-between lyt-sidebar collapsed h-min-100vh py-1rem shadow z-10 " + this.props.className}>
+            <aside className={"sticky top-0 hidden flex@md is-y align-middle justify-between lyt-sidebar collapsed h-100vh py-1rem shadow z-10 " + this.props.className}>
               <button className="btn is-circle is-lg" onClick={() => this.setState({ active: true })}>
                 <span className="icon">
                   <i class="ri-menu-line"></i>

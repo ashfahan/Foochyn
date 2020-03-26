@@ -30,13 +30,13 @@ export default class Sidebar extends Component {
               <div className="txt-vertical rotate-180 relative share">
                 <i class="icon ri-close-line ri-2x is-circle"></i> <b className="is-sm txt-upper mt-7px">Share</b>
                 <div className="absolute bg-white left-50 flex is-x-rev p-7px">
-                  <a href="#" className="my-7px txt-decor-none clr-body">
+                  <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
                     <i class="icon is-lg ri-whatsapp-line"></i>
                   </a>
-                  <a href="#" className="my-7px txt-decor-none clr-body">
+                  <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
                     <i class="icon is-lg ri-facebook-fill"></i>
                   </a>
-                  <a href="#" className="my-7px txt-decor-none clr-body">
+                  <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
                     <i class="icon is-lg ri-twitter-line"></i>
                   </a>
                 </div>
@@ -65,21 +65,23 @@ export default class Sidebar extends Component {
           </div>
 
           <div>
-            <div>
-              © 2020, Norebro Theme by <a href="#">Colabrio</a>
+            <div className="mb-4">
+              <div>
+                © 2020, Norebro Theme by <a href="#">Colabrio</a>
+              </div>
+              <div>
+                <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a>
+              </div>
+              <div>All Rights Reserved</div>
             </div>
             <div>
-              <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a>
-            </div>
-            <div>All Rights Reserved</div>.
-            <div>
-              <a href="#" className="txt-decor-none clr-body">
+              <a href="#" className="ml--7px txt-decor-none btn is-circle clr-body">
                 <i class="icon is-lg ri-whatsapp-line"></i>
               </a>
-              <a href="#" className="mx-1rem txt-decor-none clr-body">
+              <a href="#" className="mx-7px txt-decor-none btn is-circle clr-body">
                 <i class="icon is-lg ri-facebook-fill"></i>
               </a>
-              <a href="#" className="txt-decor-none clr-body">
+              <a href="#" className="txt-decor-none btn is-circle clr-body">
                 <i class="icon is-lg ri-twitter-line"></i>
               </a>
             </div>

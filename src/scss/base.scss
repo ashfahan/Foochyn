@@ -3,6 +3,10 @@
 @import "./Fluid/settings/settings";
 @import "./Fluid/settings/placeholders/prefers-reduced-motion";
 
+.clr-white{
+  color: #fff;
+}
+
 .card-zoom {
   .overflow-hidden {
     height: 175px;

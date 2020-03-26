@@ -96,7 +96,10 @@
     // Default Outline Styles
     //
     border-color: $button-theme-light;
-    color: $button-theme;
+
+    @include focus-active {
+      border-color: currentColor;
+    }
 
     @include button-design-outline-variant($button-theme); // Default button theme
 

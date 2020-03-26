@@ -15,7 +15,7 @@ export default class Sidebar extends Component {
           path="/"
           render={() => (
             <aside className={"hidden flex@md is-y align-middle justify-between lyt-sidebar collapsed h-min-100vh py-1rem shadow z-10 " + this.props.className}>
-              <button className="btn is-circle is-lg" onClick={() => this.setState({ active: !this.state.active })}>
+              <button className="btn is-circle is-lg" onClick={() => this.setState({ active: true })}>
                 <span className="icon">
                   <i class="ri-menu-line"></i>
                 </span>
@@ -48,7 +48,7 @@ export default class Sidebar extends Component {
         <aside className={`lyt-sidebar fixed p-1rem pl-4 flex is-y justify-between ${this.state.active ? "active" : ""}`}>
           <div className="flex justify-between align-bottom mb-6">
             <div className="h3 mb-0">Foochyn</div>
-            <button className="btn is-circle ri-2x p-7px" onClick={() => this.setState({ active: !this.state.active })}>
+            <button className="btn is-circle ri-2x p-7px" onClick={() => this.setState({ active: false })}>
               <span className="icon">
                 <i class="ri-close-line"></i>
               </span>
@@ -87,7 +87,7 @@ export default class Sidebar extends Component {
             </div>
           </div>
         </aside>
-        <div className="overlay"></div>
+        <div className="overlay" onClick={() => this.setState({ active: false })}></div>
       </>
     );
   }

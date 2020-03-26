@@ -17,7 +17,7 @@ export default class Sidebar extends Component {
             <aside className={"sticky top-0 hidden flex@md is-y align-middle justify-between lyt-sidebar collapsed h-100vh py-1rem shadow z-10 " + this.props.className}>
               <button className="btn is-circle is-lg" onClick={() => this.setState({ active: true })}>
                 <span className="icon">
-                  <i class="ri-menu-line"></i>
+                  <i className="ri-menu-line"></i>
                 </span>
               </button>
               <div className="txt-vertical rotate-180 is-sm txt-upper">
@@ -28,16 +28,16 @@ export default class Sidebar extends Component {
                 <b>© 2020, NOREBRO THEME BY COLABRIO</b>
               </div>
               <div className="txt-vertical rotate-180 relative share">
-                <i class="icon ri-close-line ri-2x is-circle"></i> <b className="is-sm txt-upper mt-7px">Share</b>
+                <i className="icon ri-close-line ri-2x is-circle"></i> <b className="is-sm txt-upper mt-7px">Share</b>
                 <div className="absolute bg-white left-50 flex is-x-rev p-7px">
                   <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
-                    <i class="icon is-lg ri-whatsapp-line"></i>
+                    <i className="icon is-lg ri-whatsapp-line"></i>
                   </a>
                   <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
-                    <i class="icon is-lg ri-facebook-fill"></i>
+                    <i className="icon is-lg ri-facebook-fill"></i>
                   </a>
                   <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
-                    <i class="icon is-lg ri-twitter-line"></i>
+                    <i className="icon is-lg ri-twitter-line"></i>
                   </a>
                 </div>
               </div>
@@ -50,7 +50,7 @@ export default class Sidebar extends Component {
             <div className="h3 mb-0">Foochyn</div>
             <button className="btn is-circle ri-2x p-7px" onClick={() => this.setState({ active: false })}>
               <span className="icon">
-                <i class="ri-close-line"></i>
+                <i className="ri-close-line"></i>
               </span>
             </button>
           </div>
@@ -76,13 +76,13 @@ export default class Sidebar extends Component {
             </div>
             <div>
               <a href="#" className="ml--7px txt-decor-none btn is-circle clr-body">
-                <i class="icon is-lg ri-whatsapp-line"></i>
+                <i className="icon is-lg ri-whatsapp-line"></i>
               </a>
               <a href="#" className="mx-7px txt-decor-none btn is-circle clr-body">
-                <i class="icon is-lg ri-facebook-fill"></i>
+                <i className="icon is-lg ri-facebook-fill"></i>
               </a>
               <a href="#" className="txt-decor-none btn is-circle clr-body">
-                <i class="icon is-lg ri-twitter-line"></i>
+                <i className="icon is-lg ri-twitter-line"></i>
               </a>
             </div>
           </div>

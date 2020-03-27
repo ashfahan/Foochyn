@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Headroom from "headroom.js";
+import _ from "lodash";
 
 export default class Header extends Component {
   constructor(props) {
@@ -8,7 +9,14 @@ export default class Header extends Component {
   }
 
   componentDidMount() {
-    console.log(this.ref.current);
+    var found = setInterval(() => {
+      if (document.querySelector(".lyt-sidebar.column") != undefined) {
+        this.ref.current.style.width = `${window.innerWidth - document.querySelector(".lyt-sidebar.column").clientWidth}px`;
+        window.onresize = _.debounce(() => (this.ref.current.style.width = `${window.innerWidth - document.querySelector(".lyt-sidebar.column").clientWidth}px`), 100);
+        clearInterval(found);
+      }
+    }, 1000);
+
     var headroom = new Headroom(this.ref.current, {
       // vertical offset in px before element is first unpinned
       offset: 100,

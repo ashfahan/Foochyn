@@ -65,7 +65,7 @@ class Main extends Component {
           </Layout.Content>
           <Footer />
         </div>
-        <BackTop className="top" />
+        <BackTop className="z-top" />
       </Layout>
     );
   }

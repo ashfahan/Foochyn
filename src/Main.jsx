@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { BackTop, Layout } from "antd";
+import { Result, Button, BackTop, Layout } from "antd";
 
 import { connect } from "react-redux";
 import { setting } from "./store";
 
-import { Route, Switch } from "react-router-dom";
+import { NavLink, Route, Switch } from "react-router-dom";
 import { withRouter } from "react-router";
 
 import "antd/dist/antd.css";
@@ -39,7 +39,7 @@ class Main extends Component {
   render() {
     return (
       <Layout className="grid has-gap-0 is-x">
-        <Sidebar className="column">as</Sidebar>
+        <Sidebar className="column" />
         <div className="column">
           <Header />
           <Layout.Content className="lyt-main">

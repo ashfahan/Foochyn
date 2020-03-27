@@ -3,8 +3,11 @@
 @import "./Fluid/settings/settings";
 @import "./Fluid/settings/placeholders/prefers-reduced-motion";
 
-.clr-white{
-  color: #fff;
+::-moz-selection {
+  background: $orange;
+}
+::selection {
+  background: $orange;
 }
 
 .card-zoom {

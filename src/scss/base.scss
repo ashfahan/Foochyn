@@ -36,8 +36,14 @@
   }
 }
 
-.lyt-header.shadow {
-  box-shadow: 6px 0 6px 0 rgba(0, 0, 0, 0.15) !important;
+.lyt-header {
+  &.shadow {
+    box-shadow: 6px 0 6px 0 rgba(0, 0, 0, 0.15) !important;
+  }
+  a {
+    color: inherit;
+    transition: none;
+  }
 }
 
 .lyt-sidebar.collapsed {

@@ -45,7 +45,22 @@ class Main extends Component {
           <Layout.Content className="lyt-main">
             <Switch>
               <Route path="/" component={() => <Home />} exact />
-              <Route component={() => <Error error={404} />} />
+              <Route
+                render={() => (
+                  <div className="h-min-100vh flex align-middle justify-center">
+                    <Result
+                      status="404"
+                      title="404"
+                      subTitle="Sorry, the page you visited does not exist."
+                      extra={
+                        <NavLink to="/">
+                          <button className="btn is-sld is-primary">Back Home</button>
+                        </NavLink>
+                      }
+                    />
+                  </div>
+                )}
+              />
             </Switch>
           </Layout.Content>
           <Footer />

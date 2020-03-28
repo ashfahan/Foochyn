@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Result, Button, BackTop, Layout } from "antd";
+import { BackTop, Layout } from "antd";
 
 import { connect } from "react-redux";
 import { setting } from "./store";
 
-import { NavLink, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { withRouter } from "react-router";
 
 import "antd/dist/antd.css";
@@ -45,22 +45,7 @@ class Main extends Component {
           <Layout.Content className="lyt-main">
             <Switch>
               <Route path="/" component={() => <Home />} exact />
-              <Route
-                render={() => (
-                  <div className="h-min-100vh flex align-middle justify-center">
-                    <Result
-                      status="404"
-                      title="404"
-                      subTitle="Sorry, the page you visited does not exist."
-                      extra={
-                        <NavLink to="/">
-                          <button className="btn is-sld is-primary">Back Home</button>
-                        </NavLink>
-                      }
-                    />
-                  </div>
-                )}
-              />
+              <Route component={() => <Error error={404} />} />
             </Switch>
           </Layout.Content>
           <Footer />

@@ -11,7 +11,7 @@ export default class Header extends Component {
 
   componentDidMount() {
     var found = setInterval(() => {
-      if (document.querySelector(".lyt-sidebar.column") != undefined) {
+      if (document.querySelector(".lyt-sidebar.column") !== undefined) {
         this.ref.current.style.width = `${window.innerWidth - document.querySelector(".lyt-sidebar.column").clientWidth}px`;
         window.onresize = _.debounce(() => (this.ref.current.style.width = `${window.innerWidth - document.querySelector(".lyt-sidebar.column").clientWidth}px`), 100);
         clearInterval(found);

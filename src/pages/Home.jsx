@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TitleBg from "../images/home-title-bg.jpg";
 
-import { Select, Button, DatePicker, TimePicker } from "antd";
+import { Select, DatePicker, TimePicker } from "antd";
 
 import ResturantCard from "../components/ResturantCard";
 

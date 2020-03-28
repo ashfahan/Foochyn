@@ -5,6 +5,7 @@
 //
 // Setting
 //
+$zomato:        #ED5A6B !default;
 $blue:          #1890ff !default;
 $indigo:        #5400ff !default;
 $purple:        #805ad5 !default;
@@ -67,7 +68,7 @@ $black:          #000 !default;
 
 $disabled:        $gray-400 !default;
 
-$primary:         $purple !default;
+$primary:         $zomato !default;
 $secondary:       $gray-500 !default;
 $valid:           $green !default;
 $info:            $cyan !default;

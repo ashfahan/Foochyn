@@ -25,7 +25,7 @@ export default class Sidebar extends Component {
                   <span className="bg-secondary inline-block o-25" style={{ width: "2px", height: "30px" }}></span>
                   <span className="bg-black inline-block" style={{ width: "2px", height: "30px" }}></span>
                 </span>
-                <b>© 2020, NOREBRO THEME BY COLABRIO</b>
+                <b>Title</b>
               </div>
               <div className="txt-vertical rotate-180 relative share">
                 <i className="icon ri-close-line ri-2x is-circle"></i> <b className="is-sm txt-upper mt-7px">Share</b>
@@ -66,12 +66,7 @@ export default class Sidebar extends Component {
 
           <div>
             <div className="mb-4">
-              <div>
-                © 2020, Norebro Theme by <a href="#">Colabrio</a>
-              </div>
-              <div>
-                <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a>
-              </div>
+              <div>2020-2027 © Foochyn</div>
               <div>All Rights Reserved</div>
             </div>
             <div>

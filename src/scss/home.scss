@@ -1,0 +1,35 @@
+@import "./Fluid/vendors/vendors";
+@import "./Fluid/tools/tools";
+@import "./Fluid/settings/settings";
+@import "./Fluid/settings/placeholders/prefers-reduced-motion";
+
+.lyt-sidebar.collapsed {
+  width: 70px;
+  flex: none;
+  > .share {
+    > .icon {
+      transform: rotate(45deg);
+      transition: transform 0.2s ease-in-out;
+    }
+    .absolute {
+      top: 0%;
+      opacity: 0;
+      transform: translateX(-50%);
+      transition: top 0.2s ease-in-out, opacity 0.2s ease-in-out;
+      > * {
+        transform: rotate(180deg);
+      }
+    }
+
+    &:hover {
+      .absolute {
+        top: 50%;
+        opacity: 1;
+      }
+      > .icon {
+        transform: none;
+      }
+    }
+  }
+}
+

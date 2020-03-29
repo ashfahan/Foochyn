@@ -4,6 +4,7 @@ import TitleBg from "../images/home-title-bg.jpg";
 import { Select, DatePicker, TimePicker } from "antd";
 
 import ResturantCard from "../components/ResturantCard";
+import "../scss/home.scss";
 
 class Home extends Component {
   render() {

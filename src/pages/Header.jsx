@@ -10,13 +10,10 @@ export default class Header extends Component {
   }
 
   componentDidMount() {
-    var found = setInterval(() => {
-      if (document.querySelector(".lyt-sidebar.column") !== undefined) {
-        this.ref.current.style.width = `${window.innerWidth - document.querySelector(".lyt-sidebar.column").clientWidth}px`;
-        window.onresize = _.debounce(() => (this.ref.current.style.width = `${window.innerWidth - document.querySelector(".lyt-sidebar.column").clientWidth}px`), 100);
-        clearInterval(found);
-      }
-    }, 1000);
+    if (document.querySelector(".lyt-sidebar.column") !== null) {
+      this.ref.current.style.width = `${window.innerWidth - document.querySelector(".lyt-sidebar.column").clientWidth}px`;
+      window.onresize = _.debounce(() => (this.ref.current.style.width = `${window.innerWidth - document.querySelector(".lyt-sidebar.column").clientWidth}px`), 100);
+    }
 
     var headroom = new Headroom(this.ref.current, {
       // vertical offset in px before element is first unpinned

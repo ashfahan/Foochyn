@@ -112,31 +112,27 @@ class Home extends Component {
         </section>
 
         <section data-section="Find your table" className="py-6 px-4 bg-primary clr-white">
-          <h2 className="txt-center txt-cap mb-4">Why Book a Restaurant With Foochyn</h2>
-          <div className="grid">
-            <div className="column w-8 my-2">
-              <h4>Deals</h4>
-              <div className="txt-justify">Super hot free deals with every reservation</div>
+          <h2 className="txt-center txt-cap mb-0">Why Book a Restaurant With Foochyn</h2>
+          <div className="grid has-gap-lg txt-center">
+            <div className="column px-1rem w-6@lg w-12@sm w-24 my-2">
+              <div className="ri-search-eye-line ri-10x"></div>
+              <h4 className="mb-10">Discover Restaurants</h4>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem possimus reiciendis, sit dolorum alias expedita praesentium natus dolor maxime accusantium optio id mollitia quia temporibus nemo eius vero, ratione minus! </div>
             </div>
-            <div className="column w-8 my-2">
-              <h4>Quick Booking</h4>
-              <div className="txt-justify">Instant booking in 20 seconds</div>
+            <div className="column px-1rem w-6@lg w-12@sm w-24 my-2">
+              <div className="ri-feedback-line ri-10x"></div>
+              <h4 className="mb-10">Restaurants Reviews</h4>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem possimus reiciendis, sit dolorum alias expedita praesentium natus dolor maxime accusantium optio id mollitia quia temporibus nemo eius vero, ratione minus! </div>
             </div>
-            <div className="column w-8 my-2">
-              <h4>Free Cancellation</h4>
-              <div className="txt-justify">Free cancellation always flexible always free</div>
+            <div className="column px-1rem w-6@lg w-12@sm w-24 my-2">
+              <div className="ri-calendar-check-line ri-10x"></div>
+              <h4 className="mb-10">Quick Booking</h4>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem possimus reiciendis, sit dolorum alias expedita praesentium natus dolor maxime accusantium optio id mollitia quia temporibus nemo eius vero, ratione minus! </div>
             </div>
-            <div className="column w-8 my-2">
-              <h4>Deals</h4>
-              <div className="txt-justify">Super hot free deals with every reservation</div>
-            </div>
-            <div className="column w-8 my-2">
-              <h4>Quick Booking</h4>
-              <div className="txt-justify">Instant booking in 20 seconds</div>
-            </div>
-            <div className="column w-8 my-2">
-              <h4>Free Cancellation</h4>
-              <div className="txt-justify">Free cancellation always flexible always free</div>
+            <div className="column px-1rem w-6@lg w-12@sm w-24 my-2">
+              <div className="ri-refund-line ri-10x"></div>
+              <h4 className="mb-10">Free Cancelation</h4>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem possimus reiciendis, sit dolorum alias expedita praesentium natus dolor maxime accusantium optio id mollitia quia temporibus nemo eius vero, ratione minus! </div>
             </div>
           </div>
         </section>

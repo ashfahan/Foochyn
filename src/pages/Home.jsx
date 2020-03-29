@@ -8,9 +8,9 @@ import ResturantCard from "../components/ResturantCard";
 class Home extends Component {
   render() {
     return (
-      <div className="">
-        <section data-section="Find your table" className="clr-white flex justify-center align-middle h-min-75vh bg-img" style={{ backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.5), #000000d9), url(${TitleBg})` }}>
-          <div className="w-75vw p-10">
+      <div>
+        <section data-section="Find your table" className="clr-white flex justify-center align-middle h-min-75vh bg-img" style={{ backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
+          <div className="w-min-75vw p-10">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="group">
               <DatePicker placeholder="Date" className="input flex" />

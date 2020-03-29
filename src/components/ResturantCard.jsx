@@ -20,16 +20,21 @@ export default class ResturantCard extends Component {
           <i className={`absolute ri-2x txt-shadow-round right-0 py-7px px-1rem ${this.props.favorite ? "ri-heart-fill clr-primary" : "ri-heart-add-line clr-white"}`}></i>
         </div>
         <h5 className="my-7px">{this.props.title}</h5>
-        <div className="clr-disabled">{this.props.location}</div>
-        <div className="clr-disabled">
-          {this.props.price} PKR Approx for 2 Person | {this.props.cuisines}
-        </div>
-        <div className="flex align-middle">
-          <Rate className="clr-primary" allowHalf defaultValue={parseFloat(this.props.rating)} disabled />
-          <div className="ml-7px inline txt-baseline clr-disabled">{this.props.reviews} reviews</div>
+        <div className="flex align-baseline">
+          <span className="clr-primary">{this.props.rating}</span>
+          <Rate className="clr-primary mx-7px is-md" allowHalf value={this.props.rating} disabled />
+          <span className="clr-disabled">({this.props.reviews})</span>
         </div>
         <div className="clr-disabled">{this.format(this.props.location)}</div>
+        <div className="clr-disabled">{this.format(this.props.cuisines)}</div>
+        <div className="clr-disabled">{this.format(this.props.pricerange)} PKR Approx Per User</div>
       </div>
     );
+  }
+
+  format(value) {
+    let result = "";
+    for (let index = 0; index < value.length - 1; index++) result = result + value[index] + " • ";
+    return result + value[value.length - 1];
   }
 }

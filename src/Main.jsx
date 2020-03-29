@@ -11,6 +11,8 @@ import "antd/dist/antd.css";
 import "./scss/ant-reset.scss";
 import "animate.css";
 import "./scss/Fluid/fluid.scss";
+// TODO : REMOVE LATER
+import "./scss/Fluid/fluid-utilities.scss";
 import "remixicon/fonts/remixicon.css";
 import "./scss/base.scss";
 

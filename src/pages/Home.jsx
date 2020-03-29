@@ -4,6 +4,7 @@ import TitleBg from "../images/home-title-bg.jpg";
 import { Select, DatePicker, TimePicker } from "antd";
 
 import ResturantCard from "../components/ResturantCard";
+import LocationCard from "../components/LocationCard";
 import "../scss/home.scss";
 
 class Home extends Component {
@@ -86,6 +87,20 @@ class Home extends Component {
 
         <section data-section="Find your table" className="py-6 px-4">
           <h2 className="txt-center txt-cap mb-4">Featured Areas in {"city"}</h2>
+          <div className="grid has-gap-lg">
+            <div className="column w-6@lg w-12@sm w-24">
+              <LocationCard location="Lahore" resurantcount={500} image="https://source.unsplash.com/512x384/?Lahore" />
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <LocationCard location="Islamabad" resurantcount={500} image="https://source.unsplash.com/512x384/?Islamabad" />
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <LocationCard location="Karachi" resurantcount={500} image="https://source.unsplash.com/512x384/?Karachi" />
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <LocationCard location="Peshawar" resurantcount={500} image="https://source.unsplash.com/512x384/?Peshawar" />
+            </div>
+          </div>
         </section>
 
         <section data-section="Find your table" className="py-6 px-4">

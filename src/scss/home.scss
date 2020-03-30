@@ -1,7 +1,7 @@
-@import "./Fluid/src/vendors/vendors";
-@import "./Fluid/src/tools/tools";
-@import "./Fluid/src/settings/settings";
-@import "./Fluid/src/settings/placeholders/prefers-reduced-motion";
+@import "./fluid/src/vendors/vendors";
+@import "./fluid/src/tools/tools";
+@import "./fluid/src/settings/settings";
+@import "./fluid/src/settings/placeholders/prefers-reduced-motion";
 
 .lyt-sidebar.collapsed {
   width: 70px;

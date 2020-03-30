@@ -15,7 +15,7 @@ class Home extends Component {
           <div className="w-min-75vw p-10">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="group">
-              <DatePicker placeholder="Date" className="input" />
+              <DatePicker placeholder="Date" className="input" format="DD/MM/YYYY" />
               <TimePicker placeholder="Time" className="input" use12Hours format="h:mm a" />
               <Select bordered={false} className="input p-0" showSearch placeholder="People">
                 <Select.Option value="1">1 People</Select.Option>

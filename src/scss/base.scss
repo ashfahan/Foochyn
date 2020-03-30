@@ -1,7 +1,7 @@
-@import "./Fluid/vendors/vendors";
-@import "./Fluid/tools/tools";
-@import "./Fluid/settings/settings";
-@import "./Fluid/settings/placeholders/prefers-reduced-motion";
+@import "./Fluid/src/vendors/vendors";
+@import "./Fluid/src/tools/tools";
+@import "./Fluid/src/settings/settings";
+@import "./Fluid/src/settings/placeholders/prefers-reduced-motion";
 
 ::-moz-selection {
   background: $orange;

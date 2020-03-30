@@ -11,40 +11,6 @@ export default class Sidebar extends Component {
   render() {
     return (
       <>
-        <Route
-          path="/"
-          render={() => (
-            <aside className={"sticky top-0 hidden flex@md is-y align-middle justify-between lyt-sidebar collapsed h-100vh py-1rem shadow z-10 " + this.props.className}>
-              <button className="btn is-circle is-lg" onClick={() => this.setState({ active: true })}>
-                <span className="icon">
-                  <i className="ri-menu-line"></i>
-                </span>
-              </button>
-              <div className="txt-vertical rotate-180 is-sm txt-upper">
-                <span className="mb-1rem">
-                  <span className="bg-secondary inline-block o-25" style={{ width: "2px", height: "30px" }}></span>
-                  <span className="bg-black inline-block" style={{ width: "2px", height: "30px" }}></span>
-                </span>
-                <b>Title</b>
-              </div>
-              <div className="txt-vertical rotate-180 relative share">
-                <i className="icon ri-close-line ri-2x is-circle"></i> <b className="is-sm txt-upper mt-7px">Share</b>
-                <div className="absolute bg-white left-50 flex is-x-rev p-7px">
-                  <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
-                    <i className="icon is-lg ri-whatsapp-line"></i>
-                  </a>
-                  <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
-                    <i className="icon is-lg ri-facebook-fill"></i>
-                  </a>
-                  <a href="#" className="my-7px txt-decor-none btn is-circle clr-body">
-                    <i className="icon is-lg ri-twitter-line"></i>
-                  </a>
-                </div>
-              </div>
-            </aside>
-          )}
-          exact
-        />
         <aside className={`lyt-sidebar fixed p-1rem pl-4 flex is-y justify-between ${this.state.active ? "active" : ""}`}>
           <div className="flex justify-between align-bottom mb-6">
             <div className="h3 mb-0">Foochyn</div>

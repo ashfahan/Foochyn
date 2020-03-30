@@ -2,17 +2,6 @@ import React, { Component } from "react";
 import { Rate } from "antd";
 
 export default class ResturantCard extends Component {
-  // this.props = {
-  //   image: "https://source.unsplash.com/512x384/?food,resturant",
-  //   title: "Ceciches Ceciches",
-  //   location: "South Padre Island, TX",
-  //   price: "1000-5000",
-  //   reviews: "500",
-  //   rating: 2.5,
-  //   favotite: false,
-  //   cuisines: "Barbecue, Chinese , Fase Food , North Indian"
-  // };
-
   render() {
     return (
       <div className="bg-white p-7px">

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Headroom from "headroom.js";
 import { NavLink } from "react-router-dom";
-import _ from "lodash";
 
 export default class Header extends Component {
   constructor(props) {

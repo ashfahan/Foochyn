@@ -15,26 +15,26 @@ class Home extends Component {
           <div className="w-min-75vw p-10">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="group">
-              <DatePicker placeholder="Date" className="input flex" />
-              <TimePicker placeholder="Time" className="input flex" use12Hours format="h:mm a" />
-              <Select bordered={false} className="input flex" showSearch placeholder="People">
-                <Select.Option value="1">1</Select.Option>
-                <Select.Option value="2">2</Select.Option>
-                <Select.Option value="3">3</Select.Option>
-                <Select.Option value="4">4</Select.Option>
-                <Select.Option value="5">5</Select.Option>
-                <Select.Option value="6">6</Select.Option>
-                <Select.Option value="7">7</Select.Option>
-                <Select.Option value="8">8</Select.Option>
-                <Select.Option value="9">9</Select.Option>
-                <Select.Option value="10">10</Select.Option>
-                <Select.Option value="11">11</Select.Option>
-                <Select.Option value="12">12</Select.Option>
-                <Select.Option value="13">13</Select.Option>
-                <Select.Option value="14">14</Select.Option>
-                <Select.Option value="15">15</Select.Option>
+              <DatePicker placeholder="Date" className="input" />
+              <TimePicker placeholder="Time" className="input" use12Hours format="h:mm a" />
+              <Select bordered={false} className="input p-0" showSearch placeholder="People">
+                <Select.Option value="1">1 People</Select.Option>
+                <Select.Option value="2">2 People</Select.Option>
+                <Select.Option value="3">3 People</Select.Option>
+                <Select.Option value="4">4 People</Select.Option>
+                <Select.Option value="5">5 People</Select.Option>
+                <Select.Option value="6">6 People</Select.Option>
+                <Select.Option value="7">7 People</Select.Option>
+                <Select.Option value="8">8 People</Select.Option>
+                <Select.Option value="9">9 People</Select.Option>
+                <Select.Option value="10">10 People</Select.Option>
+                <Select.Option value="11">11 People</Select.Option>
+                <Select.Option value="12">12 People</Select.Option>
+                <Select.Option value="13">13 People</Select.Option>
+                <Select.Option value="14">14 People</Select.Option>
+                <Select.Option value="15">15 People</Select.Option>
               </Select>
-              <Select bordered={false} className="input flex" showSearch placeholder="Place">
+              <Select bordered={false} className="input p-0" showSearch placeholder="Place">
                 <Select.Option value="lahore">Lahore</Select.Option>
                 <Select.Option value="karachi">Karachi</Select.Option>
                 <Select.Option value="islamabad">Islamabad</Select.Option>

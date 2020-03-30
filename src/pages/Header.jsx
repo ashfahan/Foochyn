@@ -67,6 +67,9 @@ export default class Header extends Component {
       <header ref={this.ref} className={`ant-layout-header lyt-header grid ${this.props.className}`}>
         <div className="column w-4 font-bold is-lg">Foochyn</div>
         <div className="column w-20 txt-right">
+          <a href="#" className="btn is-out is-primary mr-7px txt-decor-none">
+            Contact Us
+          </a>
           <NavLink to="/search">
             <button className="btn is-out is-primary mr-7px">Find Table</button>
           </NavLink>

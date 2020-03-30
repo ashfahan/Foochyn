@@ -1,7 +1,18 @@
 import React, { Component } from "react";
 import { Rate } from "antd";
 
-export default class ResturantCard extends Component {
+interface props {
+  image: string;
+  favorite: boolean;
+  title: string;
+  rating: number;
+  reviews: number;
+  location: string[];
+  cuisines: string[];
+  pricerange: number[];
+}
+
+export default class ResturantCard extends Component<props> {
   render() {
     return (
       <div className="bg-white p-7px">
@@ -21,7 +32,7 @@ export default class ResturantCard extends Component {
     );
   }
 
-  format(value) {
+  format(value: any[]) {
     let result = "";
     for (let index = 0; index < value.length - 1; index++) result = result + value[index] + " • ";
     return result + value[value.length - 1];

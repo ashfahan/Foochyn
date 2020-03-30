@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 
-export default class LocationCard extends Component {
+interface props {
+  image: string;
+  location: string;
+  resurantcount: number;
+}
+
+export default class LocationCard extends Component<props> {
   render() {
     return (
       <div className="LOCATIONCARD relative p-7px flex justify-center align-middle" style={{ minHeight: "200px" }}>

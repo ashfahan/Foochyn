@@ -3,7 +3,11 @@ import { Result } from "antd";
 
 import { NavLink } from "react-router-dom";
 
-export default class Error extends Component {
+interface props {
+  error: any;
+}
+
+export default class Error extends Component<props> {
   render() {
     switch (this.props.error) {
       case 403:

@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import Headroom from "headroom.js";
 import { NavLink } from "react-router-dom";
 
-export default class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.ref = React.createRef();
-  }
+interface props {
+  className?: string;
+}
+
+export default class Header extends Component<props> {
+  ref = React.createRef<HTMLDivElement>();
 
   componentDidMount() {
     var headroom = new Headroom(this.ref.current, {

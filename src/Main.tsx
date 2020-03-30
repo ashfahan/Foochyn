@@ -23,7 +23,12 @@ import Sidebar from "./pages/Sidebar";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 
-class Main extends Component {
+interface props {
+  SetLoaded: Function;
+  location: any;
+}
+
+class Main extends Component<props> {
   constructor(props) {
     super(props);
     window.onload = () => {
@@ -33,13 +38,13 @@ class Main extends Component {
 
   componentDidUpdate = () => {
     console.log(this.props);
-
     console.log("current location is ", this.props.location.pathname);
   };
 
   render() {
     return (
       <Layout className="grid has-gap-0 is-x">
+        {/*  todo : check calssname */}
         <Sidebar className="column" />
         <div className="column">
           <Header />

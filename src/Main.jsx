@@ -10,6 +10,7 @@ import { withRouter } from "react-router";
 import "antd/dist/antd.css";
 import "./scss/ant-reset.scss";
 import "animate.css";
+// todo : use development build of fluid in production
 import "./scss/fluid/temp/fluid.css";
 import "remixicon/fonts/remixicon.css";
 import "./scss/base.scss";

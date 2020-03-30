@@ -15,14 +15,14 @@
     }
 
     thead {
-      // td,
-      // th {
+      td,
+      th {
         padding-top: .5em; // padding inside table's cell
         padding-bottom: .5em; // padding inside table's cell
         border-bottom: $table-head-border-width solid $table-head-border-color;
         color: $table-head-color;
         background-color: $table-head-background;
-      // }
+      }
     }
 
     tfoot,
@@ -126,7 +126,12 @@
     .table.has-sticky-scope {
       [scope] {
         position: sticky;
-        background: if($table-head-background == null, $body-background, $table-head-background);
+        background:
+          if(
+            $table-head-background == null,
+            $body-background,
+            $table-head-background
+          );
       }
 
       [scope="row"] {
@@ -137,7 +142,10 @@
       [scope="col"] {
         top: 0;
         z-index: 2;
-        box-shadow: box-shadow(0 2px 0 0 $table-head-border-color); // doesn't appear on Edge 44
+        box-shadow:
+          box-shadow(
+            0 2px 0 0 $table-head-border-color
+          ); // doesn't appear on Edge 44
       }
     }
   }

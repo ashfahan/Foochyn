@@ -8,22 +8,22 @@
 $fontsize-normal:             1rem !default;
 
 $fontfamily-sans-serif:       "Poppins",
-                              -apple-system, // Safari for OS X and iOS (San Francisco)
-                              blinkmacsystemfont, // Chrome < 56 for OS X (San Francisco)
-                              blinkmacsystemfont, // Chrome < 56 for OS X (San Francisco)
-                              "Segoe UI", // Windows 6+
-                              "PingFang SC", // East Asian languages // Simplified Chinese
-                              "Hiragino Sans GB", // East Asian languages // Japanese
-                              "Ubuntu", // Ubuntu 10.10+
-                              "Cantarell", // Gnome 3+
-                              "Noto Sans", // KDE Plasma 5+
-                              "Helvetica Neue", // fallback
-                              arial, // fallback
-                              sans-serif, // fallback
-                              "Apple Color Emoji", // macOS emoji
-                              "Segoe UI Emoji", // Windows emoji
-                              "Segoe UI Symbol", // Windows emoji
-                              "Noto Color Emoji" !default; // Linux emoji
+  -apple-system,
+  blinkmacsystemfont,
+  blinkmacsystemfont,
+  "Segoe UI",
+  "PingFang SC",
+  "Hiragino Sans GB",
+  "Ubuntu",
+  "Cantarell",
+  "Noto Sans",
+  "Helvetica Neue",
+  arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  "Noto Color Emoji" !default; // Linux emoji
 $fontfamily-serif:            georgia, cambria, "Times New Roman", times, serif !default;
 $fontfamily-monospace:        "Menlo", // macOS 10.10+
                               "Ubuntu monospace", // Ubuntu 10.10+

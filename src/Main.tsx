@@ -56,8 +56,7 @@ class Main extends Component<props, state> {
   render() {
     return (
       <Layout className="grid has-gap-0 is-x">
-        {/*  todo : check calssname */}
-        <Sidebar className="column" />
+        <Sidebar />
         <div className="column">
           <Header />
           <Layout.Content className="lyt-main">

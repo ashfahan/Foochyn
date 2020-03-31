@@ -1,13 +1,9 @@
 import React, { Component } from "react";
-
-interface props {
-  className: string;
-}
 interface state {
   active: boolean;
 }
 
-export default class Sidebar extends Component<props, state> {
+export default class Sidebar extends Component<{}, state> {
   constructor(props) {
     super(props);
     this.state = {

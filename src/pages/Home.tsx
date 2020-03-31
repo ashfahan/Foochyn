@@ -174,7 +174,7 @@ class Home extends Component {
         </section>
 
         <section className="py-6 px-4 py-4@md">
-          <h2 className="txt-center txt-cap mb-4">Popular restaurants in {"city"}</h2>
+          <h2 className="txt-center txt-cap mb-4">Featured restaurants in {"city"}</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <ResturantCard favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
@@ -192,7 +192,7 @@ class Home extends Component {
         </section>
 
         <section className="py-6 px-4 py-4@md">
-          <h2 className="txt-center txt-cap mb-4">Featured Areas in {"city"}</h2>
+          <h2 className="txt-center txt-cap mb-4">Popular Areas in {"city"}</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <LocationCard location="Lahore" resurantcount={500} image="https://source.unsplash.com/512x384/?Lahore" />

@@ -27,18 +27,36 @@ h6 {
 .ant-carousel {
   .slick-prev,
   .slick-next {
+    // reset
     color: inherit !important;
     font-family: "remixicon" !important;
-    font-size: 1.5em;
+    font-size: 1.75em;
+    line-height: 1;
+    margin-top: 0;
+    transform: translateY(-50%);
+
+    // icon
+    width: $icon-area;
+    height: $icon-area;
   }
 
-  .slick-prev::before {
-    opacity: .5;
-    content: "\EA59";
+  .slick-prev {
+    left: -3%;
+    &::before {
+      opacity: 0.5;
+      content: "\EA59";
+    }
   }
 
-  .slick-next::before {
-    opacity: .5;
-    content: "\EA65";
+  .slick-next {
+    right: -3%;
+    &::before {
+      opacity: 0.5;
+      content: "\EA65";
+    }
   }
+}
+
+.ant-select-arrow > .icon {
+  margin-top: -30%;
 }

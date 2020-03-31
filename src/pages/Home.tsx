@@ -67,7 +67,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4">
+        <section className="py-6 px-4 py-4@md">
           <h2 className="txt-center txt-cap mb-4">Offer from Popular restaurants in {"city"}</h2>
           <Carousel
             className="txt-center grid flex"
@@ -157,7 +157,7 @@ class Home extends Component {
           </Carousel>
         </section>
 
-        <section className="py-6 px-4">
+        <section className="py-6 px-4 py-4@md">
           <h2 className="txt-center txt-cap mb-4">Popular restaurants in {"city"}</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
@@ -175,7 +175,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4">
+        <section className="py-6 px-4 py-4@md">
           <h2 className="txt-center txt-cap mb-4">Featured Areas in {"city"}</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
@@ -193,7 +193,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4">
+        <section className="py-6 px-4 py-4@md">
           <h2 className="txt-center txt-cap mb-4">Newly added resturants in {"city"}</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
@@ -211,11 +211,11 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4">
+        <section className="py-6 px-4 py-4@md">
           <h2 className="txt-center txt-cap mb-4">Our Partners</h2>
         </section>
 
-        <section className="py-6 px-4 bg-primary clr-white">
+        <section className="py-6 px-4 py-4@md bg-primary clr-white">
           <h2 className="txt-center txt-cap mb-0">Why Book a Restaurant With Foochyn</h2>
           <div className="grid has-gap-lg txt-center">
             <div className="column px-1rem w-6@lg w-12@sm w-24 my-2">

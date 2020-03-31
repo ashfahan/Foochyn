@@ -3,6 +3,7 @@ import { Rate } from "antd";
 
 interface props {
   image: string;
+  link: string;
   favorite: boolean;
   title: string;
   rating: number;
@@ -15,7 +16,8 @@ interface props {
 export default class ResturantCard extends Component<props> {
   render() {
     return (
-      <div className="bg-white is-round-sm overflow-hidden">
+      <div className="bg-white is-round-sm overflow-hidden relative">
+        <a href={this.props.link} className="bg-black stretch-link" />
         <div className="bg-primary img-bg txt-right relative" style={{ minHeight: "200px", backgroundImage: `url(${this.props.image})` }}>
           <i className={`absolute ri-2x txt-shadow-round right-0 py-7px px-1rem ${this.props.favorite ? "ri-heart-fill clr-primary" : "ri-heart-add-line clr-white"}`} />
         </div>

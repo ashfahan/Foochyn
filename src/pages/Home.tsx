@@ -213,16 +213,92 @@ class Home extends Component {
           <h2 className="txt-center txt-cap mb-4">Popular Cuisines</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?South,Indian,food")' }}>
+                <div className="column w-7">
+                  <i className="icon ri-restaurant-2-line ri-4x" />
+                </div>
+                <div className="column">
+                  <h5>South Indian</h5>
+                  <div>648 Restaurants</div>
+                </div>
+              </div>
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?North,Indian,food")' }}>
+                <div className="column w-7">
+                  <i className="icon ri-restaurant-2-line ri-4x" />
+                </div>
+                <div className="column">
+                  <h5>North Indian</h5>
+                  <div>562 Restaurants</div>
+                </div>
+              </div>
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={true} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?Chinese,food")' }}>
+                <div className="column w-7">
+                  <i className="icon ri-restaurant-2-line ri-4x" />
+                </div>
+                <div className="column">
+                  <h5>Chinese</h5>
+                  <div>267 Restaurants</div>
+                </div>
+              </div>
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?italian,food")' }}>
+                <div className="column w-7">
+                  <i className="icon ri-restaurant-2-line ri-4x" />
+                </div>
+                <div className="column">
+                  <h5>italian</h5>
+                  <div>94 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?italian,food")' }}>
+                <div className="column w-7">
+                  <i className="icon ri-restaurant-2-line ri-4x" />
+                </div>
+                <div className="column">
+                  <h5>italian</h5>
+                  <div>94 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?Chinese,food")' }}>
+                <div className="column w-7">
+                  <i className="icon ri-restaurant-2-line ri-4x" />
+                </div>
+                <div className="column">
+                  <h5>Chinese</h5>
+                  <div>267 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?North,Indian,food")' }}>
+                <div className="column w-7">
+                  <i className="icon ri-restaurant-2-line ri-4x" />
+                </div>
+                <div className="column">
+                  <h5>North Indian</h5>
+                  <div>562 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?South,Indian,food")' }}>
+                <div className="column w-7">
+                  <i className="icon ri-restaurant-2-line ri-4x" />
+                </div>
+                <div className="column">
+                  <h5>South Indian</h5>
+                  <div>648 Restaurants</div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

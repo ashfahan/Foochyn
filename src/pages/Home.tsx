@@ -9,10 +9,10 @@ import "../scss/home.scss";
 
 class Home extends Component {
   NextArrow(props) {
-    return <div className={props.className} style={{ ...props.style }} onClick={props.onClick} />;
+    return <div className={`${props.className}`} style={{ ...props.style }} onClick={props.onClick} />;
   }
   PrevArrow(props) {
-    return <div className={props.className} style={{ ...props.style }} onClick={props.onClick} />;
+    return <div className={`${props.className}`} style={{ ...props.style }} onClick={props.onClick} />;
   }
 
   render() {

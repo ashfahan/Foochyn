@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TitleBg from "../images/home-title-bg.jpg";
 
-import { Select, DatePicker, TimePicker } from "antd";
+import { Carousel, Select, DatePicker, TimePicker } from "antd";
 
 import ResturantCard from "../components/ResturantCard";
 import LocationCard from "../components/LocationCard";
@@ -65,6 +65,96 @@ class Home extends Component {
               <button className="btn is-sld is-primary">Search Table</button>
             </div>
           </div>
+        </section>
+
+        <section data-section="Find your table" className="py-6 px-4">
+          <h2 className="txt-center txt-cap mb-4">Offer from Popular restaurants in {"city"}</h2>
+          <Carousel
+            className="txt-center grid flex"
+            // autoplay
+            dots
+            accessibility
+            adaptiveHeight
+            arrows
+            infinite
+            draggable
+            slidesToShow={6}
+            responsive={[
+              {
+                breakpoint: 1200,
+                settings: {
+                  slidesToShow: 6
+                }
+              },
+              {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 4
+                }
+              },
+              {
+                breakpoint: 576,
+                settings: {
+                  slidesToShow: 2
+                }
+              },
+              {
+                breakpoint: 450,
+                settings: {
+                  slidesToShow: 1
+                }
+              }
+            ]}
+          >
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+            <div className="px-7px w-auto">
+              <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
+            </div>
+          </Carousel>
         </section>
 
         <section data-section="Find your table" className="py-6 px-4">

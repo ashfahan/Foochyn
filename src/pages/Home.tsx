@@ -11,7 +11,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <section data-section="Find your table" className="clr-white flex justify-center align-middle h-min-75vh bg-img" style={{ backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
+        <section className="clr-white flex justify-center align-middle h-min-75vh bg-img" style={{ backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
           <div className="w-min-75vw p-10">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="group">
@@ -67,7 +67,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section data-section="Find your table" className="py-6 px-4">
+        <section className="py-6 px-4">
           <h2 className="txt-center txt-cap mb-4">Offer from Popular restaurants in {"city"}</h2>
           <Carousel
             className="txt-center grid flex"
@@ -157,7 +157,7 @@ class Home extends Component {
           </Carousel>
         </section>
 
-        <section data-section="Find your table" className="py-6 px-4">
+        <section className="py-6 px-4">
           <h2 className="txt-center txt-cap mb-4">Popular restaurants in {"city"}</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
@@ -175,7 +175,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section data-section="Find your table" className="py-6 px-4">
+        <section className="py-6 px-4">
           <h2 className="txt-center txt-cap mb-4">Featured Areas in {"city"}</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
@@ -193,7 +193,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section data-section="Find your table" className="py-6 px-4">
+        <section className="py-6 px-4">
           <h2 className="txt-center txt-cap mb-4">Newly added resturants in {"city"}</h2>
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
@@ -211,11 +211,11 @@ class Home extends Component {
           </div>
         </section>
 
-        <section data-section="Find your table" className="py-6 px-4">
+        <section className="py-6 px-4">
           <h2 className="txt-center txt-cap mb-4">Our Partners</h2>
         </section>
 
-        <section data-section="Find your table" className="py-6 px-4 bg-primary clr-white">
+        <section className="py-6 px-4 bg-primary clr-white">
           <h2 className="txt-center txt-cap mb-0">Why Book a Restaurant With Foochyn</h2>
           <div className="grid has-gap-lg txt-center">
             <div className="column px-1rem w-6@lg w-12@sm w-24 my-2">

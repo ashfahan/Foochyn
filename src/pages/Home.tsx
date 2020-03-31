@@ -339,10 +339,6 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4 py-4@md">
-          <h2 className="txt-center txt-cap mb-4">Our Partners</h2>
-        </section>
-
         <section className="py-6 px-4 py-4@md bg-primary clr-white">
           <h2 className="txt-center txt-cap">Why Book a Restaurant With Foochyn</h2>
           <div className="grid has-gap-lg txt-center">

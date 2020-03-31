@@ -1,3 +1,7 @@
+@import "./fluid/src/vendors/vendors";
+@import "./fluid/src/tools/tools";
+@import "./fluid/src/settings/settings";
+
 .ant-layout-sider {
   min-width: initial !important;
   max-width: initial !important;
@@ -18,4 +22,23 @@ h6 {
 
 .ant-picker-suffix {
   transform: translateY(-15%);
+}
+
+.ant-carousel {
+  .slick-prev,
+  .slick-next {
+    color: inherit !important;
+    font-family: "remixicon" !important;
+    font-size: 1.5em;
+  }
+
+  .slick-prev::before {
+    opacity: .5;
+    content: "\EA59";
+  }
+
+  .slick-next::before {
+    opacity: .5;
+    content: "\EA65";
+  }
 }

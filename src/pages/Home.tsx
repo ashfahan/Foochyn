@@ -8,6 +8,13 @@ import LocationCard from "../components/LocationCard";
 import "../scss/home.scss";
 
 class Home extends Component {
+  NextArrow(props) {
+    return <div className={props.className} style={{ ...props.style }} onClick={props.onClick} />;
+  }
+  PrevArrow(props) {
+    return <div className={props.className} style={{ ...props.style }} onClick={props.onClick} />;
+  }
+
   render() {
     return (
       <div>
@@ -70,8 +77,12 @@ class Home extends Component {
         <section className="py-6 px-4 py-4@md">
           <h2 className="txt-center txt-cap mb-4">Offer from Popular restaurants in {"city"}</h2>
           <Carousel
+            {...{
+              nextArrow: <this.NextArrow />,
+              prevArrow: <this.PrevArrow />
+            }}
             className="txt-center grid flex"
-            // autoplay
+            autoplay
             dots
             accessibility
             adaptiveHeight
@@ -79,29 +90,34 @@ class Home extends Component {
             infinite
             draggable
             slidesToShow={6}
+            slidesToScroll={6}
             responsive={[
               {
                 breakpoint: 1200,
                 settings: {
-                  slidesToShow: 6
+                  slidesToShow: 6,
+                  slidesToScroll: 6
                 }
               },
               {
                 breakpoint: 992,
                 settings: {
-                  slidesToShow: 4
+                  slidesToShow: 4,
+                  slidesToScroll: 4
                 }
               },
               {
                 breakpoint: 576,
                 settings: {
-                  slidesToShow: 2
+                  slidesToShow: 2,
+                  slidesToScroll: 2
                 }
               },
               {
                 breakpoint: 450,
                 settings: {
-                  slidesToShow: 1
+                  slidesToShow: 1,
+                  slidesToScroll: 1
                 }
               }
             ]}

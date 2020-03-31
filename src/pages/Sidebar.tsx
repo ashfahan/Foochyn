@@ -22,7 +22,7 @@ export default class Sidebar extends Component<props, state> {
             <div className="h3 mb-0">Foochyn</div>
             <button className="btn is-circle ri-2x p-7px" onClick={() => this.setState({ active: false })}>
               <span className="icon">
-                <i className="ri-close-line"></i>
+                <i className="ri-close-line" />
               </span>
             </button>
           </div>
@@ -43,18 +43,18 @@ export default class Sidebar extends Component<props, state> {
             </div>
             <div>
               <a href="#" className="ml--7px txt-decor-none btn is-circle clr-body">
-                <i className="icon is-lg ri-whatsapp-line"></i>
+                <i className="icon is-lg ri-whatsapp-line" />
               </a>
               <a href="#" className="mx-7px txt-decor-none btn is-circle clr-body">
-                <i className="icon is-lg ri-facebook-fill"></i>
+                <i className="icon is-lg ri-facebook-fill" />
               </a>
               <a href="#" className="txt-decor-none btn is-circle clr-body">
-                <i className="icon is-lg ri-twitter-line"></i>
+                <i className="icon is-lg ri-twitter-line" />
               </a>
             </div>
           </div>
         </aside>
-        <div className="overlay" onClick={() => this.setState({ active: false })}></div>
+        <div className="overlay" onClick={() => this.setState({ active: false })} />
       </>
     );
   }

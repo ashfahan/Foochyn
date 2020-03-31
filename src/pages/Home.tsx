@@ -271,22 +271,22 @@ class Home extends Component {
           <h2 className="txt-center txt-cap">Why Book a Restaurant With Foochyn</h2>
           <div className="grid has-gap-lg txt-center">
             <div className="column p-2 w-6@lg w-12@sm w-24">
-              <div className="ri-search-eye-line ri-8x"></div>
+              <div className="ri-search-eye-line ri-8x" />
               <h4 className="mb-6">Discover Restaurants</h4>
               <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem possimus reiciendis, sit dolorum alias expedita praesentium natus dolor</div>
             </div>
             <div className="column p-2 w-6@lg w-12@sm w-24">
-              <div className="ri-feedback-line ri-8x"></div>
+              <div className="ri-feedback-line ri-8x" />
               <h4 className="mb-6">Restaurants Reviews</h4>
               <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem possimus reiciendis, sit dolorum alias expedita praesentium natus dolor</div>
             </div>
             <div className="column p-2 w-6@lg w-12@sm w-24">
-              <div className="ri-calendar-check-line ri-8x"></div>
+              <div className="ri-calendar-check-line ri-8x" />
               <h4 className="mb-6">Quick Booking</h4>
               <div>Instant booking in 20 seconds!. amet consectetur adipisicing elit. Voluptatem possimus reiciendis, sit dolorum alias expedita praesentium natus</div>
             </div>
             <div className="column p-2 w-6@lg w-12@sm w-24">
-              <div className="ri-refund-line ri-8x"></div>
+              <div className="ri-refund-line ri-8x" />
               <h4 className="mb-6">Free Cancelation</h4>
               <div>Free cancellation always flexible always free. amet consectetur adipisicing elit. Voluptatem possimus reiciendis, sit dolorum alias expedita natus</div>
             </div>

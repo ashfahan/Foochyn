@@ -17,9 +17,9 @@ import "./scss/base.scss";
 
 import "./fonts/Poppins/fonts.css";
 
-import Header from "./pages/Header";
-import Footer from "./pages/Footer";
-import Sidebar from "./pages/Sidebar";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 

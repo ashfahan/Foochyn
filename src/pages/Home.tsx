@@ -76,7 +76,7 @@ class Home extends Component {
 
         <section className="py-6 px-4 py-4@md">
           <h2 className="txt-cap mb-0">Popular Offer in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-2 o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <Carousel
             {...{
               nextArrow: <this.NextArrow />,
@@ -176,7 +176,7 @@ class Home extends Component {
 
         <section className="py-6 px-4 py-4@md">
           <h2 className="txt-cap mb-0">Featured restaurants in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-2 o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
@@ -195,7 +195,7 @@ class Home extends Component {
 
         <section className="py-6 px-4 py-4@md">
           <h2 className="txt-cap mb-0">Popular Areas in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-2 o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <LocationCard location="Lahore" resurantcount={500} image="https://source.unsplash.com/512x384/?Lahore" />
@@ -214,7 +214,7 @@ class Home extends Component {
 
         <section className="py-6 px-4 py-4@md">
           <h2 className="txt-cap mb-0">Popular Cuisines</h2>
-          <hr className="clr-primary w-3 mt-7px mb-2 o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?South,Indian,food")' }}>
@@ -309,7 +309,7 @@ class Home extends Component {
 
         <section className="py-6 px-4 py-4@md">
           <h2 className="txt-cap mb-0">Popular restaurants in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-2 o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
@@ -328,7 +328,7 @@ class Home extends Component {
 
         <section className="py-6 px-4 py-4@md">
           <h2 className="txt-cap mb-0">Newly added resturants in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-2 o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />

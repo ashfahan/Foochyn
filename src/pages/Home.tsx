@@ -5,6 +5,7 @@ import moment from "moment";
 
 import ResturantCard from "../components/ResturantCard";
 import LocationCard from "../components/LocationCard";
+import CuisinesCard from "../components/CuisinesCard";
 import "../scss/home.scss";
 
 import chinese from "../images/cuisine/chinese.webp";
@@ -226,92 +227,28 @@ class Home extends Component {
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle p-4 is-round bg-light">
-                <div className="column w-6">
-                  <img className="img" src={chinese} alt="chinese" />
-                </div>
-                <div className="column">
-                  <h5>North Indian</h5>
-                  <div>648 Restaurants</div>
-                </div>
-              </div>
+              <CuisinesCard image={chinese} name="Chinese" resurantcount={648} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle p-4 is-round bg-light">
-                <div className="column w-6">
-                  <img className="img" src={european} alt="european" />
-                </div>
-                <div className="column">
-                  <h5>Chinese</h5>
-                  <div>562 Restaurants</div>
-                </div>
-              </div>
+              <CuisinesCard image={european} name="European" resurantcount={562} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle p-4 is-round bg-light">
-                <div className="column w-6">
-                  <img className="img" src={italian} alt="italian" />
-                </div>
-                <div className="column">
-                  <h5>South Indian</h5>
-                  <div>267 Restaurants</div>
-                </div>
-              </div>
+              <CuisinesCard image={italian} name="Italian" resurantcount={267} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle p-4 is-round bg-light">
-                <div className="column w-6">
-                  <img className="img" src={japanese} alt="japanese" />
-                </div>
-                <div className="column">
-                  <h5>Italian</h5>
-                  <div>94 Restaurants</div>
-                </div>
-              </div>
+              <CuisinesCard image={japanese} name="Japanese" resurantcount={94} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle p-4 is-round bg-light">
-                <div className="column w-6">
-                  <img className="img" src={mediterranean} alt="mediterranean" />
-                </div>
-                <div className="column">
-                  <h5>Pan Asian</h5>
-                  <div>94 Restaurants</div>
-                </div>
-              </div>
+              <CuisinesCard image={mediterranean} name="Mediterranean" resurantcount={94} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle p-4 is-round bg-light">
-                <div className="column w-6">
-                  <img className="img" src={northindian} alt="northindian" />
-                </div>
-                <div className="column">
-                  <h5>European</h5>
-                  <div>267 Restaurants</div>
-                </div>
-              </div>
+              <CuisinesCard image={northindian} name="North Indian" resurantcount={267} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle p-4 is-round bg-light">
-                <div className="column w-6">
-                  <img className="img" src={panasian} alt="panasian" />
-                </div>
-                <div className="column">
-                  <h5>Casual Eclectic</h5>
-                  <div>562 Restaurants</div>
-                </div>
-              </div>
+              <CuisinesCard image={panasian} name="Pan Asian" resurantcount={562} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle p-4 is-round bg-light">
-                <div className="column w-6">
-                  <img className="img" src={southindian} alt="southindian" />
-                </div>
-                <div className="column">
-                  <h5>Japanese</h5>
-                  <div>648 Restaurants</div>
-                </div>
-              </div>
+              <CuisinesCard image={southindian} name="South Indian" resurantcount={648} />
             </div>
           </div>
         </section>

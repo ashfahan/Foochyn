@@ -38,13 +38,13 @@ export default class Sidebar extends Component<{}, state> {
               <div>All Rights Reserved</div>
             </div>
             <div>
-              <a href="#" className="ml--7px txt-decor-none btn is-circle clr-body">
+              <a href="#" className="ml--7px txt-decor-none btn is-circle clr-inherit">
                 <i className="icon is-lg ri-whatsapp-line" />
               </a>
-              <a href="#" className="mx-7px txt-decor-none btn is-circle clr-body">
+              <a href="#" className="mx-7px txt-decor-none btn is-circle clr-inherit">
                 <i className="icon is-lg ri-facebook-fill" />
               </a>
-              <a href="#" className="txt-decor-none btn is-circle clr-body">
+              <a href="#" className="txt-decor-none btn is-circle clr-inherit">
                 <i className="icon is-lg ri-twitter-line" />
               </a>
             </div>

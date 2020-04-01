@@ -7,6 +7,15 @@ import ResturantCard from "../components/ResturantCard";
 import LocationCard from "../components/LocationCard";
 import "../scss/home.scss";
 
+import chinese from "../images/cuisine/chinese.webp";
+import european from "../images/cuisine/european.webp";
+import italian from "../images/cuisine/italian.webp";
+import japanese from "../images/cuisine/japanese.webp";
+import mediterranean from "../images/cuisine/mediterranean.webp";
+import northindian from "../images/cuisine/northindian.webp";
+import panasian from "../images/cuisine/pan-asian.webp";
+import southindian from "../images/cuisine/south-indian.webp";
+
 class Home extends Component {
   NextArrow(props) {
     return <div className={`${props.className}`} style={{ ...props.style }} onClick={props.onClick} />;
@@ -217,89 +226,89 @@ class Home extends Component {
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?South,Indian,food")' }}>
-                <div className="column w-7">
-                  <i className="icon ri-restaurant-2-line ri-4x" />
+              <div className="grid align-middle p-4 is-round bg-light">
+                <div className="column w-6">
+                  <img className="img" src={chinese} alt="chinese" />
                 </div>
                 <div className="column">
-                  <h5>South Indian</h5>
+                  <h5>North Indian</h5>
                   <div>648 Restaurants</div>
                 </div>
               </div>
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?North,Indian,food")' }}>
-                <div className="column w-7">
-                  <i className="icon ri-restaurant-2-line ri-4x" />
+              <div className="grid align-middle p-4 is-round bg-light">
+                <div className="column w-6">
+                  <img className="img" src={european} alt="european" />
                 </div>
                 <div className="column">
-                  <h5>North Indian</h5>
+                  <h5>Chinese</h5>
                   <div>562 Restaurants</div>
                 </div>
               </div>
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?Chinese,food")' }}>
-                <div className="column w-7">
-                  <i className="icon ri-restaurant-2-line ri-4x" />
-                </div>
-                <div className="column">
-                  <h5>Chinese</h5>
-                  <div>267 Restaurants</div>
-                </div>
-              </div>
-            </div>
-            <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?italian,food")' }}>
-                <div className="column w-7">
-                  <i className="icon ri-restaurant-2-line ri-4x" />
-                </div>
-                <div className="column">
-                  <h5>italian</h5>
-                  <div>94 Restaurants</div>
-                </div>
-              </div>
-            </div>
-            <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?italian,food")' }}>
-                <div className="column w-7">
-                  <i className="icon ri-restaurant-2-line ri-4x" />
-                </div>
-                <div className="column">
-                  <h5>italian</h5>
-                  <div>94 Restaurants</div>
-                </div>
-              </div>
-            </div>
-            <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?Chinese,food")' }}>
-                <div className="column w-7">
-                  <i className="icon ri-restaurant-2-line ri-4x" />
-                </div>
-                <div className="column">
-                  <h5>Chinese</h5>
-                  <div>267 Restaurants</div>
-                </div>
-              </div>
-            </div>
-            <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?North,Indian,food")' }}>
-                <div className="column w-7">
-                  <i className="icon ri-restaurant-2-line ri-4x" />
-                </div>
-                <div className="column">
-                  <h5>North Indian</h5>
-                  <div>562 Restaurants</div>
-                </div>
-              </div>
-            </div>
-            <div className="column w-6@lg w-12@sm w-24">
-              <div className="grid align-middle img-bg bg-primary clr-white p-4 is-round" style={{ backgroundImage: 'linear-gradient(to bottom, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 0%, 0.75)), url("https://source.unsplash.com/512x384/?South,Indian,food")' }}>
-                <div className="column w-7">
-                  <i className="icon ri-restaurant-2-line ri-4x" />
+              <div className="grid align-middle p-4 is-round bg-light">
+                <div className="column w-6">
+                  <img className="img" src={italian} alt="italian" />
                 </div>
                 <div className="column">
                   <h5>South Indian</h5>
+                  <div>267 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle p-4 is-round bg-light">
+                <div className="column w-6">
+                  <img className="img" src={japanese} alt="japanese" />
+                </div>
+                <div className="column">
+                  <h5>Italian</h5>
+                  <div>94 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle p-4 is-round bg-light">
+                <div className="column w-6">
+                  <img className="img" src={mediterranean} alt="mediterranean" />
+                </div>
+                <div className="column">
+                  <h5>Pan Asian</h5>
+                  <div>94 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle p-4 is-round bg-light">
+                <div className="column w-6">
+                  <img className="img" src={northindian} alt="northindian" />
+                </div>
+                <div className="column">
+                  <h5>European</h5>
+                  <div>267 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle p-4 is-round bg-light">
+                <div className="column w-6">
+                  <img className="img" src={panasian} alt="panasian" />
+                </div>
+                <div className="column">
+                  <h5>Casual Eclectic</h5>
+                  <div>562 Restaurants</div>
+                </div>
+              </div>
+            </div>
+            <div className="column w-6@lg w-12@sm w-24">
+              <div className="grid align-middle p-4 is-round bg-light">
+                <div className="column w-6">
+                  <img className="img" src={southindian} alt="southindian" />
+                </div>
+                <div className="column">
+                  <h5>Japanese</h5>
                   <div>648 Restaurants</div>
                 </div>
               </div>

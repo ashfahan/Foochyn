@@ -4,107 +4,49 @@ import { Layout } from "antd";
 export default class Footer extends Component {
   render() {
     return (
-      <Layout.Footer className="lyt-footer p-0">
-        <div className="grid px-8 lyt-footer">
-          <div className="column w-6@lg w-12@sm w-24">
-            <h5 className="clr-primary mb-0">Discover</h5>
-            <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "2px" }} />
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Trending Restaurants
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Super Savers
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Dineout Pay
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Gourmet Passport
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Dineout Plus
-            </a>
+      <Layout.Footer className="lyt-footer p-2 grid txt-center">
+        <div className="column w-8">
+          <h3>Diners</h3>
+          <div>Join more than 440,000 diners</div>
+          <div>Who discover new restaurants with FOoChyn</div>
+          <div className="mt-1rem">
+            <button className="btn is-sld is-primary is-lg">Learn More</button>
           </div>
-          <div className="column w-6@lg w-12@sm w-24">
-            <h5 className="clr-primary mb-0">About</h5>
-            <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "2px" }} />
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              About Us
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Blog
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Add Restaurant
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Terms &amp; Conditions
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Privacy Policy
-            </a>
+        </div>
+        <div className="column w-8">
+          <h3>Restaurants</h3>
+          <div>Join more than 1,300 resturants</div>
+          <div>Who promote their restaurant with FOoChyn</div>
+          <div className="mt-1rem">
+            <button className="btn is-sld is-primary is-lg">Learn More</button>
           </div>
-          <div className="column w-6@lg w-12@sm w-24">
-            <h5 className="clr-primary mb-0">Top Cuisines</h5>
-            <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "2px" }} />
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Chinese
+        </div>
+        <div className="column w-8">
+          <h3>Follow Us</h3>
+          <div>Join more than 180,000 fans</div>
+          <div>Who rave absolute FOoChyn on social</div>
+          <div className="mt-1rem">
+            <a href="#">
+              <i className="icon title is-sm ri-facebook-box-line"></i>
             </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Italian
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              South Indian
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Mexican
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Parsi
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Thai
-            </a>
-          </div>
-          <div className="column w-6@lg w-12@sm w-24">
-            <h5 className="clr-primary mb-0">Top Locations </h5>
-            <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "2px" }} />
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Powai
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Andheri West
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Andheri East
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Juhu
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Colaba
-            </a>
-            <a href="#" className="block my-7px clr-body txt-decor-none">
-              Vashi
+            <a href="#">
+              <i className="icon title is-sm ri-instagram-line"></i>
             </a>
           </div>
         </div>
-        <hr />
-        <div className="txt-center lyt-footer">
-          <h2 className="clr-primary">foochyn</h2>
-          <div className="my-7px">Find the best Restaurants, Deals, Discounts &amp; Offers</div>
-          <div className="my-7px">
-            Contact:<strong> +91-9212340202</strong>
-          </div>
-          <div className="my-1rem">
-            <a href="#" className="btm is-circlr mx-7px icon ri-2x ri-youtube-fill" />
-            <a href="#" className="btm is-circlr mx-7px icon ri-2x ri-instagram-line" />
-            <a href="#" className="btm is-circlr mx-7px icon ri-2x ri-whatsapp-line" />
-            <a href="#" className="btm is-circlr mx-7px icon ri-2x ri-google-play-fill" />
-          </div>
-          <div>© 2020 Foochyn. All Rights Reserved.</div>
+        <div className="column w-15 mx-auto mt-2 flex justify-between">
+          <a href="#">About us</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact US</a>
+          <a href="#">Partner With us</a>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Restaurateurs</a>
         </div>
+        <hr className="w-24 o-25" />
+        <div className="container column w-24">© First Table (Australia) Pty Ltd 2014 - 2020. All rights reserved. The First Table logo and name are trademarks of First Table Limited.</div>
       </Layout.Footer>
+      // <div>© 2020 Foochyn. All Rights Reserved.</div>
     );
   }
 }

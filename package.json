@@ -55,11 +55,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "build": {
-    "env": {
-      "CI ": false
-    }
-  },
   "browserslist": {
     "production": [
       ">0.2%",

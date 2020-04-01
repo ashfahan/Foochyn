@@ -23,7 +23,7 @@ class Home extends Component {
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="group">
               <DatePicker placeholder="Date" defaultValue={moment(moment.now())} className="input" format="D/M/YYYY" />
-              <TimePicker placeholder="Time" defaultValue={moment(moment.now()).add(1, "hour")} className="input" format="h:mm a" minuteStep={30} />
+              <TimePicker placeholder="Time" defaultValue={moment(moment.now()).add(1, "hour")} className="input" format="h:mm a" minuteStep={15} />
               <Select bordered={false} suffixIcon={<i className="clr-body is-lg icon ri-user-line" />} className="input p-0" showSearch defaultValue="2">
                 <Select.Option value="1">1 People</Select.Option>
                 <Select.Option value="2">2 People</Select.Option>

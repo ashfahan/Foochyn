@@ -27,7 +27,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <section className="mb-2 clr-white flex justify-center align-middle h-min-75vh bg-img" style={{ backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
           <div className="w-min-75vw p-10">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
@@ -316,7 +316,7 @@ class Home extends Component {
             </div>
           </div>
         </section>
-      </div>
+      </>
     );
   }
 }

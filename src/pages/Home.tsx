@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TitleBg from "../images/home-title-bg.jpg";
-
 import { Carousel, Select, DatePicker, TimePicker } from "antd";
+import moment from "moment";
 
 import ResturantCard from "../components/ResturantCard";
 import LocationCard from "../components/LocationCard";
@@ -22,9 +22,9 @@ class Home extends Component {
           <div className="w-min-75vw p-10">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="group">
-              <DatePicker placeholder="Date" className="input" format="DD/MM/YYYY" />
-              <TimePicker placeholder="Time" className="input" use12Hours format="h:mm a" />
-              <Select bordered={false} suffixIcon={<i className="is-lg icon ri-user-line" />} className="input p-0" showSearch placeholder="People">
+              <DatePicker placeholder="Date" defaultValue={moment(moment.now())} className="input" format="D/M/YYYY" />
+              <TimePicker placeholder="Time" defaultValue={moment(moment.now()).add(1, "hour")} className="input" format="h:mm a" minuteStep={30} />
+              <Select bordered={false} suffixIcon={<i className="is-lg icon ri-user-line" />} className="input p-0" showSearch defaultValue="2">
                 <Select.Option value="1">1 People</Select.Option>
                 <Select.Option value="2">2 People</Select.Option>
                 <Select.Option value="3">3 People</Select.Option>

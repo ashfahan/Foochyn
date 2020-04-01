@@ -60,3 +60,8 @@ h6 {
 .ant-select-arrow > .icon {
   margin-top: -30%;
 }
+
+.ant-picker-input > input,
+.ant-picker-suffix {
+  color: $body-color;
+}

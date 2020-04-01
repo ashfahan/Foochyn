@@ -24,7 +24,7 @@ class Home extends Component {
             <div className="group">
               <DatePicker placeholder="Date" defaultValue={moment(moment.now())} className="input" format="D/M/YYYY" />
               <TimePicker placeholder="Time" defaultValue={moment(moment.now()).add(1, "hour")} className="input" format="h:mm a" minuteStep={30} />
-              <Select bordered={false} suffixIcon={<i className="is-lg icon ri-user-line" />} className="input p-0" showSearch defaultValue="2">
+              <Select bordered={false} suffixIcon={<i className="clr-body is-lg icon ri-user-line" />} className="input p-0" showSearch defaultValue="2">
                 <Select.Option value="1">1 People</Select.Option>
                 <Select.Option value="2">2 People</Select.Option>
                 <Select.Option value="3">3 People</Select.Option>
@@ -41,7 +41,7 @@ class Home extends Component {
                 <Select.Option value="14">14 People</Select.Option>
                 <Select.Option value="15">15 People</Select.Option>
               </Select>
-              <Select bordered={false} suffixIcon={<i className="is-lg icon ri-map-pin-line" />} className="input p-0" showSearch placeholder="Place">
+              <Select bordered={false} suffixIcon={<i className="clr-body is-lg icon ri-map-pin-line" />} className="input p-0" showSearch placeholder="Place">
                 <Select.Option value="lahore">Lahore</Select.Option>
                 <Select.Option value="karachi">Karachi</Select.Option>
                 <Select.Option value="islamabad">Islamabad</Select.Option>

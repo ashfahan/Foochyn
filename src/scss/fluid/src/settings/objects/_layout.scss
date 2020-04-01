@@ -21,8 +21,8 @@ $body-color:                         clr-auto($body-background, $white, $gray-70
 $main-background:                    $body-background !default;
 
 // Footer
-$footer-background:                  $gray-900 !default;
-$footer-color:                       clr-auto($footer-background, $white, $dark) !default;
+$footer-background:                  $body-background !default;
+$footer-color:                       $body-color;
 $footer-padding-x:                   24px !default;
 $footer-padding-y:                   48px !default;
 $footer-zindex:                      0 !default;

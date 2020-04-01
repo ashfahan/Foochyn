@@ -34,7 +34,7 @@ export default class Sidebar extends Component<{}, state> {
 
           <div>
             <div className="mb-4">
-              <div>2020-2027 © Foochyn</div>
+              <div>© 2020 Foochyn</div>
               <div>All Rights Reserved</div>
             </div>
             <div>

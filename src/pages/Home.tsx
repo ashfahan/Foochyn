@@ -18,7 +18,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <section className="clr-white flex justify-center align-middle h-min-75vh bg-img" style={{ backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
+        <section className="mb-2 clr-white flex justify-center align-middle h-min-75vh bg-img" style={{ backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
           <div className="w-min-75vw p-10">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="group">
@@ -74,7 +74,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4 py-4@md">
+        <section className="p-4 py-2@md">
           <h2 className="txt-cap mb-0">Popular Offer in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <Carousel
@@ -174,7 +174,7 @@ class Home extends Component {
           </Carousel>
         </section>
 
-        <section className="py-6 px-4 py-4@md">
+        <section className="p-4 py-2@md">
           <h2 className="txt-cap mb-0">Featured restaurants in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
@@ -193,7 +193,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4 py-4@md">
+        <section className="p-4 py-2@md">
           <h2 className="txt-cap mb-0">Popular Areas in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
@@ -212,7 +212,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4 py-4@md">
+        <section className="p-4 py-2@md">
           <h2 className="txt-cap mb-0">Popular Cuisines</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
@@ -307,7 +307,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4 py-4@md">
+        <section className="p-4 py-2@md">
           <h2 className="txt-cap mb-0">Popular restaurants in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
@@ -326,7 +326,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4 py-4@md">
+        <section className="p-4 py-2@md">
           <h2 className="txt-cap mb-0">Newly added resturants in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
@@ -345,7 +345,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="py-6 px-4 py-4@md bg-primary clr-white">
+        <section className="p-4 py-4@md bg-primary clr-white">
           <h2 className="txt-center txt-cap">Why Book a Restaurant With Foochyn</h2>
           <div className="grid has-gap-lg txt-center">
             <div className="column p-2 w-6@lg w-12@sm w-24">

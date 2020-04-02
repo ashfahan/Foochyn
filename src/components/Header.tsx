@@ -24,21 +24,21 @@ export default class Header extends Component<props> {
       // css classes to apply
       classes: {
         // when element is initialised
-        initial: "sticky shadow top-0",
+        initial: "animated sticky shadow top-0",
         // when scrolling up
         pinned: "slideInDown",
         // when scrolling down
         unpinned: "slideOutUp",
         // when above offset
-        top: null,
+        top: "headroom--top",
         // when below offset
-        notTop: null,
+        notTop: "headroom--not-top",
         // when at bottom of scoll area
-        bottom: null,
+        bottom: "headroom--bottom",
         // when not at bottom of scroll area
-        notBottom: null,
+        notBottom: "headroom--not-bottom",
         // when frozen method has been called
-        frozen: null
+        frozen: "headroom--frozen"
       },
       // element to listen to scroll events on, defaults to `window`
       scroller: window,

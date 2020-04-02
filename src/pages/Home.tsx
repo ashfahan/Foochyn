@@ -189,16 +189,16 @@ class Home extends Component {
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={true} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
           </div>
         </section>
@@ -258,16 +258,16 @@ class Home extends Component {
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={true} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
           </div>
         </section>
@@ -277,16 +277,16 @@ class Home extends Component {
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
             <div className="column w-6@lg w-12@sm w-24">
-              <ResturantCard link="#" favorite={false} title="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+              <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x383/?food,resturant" location={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
             </div>
           </div>
         </section>

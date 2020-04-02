@@ -56,7 +56,7 @@ body * {
 }
 
 .card-hover {
-  @include transition(box-shadow .3s, transform .3s);
+  @include transition(box-shadow 0.3s, transform 0.3s);
   box-shadow: box-shadow($boxshadow-small);
 
   @include hover {
@@ -89,4 +89,8 @@ body * {
 
 .clr-inherit {
   color: inherit;
+}
+
+.slick-slide {
+  padding: $grid-gap / 2;
 }

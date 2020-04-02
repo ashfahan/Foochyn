@@ -14,7 +14,9 @@
       pill: $borderradius-pill,
       box: 0
     ),
-    enable-important-values: true
+    enable-important-values: true,
+    responsive: true,
+    reverse-responsive: true
   );
 
   @include generate-style($config);

@@ -32,18 +32,18 @@ class Home extends Component {
           <div className="w-24 p-6">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="grid block flex@lg">
-              <div className="column group w-11@lg">
-                <div className="control has-icon-left is-lg">
+              <div className="column group w-11@lg block flex@sm">
+                <div className="control has-icon-left is-lg my-0@sm">
                   <i className="clr-body z-10 icon is-left ri-calendar-line"></i>
-                  <DatePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Date" allowClear={false} defaultValue={moment(moment.now())} size="large" className="input" format="D/M/YYYY" />
+                  <DatePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Date" allowClear={false} defaultValue={moment(moment.now())} size="large" className="input is-round-sm@sm" format="D/M/YYYY" />
                 </div>
-                <div className="control has-icon-left is-lg">
+                <div className="control has-icon-left is-lg my-7px my-0@sm">
                   <i className="clr-body z-10 icon is-left ri-calendar-line"></i>
-                  <TimePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Time" allowClear={false} defaultValue={moment(moment.now()).add(1, "hour")} size="large" className="input" format="h:mm a" minuteStep={15} />
+                  <TimePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Time" allowClear={false} defaultValue={moment(moment.now()).add(1, "hour")} size="large" className="input is-round-sm@sm" format="h:mm a" minuteStep={15} />
                 </div>
-                <div className="control has-icon-left is-lg">
+                <div className="control has-icon-left is-lg my-0@sm">
                   <i className="clr-body z-10 icon is-left ri-user-line"></i>
-                  <Select bordered={false} size="large" suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input" showSearch defaultValue="2">
+                  <Select bordered={false} size="large" suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input is-round-sm@sm" showSearch defaultValue="2">
                     <Select.Option value="1">1 People</Select.Option>
                     <Select.Option value="2">2 People</Select.Option>
                     <Select.Option value="3">3 People</Select.Option>

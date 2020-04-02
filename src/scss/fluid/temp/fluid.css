@@ -1470,6 +1470,34 @@ label.control { margin-bottom: 0; }
 
 .is-box { border-radius: 0 !important; }
 
+@media (max-width: 576px) { .is-round\@sm { border-radius: 0.5em !important; }
+  .is-round-sm\@sm { border-radius: 0.25em !important; }
+  .is-round-lg\@sm { border-radius: 1em !important; }
+  .is-circle\@sm { border-radius: 50% !important; }
+  .is-pill\@sm { border-radius: 50em !important; }
+  .is-box\@sm { border-radius: 0 !important; } }
+
+@media (max-width: 768px) { .is-round\@md { border-radius: 0.5em !important; }
+  .is-round-sm\@md { border-radius: 0.25em !important; }
+  .is-round-lg\@md { border-radius: 1em !important; }
+  .is-circle\@md { border-radius: 50% !important; }
+  .is-pill\@md { border-radius: 50em !important; }
+  .is-box\@md { border-radius: 0 !important; } }
+
+@media (max-width: 992px) { .is-round\@lg { border-radius: 0.5em !important; }
+  .is-round-sm\@lg { border-radius: 0.25em !important; }
+  .is-round-lg\@lg { border-radius: 1em !important; }
+  .is-circle\@lg { border-radius: 50% !important; }
+  .is-pill\@lg { border-radius: 50em !important; }
+  .is-box\@lg { border-radius: 0 !important; } }
+
+@media (max-width: 1200px) { .is-round\@xl { border-radius: 0.5em !important; }
+  .is-round-sm\@xl { border-radius: 0.25em !important; }
+  .is-round-lg\@xl { border-radius: 1em !important; }
+  .is-circle\@xl { border-radius: 50% !important; }
+  .is-pill\@xl { border-radius: 50em !important; }
+  .is-box\@xl { border-radius: 0 !important; } }
+
 .is-round-top-sm { border-top-left-radius: 0.25em !important; border-top-right-radius: 0.25em !important; }
 
 .is-round-top { border-top-left-radius: 0.5em !important; border-top-right-radius: 0.5em !important; }

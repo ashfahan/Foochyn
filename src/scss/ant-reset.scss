@@ -57,10 +57,6 @@ h6 {
   }
 }
 
-.ant-select-arrow > .icon {
-  margin-top: -30%;
-}
-
 .ant-picker-input > input,
 .ant-picker-suffix {
   color: $body-color;
@@ -72,8 +68,12 @@ h6 {
   line-height: 0;
   font-size: 1.5em;
 }
-.ant-select-arrow > .icon {
-  transform: translate(-30%, -15%);
+
+.ant-select-arrow {
+  right: 19px;
+  > .icon {
+    transform: translate(-30%, -30%);
+  }
 }
 
 .ant-select-single.ant-select-lg:not(.ant-select-customize-input):not(.ant-select-customize-input) .ant-select-selection-search-input,

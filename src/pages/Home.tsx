@@ -28,8 +28,8 @@ class Home extends Component {
   render() {
     return (
       <>
-        <section className="mb-2 clr-white flex justify-center align-middle h-min-75vh bg-img" style={{ backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
-          <div className="w-min-75vw p-10">
+        <section className="mb-2 clr-white flex justify-center align-middle bg-img" style={{ minHeight: "400px", backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
+          <div className="w-min-75vw px-10">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
             <div className="group">
               <DatePicker placeholder="Date" defaultValue={moment(moment.now())} className="input" format="D/M/YYYY" />

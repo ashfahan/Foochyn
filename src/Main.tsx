@@ -20,8 +20,9 @@ import "./fonts/Poppins/fonts.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Sidebar from "./components/Sidebar";
-import Home from "./pages/Home";
 import Error from "./pages/Error";
+import Home from "./pages/Home";
+import Resturant from "./pages/Resturant";
 
 interface props {
   SetLoaded: Function;
@@ -58,10 +59,11 @@ class Main extends Component<props, state> {
       <Layout className="grid has-gap-0 is-x">
         <Sidebar />
         <div className="column">
-          <Header />
+          <Header location={this.props.location} />
           <Layout.Content className="lyt-main">
             <Switch>
               <Route path="/" component={() => <Home />} exact />
+              <Route path="/resturant/" component={() => <Resturant />} exact />
               <Route component={() => <Error error={404} />} />
             </Switch>
           </Layout.Content>

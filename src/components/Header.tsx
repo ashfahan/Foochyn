@@ -3,6 +3,7 @@ import Headroom from "headroom.js";
 import { NavLink } from "react-router-dom";
 
 interface props {
+  location: { hash: string; key: string; pathname: string; search: string; state: object };
   className?: string;
 }
 
@@ -23,15 +24,15 @@ export default class Header extends Component<props> {
       // css classes to apply
       classes: {
         // when element is initialised
-        initial: "animated fixed top-0",
+        initial: `animated ${this.props.location.pathname === "/" ? "fixed" : "sticky shadow"} top-0`,
         // when scrolling up
         pinned: "slideInDown",
         // when scrolling down
         unpinned: "slideOutUp",
         // when above offset
-        top: "bg-hide clr-white txt-shadow",
+        top: `${this.props.location.pathname === "/" ? "bg-hide clr-white txt-shadow" : null}`,
         // when below offset
-        notTop: "shadow"
+        notTop: `${this.props.location.pathname === "/" ? "shadow" : null}`
         // when at bottom of scoll area
         // bottom: "",
         // when not at bottom of scroll area

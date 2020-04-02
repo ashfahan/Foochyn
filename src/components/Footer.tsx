@@ -4,7 +4,7 @@ import { Layout } from "antd";
 export default class Footer extends Component {
   render() {
     return (
-      <Layout.Footer className="lyt-footer p-2 grid txt-center">
+      <Layout.Footer className="lyt-footer p-2 grid txt-center sticky bottom-0">
         <div className="column w-8">
           <h3>Diners</h3>
           <div>Join more than 440,000 diners</div>

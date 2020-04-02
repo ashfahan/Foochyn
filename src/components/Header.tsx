@@ -24,21 +24,21 @@ export default class Header extends Component<props> {
       // css classes to apply
       classes: {
         // when element is initialised
-        initial: `animated ${this.props.location.pathname === "/" ? "fixed" : "sticky shadow"} top-0`,
+        initial: "sticky shadow top-0",
         // when scrolling up
         pinned: "slideInDown",
         // when scrolling down
         unpinned: "slideOutUp",
         // when above offset
-        top: `${this.props.location.pathname === "/" ? "bg-hide clr-white txt-shadow" : null}`,
+        top: null,
         // when below offset
-        notTop: `${this.props.location.pathname === "/" ? "shadow" : null}`
+        notTop: null,
         // when at bottom of scoll area
-        // bottom: "",
+        bottom: null,
         // when not at bottom of scroll area
-        // notBottom: "",
+        notBottom: null,
         // when frozen method has been called
-        // frozen: ""
+        frozen: null
       },
       // element to listen to scroll events on, defaults to `window`
       scroller: window,

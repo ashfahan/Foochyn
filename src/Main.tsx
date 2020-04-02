@@ -60,7 +60,7 @@ class Main extends Component<props, state> {
         <Sidebar />
         <div className="column">
           <Header location={this.props.location} />
-          <Layout.Content className="lyt-main h-min-100vh" style={{ zIndex: 1 }}>
+          <Layout.Content className="lyt-main h-min-100vh shadow-sm" style={{ zIndex: 1 }}>
             <Switch>
               <Route path="/" component={() => <Home />} exact />
               <Route path="/resturant/" component={() => <Resturant />} exact />

@@ -16,9 +16,12 @@ interface props {
 export default class ResturantCard extends Component<props> {
   render() {
     return (
-      <div className="bg-white is-round-sm overflow-hidden relative">
-        <a href={this.props.link} className="stretch-link clr-hide absolute">.</a>
-        <div className="bg-primary img-bg txt-right relative" style={{ minHeight: "200px", backgroundImage: `url(${this.props.image})` }}>
+      <div className="bg-white is-round-sm overflow-hidden relative card-zoom card-hover">
+        <a href={this.props.link} className="stretch-link clr-hide absolute">
+          .
+        </a>
+        <div className="txt-right relative overflow-hidden" style={{ minHeight: "200px" }}>
+          <div className="bg-primary img-bg" style={{ backgroundImage: `url(${this.props.image})` }} />
           <i className={`absolute ri-2x txt-shadow-round right-0 py-7px px-1rem ${this.props.favorite ? "ri-heart-fill clr-primary" : "ri-heart-add-line clr-white"}`} />
         </div>
         <div className="p-7px">

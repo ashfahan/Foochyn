@@ -41,7 +41,7 @@ class Main extends Component<props, state> {
     };
 
     this.state = {
-      cityModel: true
+      cityModel: false
     };
   }
 

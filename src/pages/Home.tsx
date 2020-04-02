@@ -29,57 +29,75 @@ class Home extends Component {
     return (
       <>
         <section className="mb-2 clr-white flex justify-center align-middle bg-img" style={{ minHeight: "400px", backgroundImage: `linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.5)), url(${TitleBg})` }}>
-          <div className="w-min-75vw px-10">
+          <div className="w-24 p-6">
             <h1 className="txt-center txt-cap">Find your table for any occasion</h1>
-            <div className="group">
-              <DatePicker placeholder="Date" defaultValue={moment(moment.now())} className="input" format="D/M/YYYY" />
-              <TimePicker placeholder="Time" defaultValue={moment(moment.now()).add(1, "hour")} className="input" format="h:mm a" minuteStep={15} />
-              <Select bordered={false} suffixIcon={<i className="clr-body is-lg icon ri-user-line" />} className="input p-0" showSearch defaultValue="2">
-                <Select.Option value="1">1 People</Select.Option>
-                <Select.Option value="2">2 People</Select.Option>
-                <Select.Option value="3">3 People</Select.Option>
-                <Select.Option value="4">4 People</Select.Option>
-                <Select.Option value="5">5 People</Select.Option>
-                <Select.Option value="6">6 People</Select.Option>
-                <Select.Option value="7">7 People</Select.Option>
-                <Select.Option value="8">8 People</Select.Option>
-                <Select.Option value="9">9 People</Select.Option>
-                <Select.Option value="10">10 People</Select.Option>
-                <Select.Option value="11">11 People</Select.Option>
-                <Select.Option value="12">12 People</Select.Option>
-                <Select.Option value="13">13 People</Select.Option>
-                <Select.Option value="14">14 People</Select.Option>
-                <Select.Option value="15">15 People</Select.Option>
-              </Select>
-              <Select bordered={false} suffixIcon={<i className="clr-body is-lg icon ri-map-pin-line" />} className="input p-0" showSearch placeholder="Place">
-                <Select.Option value="lahore">Lahore</Select.Option>
-                <Select.Option value="karachi">Karachi</Select.Option>
-                <Select.Option value="islamabad">Islamabad</Select.Option>
-                <Select.Option value="peshawar">Peshawar</Select.Option>
-                <Select.Option value="rawalpindi">Rawalpindi</Select.Option>
-                <Select.Option value="multan">Multan</Select.Option>
-                <Select.Option value="faisalabad">Faisalabad</Select.Option>
-                <Select.Option value="gujranwala">Gujranwala</Select.Option>
-                <Select.Option value="quetta">Quetta</Select.Option>
-                <Select.Option value="sialkot">Sialkot</Select.Option>
-                <Select.Option value="hyderabad">Hyderabad</Select.Option>
-                <Select.Option value="bahawalpur">Bahawalpur</Select.Option>
-                <Select.Option value="sargodha">Sargodha</Select.Option>
-                <Select.Option value="gujrat">Gujrat</Select.Option>
-                <Select.Option value="sukkhur">Sukkhur</Select.Option>
-                <Select.Option value="jhelum">Jhelum</Select.Option>
-                <Select.Option value="sheikhupura">Sheikhupura</Select.Option>
-                <Select.Option value="sahiwal">Sahiwal</Select.Option>
-                <Select.Option value="jhang">Jhang</Select.Option>
-                <Select.Option value="abbotabad">Abbotabad</Select.Option>
-                <Select.Option value="kasur">Kasur</Select.Option>
-                <Select.Option value="miawali">Miawali</Select.Option>
-                <Select.Option value="attok">Attok</Select.Option>
-                <Select.Option value="mardan">Mardan</Select.Option>
-                <Select.Option value="deraIsmailKhan">Deraismailkhan</Select.Option>
-                <Select.Option value="mansehra">Mansehra</Select.Option>
-              </Select>
-              <button className="btn is-sld is-primary">Search Table</button>
+            <div className="grid block flex@lg">
+              <div className="column group w-11@lg">
+                <div className="control has-icon-left is-lg">
+                  <i className="clr-body z-10 icon is-left ri-calendar-line"></i>
+                  <DatePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Date" allowClear={false} defaultValue={moment(moment.now())} size="large" className="input" format="D/M/YYYY" />
+                </div>
+                <div className="control has-icon-left is-lg">
+                  <i className="clr-body z-10 icon is-left ri-calendar-line"></i>
+                  <TimePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Time" allowClear={false} defaultValue={moment(moment.now()).add(1, "hour")} size="large" className="input" format="h:mm a" minuteStep={15} />
+                </div>
+                <div className="control has-icon-left is-lg">
+                  <i className="clr-body z-10 icon is-left ri-user-line"></i>
+                  <Select bordered={false} size="large" suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input" showSearch defaultValue="2">
+                    <Select.Option value="1">1 People</Select.Option>
+                    <Select.Option value="2">2 People</Select.Option>
+                    <Select.Option value="3">3 People</Select.Option>
+                    <Select.Option value="4">4 People</Select.Option>
+                    <Select.Option value="5">5 People</Select.Option>
+                    <Select.Option value="6">6 People</Select.Option>
+                    <Select.Option value="7">7 People</Select.Option>
+                    <Select.Option value="8">8 People</Select.Option>
+                    <Select.Option value="9">9 People</Select.Option>
+                    <Select.Option value="10">10 People</Select.Option>
+                    <Select.Option value="11">11 People</Select.Option>
+                    <Select.Option value="12">12 People</Select.Option>
+                    <Select.Option value="13">13 People</Select.Option>
+                    <Select.Option value="14">14 People</Select.Option>
+                    <Select.Option value="15">15 People</Select.Option>
+                  </Select>
+                </div>
+              </div>
+              <div className="column w-7@lg">
+                <div className="control has-icon-left is-lg">
+                  <i className="clr-body z-10 icon is-left ri-map-pin-line"></i>
+                  <Select bordered={false} size="large" suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input" showSearch placeholder="Location, Restaurant, Cuisine">
+                    <Select.Option value="lahore">Lahore</Select.Option>
+                    <Select.Option value="karachi">Karachi</Select.Option>
+                    <Select.Option value="islamabad">Islamabad</Select.Option>
+                    <Select.Option value="peshawar">Peshawar</Select.Option>
+                    <Select.Option value="rawalpindi">Rawalpindi</Select.Option>
+                    <Select.Option value="multan">Multan</Select.Option>
+                    <Select.Option value="faisalabad">Faisalabad</Select.Option>
+                    <Select.Option value="gujranwala">Gujranwala</Select.Option>
+                    <Select.Option value="quetta">Quetta</Select.Option>
+                    <Select.Option value="sialkot">Sialkot</Select.Option>
+                    <Select.Option value="hyderabad">Hyderabad</Select.Option>
+                    <Select.Option value="bahawalpur">Bahawalpur</Select.Option>
+                    <Select.Option value="sargodha">Sargodha</Select.Option>
+                    <Select.Option value="gujrat">Gujrat</Select.Option>
+                    <Select.Option value="sukkhur">Sukkhur</Select.Option>
+                    <Select.Option value="jhelum">Jhelum</Select.Option>
+                    <Select.Option value="sheikhupura">Sheikhupura</Select.Option>
+                    <Select.Option value="sahiwal">Sahiwal</Select.Option>
+                    <Select.Option value="jhang">Jhang</Select.Option>
+                    <Select.Option value="abbotabad">Abbotabad</Select.Option>
+                    <Select.Option value="kasur">Kasur</Select.Option>
+                    <Select.Option value="miawali">Miawali</Select.Option>
+                    <Select.Option value="attok">Attok</Select.Option>
+                    <Select.Option value="mardan">Mardan</Select.Option>
+                    <Select.Option value="deraIsmailKhan">Deraismailkhan</Select.Option>
+                    <Select.Option value="mansehra">Mansehra</Select.Option>
+                  </Select>
+                </div>
+              </div>
+              <div className="column w-5@lg">
+                <button className="btn is-block h-100 is-sld is-primary">Search Table</button>
+              </div>
             </div>
           </div>
         </section>

@@ -65,3 +65,41 @@ h6 {
 .ant-picker-suffix {
   color: $body-color;
 }
+
+.ant-select-arrow,
+.ant-picker-suffix {
+  transform: none;
+  line-height: 0;
+  font-size: 1.5em;
+}
+.ant-select-arrow > .icon {
+  transform: translate(-30%, -15%);
+}
+
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input):not(.ant-select-customize-input) .ant-select-selection-search-input,
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+  height: unset;
+  border-width: 0.1px;
+}
+
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item,
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
+  line-height: $lineheight-default;
+}
+
+.ant-select-selector {
+  padding: 0 !important;
+}
+
+.has-icon-left .ant-select-selection-search,
+.has-icon-left .ant-select-selector {
+  padding-left: 2em !important;
+}
+
+.ant-select.input {
+  padding-left: 0 !important;
+}
+
+.ant-select-selection-search {
+  left: 0 !important;
+}

@@ -96,9 +96,22 @@ class Resturant extends Component<props> {
         </section>
 
         <section>
-          <Tabs tabBarStyle={{ padding: "0 10%" }} defaultActiveKey="1">
+          <Tabs
+            defaultActiveKey="1"
+            tabBarExtraContent={
+              <button className="btn clr-primary inline-flex">
+                <i className="icon ri-coupon-3-fill"></i>&nbsp;5 Great Discounts
+              </button>
+            }
+          >
             <Tabs.TabPane tab="Overview" key="1">
-              <div className="p-4 py-2@md container"></div>
+              <div className="p-4 py-2@md container">
+                <section>
+                  <h3 className="txt-cap mb-0">Known For</h3>
+                  <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                  <p>A Cisternino, all'interno di una caratteristica aia immersa nella Valle d'Itria, fa capolino questo intimo complesso di trulli risalenti al 1800, ristrutturati secondo la tradizione. Un posto magico dove trascorrere una vacanza all'insegna del relax .</p>
+                </section>
+              </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Gallary" key="2">
               <div className="p-4 py-2@md container"></div>

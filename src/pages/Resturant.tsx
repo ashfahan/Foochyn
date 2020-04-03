@@ -38,7 +38,7 @@ class Resturant extends Component<props> {
   render() {
     return (
       <>
-        <section className="p-4 py-2@md grid container">
+        <section className="px-4 py-2 grid container">
           <div className="column w-16">
             <ol className="breadcrumb p-0">
               <li className="breadcrumb-item" data-separator="/">
@@ -82,7 +82,7 @@ class Resturant extends Component<props> {
           </div>
         </section>
 
-        <section className="p-4 py-2@md grid container">
+        <section className="px-4 pb-2 grid container">
           <div className="column w-15">
             <div className="bg-primary is-round img-bg h-100" style={{ backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
           </div>
@@ -106,7 +106,7 @@ class Resturant extends Component<props> {
             }
           >
             <Tabs.TabPane tab="Overview" key="1">
-              <div className="p-4 py-2@md container">
+              <div className="px-4 py-2 container">
                 <section>
                   <h3 className="txt-cap mb-0">Known For</h3>
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
@@ -118,13 +118,13 @@ class Resturant extends Component<props> {
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Gallary" key="2">
-              <div className="p-4 py-2@md container"></div>
+              <div className="px-4 py-2 container"></div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Reviews" key="3">
-              <div className="p-4 py-2@md container"></div>
+              <div className="px-4 py-2 container"></div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Book a table" key="4">
-              <div className="p-4 py-2@md container"></div>
+              <div className="px-4 py-2 container"></div>
             </Tabs.TabPane>
           </Tabs>
         </section>

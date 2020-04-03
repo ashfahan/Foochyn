@@ -24,41 +24,6 @@ h6 {
   transform: translateY(-15%);
 }
 
-.ant-carousel {
-  .slick-prev,
-  .slick-next {
-    // reset
-    color: inherit !important;
-    font-family: "remixicon" !important;
-    font-size: 2.5em;
-    line-height: 1;
-    margin-top: 0;
-    transform: translateY(-50%);
-
-    // icon
-    width: $icon-area;
-    height: $icon-area;
-  }
-
-  .slick-prev {
-    left: -3.5%;
-    z-index: 10;
-    &::before {
-      opacity: 1;
-      content: "\EA59";
-    }
-  }
-
-  .slick-next {
-    right: -3.5%;
-    z-index: 10;
-    &::before {
-      opacity: 1;
-      content: "\EA65";
-    }
-  }
-}
-
 .ant-picker-input > input,
 .ant-picker-suffix {
   color: $body-color;

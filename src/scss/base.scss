@@ -91,6 +91,74 @@ body * {
   color: inherit;
 }
 
-.slick-slide {
-  padding: $grid-gap / 2;
+.ant-carousel {
+  .slick-slide {
+    padding: $grid-gap;
+  }
+
+  .slick-arrow {
+    // reset
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: $primary !important;
+    font-family: "remixicon" !important;
+    font-size: 2.75em;
+    line-height: 1;
+    margin-top: 0;
+    transform: translateY(-50%);
+    z-index: 10;
+    opacity: 0;
+    transition: transition(opacity);
+
+    // icon
+    width: $icon-area;
+    height: $icon-area;
+
+    @include before {
+      position: absolute;
+      text-shadow: 4px 4.25px 3px rgba($black, 0.175);
+    }
+
+    @include after {
+      color: white;
+      font-size: 0.5em;
+      z-index: 10;
+      transition: transition(padding-left, padding-right);
+    }
+  }
+
+  .slick-prev {
+    left: -3%;
+    &::before {
+      content: "\EB64";
+    }
+    &::after {
+      content: "\EA5D";
+    }
+  }
+
+  .slick-next {
+    right: -3%;
+    &::before {
+      content: "\EB64";
+    }
+    &::after {
+      content: "\EA69";
+    }
+  }
+
+  @include hover {
+    .slick-arrow {
+      opacity: 1;
+    }
+  }
+
+  .slick-prev:hover::after {
+    padding-right: 35%;
+  }
+
+  .slick-next:hover::after {
+    padding-left: 35%;
+  }
 }

@@ -55,17 +55,17 @@ class Resturant extends Component<props> {
             </div>
             <div className="is-lg">{this.formatArray(this.props.location, ", ")}</div>
             <div className="mt-2">
-              <button className="btn is-lg is-sld is-primary is-round mr-7px">
-                <span className="icon txt-middle ri-star-line"></span> Add a review
+              <button className="btn inline-flex is-lg is-sld is-primary is-round mr-7px">
+                <span className="icon ri-star-line"></span>&nbsp;Add a review
               </button>
-              <button className="btn is-lg is-out is-primary is-round mr-7px">
-                <span className="icon txt-middle ri-star-line"></span> Add a review
+              <button className="btn inline-flex is-lg is-out is-primary is-round mr-7px">
+                <span className="icon ri-direction-line"></span>&nbsp;Direction
               </button>
-              <button className="btn is-lg is-out is-primary is-round mr-7px">
-                <span className="icon txt-middle ri-star-line"></span> Add a review
+              <button className="btn inline-flex is-lg is-out is-primary is-round mr-7px">
+                <span className="icon ri-bookmark-3-line"></span>&nbsp;Bookmark
               </button>
-              <button className="btn is-lg is-out is-primary is-round mr-7px">
-                <span className="icon txt-middle ri-star-line"></span> Add a review
+              <button className="btn inline-flex is-lg is-out is-primary is-round mr-7px">
+                <span className="icon ri-share-line"></span>&nbsp;Share
               </button>
             </div>
           </div>

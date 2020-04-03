@@ -102,7 +102,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="p-4 py-2@md">
+        <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Popular Offer in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <Carousel
@@ -170,7 +170,7 @@ class Home extends Component {
           </Carousel>
         </section>
 
-        <section className="p-4 py-2@md">
+        <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Featured restaurants in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <Carousel
@@ -222,7 +222,7 @@ class Home extends Component {
           </Carousel>
         </section>
 
-        <section className="p-4 py-2@md">
+        <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Popular Areas in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
@@ -241,7 +241,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="p-4 py-2@md">
+        <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Popular Cuisines</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <div className="grid has-gap-lg">
@@ -272,7 +272,7 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="p-4 py-2@md">
+        <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Popular restaurants in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <Carousel
@@ -324,7 +324,7 @@ class Home extends Component {
           </Carousel>
         </section>
 
-        <section className="p-4 py-2@md">
+        <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Newly added resturants in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
           <Carousel

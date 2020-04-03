@@ -162,3 +162,18 @@ body * {
     padding-left: 35%;
   }
 }
+
+[class*="clr-"] h1,
+[class*="clr-"] .h1,
+[class*="clr-"] h2,
+[class*="clr-"] .h2,
+[class*="clr-"] h3,
+[class*="clr-"] .h3,
+[class*="clr-"] h4,
+[class*="clr-"] .h4,
+[class*="clr-"] h5,
+[class*="clr-"] .h5,
+[class*="clr-"] h6,
+[class*="clr-"] .h6 {
+  color: inherit;
+}

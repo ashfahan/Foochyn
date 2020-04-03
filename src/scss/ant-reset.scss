@@ -70,3 +70,11 @@ h6 {
 .ant-select-selection-search {
   left: 0 !important;
 }
+
+.ant-tabs-nav .ant-tabs-tab:hover,
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: $primary;
+}
+.ant-tabs-ink-bar {
+  background-color: $primary;
+}

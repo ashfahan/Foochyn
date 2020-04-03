@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "../scss/home.scss";
-import { Rate } from "antd";
+import { Rate, Tabs } from "antd";
 
 interface props {
   image?: "";
@@ -97,25 +97,21 @@ class Resturant extends Component<props> {
           </div>
         </section>
 
-        <section className="border-bottom px-10 grid">
-          <button className="btn is-min is-primary mr-1rem border-hide focus" onClick={element => (element.target as Element).classList.add("focus")}>
-            Overview
-          </button>
-          <button className="btn is-min is-primary mr-1rem border-hide" onClick={element => (element.target as Element).classList.add("focus")}>
-            Menu
-          </button>
-          <button className="btn is-min is-primary mr-1rem border-hide" onClick={element => (element.target as Element).classList.add("focus")}>
-            Gallary
-          </button>
-          <button className="btn is-min is-primary mr-1rem border-hide" onClick={element => (element.target as Element).classList.add("focus")}>
-            Reviews
-          </button>
-          <button className="btn is-min is-primary mr-1rem border-hide" onClick={element => (element.target as Element).classList.add("focus")}>
-            Order Online
-          </button>
-          <button className="btn is-min is-primary mr-1rem border-hide" onClick={element => (element.target as Element).classList.add("focus")}>
-            Book a table
-          </button>
+        <section>
+          <Tabs tabBarStyle={{ padding: "0 10%" }} defaultActiveKey="1">
+            <Tabs.TabPane tab="Overview" key="1">
+              <div className="p-4 py-2@md container"></div>
+            </Tabs.TabPane>
+            <Tabs.TabPane tab="Gallary" key="2">
+              <div className="p-4 py-2@md container"></div>
+            </Tabs.TabPane>
+            <Tabs.TabPane tab="Reviews" key="3">
+              <div className="p-4 py-2@md container"></div>
+            </Tabs.TabPane>
+            <Tabs.TabPane tab="Book a table" key="4">
+              <div className="p-4 py-2@md container"></div>
+            </Tabs.TabPane>
+          </Tabs>
         </section>
       </>
     );

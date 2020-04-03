@@ -16,7 +16,7 @@ interface props {
 export default class ResturantCard extends Component<props> {
   render() {
     return (
-      <div className="bg-white is-round-sm overflow-hidden relative card-zoom card-hover">
+      <div className="bg-white is-round overflow-hidden relative card-zoom card-hover">
         <a href={this.props.link} className="stretch-link clr-hide absolute">
           .
         </a>

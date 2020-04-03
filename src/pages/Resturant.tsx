@@ -31,12 +31,10 @@ class Resturant extends Component<props> {
     diningReview: 3.8,
     diningReviewCount: 1455,
     deliveryReview: 4.5,
-    deliveryReviewCount: 2025
+    deliveryReviewCount: 2025,
   };
 
   render() {
-    console.log(this.props);
-
     return (
       <>
         <section className="p-4 py-2@md grid container">

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "../scss/home.scss";
 import { Rate, Tabs } from "antd";
+import Expend from "../components/Expend";
 
 interface props {
   image?: "";
@@ -110,6 +111,9 @@ class Resturant extends Component<props> {
                   <h3 className="txt-cap mb-0">Known For</h3>
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
                   <p>A Cisternino, all'interno di una caratteristica aia immersa nella Valle d'Itria, fa capolino questo intimo complesso di trulli risalenti al 1800, ristrutturati secondo la tradizione. Un posto magico dove trascorrere una vacanza all'insegna del relax .</p>
+                  <Expend showText="Read More" hideText="Read Less">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, reiciendis ut eveniet autem cupiditate facere perferendis beatae officiis cumque esse laborum porro ad alias? Ipsum repellat soluta assumenda! Suscipit, ipsum.
+                  </Expend>
                 </section>
               </div>
             </Tabs.TabPane>

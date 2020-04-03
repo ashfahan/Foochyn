@@ -1,0 +1,23 @@
+// @import "../scss/fluid/src/vendors/vendors";
+// @import "../scss/fluid/src/tools/tools";
+// @import "../scss/fluid/src/settings/settings";
+// @import "../scss/fluid/src/settings/placeholders/prefers-reduced-motion";
+
+.Expend {
+  &.ant-collapse,
+  &.ant-collapse-content {
+    color: inherit;
+    background-color: inherit;
+  }
+
+  &.ant-collapse > .ant-collapse-item:last-child,
+  &.ant-collapse > .ant-collapse-item:last-child .ant-collapse-header {
+    padding-bottom: 0%;
+    padding-top: 0;
+    border: none;
+  }
+
+  .ant-collapse-content-box {
+    padding: 0 !important;
+  }
+}

@@ -5,7 +5,7 @@ import "./Expend.scss";
 interface props {
   showText: string;
   hideText: string;
-  button: ReactNode;
+  extrabuttons: ReactNode;
 }
 
 interface state {
@@ -16,17 +16,12 @@ export default class Expend extends Component<props, state> {
   static defaultProps = {
     showText: "Show",
     hideText: "Hide",
-    button: null,
+    extrabuttons: null,
   };
 
   constructor(props) {
     super(props);
     this.state = { expend: false };
-  }
-
-  toggleExpend() {
-    const expend = !this.state.expend;
-    this.setState({ expend });
   }
 
   render() {
@@ -37,20 +32,19 @@ export default class Expend extends Component<props, state> {
             {this.props.children}
           </Collapse.Panel>
         </Collapse>
-        <div className="mt-2">
-          {!this.state.expend && (
-            <button className="btn is-out is-primary" onClick={() => this.toggleExpend()}>
+        <div className="button-area">
+          {this.state.expend ? (
+            <button className="btn is-out is-primary" onClick={() => this.setState({ expend: !this.state.expend })}>
+              {this.props.hideText}
+              <i className="icon ri-arrow-up-s-line"></i>{" "}
+            </button>
+          ) : (
+            <button className="btn is-out is-primary" onClick={() => this.setState({ expend: !this.state.expend })}>
               {this.props.showText}
               <i className="icon ri-arrow-down-s-line"></i>
             </button>
           )}
-          {this.state.expend && (
-            <button className="btn is-out is-primary" onClick={() => this.toggleExpend()}>
-              {this.props.hideText}
-              <i className="icon ri-arrow-up-s-line"></i>{" "}
-            </button>
-          )}
-          {this.props.button}
+          {this.props.extrabuttons}
         </div>
       </>
     );

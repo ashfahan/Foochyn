@@ -134,7 +134,41 @@ class Resturant extends Component<props> {
               </section>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Gallary" key="2">
-              <div className="px-4 py-2 container"></div>
+              <section className="px-4 py-1rem container grid">
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+                <div className="column w-6">
+                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                </div>
+              </section>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Reviews" key="3">
               <div className="px-4 py-2 container"></div>

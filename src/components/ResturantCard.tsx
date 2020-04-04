@@ -8,7 +8,7 @@ interface props {
   name: string;
   rating: number;
   reviews: number;
-  location: string[];
+  address: string[];
   cuisines: string[];
   pricerange: number[];
 }
@@ -31,7 +31,7 @@ export default class ResturantCard extends Component<props> {
             <Rate className="clr-primary mx-7px is-md" allowHalf value={this.props.rating} disabled />
             <span className="clr-disabled">({this.props.reviews})</span>
           </div>
-          <div className="clr-disabled">{this.format(this.props.location)}</div>
+          <div className="clr-disabled">{this.format(this.props.address)}</div>
           <div className="clr-disabled">{this.format(this.props.cuisines)}</div>
           <div className="clr-disabled">{this.format(this.props.pricerange)} PKR Approx Per User</div>
         </div>

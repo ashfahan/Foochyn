@@ -10,7 +10,7 @@ interface props {
   name?: string;
   rating?: number;
   reviews?: number;
-  location?: string[];
+  address?: string[];
   cuisines?: string[];
   pricerange?: number[];
   diningReview?: number;
@@ -26,7 +26,7 @@ class Resturant extends Component<props> {
     name: "Resturant Name",
     rating: 0,
     reviews: 0,
-    location: ["South Padre Island", "TX"],
+    address: ["South Padre Island", "TX"],
     cuisines: ["Chinese", "Italian", "Japanese"],
     pricerange: [1000, 5000],
     diningReview: 3.8,
@@ -54,7 +54,7 @@ class Resturant extends Component<props> {
             <div className="is-lg">
               {this.formatArray(this.props.pricerange)} PKR Approx Per User - {this.formatArray(this.props.cuisines)}
             </div>
-            <div className="is-lg">{this.formatArray(this.props.location, ", ")}</div>
+            <div className="is-lg">{this.formatArray(this.props.address, ", ")}</div>
             <div className="mt-2">
               <button className="btn inline-flex is-lg is-sld is-primary is-round mr-7px">
                 <span className="icon ri-star-line"></span>&nbsp;Add a review

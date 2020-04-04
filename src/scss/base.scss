@@ -188,3 +188,7 @@ body * {
     content: "\00a0";
   }
 }
+
+.after-hide::after {
+  content: none;
+}

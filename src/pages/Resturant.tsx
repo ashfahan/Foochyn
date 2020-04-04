@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "../scss/home.scss";
-import { Rate, Tabs, Tooltip } from "antd";
+import { Rate, Tabs, Tooltip, Avatar } from "antd";
 import Expend from "../components/Expend";
 
 interface props {
@@ -313,10 +313,261 @@ class Resturant extends Component<props> {
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Reviews" key="3">
-              <div className="px-4 py-2 container"></div>
+              <div className="px-2 container">
+                <section className="py-1rem">
+                  <h3 className="txt-cap mb-0">User Rating & Reviews Summary</h3>
+                  <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
+                  <div>
+                    <span className="h2 clr-primary">73</span> rank amongst resturantin delhi ncr
+                  </div>
+                  <div className="grid is-adjust my-1rem">
+                    <div className="column w-12 grid align-middle">
+                      <div className="column w-11">
+                        <h4 className="mb-0">Overall Rating</h4>
+                        <div>
+                          (Based on <span>31</span> reviews)
+                        </div>
+                      </div>
+                      <div className="column flex clr-primary">
+                        <div className="column">
+                          <div className="bg-light py-7px relative">
+                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
+                          </div>
+                        </div>
+                        <b>4.0</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="grid is-adjust">
+                    <div className="column w-12 grid align-middle">
+                      <div className="column w-11 font-bold">Ambience</div>
+                      <div className="column flex clr-primary">
+                        <div className="column">
+                          <div className="bg-light py-7px relative">
+                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
+                          </div>
+                        </div>
+                        <b>4.0</b>
+                      </div>
+                    </div>
+                    <div className="column w-12 grid align-middle">
+                      <div className="column w-11 font-bold">Food</div>
+                      <div className="column flex clr-primary">
+                        <div className="column">
+                          <div className="bg-light py-7px relative">
+                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
+                          </div>
+                        </div>
+                        <b>4.0</b>
+                      </div>
+                    </div>
+                    <div className="column w-12 grid align-middle">
+                      <div className="column w-11 font-bold">Music</div>
+                      <div className="column flex clr-primary">
+                        <div className="column">
+                          <div className="bg-light py-7px relative">
+                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
+                          </div>
+                        </div>
+                        <b>4.0</b>
+                      </div>
+                    </div>
+                    <div className="column w-12 grid align-middle">
+                      <div className="column w-11 font-bold">Service</div>
+                      <div className="column flex clr-primary">
+                        <div className="column">
+                          <div className="bg-light py-7px relative">
+                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
+                          </div>
+                        </div>
+                        <b>4.0</b>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section className="is-round-sm my-2 bg-white p-2">
+                  <div className="flex justify-between">
+                    <h5>Reviews</h5>
+                    <button className="btn is-sld is-primary">Write a review</button>
+                  </div>
+                  <hr />
+                  <section>
+                    <div className="mb-1rem grid align-middle has-gap-lg">
+                      <div className="column w-5 txt-center">
+                        <Avatar size={64} icon={<i className="icon ri-user-line after-hide"></i>} />
+                        <div>Mini Ribeiro Speaks</div>
+                      </div>
+                      <div className="column">
+                        <ul className="list mb-7px inline-flex align-middle is-inline">
+                          <li>
+                            <ul className="list mb-7px inline-flex align-middle is-inline">
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-line icon is-lg"></li>
+                            </ul>
+                          </li>
+                          <li>
+                            Reviewed <span>25 Novembder 2018</span>
+                          </li>
+                        </ul>
+                        <h3>Review Title</h3>
+                        <p>This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.</p>
+                        <div className="flex justify-between align-middle">
+                          <div>
+                            <b>Date of visit:</b> <span>25 Novembder 2018</span>
+                          </div>
+                          <button className="btn is-circle">
+                            <span className="icon">
+                              <i className="ri-flag-fill"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <hr />
+                  <section>
+                    <div className="mb-1rem grid align-middle has-gap-lg">
+                      <div className="column w-5 txt-center">
+                        <Avatar size={64} icon={<i className="icon ri-user-line after-hide"></i>} />
+                        <div>Mini Ribeiro Speaks</div>
+                      </div>
+                      <div className="column">
+                        <ul className="list mb-7px inline-flex align-middle is-inline">
+                          <li>
+                            <ul className="list mb-7px inline-flex align-middle is-inline">
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-line icon is-lg"></li>
+                            </ul>
+                          </li>
+                          <li>
+                            Reviewed <span>25 Novembder 2018</span>
+                          </li>
+                        </ul>
+                        <h3>Review Title</h3>
+                        <p>This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.</p>
+                        <div className="flex justify-between align-middle">
+                          <div>
+                            <b>Date of visit:</b> <span>25 Novembder 2018</span>
+                          </div>
+                          <button className="btn is-circle">
+                            <span className="icon">
+                              <i className="ri-flag-fill"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <hr />
+                  <section>
+                    <div className="mb-1rem grid align-middle has-gap-lg">
+                      <div className="column w-5 txt-center">
+                        <Avatar size={64} icon={<i className="icon ri-user-line after-hide"></i>} />
+                        <div>Mini Ribeiro Speaks</div>
+                      </div>
+                      <div className="column">
+                        <ul className="list mb-7px inline-flex align-middle is-inline">
+                          <li>
+                            <ul className="list mb-7px inline-flex align-middle is-inline">
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-line icon is-lg"></li>
+                            </ul>
+                          </li>
+                          <li>
+                            Reviewed <span>25 Novembder 2018</span>
+                          </li>
+                        </ul>
+                        <h3>Review Title</h3>
+                        <p>This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.</p>
+                        <div className="flex justify-between align-middle">
+                          <div>
+                            <b>Date of visit:</b> <span>25 Novembder 2018</span>
+                          </div>
+                          <button className="btn is-circle">
+                            <span className="icon">
+                              <i className="ri-flag-fill"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <hr />
+                  <section>
+                    <div className="mb-1rem grid align-middle has-gap-lg">
+                      <div className="column w-5 txt-center">
+                        <Avatar size={64} icon={<i className="icon ri-user-line after-hide"></i>} />
+                        <div>Mini Ribeiro Speaks</div>
+                      </div>
+                      <div className="column">
+                        <ul className="list mb-7px inline-flex align-middle is-inline">
+                          <li>
+                            <ul className="list mb-7px inline-flex align-middle is-inline">
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-fill icon is-lg"></li>
+                              <li className="ri-star-line icon is-lg"></li>
+                            </ul>
+                          </li>
+                          <li>
+                            Reviewed <span>25 Novembder 2018</span>
+                          </li>
+                        </ul>
+                        <h3>Review Title</h3>
+                        <p>This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.</p>
+                        <div className="flex justify-between align-middle">
+                          <div>
+                            <b>Date of visit:</b> <span>25 Novembder 2018</span>
+                          </div>
+                          <button className="btn is-circle">
+                            <span className="icon">
+                              <i className="ri-flag-fill"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <div className="flex justify-center">
+                    <button className="btn is-out is-primary">
+                      <i className="icon is-lg ri-arrow-left-s-fill"></i>
+                    </button>
+                    <div className="group mx-7px">
+                      <button className="btn is-out is-primary">1</button>
+                      <button className="btn is-out is-primary">2</button>
+                      <button className="btn is-out is-primary">3</button>
+                      <button className="btn is-out is-primary">4</button>
+                      <button className="btn is-out is-primary">5</button>
+                      <button className="btn is-out is-primary">6</button>
+                      <button className="btn is-out is-primary">7</button>
+                      <button className="btn is-out is-primary">8</button>
+                      <button className="btn is-out is-primary">9</button>
+                      <button className="btn is-out is-primary">10</button>
+                    </div>
+                    <button className="btn is-out is-primary">
+                      <i className="icon is-lg ri-arrow-right-s-fill"></i>
+                    </button>
+                  </div>
+                </section>
+              </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Book a table" key="4">
-              <div className="px-4 py-2 container"></div>
+              <div className="px-2 container"></div>
             </Tabs.TabPane>
           </Tabs>
         </section>

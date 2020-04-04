@@ -125,30 +125,30 @@ class Home extends Component {
                 breakpoint: 1200,
                 settings: {
                   slidesToShow: 6,
-                  slidesToScroll: 6
-                }
+                  slidesToScroll: 6,
+                },
               },
               {
                 breakpoint: 992,
                 settings: {
                   slidesToShow: 4,
-                  slidesToScroll: 4
-                }
+                  slidesToScroll: 4,
+                },
               },
               {
                 breakpoint: 576,
                 settings: {
                   slidesToShow: 2,
-                  slidesToScroll: 2
-                }
+                  slidesToScroll: 2,
+                },
               },
               {
                 breakpoint: 450,
                 settings: {
                   slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
+                  slidesToScroll: 1,
+                },
+              },
             ]}
           >
             <img className="img is-round-sm shadow-sm" src="https://im1.dineout.co.in/images/uploads/misc/2020/Jan/7/20offtotalbill.jpg" alt="deal" />
@@ -192,23 +192,23 @@ class Home extends Component {
                 breakpoint: 1200,
                 settings: {
                   slidesToShow: 4,
-                  slidesToScroll: 4
-                }
+                  slidesToScroll: 4,
+                },
               },
               {
                 breakpoint: 992,
                 settings: {
                   slidesToShow: 2,
-                  slidesToScroll: 2
-                }
+                  slidesToScroll: 2,
+                },
               },
               {
                 breakpoint: 576,
                 settings: {
                   slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
+                  slidesToScroll: 1,
+                },
+              },
             ]}
           >
             <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
@@ -294,23 +294,23 @@ class Home extends Component {
                 breakpoint: 1200,
                 settings: {
                   slidesToShow: 4,
-                  slidesToScroll: 4
-                }
+                  slidesToScroll: 4,
+                },
               },
               {
                 breakpoint: 992,
                 settings: {
                   slidesToShow: 2,
-                  slidesToScroll: 2
-                }
+                  slidesToScroll: 2,
+                },
               },
               {
                 breakpoint: 576,
                 settings: {
                   slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
+                  slidesToScroll: 1,
+                },
+              },
             ]}
           >
             <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
@@ -346,23 +346,23 @@ class Home extends Component {
                 breakpoint: 1200,
                 settings: {
                   slidesToShow: 4,
-                  slidesToScroll: 4
-                }
+                  slidesToScroll: 4,
+                },
               },
               {
                 breakpoint: 992,
                 settings: {
                   slidesToShow: 2,
-                  slidesToScroll: 2
-                }
+                  slidesToScroll: 2,
+                },
               },
               {
                 breakpoint: 576,
                 settings: {
                   slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
+                  slidesToScroll: 1,
+                },
+              },
             ]}
           >
             <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />

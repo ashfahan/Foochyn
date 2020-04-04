@@ -106,14 +106,18 @@ class Resturant extends Component<props> {
             }
           >
             <Tabs.TabPane tab="Overview" key="1">
-              <section className="px-4 py-1rem container">
-                <h3 className="txt-cap mb-0">Known For</h3>
-                <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
-                <div>A Cisternino, all'interno di una caratteristica aia immersa nella Valle d'Itria, fa capolino questo intimo complesso di trulli risalenti al 1800, ristrutturati secondo la tradizione. Un posto magico dove trascorrere una vacanza all'insegna del relax .</div>
-                <Expend showText="Read More" hideText="Read Less">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, reiciendis ut eveniet autem cupiditate facere perferendis beatae officiis cumque esse laborum porro ad alias? Ipsum repellat soluta assumenda! Suscipit, ipsum.
-                </Expend>
-              </section>
+              <div className="grid has-gap-lg container px-2">
+                <div className="column w-16">
+                  <section className="py-1rem">
+                    <h3 className="txt-cap mb-0">Known For</h3>
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <div>
+                      Nusr-Et Dubai is the very best meat experience – hands down. This intimate restaurant with seamless terrace for inside-out dining, is buzzing with energy. The casual service is highly personal and involving.
+                      <Expend showText="Read More" hideText="Read Less">
+                        The founder, a master butcher for over 20 years, Nusret Gokce personally selects each and every cut of meat served in the restaurant, the master grillers complete the magic on the charcoal grill. A dining experience unlike any other with creative fish and seafood dishes for the non-carnivores.
+                      </Expend>
+                    </div>
+                  </section>
 
               <section className="px-4 py-1rem container">
                 <h3 className="txt-cap mb-0">Cuisines</h3>

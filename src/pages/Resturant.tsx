@@ -195,6 +195,14 @@ class Resturant extends Component<props> {
                       </div>
                     </div>
                   </section>
+                </div>
+
+                <div className="column w-8">
+                  <section className="mb-1rem">
+                    <img className="img" src="https://www.google.com/maps/d/thumbnail?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA" />
+                  </section>
+                </div>
+              </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Gallary" key="2">
               <section className="px-4 py-1rem container grid">

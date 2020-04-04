@@ -160,6 +160,41 @@ class Resturant extends Component<props> {
                       </div>
                     </div>
                   </section>
+
+                  <section className="py-1rem">
+                    <h3 className="txt-cap mb-0">Open Hours</h3>
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <div className="clr-disabled">
+                      <div className="grid">
+                        <div className="column w-12">MONDAY</div>
+                        <div className="column w-12">12 pm - 10 pm</div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-12">TUESDAY</div>
+                        <div className="column w-12">12 pm - 10 pm</div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-12">WEDNESDAY</div>
+                        <div className="column w-12">12 pm - 10 pm</div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-12">THURSDAY</div>
+                        <div className="column w-12">12 pm - 10 pm</div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-12">FRIDAY</div>
+                        <div className="column w-12">12 pm - 10 pm</div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-12">SATURDAY</div>
+                        <div className="column w-12">12 pm - 10 pm</div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-12">SUNDAY</div>
+                        <div className="column w-12">12 pm - 10 pm</div>
+                      </div>
+                    </div>
+                  </section>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Gallary" key="2">
               <section className="px-4 py-1rem container grid">

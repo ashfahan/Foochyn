@@ -163,17 +163,19 @@ body * {
   }
 }
 
-[class*="clr-"] h1,
-[class*="clr-"] .h1,
-[class*="clr-"] h2,
-[class*="clr-"] .h2,
-[class*="clr-"] h3,
-[class*="clr-"] .h3,
-[class*="clr-"] h4,
-[class*="clr-"] .h4,
-[class*="clr-"] h5,
-[class*="clr-"] .h5,
-[class*="clr-"] h6,
-[class*="clr-"] .h6 {
-  color: inherit;
+[class*="clr-"] {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    color: inherit;
+  }
 }

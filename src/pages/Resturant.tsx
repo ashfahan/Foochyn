@@ -150,7 +150,7 @@ class Resturant extends Component<props> {
                         <i className="icon ri-2x ri-disc-line" /> DJ
                       </div>
                       <div className="column flex align-middle w-12">
-                        <i className="icon ri-2x ri-bank-card-line" /> Indoor Seating
+                        <i className="icon ri-2x ri-store-2-line" /> Indoor Seating
                       </div>
                       <div className="column flex align-middle w-12">
                         <i className="icon ri-2x ri-cake-line" /> Booking

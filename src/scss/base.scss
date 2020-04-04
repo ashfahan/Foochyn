@@ -179,3 +179,12 @@ body * {
     color: inherit;
   }
 }
+
+.icon {
+  *:not(.flex):not(.control) > & {
+    transform: translateY(2px);
+  }
+  &::after {
+    content: "\00a0";
+  }
+}

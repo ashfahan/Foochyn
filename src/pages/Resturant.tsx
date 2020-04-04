@@ -56,17 +56,17 @@ class Resturant extends Component<props> {
             </div>
             <div className="is-lg">{this.formatArray(this.props.address, ", ")}</div>
             <div className="mt-2">
-              <button className="btn inline-flex is-lg is-sld is-primary is-round mr-7px">
-                <span className="icon ri-star-line"></span>&nbsp;Add a review
+              <button className="btn is-lg is-sld is-primary is-round mr-7px">
+                <span className="icon ri-star-line"></span>Add a review
               </button>
-              <button className="btn inline-flex is-lg is-out is-primary is-round mr-7px">
-                <span className="icon ri-direction-line"></span>&nbsp;Direction
+              <button className="btn is-lg is-out is-primary is-round mr-7px">
+                <span className="icon ri-direction-line"></span>Direction
               </button>
-              <button className="btn inline-flex is-lg is-out is-primary is-round mr-7px">
-                <span className="icon ri-bookmark-3-line"></span>&nbsp;Bookmark
+              <button className="btn is-lg is-out is-primary is-round mr-7px">
+                <span className="icon ri-bookmark-3-line"></span>Bookmark
               </button>
-              <button className="btn inline-flex is-lg is-out is-primary is-round mr-7px">
-                <span className="icon ri-share-line"></span>&nbsp;Share
+              <button className="btn is-lg is-out is-primary is-round mr-7px">
+                <span className="icon ri-share-line"></span>Share
               </button>
             </div>
           </div>
@@ -100,8 +100,8 @@ class Resturant extends Component<props> {
           <Tabs
             defaultActiveKey="1"
             tabBarExtraContent={
-              <button className="btn clr-primary inline-flex">
-                <i className="icon ri-coupon-3-fill"></i>&nbsp;5 Great Discounts
+              <button className="btn clr-primary">
+                <i className="icon ri-coupon-3-fill" />5 Great Discounts
               </button>
             }
           >

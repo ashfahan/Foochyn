@@ -33,17 +33,10 @@ export default class Expend extends Component<props, state> {
           </Collapse.Panel>
         </Collapse>
         <div className="button-area">
-          {this.state.expend ? (
-            <button className="btn is-out is-primary" onClick={() => this.setState({ expend: !this.state.expend })}>
-              {this.props.hideText}
-              <i className="icon ri-arrow-up-s-line"></i>{" "}
-            </button>
-          ) : (
-            <button className="btn is-out is-primary" onClick={() => this.setState({ expend: !this.state.expend })}>
-              {this.props.showText}
-              <i className="icon ri-arrow-down-s-line"></i>
-            </button>
-          )}
+          <button className="btn is-out is-primary flex" onClick={() => this.setState({ expend: !this.state.expend })}>
+            {this.state.expend ? this.props.hideText : this.props.showText}&nbsp;
+            <i className={`icon ${this.state.expend ? "ri-arrow-up-s-line" : "ri-arrow-down-s-line"}`}></i>
+          </button>
           {this.props.extrabuttons}
         </div>
       </>

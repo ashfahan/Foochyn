@@ -119,12 +119,12 @@ class Resturant extends Component<props> {
                     </div>
                   </section>
 
-              <section className="px-4 py-1rem container">
-                <h3 className="txt-cap mb-0">Cuisines</h3>
-                <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
-                <button className="btn is-out is-pill mr-7px">North Indian</button>
-                <button className="btn is-out is-pill mr-7px">Chinese</button>
-              </section>
+                  <section className="py-1rem">
+                    <h3 className="txt-cap mb-0">Cuisines</h3>
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <button className="btn is-out is-primary is-pill mr-7px">North Indian</button>
+                    <button className="btn is-out is-primary is-pill mr-7px">Chinese</button>
+                  </section>
 
               <section className="px-4 py-1rem container">
                 <h3 className="txt-cap mb-0">Average Cost</h3>

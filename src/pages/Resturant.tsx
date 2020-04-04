@@ -201,6 +201,58 @@ class Resturant extends Component<props> {
                   <section className="mb-1rem">
                     <img className="img" src="https://www.google.com/maps/d/thumbnail?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA" />
                   </section>
+
+                  <section className="py-1rem">
+                    <h3 className="txt-cap mb-0">Contact</h3>
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <div>
+                      <div className="grid">
+                        <div className="column w-2">
+                          <i className="icon ri-phone-line h3 font-normal clr-inherit mb-0" />
+                        </div>
+                        <div className="column">
+                          <div>Phone number</div>
+                          <a href="#">(+92)000-111-4567</a>
+                        </div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-2">
+                          <i className="icon ri-mail-send-line h3 font-normal clr-inherit mb-0" />
+                        </div>
+                        <div className="column">
+                          <div>Mail</div>
+                          <a href="#">mail@main.com</a>
+                        </div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-2">
+                          <i className="icon ri-earth-line h3 font-normal clr-inherit mb-0" />
+                        </div>
+                        <div className="column">
+                          <div>Website</div>
+                          <a href="#">https://www.site.com</a>
+                        </div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-2">
+                          <i className="icon ri-facebook-fill h3 font-normal clr-inherit mb-0" />
+                        </div>
+                        <div className="column">
+                          <div>Facebook</div>
+                          <a href="#">Username</a>
+                        </div>
+                      </div>
+                      <div className="grid">
+                        <div className="column w-2">
+                          <i className="icon ri-twitter-fill h3 font-normal clr-inherit mb-0" />
+                        </div>
+                        <div className="column">
+                          <div>Twitter</div>
+                          <a href="#">Username</a>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
                 </div>
               </div>
             </Tabs.TabPane>

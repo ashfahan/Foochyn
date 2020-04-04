@@ -257,41 +257,60 @@ class Resturant extends Component<props> {
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Gallary" key="2">
-              <section className="px-4 py-1rem container grid">
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-                <div className="column w-6">
-                  <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
-                </div>
-              </section>
+              <div className="container px-2">
+                <section className="py-1rem">
+                  <h3 className="txt-cap mb-0">Menu</h3>
+                  <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
+                  <div className="grid">
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                  </div>
+                </section>
+
+                <section className="py-1rem">
+                  <h3 className="txt-cap mb-0">Food</h3>
+                  <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
+                  <div className="grid">
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                    <div className="column w-6">
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                    </div>
+                  </div>
+                </section>
+              </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Reviews" key="3">
               <div className="px-4 py-2 container"></div>

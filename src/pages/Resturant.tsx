@@ -110,7 +110,7 @@ class Resturant extends Component<props> {
                 <div className="column w-16">
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Known For</h3>
-                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div>
                       Nusr-Et Dubai is the very best meat experience – hands down. This intimate restaurant with seamless terrace for inside-out dining, is buzzing with energy. The casual service is highly personal and involving.
                       <Expend showText="Read More" hideText="Read Less">
@@ -121,14 +121,14 @@ class Resturant extends Component<props> {
 
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Cuisines</h3>
-                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <button className="btn is-out is-primary is-pill mr-7px">North Indian</button>
                     <button className="btn is-out is-primary is-pill mr-7px">Chinese</button>
                   </section>
 
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Average Cost</h3>
-                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div className="clr-dark">{this.formatArray(this.props.pricerange, " - ")} PKR for two people (approx.)</div>
                     <div className="o-75">Exclusive of applicable taxes and charges, if any</div>
                     <Tooltip placement="rightTop" title="The cost for two is computed as follows: Average of 2 appetizers + 2 mains + 2 beverages + 1 dessert. The actual cost you incur at a restaurant might change depending on your appetite, or with changes in restaurant menu prices">
@@ -138,7 +138,7 @@ class Resturant extends Component<props> {
 
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Features</h3>
-                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div className="grid">
                       <div className="column flex align-middle w-12">
                         <i className="icon ri-2x ri-bank-card-line" /> Credit card
@@ -163,7 +163,7 @@ class Resturant extends Component<props> {
 
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Open Hours</h3>
-                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div className="clr-disabled">
                       <div className="grid">
                         <div className="column w-12">MONDAY</div>
@@ -204,7 +204,7 @@ class Resturant extends Component<props> {
 
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Contact</h3>
-                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div>
                       <div className="grid">
                         <div className="column w-2">

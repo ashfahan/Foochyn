@@ -104,7 +104,7 @@ class Home extends Component {
 
         <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Popular Offer in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
           <Carousel
             nextArrow={<this.NextArrow />}
             prevArrow={<this.PrevArrow />}
@@ -172,7 +172,7 @@ class Home extends Component {
 
         <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Featured restaurants in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
           <Carousel
             nextArrow={<this.NextArrow />}
             prevArrow={<this.PrevArrow />}
@@ -224,7 +224,7 @@ class Home extends Component {
 
         <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Popular Areas in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <LocationCard location="Lahore" resurantcount={500} image="https://source.unsplash.com/512x384/?Lahore" />
@@ -243,7 +243,7 @@ class Home extends Component {
 
         <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Popular Cuisines</h2>
-          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
           <div className="grid has-gap-lg">
             <div className="column w-6@lg w-12@sm w-24">
               <CuisinesCard image={chinese} name="Chinese" resurantcount={648} />
@@ -274,7 +274,7 @@ class Home extends Component {
 
         <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Popular restaurants in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
           <Carousel
             nextArrow={<this.NextArrow />}
             prevArrow={<this.PrevArrow />}
@@ -326,7 +326,7 @@ class Home extends Component {
 
         <section className="p-4 py-2@md container">
           <h2 className="txt-cap mb-0">Newly added resturants in {"city"}</h2>
-          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+          <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
           <Carousel
             nextArrow={<this.NextArrow />}
             prevArrow={<this.PrevArrow />}

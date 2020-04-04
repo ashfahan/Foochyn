@@ -136,6 +136,30 @@ class Resturant extends Component<props> {
                     </Tooltip>
                   </section>
 
+                  <section className="py-1rem">
+                    <h3 className="txt-cap mb-0">Features</h3>
+                    <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px" }} />
+                    <div className="grid">
+                      <div className="column flex align-middle w-12">
+                        <i className="icon ri-2x ri-bank-card-line" /> Credit card
+                      </div>
+                      <div className="column flex align-middle w-12">
+                        <i className="icon ri-2x ri-parking-box-line" /> Parking
+                      </div>
+                      <div className="column flex align-middle w-12">
+                        <i className="icon ri-2x ri-disc-line" /> DJ
+                      </div>
+                      <div className="column flex align-middle w-12">
+                        <i className="icon ri-2x ri-bank-card-line" /> Indoor Seating
+                      </div>
+                      <div className="column flex align-middle w-12">
+                        <i className="icon ri-2x ri-cake-line" /> Booking
+                      </div>
+                      <div className="column flex align-middle w-12">
+                        <i className="icon ri-2x ri-wifi-line" /> Wifi
+                      </div>
+                    </div>
+                  </section>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Gallary" key="2">
               <section className="px-4 py-1rem container grid">

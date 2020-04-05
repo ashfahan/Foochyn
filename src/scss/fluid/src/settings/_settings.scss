@@ -11,8 +11,8 @@ $design-solid-or-gradients:                         "solid" !default;    // * Le
 $design-shadow-or-border:                           "shadow" !default;   // * Let you choose between "shadow" vs "border" design UI
 $design-rounded-or-sharp:                           "rounded" !default;  // * Let you choose between "rounded" vs "sharp" corners design UI
 $breakpoints-short-or-readable:                     "short" !default;    // Let you choose between shorter words like `sm` vs understandable words like `mobile`
-$breakpoints-below-prefix:                          "@" !default;        // Symbol used to prefix classes at given breakpoint and below it
-$breakpoints-above-prefix:                          "@" !default;        // Symbol used to prefix classes at given breakpoint and above it
+$breakpoints-below-prefix:                          "<" !default;        // Symbol used to prefix classes at given breakpoint and below it
+$breakpoints-above-prefix:                          ">" !default;        // Symbol used to prefix classes at given breakpoint and above it
 $grid-breakpoints-mediaQuery:                       "above" !default;    // Let you choose how to apply grid media query either apply it "above" the breakpoint or "below" it
 $enable-grid-gap:                                   true !default;       // Enable Spacing/Gutter between Grid elements
 $enable-all-color-variant:                          false !default;      // Generate Every Color styles

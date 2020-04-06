@@ -3,13 +3,16 @@ import { Collapse } from "antd";
 import "./Expend.scss";
 
 interface props {
-  showText: string;
-  hideText: string;
-  extrabuttons: ReactNode;
+  showText?: string;
+  hideText?: string;
+  extrabuttons?: ReactNode;
+  buttonClass?: string;
+  inline?: boolean;
+  inlineEllipsis: boolean;
 }
 
 interface state {
-  expend: boolean;
+  expended: boolean;
 }
 
 export default class Expend extends Component<props, state> {
@@ -17,25 +20,29 @@ export default class Expend extends Component<props, state> {
     showText: "Show",
     hideText: "Hide",
     extrabuttons: null,
+    buttonClass: "btn is-out is-primary",
+    inline: false,
+    inlineEllipsis: false,
   };
 
   constructor(props) {
     super(props);
-    this.state = { expend: false };
+    this.state = { expended: false };
   }
 
   render() {
     return (
       <>
-        <Collapse bordered={false} className="Expend" activeKey={this.state.expend ? "1" : "-1"}>
+        {this.props.inlineEllipsis && this.props.inlineEllipsis && !this.state.expended ? "…" : null}
+        <Collapse bordered={false} className={`Expend ${this.props.inline ? "inline" : ""}`} activeKey={this.state.expended ? "1" : "-1"}>
           <Collapse.Panel header="" className="p-0" showArrow={false} key="1">
             {this.props.children}
           </Collapse.Panel>
         </Collapse>
         <div className="button-area">
-          <button className="btn is-out is-primary flex" onClick={() => this.setState({ expend: !this.state.expend })}>
-            {this.state.expend ? this.props.hideText : this.props.showText}&nbsp;
-            <i className={`icon ${this.state.expend ? "ri-arrow-up-s-line" : "ri-arrow-down-s-line"}`}></i>
+          <button className={this.props.buttonClass} onClick={() => this.setState({ expended: !this.state.expended })}>
+            {this.state.expended ? this.props.hideText : this.props.showText}&nbsp;
+            <i className={`icon ${this.state.expended ? "ri-arrow-up-s-line" : "ri-arrow-down-s-line"}`}></i>
           </button>
           {this.props.extrabuttons}
         </div>

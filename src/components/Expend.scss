@@ -1,15 +1,28 @@
 .Expend {
+  &.inline {
+    display: inline;
+
+    .ant-collapse-content-box,
+    .ant-collapse-content-active,
+    .ant-collapse-item:last-child {
+      display: inline;
+    }
+  }
+
   &.ant-collapse,
   &.ant-collapse-content {
     color: inherit;
     background-color: inherit;
   }
 
-  &.ant-collapse > .ant-collapse-item:last-child,
-  &.ant-collapse > .ant-collapse-item:last-child .ant-collapse-header {
+  &.ant-collapse > .ant-collapse-item:last-child {
     padding-bottom: 0%;
     padding-top: 0;
     border: none;
+  }
+
+  .ant-collapse-header {
+    display: none;
   }
 
   .ant-collapse-content-box {

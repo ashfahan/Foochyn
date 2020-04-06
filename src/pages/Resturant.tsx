@@ -317,9 +317,6 @@ class Resturant extends Component<props> {
                 <section className="py-1rem">
                   <h3 className="txt-cap mb-0">User Rating & Reviews Summary</h3>
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
-                  <div>
-                    <span className="h2 clr-primary">73</span> rank amongst resturantin delhi ncr
-                  </div>
                   <div className="grid is-adjust my-1rem">
                     <div className="column w-12 grid align-middle">
                       <div className="column w-11">

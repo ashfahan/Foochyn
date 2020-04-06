@@ -181,7 +181,7 @@ body * {
 }
 
 .icon {
-  *:not(.flex):not(.control) > & {
+  *:not(.flex):not(.control):not(.inline-flex) > & {
     transform: translateY(2px);
   }
   &::after {

@@ -116,7 +116,7 @@ class Resturant extends Component<props> {
           >
             <Tabs.TabPane tab="Overview" key="1">
               <div className="grid has-gap-lg container px-2">
-                <div className="column w-24 w-16>lg">
+                <div className="column w-24 w-16>md">
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Known For</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
@@ -206,7 +206,7 @@ class Resturant extends Component<props> {
                   </section>
                 </div>
 
-                <div className="column w-24 w-8>lg">
+                <div className="column w-24 w-8>md">
                   <section className="mb-1rem">
                     <img className="img w-24" src="https://www.google.com/maps/d/thumbnail?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA" />
                   </section>

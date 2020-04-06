@@ -1064,6 +1064,148 @@ a.clr-white-75.hover, a.clr-white-75:hover, a.clr-white-75.focus, a.clr-white-75
   .order-first\>xl { order: -1 !important; }
   .order-last\>xl { order: 25 !important; } }
 
+.off-1 { margin-left: 4.16667% !important; }
+
+.off-2 { margin-left: 8.33333% !important; }
+
+.off-3 { margin-left: 12.5% !important; }
+
+.off-4 { margin-left: 16.66667% !important; }
+
+.off-5 { margin-left: 20.83333% !important; }
+
+.off-6 { margin-left: 25% !important; }
+
+.off-7 { margin-left: 29.16667% !important; }
+
+.off-8 { margin-left: 33.33333% !important; }
+
+.off-9 { margin-left: 37.5% !important; }
+
+.off-10 { margin-left: 41.66667% !important; }
+
+.off-11 { margin-left: 45.83333% !important; }
+
+.off-12 { margin-left: 50% !important; }
+
+.off-13 { margin-left: 54.16667% !important; }
+
+.off-14 { margin-left: 58.33333% !important; }
+
+.off-15 { margin-left: 62.5% !important; }
+
+.off-16 { margin-left: 66.66667% !important; }
+
+.off-17 { margin-left: 70.83333% !important; }
+
+.off-18 { margin-left: 75% !important; }
+
+.off-19 { margin-left: 79.16667% !important; }
+
+.off-20 { margin-left: 83.33333% !important; }
+
+.off-21 { margin-left: 87.5% !important; }
+
+.off-22 { margin-left: 91.66667% !important; }
+
+.off-23 { margin-left: 95.83333% !important; }
+
+@media (min-width: 576px) { .off-1\>sm { margin-left: 4.16667% !important; }
+  .off-2\>sm { margin-left: 8.33333% !important; }
+  .off-3\>sm { margin-left: 12.5% !important; }
+  .off-4\>sm { margin-left: 16.66667% !important; }
+  .off-5\>sm { margin-left: 20.83333% !important; }
+  .off-6\>sm { margin-left: 25% !important; }
+  .off-7\>sm { margin-left: 29.16667% !important; }
+  .off-8\>sm { margin-left: 33.33333% !important; }
+  .off-9\>sm { margin-left: 37.5% !important; }
+  .off-10\>sm { margin-left: 41.66667% !important; }
+  .off-11\>sm { margin-left: 45.83333% !important; }
+  .off-12\>sm { margin-left: 50% !important; }
+  .off-13\>sm { margin-left: 54.16667% !important; }
+  .off-14\>sm { margin-left: 58.33333% !important; }
+  .off-15\>sm { margin-left: 62.5% !important; }
+  .off-16\>sm { margin-left: 66.66667% !important; }
+  .off-17\>sm { margin-left: 70.83333% !important; }
+  .off-18\>sm { margin-left: 75% !important; }
+  .off-19\>sm { margin-left: 79.16667% !important; }
+  .off-20\>sm { margin-left: 83.33333% !important; }
+  .off-21\>sm { margin-left: 87.5% !important; }
+  .off-22\>sm { margin-left: 91.66667% !important; }
+  .off-23\>sm { margin-left: 95.83333% !important; } }
+
+@media (min-width: 768px) { .off-1\>md { margin-left: 4.16667% !important; }
+  .off-2\>md { margin-left: 8.33333% !important; }
+  .off-3\>md { margin-left: 12.5% !important; }
+  .off-4\>md { margin-left: 16.66667% !important; }
+  .off-5\>md { margin-left: 20.83333% !important; }
+  .off-6\>md { margin-left: 25% !important; }
+  .off-7\>md { margin-left: 29.16667% !important; }
+  .off-8\>md { margin-left: 33.33333% !important; }
+  .off-9\>md { margin-left: 37.5% !important; }
+  .off-10\>md { margin-left: 41.66667% !important; }
+  .off-11\>md { margin-left: 45.83333% !important; }
+  .off-12\>md { margin-left: 50% !important; }
+  .off-13\>md { margin-left: 54.16667% !important; }
+  .off-14\>md { margin-left: 58.33333% !important; }
+  .off-15\>md { margin-left: 62.5% !important; }
+  .off-16\>md { margin-left: 66.66667% !important; }
+  .off-17\>md { margin-left: 70.83333% !important; }
+  .off-18\>md { margin-left: 75% !important; }
+  .off-19\>md { margin-left: 79.16667% !important; }
+  .off-20\>md { margin-left: 83.33333% !important; }
+  .off-21\>md { margin-left: 87.5% !important; }
+  .off-22\>md { margin-left: 91.66667% !important; }
+  .off-23\>md { margin-left: 95.83333% !important; } }
+
+@media (min-width: 992px) { .off-1\>lg { margin-left: 4.16667% !important; }
+  .off-2\>lg { margin-left: 8.33333% !important; }
+  .off-3\>lg { margin-left: 12.5% !important; }
+  .off-4\>lg { margin-left: 16.66667% !important; }
+  .off-5\>lg { margin-left: 20.83333% !important; }
+  .off-6\>lg { margin-left: 25% !important; }
+  .off-7\>lg { margin-left: 29.16667% !important; }
+  .off-8\>lg { margin-left: 33.33333% !important; }
+  .off-9\>lg { margin-left: 37.5% !important; }
+  .off-10\>lg { margin-left: 41.66667% !important; }
+  .off-11\>lg { margin-left: 45.83333% !important; }
+  .off-12\>lg { margin-left: 50% !important; }
+  .off-13\>lg { margin-left: 54.16667% !important; }
+  .off-14\>lg { margin-left: 58.33333% !important; }
+  .off-15\>lg { margin-left: 62.5% !important; }
+  .off-16\>lg { margin-left: 66.66667% !important; }
+  .off-17\>lg { margin-left: 70.83333% !important; }
+  .off-18\>lg { margin-left: 75% !important; }
+  .off-19\>lg { margin-left: 79.16667% !important; }
+  .off-20\>lg { margin-left: 83.33333% !important; }
+  .off-21\>lg { margin-left: 87.5% !important; }
+  .off-22\>lg { margin-left: 91.66667% !important; }
+  .off-23\>lg { margin-left: 95.83333% !important; } }
+
+@media (min-width: 1200px) { .off-1\>xl { margin-left: 4.16667% !important; }
+  .off-2\>xl { margin-left: 8.33333% !important; }
+  .off-3\>xl { margin-left: 12.5% !important; }
+  .off-4\>xl { margin-left: 16.66667% !important; }
+  .off-5\>xl { margin-left: 20.83333% !important; }
+  .off-6\>xl { margin-left: 25% !important; }
+  .off-7\>xl { margin-left: 29.16667% !important; }
+  .off-8\>xl { margin-left: 33.33333% !important; }
+  .off-9\>xl { margin-left: 37.5% !important; }
+  .off-10\>xl { margin-left: 41.66667% !important; }
+  .off-11\>xl { margin-left: 45.83333% !important; }
+  .off-12\>xl { margin-left: 50% !important; }
+  .off-13\>xl { margin-left: 54.16667% !important; }
+  .off-14\>xl { margin-left: 58.33333% !important; }
+  .off-15\>xl { margin-left: 62.5% !important; }
+  .off-16\>xl { margin-left: 66.66667% !important; }
+  .off-17\>xl { margin-left: 70.83333% !important; }
+  .off-18\>xl { margin-left: 75% !important; }
+  .off-19\>xl { margin-left: 79.16667% !important; }
+  .off-20\>xl { margin-left: 83.33333% !important; }
+  .off-21\>xl { margin-left: 87.5% !important; }
+  .off-22\>xl { margin-left: 91.66667% !important; }
+  .off-23\>xl { margin-left: 95.83333% !important; } }
+
 .lh-1-2 { line-height: 1.2 !important; }
 
 .lh-1-5 { line-height: 1.5 !important; }
@@ -1150,11 +1292,11 @@ a.clr-white-75.hover, a.clr-white-75:hover, a.clr-white-75.focus, a.clr-white-75
 
 .font-monospace { font-family: "Menlo", "Ubuntu monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", consolas, monospace !important; }
 
-.is-sm { font-size: 0.75rem!important; }
+.is-sm { font-size: 0.75rem !important; }
 
-.is-md { font-size: 1rem!important; }
+.is-md { font-size: 1rem !important; }
 
-.is-lg { font-size: 1.25rem!important; }
+.is-lg { font-size: 1.25rem !important; }
 
 .txt-vertical { writing-mode: vertical-lr !important; }
 

@@ -321,9 +321,7 @@ class Resturant extends Component<props> {
                     <div className="column w-12 grid align-middle">
                       <div className="column w-11">
                         <h4 className="mb-0">Overall Rating</h4>
-                        <div>
-                          (Based on <span>31</span> reviews)
-                        </div>
+                        <div>Based on {this.props.reviews} reviews</div>
                       </div>
                       <div className="column flex clr-primary">
                         <div className="column">

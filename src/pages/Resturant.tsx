@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 
 import "../scss/home.scss";
-import { Rate, Tabs, Tooltip, Progress } from "antd";
+import { Rate, Tabs, Tooltip, Progress, List } from "antd";
 import Expend from "../components/Expend";
-import Review from "../components/Review";
+import Review, { props as ReviewProps } from "../components/Review";
+import { Input } from "antd";
+const TextArea = Input.TextArea;
 
 interface props {
   image?: "";
   favorite?: boolean;
-  name?: string;
-  rating?: number;
-  reviews?: number;
-  address?: string[];
-  cuisines?: string[];
-  pricerange?: number[];
+  name: string;
+  rating: { overall: number; ambience: number; music: number; food: number; service: number };
+  reviews?: ReviewProps[];
+  address: string[];
+  cuisines: string[];
+  pricerange: number[];
   diningReview?: number;
   diningReviewCount?: number;
   deliveryReview?: number;
@@ -25,8 +27,13 @@ class Resturant extends Component<props> {
     image: "",
     favorite: false,
     name: "Resturant Name",
-    rating: 0,
-    reviews: 0,
+    rating: { overall: 4, ambience: 3, music: 2, food: 1, service: 0 },
+    reviews: [
+      { uid: 1, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: 4, ambience: 4, music: 4, food: 4, service: 4 }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
+      { uid: 2, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: 4, ambience: 4, music: 4, food: 4, service: 4 }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
+      { uid: 3, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: 4, ambience: 4, music: 4, food: 4, service: 4 }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
+      { uid: 4, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: 4, ambience: 4, music: 4, food: 4, service: 4 }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
+    ],
     address: ["South Padre Island", "TX"],
     cuisines: ["Chinese", "Italian", "Japanese"],
     pricerange: [1000, 5000],
@@ -122,7 +129,7 @@ class Resturant extends Component<props> {
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div>
                       Nusr-Et Dubai is the very best meat experience – hands down. This intimate restaurant with seamless terrace for inside-out dining, is buzzing with energy. The casual service is highly personal and involving.
-                      <Expend showText="Read More" hideText="Read Less">
+                      <Expend showText="Read More" hideText="Read Less" inline>
                         The founder, a master butcher for over 20 years, Nusret Gokce personally selects each and every cut of meat served in the restaurant, the master grillers complete the magic on the charcoal grill. A dining experience unlike any other with creative fish and seafood dishes for the non-carnivores.
                       </Expend>
                     </div>
@@ -326,80 +333,81 @@ class Resturant extends Component<props> {
                 <section className="py-1rem">
                   <h3 className="txt-cap mb-0">User Rating & Reviews Summary</h3>
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
-                  <div className="grid is-adjust my-1rem">
-                    <div className="column w-12 grid align-middle">
+                  <div className="grid my-1rem">
+                    <div className="column w-12>lg grid align-middle">
                       <div className="column w-11">
                         <h4 className="mb-0">Overall Rating</h4>
-                        <div>Based on {this.props.reviews} reviews</div>
+                        <div>Based on {this.props.reviews?.length} reviews</div>
                       </div>
                       <div className="column flex">
-                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
+                        <Progress percent={(this.props.rating.overall / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.overall}</b>} />
                       </div>
                     </div>
                   </div>
                   <div className="grid">
-                    <div className="column w-12>lg grid align-middle">
-                      <div className="column w-11>lg font-bold">Ambience</div>
+                    <div className="column w-24 w-12>md grid align-middle">
+                      <div className="column w-11 font-bold">Ambience</div>
                       <div className="column flex">
-                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
+                        <Progress percent={(this.props.rating.ambience / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.ambience}</b>} />
                       </div>
                     </div>
-                    <div className="column w-12>lg grid align-middle">
-                      <div className="column w-11>lg font-bold">Food</div>
+                    <div className="column w-24 w-12>md grid align-middle">
+                      <div className="column w-11 font-bold">Food</div>
                       <div className="column flex">
-                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
+                        <Progress percent={(this.props.rating.food / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.food}</b>} />
                       </div>
                     </div>
-                    <div className="column w-12>lg grid align-middle">
-                      <div className="column w-11>lg font-bold">Music</div>
+                    <div className="column w-24 w-12>md grid align-middle">
+                      <div className="column w-11 font-bold">Music</div>
                       <div className="column flex">
-                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
+                        <Progress percent={(this.props.rating.music / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.music}</b>} />
                       </div>
                     </div>
-                    <div className="column w-12>lg grid align-middle">
-                      <div className="column w-11>lg font-bold">Service</div>
+                    <div className="column w-24 w-12>md grid align-middle">
+                      <div className="column w-11 font-bold">Service</div>
                       <div className="column flex">
-                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
+                        <Progress percent={(this.props.rating.service / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.service}</b>} />
                       </div>
                     </div>
                   </div>
                 </section>
 
-                <section className="is-round-sm my-2 bg-white p-2">
+                <section className="py-1rem">
+                  <div className="flex justify-between align-middle mb-7px">
+                    <h5 className="mb-0">Write A Review</h5>
+                    <button className="btn is-sld is-primary">Post</button>
+                  </div>
+                  <TextArea className="input" placeholder="Controlled autosize" autoSize={{ minRows: 3, maxRows: 5 }} />
+                </section>
+
+                <section className="py-1rem">
                   <div className="flex justify-between">
-                    <h5>Reviews</h5>
-                    <button className="btn is-sld is-primary">Write a review</button>
-                  </div>
-
-                  <hr />
-                  <Review userName="Mini Ribeiro Speaks" rating={4} ratingDate="25 Novembder 2018" reviewTitle="Title" review="This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." />
-                  <hr />
-                  <Review userName="Mini Ribeiro Speaks" userImage="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" rating={4} ratingDate="25 Novembder 2018" reviewTitle="Title" review="This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." />
-                  <hr />
-                  <Review userName="Mini Ribeiro Speaks" userAddress="Location" rating={4} ratingDate="25 Novembder 2018" reviewTitle="Title" review="This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." />
-                  <hr />
-                  <Review userName="Mini Ribeiro Speaks" rating={4} ratingDate="25 Novembder 2018" reviewTitle="Title" review="This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." />
-
-                  <div className="flex justify-center">
-                    <button className="btn is-out is-primary">
-                      <i className="icon is-lg ri-arrow-left-s-fill"></i>
-                    </button>
-                    <div className="group mx-7px">
-                      <button className="btn is-out is-primary">1</button>
-                      <button className="btn is-out is-primary">2</button>
-                      <button className="btn is-out is-primary">3</button>
-                      <button className="btn is-out is-primary">4</button>
-                      <button className="btn is-out is-primary">5</button>
-                      <button className="btn is-out is-primary">6</button>
-                      <button className="btn is-out is-primary">7</button>
-                      <button className="btn is-out is-primary">8</button>
-                      <button className="btn is-out is-primary">9</button>
-                      <button className="btn is-out is-primary">10</button>
+                    <h3 className="txt-cap mb-0">Reviews</h3>
+                    <div className="input px-1rem py-0 w-auto event-none">
+                      <span className="clr-disabled">Sort By</span>
+                      <select className="input is-unstyle w-auto event-auto">
+                        <option>Popularity</option>
+                        <option>Saved</option>
+                        <option>Critic Rating</option>
+                        <option>Cost Low to High</option>
+                        <option>Cost High to Low</option>
+                      </select>
                     </div>
-                    <button className="btn is-out is-primary">
-                      <i className="icon is-lg ri-arrow-right-s-fill"></i>
-                    </button>
                   </div>
+                  <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
+
+                  <List
+                    itemLayout="vertical"
+                    size="large"
+                    pagination={{
+                      onChange: (page) => {
+                        console.log(page);
+                      },
+                      pageSize: 5,
+                    }}
+                    dataSource={this.props.reviews}
+                    renderItem={(item) => <Review uid={item.uid} userImage={item.userImage} userName={item.userName} rating={item.rating} ratingDate={item.ratingDate} review={item.review} userAddress={item.userAddress} />}
+                  />
                 </section>
               </div>
             </Tabs.TabPane>

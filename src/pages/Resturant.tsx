@@ -323,59 +323,34 @@ class Resturant extends Component<props> {
                         <h4 className="mb-0">Overall Rating</h4>
                         <div>Based on {this.props.reviews} reviews</div>
                       </div>
-                      <div className="column flex clr-primary">
-                        <div className="column">
-                          <div className="bg-light py-7px relative">
-                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
-                          </div>
-                        </div>
-                        <b>4.0</b>
+                      <div className="column flex">
+                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
                       </div>
                     </div>
                   </div>
-                  <div className="grid is-adjust">
-                    <div className="column w-12 grid align-middle">
-                      <div className="column w-11 font-bold">Ambience</div>
-                      <div className="column flex clr-primary">
-                        <div className="column">
-                          <div className="bg-light py-7px relative">
-                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
-                          </div>
-                        </div>
-                        <b>4.0</b>
+                  <div className="grid">
+                    <div className="column w-12>lg grid align-middle">
+                      <div className="column w-11>lg font-bold">Ambience</div>
+                      <div className="column flex">
+                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
                       </div>
                     </div>
-                    <div className="column w-12 grid align-middle">
-                      <div className="column w-11 font-bold">Food</div>
-                      <div className="column flex clr-primary">
-                        <div className="column">
-                          <div className="bg-light py-7px relative">
-                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
-                          </div>
-                        </div>
-                        <b>4.0</b>
+                    <div className="column w-12>lg grid align-middle">
+                      <div className="column w-11>lg font-bold">Food</div>
+                      <div className="column flex">
+                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
                       </div>
                     </div>
-                    <div className="column w-12 grid align-middle">
-                      <div className="column w-11 font-bold">Music</div>
-                      <div className="column flex clr-primary">
-                        <div className="column">
-                          <div className="bg-light py-7px relative">
-                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
-                          </div>
-                        </div>
-                        <b>4.0</b>
+                    <div className="column w-12>lg grid align-middle">
+                      <div className="column w-11>lg font-bold">Music</div>
+                      <div className="column flex">
+                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
                       </div>
                     </div>
-                    <div className="column w-12 grid align-middle">
-                      <div className="column w-11 font-bold">Service</div>
-                      <div className="column flex clr-primary">
-                        <div className="column">
-                          <div className="bg-light py-7px relative">
-                            <div className="absolute top-0 bottom-0 bg-primary z-100" style={{ width: "80%" }}></div>
-                          </div>
-                        </div>
-                        <b>4.0</b>
+                    <div className="column w-12>lg grid align-middle">
+                      <div className="column w-11>lg font-bold">Service</div>
+                      <div className="column flex">
+                        <Progress percent={30} className="aaa" format={() => <b className="clr-primary">4.0</b>} />
                       </div>
                     </div>
                   </div>

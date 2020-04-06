@@ -39,8 +39,8 @@ class Resturant extends Component<props> {
   render() {
     return (
       <>
-        <section className="px-4 py-2 grid container">
-          <div className="column w-16">
+        <section className="px-4 pt-2 grid container">
+          <div className="column w-16>lg w-24">
             <ol className="breadcrumb p-0">
               <li className="breadcrumb-item" data-separator="/">
                 <a href="#" className="clr-inherit">
@@ -53,30 +53,38 @@ class Resturant extends Component<props> {
             </ol>
             <h1 className="clr-black">{this.props.name}</h1>
             <div className="is-lg">
-              {this.formatArray(this.props.pricerange)} PKR Approx Per User - {this.formatArray(this.props.cuisines)}
+              {this.formatArray(this.props.pricerange)} PKR Approx Per User - <span className="block inline>sm">{this.formatArray(this.props.cuisines)}</span>
             </div>
             <div className="is-lg">{this.formatArray(this.props.address, ", ")}</div>
-            <div className="mt-2">
-              <button className="btn is-lg is-sld is-primary is-round mr-7px">
-                <span className="icon ri-star-line"></span>Add a review
-              </button>
-              <button className="btn is-lg is-out is-primary is-round mr-7px">
-                <span className="icon ri-direction-line"></span>Direction
-              </button>
-              <button className="btn is-lg is-out is-primary is-round mr-7px">
-                <span className="icon ri-bookmark-3-line"></span>Bookmark
-              </button>
-              <button className="btn is-lg is-out is-primary is-round mr-7px">
-                <span className="icon ri-share-line"></span>Share
-              </button>
+            <div className="mt-2 grid justify-center justify-start>lg">
+              <div className="column w-12 w-auto>sm">
+                <button className="btn is-lg is-sld is-primary is-round w-24 w-auto>sm">
+                  <span className="icon ri-star-line"></span>Add a review
+                </button>
+              </div>
+              <div className="column w-12 w-auto>sm">
+                <button className="btn is-lg is-out is-primary is-round w-24 w-auto>sm">
+                  <span className="icon ri-direction-line"></span>Direction
+                </button>
+              </div>
+              <div className="column w-12 w-auto>sm">
+                <button className="btn is-lg is-out is-primary is-round w-24 w-auto>sm">
+                  <span className="icon ri-bookmark-3-line"></span>Bookmark
+                </button>
+              </div>
+              <div className="column w-12 w-auto>sm">
+                <button className="btn is-lg is-out is-primary is-round w-24 w-auto>sm">
+                  <span className="icon ri-share-line"></span>Share
+                </button>
+              </div>
             </div>
           </div>
-          <div className="column w-8 flex justify-between">
-            <div className="txt-center">
+          <div className="txt-center column w-8>lg w-24 flex justify-between>lg justify-center">
+            <div className="mr-10 mr-0>lg">
               <Rate className="clr-body mr-7px is-lg" allowHalf value={this.props.diningReview} disabled /> {this.props.diningReview}
               <div>{this.props.diningReviewCount} Dining Reviews</div>
             </div>
-            <div className="txt-center">
+            <div>
               <Rate className="clr-primary mr-7px is-lg" allowHalf value={this.props.deliveryReview} disabled /> {this.props.deliveryReview}
               <div>{this.props.deliveryReviewCount} Delivery Reviews</div>
             </div>
@@ -84,14 +92,14 @@ class Resturant extends Component<props> {
         </section>
 
         <section className="px-4 pb-2 grid container">
-          <div className="column w-15">
+          <div className="column w-15>sm w-24">
             <div className="bg-primary is-round img-bg h-100" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
           </div>
-          <div className="column w-9 flex justify-between grid p-0">
-            <div className="column w-24">
+          <div className="column w-9>sm w-24 flex justify-between grid p-0">
+            <div className="column w-24>sm w-12">
               <div className="bg-primary is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
             </div>
-            <div className="column w-24">
+            <div className="column w-24>sm w-12">
               <div className="bg-primary is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
             </div>
           </div>
@@ -108,7 +116,7 @@ class Resturant extends Component<props> {
           >
             <Tabs.TabPane tab="Overview" key="1">
               <div className="grid has-gap-lg container px-2">
-                <div className="column w-16">
+                <div className="column w-24 w-16>lg">
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Known For</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
@@ -198,9 +206,9 @@ class Resturant extends Component<props> {
                   </section>
                 </div>
 
-                <div className="column w-8">
+                <div className="column w-24 w-8>lg">
                   <section className="mb-1rem">
-                    <img className="img" src="https://www.google.com/maps/d/thumbnail?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA" />
+                    <img className="img w-24" src="https://www.google.com/maps/d/thumbnail?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA" />
                   </section>
 
                   <section className="py-1rem">

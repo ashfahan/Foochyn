@@ -85,7 +85,10 @@ h6 {
 }
 
 .ant-tabs-bar {
-  padding: 0 10%;
+  padding: 0 4%;
+  @include media-breakpoint-above(sm) {
+    padding: 0 10%;
+  }
 }
 
 .ant-tooltip-inner {

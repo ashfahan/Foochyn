@@ -207,7 +207,7 @@ class Resturant extends Component<props> {
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div>
                       <div className="grid">
-                        <div className="column w-2">
+                        <div className="column" style={{ flex: "none", width: "30px" }}>
                           <i className="icon ri-phone-line h3 font-normal clr-inherit mb-0" />
                         </div>
                         <div className="column">
@@ -216,7 +216,7 @@ class Resturant extends Component<props> {
                         </div>
                       </div>
                       <div className="grid">
-                        <div className="column w-2">
+                        <div className="column" style={{ flex: "none", width: "30px" }}>
                           <i className="icon ri-mail-send-line h3 font-normal clr-inherit mb-0" />
                         </div>
                         <div className="column">
@@ -225,7 +225,7 @@ class Resturant extends Component<props> {
                         </div>
                       </div>
                       <div className="grid">
-                        <div className="column w-2">
+                        <div className="column" style={{ flex: "none", width: "30px" }}>
                           <i className="icon ri-earth-line h3 font-normal clr-inherit mb-0" />
                         </div>
                         <div className="column">
@@ -234,7 +234,7 @@ class Resturant extends Component<props> {
                         </div>
                       </div>
                       <div className="grid">
-                        <div className="column w-2">
+                        <div className="column" style={{ flex: "none", width: "30px" }}>
                           <i className="icon ri-facebook-fill h3 font-normal clr-inherit mb-0" />
                         </div>
                         <div className="column">
@@ -243,7 +243,7 @@ class Resturant extends Component<props> {
                         </div>
                       </div>
                       <div className="grid">
-                        <div className="column w-2">
+                        <div className="column" style={{ flex: "none", width: "30px" }}>
                           <i className="icon ri-twitter-fill h3 font-normal clr-inherit mb-0" />
                         </div>
                         <div className="column">

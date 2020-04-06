@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
 import "../scss/home.scss";
-import { Rate, Tabs, Tooltip, Avatar } from "antd";
+import { Rate, Tabs, Tooltip, Progress } from "antd";
 import Expend from "../components/Expend";
+import Review from "../components/Review";
 
 interface props {
   image?: "";
@@ -361,157 +362,15 @@ class Resturant extends Component<props> {
                     <h5>Reviews</h5>
                     <button className="btn is-sld is-primary">Write a review</button>
                   </div>
-                  <hr />
-                  <section>
-                    <div className="mb-1rem grid align-middle has-gap-lg">
-                      <div className="column w-5 txt-center">
-                        <Avatar size={64} icon={<i className="icon ri-user-line after-hide"></i>} />
-                        <div>Mini Ribeiro Speaks</div>
-                      </div>
-                      <div className="column">
-                        <ul className="list mb-7px inline-flex align-middle is-inline">
-                          <li>
-                            <ul className="list mb-7px inline-flex align-middle is-inline">
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-line icon is-lg"></li>
-                            </ul>
-                          </li>
-                          <li>
-                            Reviewed <span>25 Novembder 2018</span>
-                          </li>
-                        </ul>
-                        <h3>Review Title</h3>
-                        <p>This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.</p>
-                        <div className="flex justify-between align-middle">
-                          <div>
-                            <b>Date of visit:</b> <span>25 Novembder 2018</span>
-                          </div>
-                          <button className="btn is-circle">
-                            <span className="icon">
-                              <i className="ri-flag-fill"></i>
-                            </span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
 
                   <hr />
-                  <section>
-                    <div className="mb-1rem grid align-middle has-gap-lg">
-                      <div className="column w-5 txt-center">
-                        <Avatar size={64} icon={<i className="icon ri-user-line after-hide"></i>} />
-                        <div>Mini Ribeiro Speaks</div>
-                      </div>
-                      <div className="column">
-                        <ul className="list mb-7px inline-flex align-middle is-inline">
-                          <li>
-                            <ul className="list mb-7px inline-flex align-middle is-inline">
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-line icon is-lg"></li>
-                            </ul>
-                          </li>
-                          <li>
-                            Reviewed <span>25 Novembder 2018</span>
-                          </li>
-                        </ul>
-                        <h3>Review Title</h3>
-                        <p>This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.</p>
-                        <div className="flex justify-between align-middle">
-                          <div>
-                            <b>Date of visit:</b> <span>25 Novembder 2018</span>
-                          </div>
-                          <button className="btn is-circle">
-                            <span className="icon">
-                              <i className="ri-flag-fill"></i>
-                            </span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-
+                  <Review userName="Mini Ribeiro Speaks" rating={4} ratingDate="25 Novembder 2018" reviewTitle="Title" review="This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." />
                   <hr />
-                  <section>
-                    <div className="mb-1rem grid align-middle has-gap-lg">
-                      <div className="column w-5 txt-center">
-                        <Avatar size={64} icon={<i className="icon ri-user-line after-hide"></i>} />
-                        <div>Mini Ribeiro Speaks</div>
-                      </div>
-                      <div className="column">
-                        <ul className="list mb-7px inline-flex align-middle is-inline">
-                          <li>
-                            <ul className="list mb-7px inline-flex align-middle is-inline">
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-line icon is-lg"></li>
-                            </ul>
-                          </li>
-                          <li>
-                            Reviewed <span>25 Novembder 2018</span>
-                          </li>
-                        </ul>
-                        <h3>Review Title</h3>
-                        <p>This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.</p>
-                        <div className="flex justify-between align-middle">
-                          <div>
-                            <b>Date of visit:</b> <span>25 Novembder 2018</span>
-                          </div>
-                          <button className="btn is-circle">
-                            <span className="icon">
-                              <i className="ri-flag-fill"></i>
-                            </span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-
+                  <Review userName="Mini Ribeiro Speaks" userImage="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" rating={4} ratingDate="25 Novembder 2018" reviewTitle="Title" review="This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." />
                   <hr />
-                  <section>
-                    <div className="mb-1rem grid align-middle has-gap-lg">
-                      <div className="column w-5 txt-center">
-                        <Avatar size={64} icon={<i className="icon ri-user-line after-hide"></i>} />
-                        <div>Mini Ribeiro Speaks</div>
-                      </div>
-                      <div className="column">
-                        <ul className="list mb-7px inline-flex align-middle is-inline">
-                          <li>
-                            <ul className="list mb-7px inline-flex align-middle is-inline">
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-fill icon is-lg"></li>
-                              <li className="ri-star-line icon is-lg"></li>
-                            </ul>
-                          </li>
-                          <li>
-                            Reviewed <span>25 Novembder 2018</span>
-                          </li>
-                        </ul>
-                        <h3>Review Title</h3>
-                        <p>This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.</p>
-                        <div className="flex justify-between align-middle">
-                          <div>
-                            <b>Date of visit:</b> <span>25 Novembder 2018</span>
-                          </div>
-                          <button className="btn is-circle">
-                            <span className="icon">
-                              <i className="ri-flag-fill"></i>
-                            </span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
+                  <Review userName="Mini Ribeiro Speaks" userAddress="Location" rating={4} ratingDate="25 Novembder 2018" reviewTitle="Title" review="This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." />
+                  <hr />
+                  <Review userName="Mini Ribeiro Speaks" rating={4} ratingDate="25 Novembder 2018" reviewTitle="Title" review="This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." />
 
                   <div className="flex justify-center">
                     <button className="btn is-out is-primary">

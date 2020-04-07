@@ -552,7 +552,7 @@ textarea.input { height: auto; min-height: 2.4em; }
 
 .menu-item { display: block; width: 100%; padding-right: 1.5em; padding-left: 1.5em; border: 0; border-radius: 0; text-align: inherit; font-size: inherit; }
 
-.menu-item::before { content: ""; position: absolute; top: 0; bottom: 0; right: 0; border-left: 0 solid; border-left-color: inherit; transition: border-width 0.15s linear,border-color 1s cubic-bezier(1, 0, 1, 0); }
+.menu-item::before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; border-left: 0 solid; border-left-color: inherit; transition: border-width 0.15s linear,border-color 1s cubic-bezier(1, 0, 1, 0); }
 
 .menu-item:not(.active).hover::before, .menu-item:not(.active):hover::before, .menu-item:not(.active).focus::before, .menu-item:not(.active):focus::before { transition: border-width 0.15s linear; border-left-width: 3px; }
 

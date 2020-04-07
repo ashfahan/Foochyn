@@ -28,18 +28,10 @@ export default class Review extends Component<props> {
             <Rate className="clr-primary is-md" allowHalf value={this.props.rating.overall} disabled /> • Reviewed on {this.props.ratingDate}
           </div>
           <div className="mb-7px">
-            <span>
-              <b>Ambience</b>&nbsp;&nbsp;{this.props.rating.ambience}&nbsp;&nbsp;•&nbsp;&nbsp;
-            </span>
-            <span>
-              <b>Music</b>&nbsp;&nbsp;{this.props.rating.music}&nbsp;&nbsp;•&nbsp;&nbsp;
-            </span>
-            <span>
-              <b>Food</b>&nbsp;&nbsp;{this.props.rating.food}&nbsp;&nbsp;•&nbsp;&nbsp;
-            </span>
-            <span>
-              <b>Service</b>&nbsp;&nbsp;{this.props.rating.service}
-            </span>
+            <b>Ambience</b>&nbsp;&nbsp;{this.props.rating.ambience}&nbsp;&nbsp;•&nbsp;&nbsp;
+            <b>Music</b>&nbsp;&nbsp;{this.props.rating.music}&nbsp;&nbsp;•&nbsp;&nbsp;
+            <b>Food</b>&nbsp;&nbsp;{this.props.rating.food}&nbsp;&nbsp;•&nbsp;&nbsp;
+            <b>Service</b>&nbsp;&nbsp;{this.props.rating.service}
           </div>
           <div>
             {this.props.review.slice(0, this.reviewLength)}

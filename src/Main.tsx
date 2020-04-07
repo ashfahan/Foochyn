@@ -41,12 +41,8 @@ class Main extends Component<props, state> {
     };
 
     this.state = {
-      cityModel: false
+      cityModel: false,
     };
-  }
-
-  cityModel() {
-    this.setState({ cityModel: false });
   }
 
   componentDidUpdate = () => {
@@ -106,10 +102,10 @@ class Main extends Component<props, state> {
                 </Select>
               </div>
               <div className="txt-right mt-7px">
-                <button className="btn is-out is-primary mr-7px" onClick={() => this.cityModel()}>
+                <button className="btn is-out is-primary mr-7px" onClick={() => this.setState({ cityModel: false })}>
                   Cancel
                 </button>
-                <button className="btn is-sld is-primary" onClick={() => this.cityModel()}>
+                <button className="btn is-sld is-primary" onClick={() => this.setState({ cityModel: false })}>
                   OK
                 </button>
               </div>
@@ -123,12 +119,12 @@ class Main extends Component<props, state> {
   }
 }
 
-const mapStateToProps = store => ({
-  loaded: store.setting.loaded
+const mapStateToProps = (store) => ({
+  loaded: store.setting.loaded,
 });
 
 const mapDispatchToProps = {
-  SetLoaded: setting.SetLoaded
+  SetLoaded: setting.SetLoaded,
 };
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Main));

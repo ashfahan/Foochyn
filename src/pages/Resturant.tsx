@@ -357,6 +357,7 @@ class Resturant extends Component<props> {
                           Music
                         </div>
                       </div>
+                      <div><span className="icon is-lg ri-thumb-up-line"></span> 68% of people would recommend it to a friend</div>
                     </div>
                     <div className="column w-9">
                       <div className="flex align-middle">

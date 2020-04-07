@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import "../scss/home.scss";
 import { Rate, Tabs, Tooltip, Progress, List } from "antd";
 import Expend from "../components/Expend";
 import Review, { props as ReviewProps } from "../components/Review";

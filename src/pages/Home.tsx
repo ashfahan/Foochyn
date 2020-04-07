@@ -6,7 +6,6 @@ import moment from "moment";
 import ResturantCard from "../components/ResturantCard";
 import LocationCard from "../components/LocationCard";
 import CuisinesCard from "../components/CuisinesCard";
-import "../scss/home.scss";
 
 import chinese from "../images/cuisine/chinese.webp";
 import european from "../images/cuisine/european.webp";

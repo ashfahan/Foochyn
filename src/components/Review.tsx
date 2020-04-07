@@ -17,7 +17,7 @@ export default class Review extends Component<props> {
 
   render() {
     return (
-      <div className="REVIEW grid align-middle has-gap-lg">
+      <div className="REVIEW grid align-middle has-gap-lg border-bottom py-1rem">
         <div className="column w-5 txt-center">
           <Avatar size={64} src={this.props.userImage} children={this.props.userName.charAt(0)} />
           <div>{this.props.userName}</div>

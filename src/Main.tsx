@@ -23,10 +23,11 @@ import Sidebar from "./components/Sidebar";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Resturant from "./pages/Resturant";
+import Dashboard from "./pages/Dashboard";
 
 interface props {
   SetLoaded: Function;
-  location: any;
+  location: { hash: string; key: string; pathname: string; search: string; state: object };
 }
 
 interface state {
@@ -56,10 +57,11 @@ class Main extends Component<props, state> {
         <Sidebar />
         <div className="column">
           <Header location={this.props.location} />
-          <Layout.Content className="lyt-main h-min-100vh shadow-sm" style={{ zIndex: 1 }}>
+          <Layout.Content className={`lyt-main h-min-100vh shadow-sm ${this.props.location.pathname.replace("/", "").toUpperCase()}`} style={{ zIndex: 1 }}>
             <Switch>
               <Route path="/" component={() => <Home />} exact />
               <Route path="/resturant/" component={() => <Resturant />} exact />
+              <Route path="/dashboard" component={() => <Dashboard />} exact />
               <Route component={() => <Error error={404} />} />
             </Switch>
           </Layout.Content>

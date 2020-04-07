@@ -1,0 +1,30 @@
+@import "./fluid/src/vendors/vendors";
+@import "./fluid/src/tools/tools";
+@import "./fluid/src/settings/settings";
+@import "./fluid/src/settings/placeholders/prefers-reduced-motion";
+
+.DASHBOARD {
+  padding: 1rem 4%;
+
+  > section:first-child {
+    padding-top: 10rem !important;
+    margin-bottom: 3rem !important;
+
+    .image {
+      width: 12rem;
+      margin-bottom: -3rem;
+      .icon {
+        position: absolute;
+        left: 50%;
+        bottom: 7.5%;
+        font-size: 1.5rem;
+        transform: translateX(-50%);
+      }
+    }
+
+    .column:not(.w-auto) {
+      margin-top: 1.75rem !important;
+      min-height: 7.5rem;
+    }
+  }
+}

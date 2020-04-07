@@ -97,6 +97,22 @@ h6 {
   background-color: $dark;
 }
 
-.ant-progress-bg {
-  background-color: $primary;
+.ant-progress {
+  .ant-progress-bg {
+    background-color: $primary !important;
+    height: 0.5em !important;
+  }
+
+  &.square {
+    .ant-progress-inner,
+    .ant-progress-bg {
+      border-radius: 0;
+    }
+  }
+
+  &.is-lg {
+    .ant-progress-bg {
+      height: 1em !important;
+    }
+  }
 }

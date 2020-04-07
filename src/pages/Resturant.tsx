@@ -11,7 +11,7 @@ interface props {
   image?: "";
   favorite?: boolean;
   name: string;
-  rating: { overall: number; ambience: number; music: number; food: number; service: number };
+  rating: { overall: { five: number; four: number; three: number; two: number; one: number }; ambience: number; music: number; food: number; service: number };
   reviews?: ReviewProps[];
   address: string[];
   cuisines: string[];
@@ -27,7 +27,7 @@ class Resturant extends Component<props> {
     image: "",
     favorite: false,
     name: "Resturant Name",
-    rating: { overall: 4, ambience: 3, music: 2, food: 1, service: 0 },
+    rating: { overall: { five: 5, four: 4, three: 3, two: 2, one: 1 }, ambience: 3, music: 2, food: 1, service: 0 },
     reviews: [
       { uid: 1, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: 4, ambience: 4, music: 4, food: 4, service: 4 }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
       { uid: 2, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: 4, ambience: 4, music: 4, food: 4, service: 4 }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
@@ -330,54 +330,52 @@ class Resturant extends Component<props> {
             </Tabs.TabPane>
             <Tabs.TabPane tab="Reviews" key="3">
               <div className="px-2 container">
-                <section className="py-1rem">
-                  <h3 className="txt-cap mb-0">User Rating & Reviews Summary</h3>
+                <section className="py-1rem w-18>md">
+                  <h3 className="txt-cap mb-0">Overall ratings and reviews</h3>
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
-                  <div className="grid my-1rem">
-                    <div className="column w-12>lg grid align-middle">
-                      <div className="column w-11">
-                        <h4 className="mb-0">Overall Rating</h4>
-                        <div>Based on {this.props.reviews?.length} reviews</div>
-                      </div>
-                      <div className="column flex">
-                        <Progress percent={(this.props.rating.overall / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.overall}</b>} />
-                      </div>
-                    </div>
-                  </div>
                   <div className="grid">
-                    <div className="column w-24 w-12>md grid align-middle">
-                      <div className="column w-11 font-bold">Ambience</div>
-                      <div className="column flex">
-                        <Progress percent={(this.props.rating.ambience / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.ambience}</b>} />
+                    <div className="column w-15">
+                      <div>Reviews can only be made by diners who have eaten at this restaurant</div>
+                      <div>
+                        <Rate className="clr-primary mr-7px is-md" allowHalf value={4.4} disabled /> 4.4 based on recent ratings
+                      </div>
+                      <div className="grid txt-center">
+                        <div className="column py-0 my-1rem border-right">
+                          <div className="is-lg font-bold">{this.props.rating.food}</div>
+                          Food
+                        </div>
+                        <div className="column py-0 my-1rem border-right">
+                          <div className="is-lg font-bold">{this.props.rating.service}</div>
+                          Service
+                        </div>
+                        <div className="column py-0 my-1rem border-right">
+                          <div className="is-lg font-bold">{this.props.rating.ambience}</div>
+                          Ambience
+                        </div>
+                        <div className="column py-0 my-1rem">
+                          <div className="is-lg font-bold">{this.props.rating.music}</div>
+                          Music
+                        </div>
                       </div>
                     </div>
-                    <div className="column w-24 w-12>md grid align-middle">
-                      <div className="column w-11 font-bold">Food</div>
-                      <div className="column flex">
-                        <Progress percent={(this.props.rating.food / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.food}</b>} />
+                    <div className="column w-9">
+                      <div className="flex align-middle">
+                        <div style={{ flex: "none", width: "1.5rem" }}>5</div> <Progress className="is-lg square" percent={(this.props.rating.overall.five / 5) * 100} showInfo={false} />
                       </div>
-                    </div>
-                    <div className="column w-24 w-12>md grid align-middle">
-                      <div className="column w-11 font-bold">Music</div>
-                      <div className="column flex">
-                        <Progress percent={(this.props.rating.music / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.music}</b>} />
+                      <div className="flex align-middle">
+                        <div style={{ flex: "none", width: "1.5rem" }}>4</div> <Progress className="is-lg square" percent={(this.props.rating.overall.four / 5) * 100} showInfo={false} />
                       </div>
-                    </div>
-                    <div className="column w-24 w-12>md grid align-middle">
-                      <div className="column w-11 font-bold">Service</div>
-                      <div className="column flex">
-                        <Progress percent={(this.props.rating.service / 5) * 100} className="aaa" format={() => <b className="clr-primary">{this.props.rating?.service}</b>} />
+                      <div className="flex align-middle">
+                        <div style={{ flex: "none", width: "1.5rem" }}>3</div> <Progress className="is-lg square" percent={(this.props.rating.overall.three / 5) * 100} showInfo={false} />
+                      </div>
+                      <div className="flex align-middle">
+                        <div style={{ flex: "none", width: "1.5rem" }}>2</div> <Progress className="is-lg square" percent={(this.props.rating.overall.two / 5) * 100} showInfo={false} />
+                      </div>
+                      <div className="flex align-middle">
+                        <div style={{ flex: "none", width: "1.5rem" }}>1</div> <Progress className="is-lg square" percent={(this.props.rating.overall.one / 5) * 100} showInfo={false} />
                       </div>
                     </div>
                   </div>
-                </section>
-
-                <section className="py-1rem">
-                  <div className="flex justify-between align-middle mb-7px">
-                    <h5 className="mb-0">Write A Review</h5>
-                    <button className="btn is-sld is-primary">Post</button>
-                  </div>
-                  <TextArea className="input" placeholder="Controlled autosize" autoSize={{ minRows: 3, maxRows: 5 }} />
                 </section>
 
                 <section className="py-1rem">

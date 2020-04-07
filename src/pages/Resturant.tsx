@@ -381,6 +381,7 @@ class Resturant extends Component<props> {
                 <section className="py-1rem">
                   <div className="flex justify-between">
                     <h3 className="txt-cap mb-0">Reviews</h3>
+                    <button className="btn is-sld is-primary">Write review</button>
                     <div className="input px-1rem py-0 w-auto event-none">
                       <span className="clr-disabled">Sort By</span>
                       <select className="input is-unstyle w-auto event-auto">

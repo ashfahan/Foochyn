@@ -330,7 +330,7 @@ class Resturant extends Component<props> {
             </Tabs.TabPane>
             <Tabs.TabPane tab="Reviews" key="3">
               <div className="px-2 container">
-                <section className="py-1rem w-18>md">
+                <section className="py-1rem w-16>md">
                   <h3 className="txt-cap mb-0">Overall ratings and reviews</h3>
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                   <div className="grid">

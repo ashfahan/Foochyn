@@ -4,22 +4,27 @@ interface state {
 }
 
 export default class Sidebar extends Component<{}, state> {
+  ref = React.createRef<HTMLDivElement>();
+
   constructor(props) {
     super(props);
     this.state = {
-      active: false
+      active: false,
     };
   }
+
+  componentDidMount() {
+    window?.addEventListener("OpenSibebar", (e) => this.setState({ active: true }), false);
+  }
+
   render() {
     return (
       <>
-        <aside className={`lyt-sidebar fixed p-1rem pl-4 flex is-y justify-between ${this.state.active ? "active" : ""}`}>
+        <aside ref={this.ref} className={`lyt-sidebar fixed p-1rem pl-4 flex is-y justify-between ${this.state.active ? "active" : ""}`}>
           <div className="flex justify-between align-bottom mb-6">
             <div className="h3 mb-0">Foochyn</div>
             <button className="btn is-circle ri-2x p-7px" onClick={() => this.setState({ active: false })}>
-              <span className="icon">
-                <i className="ri-close-line" />
-              </span>
+              <i className="icon ri-close-line" />
             </button>
           </div>
 

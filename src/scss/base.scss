@@ -181,10 +181,11 @@ body * {
 }
 
 .icon {
-  *:not(.flex):not(.control):not(.inline-flex) > & {
+  *:not(.flex):not(.control):not(.inline-flex):not(.is-circle) > & {
     transform: translateY(2px);
   }
-  &::after {
+
+  *:not(.is-circle) > &::after {
     content: "\00a0";
   }
 }

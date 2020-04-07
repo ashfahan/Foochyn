@@ -9,6 +9,7 @@ interface props {
 
 export default class Header extends Component<props> {
   ref = React.createRef<HTMLDivElement>();
+  event = new Event("OpenSibebar");
 
   componentDidMount() {
     var headroom = new Headroom(this.ref.current, {
@@ -38,22 +39,22 @@ export default class Header extends Component<props> {
         // when not at bottom of scroll area
         notBottom: "headroom--not-bottom",
         // when frozen method has been called
-        frozen: "headroom--frozen"
+        frozen: "headroom--frozen",
       },
       // element to listen to scroll events on, defaults to `window`
       scroller: window,
       // callback when pinned, `this` is headroom object
-      onPin: function() {},
+      onPin: function () {},
       // callback when unpinned, `this` is headroom object
-      onUnpin: function() {},
+      onUnpin: function () {},
       // callback when above offset, `this` is headroom object
-      onTop: function() {},
+      onTop: function () {},
       // callback when below offset, `this` is headroom object
-      onNotTop: function() {},
+      onNotTop: function () {},
       // callback when at bottom of page, `this` is headroom object
-      onBottom: function() {},
+      onBottom: function () {},
       // callback when moving away from bottom of page, `this` is headroom object
-      onNotBottom: function() {}
+      onNotBottom: function () {},
     });
     headroom.init();
   }
@@ -62,7 +63,12 @@ export default class Header extends Component<props> {
     return (
       <header ref={this.ref} className={`ant-layout-header lyt-header grid ${this.props.className}`}>
         <div className="column w-4 font-bold is-lg">Foochyn</div>
-        <div className="column w-20 txt-right">
+        <div className="column w-20 txt-right hidden>sm block">
+          <button className="btn is-circle is-lg" onClick={() => window.dispatchEvent(this.event)}>
+            <i className="icon ri-menu-line" />
+          </button>
+        </div>
+        <div className="column w-20 txt-right hidden block>sm">
           <a href="#" className="btn is-out is-primary mr-7px txt-decor-none">
             Contact Us
           </a>

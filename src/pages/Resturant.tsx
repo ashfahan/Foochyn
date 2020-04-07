@@ -4,8 +4,6 @@ import "../scss/home.scss";
 import { Rate, Tabs, Tooltip, Progress, List } from "antd";
 import Expend from "../components/Expend";
 import Review, { props as ReviewProps } from "../components/Review";
-import { Input } from "antd";
-const TextArea = Input.TextArea;
 
 interface props {
   image?: "";
@@ -357,7 +355,9 @@ class Resturant extends Component<props> {
                           Music
                         </div>
                       </div>
-                      <div><span className="icon is-lg ri-thumb-up-line"></span> 68% of people would recommend it to a friend</div>
+                      <div>
+                        <span className="icon is-lg ri-thumb-up-line"></span> 68% of people would recommend it to a friend
+                      </div>
                     </div>
                     <div className="column w-9">
                       <div className="flex align-middle">

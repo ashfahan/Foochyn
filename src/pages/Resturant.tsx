@@ -97,14 +97,14 @@ class Resturant extends Component<props> {
 
         <section className="px-4 pb-2 grid container">
           <div className="column w-15>sm w-24">
-            <div className="bg-primary is-round img-bg h-100" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
+            <div className="is-round img-bg h-100" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
           </div>
           <div className="column w-9>sm w-24 flex justify-between grid p-0">
             <div className="column w-24>sm w-12">
-              <div className="bg-primary is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
+              <div className="is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
             </div>
             <div className="column w-24>sm w-12">
-              <div className="bg-primary is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
+              <div className="is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
             </div>
           </div>
         </section>

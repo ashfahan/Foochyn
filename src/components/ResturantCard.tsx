@@ -21,7 +21,7 @@ export default class ResturantCard extends Component<props> {
           .
         </a>
         <div className="txt-right relative overflow-hidden">
-          <div className="bg-primary img-bg" style={{ backgroundImage: `url(${this.props.image})` }} />
+          <div className="img-bg" style={{ backgroundImage: `url(${this.props.image})` }} />
           <i className={`absolute ri-2x txt-shadow-round right-0 py-7px px-1rem ${this.props.favorite ? "ri-heart-fill clr-primary" : "ri-heart-add-line clr-white"}`} />
         </div>
         <div className="p-7px">

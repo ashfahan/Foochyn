@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "../scss/dashboard.scss";
-import { Empty, List } from "antd";
+import { Empty, List, DatePicker, Avatar } from "antd";
 import Review, { props as ReviewProps } from "../components/Review";
 import UploadImage from "../components/UploadImage";
+import moment from "moment";
 
 interface props {
   user: {
@@ -10,7 +11,7 @@ interface props {
     fullName: string;
     email: string;
     phoneNumber: number;
-    dob: string;
+    dob: Date;
     address: string[];
   };
   reviews?: ReviewProps[];
@@ -26,7 +27,7 @@ class Dashboard extends Component<props, state> {
       fullName: "Mike Edward",
       email: "mail@mail.com",
       phoneNumber: 12345,
-      dob: "01 01 0111",
+      dob: new Date(Date.now()),
       address: ["South Padre Island", "TX"],
     },
     reviews: [
@@ -66,7 +67,7 @@ class Dashboard extends Component<props, state> {
         <section className="pb-7px px-2 clr-white grid align-bottom has-gap-lg container is-round img-bg" style={{ backgroundImage: "linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.75)), url(https://source.unsplash.com/512x384/?plant)" }}>
           <div className="column w-auto">
             <button className="btn image p-2 bg-white is-circle">
-              <img className="img is-circle" src="https://api.adorable.io/avatars/285/xyz.png" alt="profile" />
+              <img className="img is-circle" src={this.props.user.image} alt="profile" />
               <div className="is-circle absolute top-0 left-0 right-0 bottom-0" style={{ background: "linear-gradient(to bottom, hsla(0, 0%, 0%, 0.0) 65%, hsla(0, 0%, 0%, 0.4))" }}></div>
               <div className="icon clr-white ri-image-add-fill" />
             </button>
@@ -157,20 +158,48 @@ class Dashboard extends Component<props, state> {
               {this.state.view === "Setting" ? (
                 <div className="w-24">
                   <div className="grid align-middle has-gap-lg">
-                    <div className="column w-7 txt-right">
-                      <img className="img is-circle w-9" src="https://api.adorable.io/avatars/285/xyz.png" alt="profile" />
+                    <div className="column w-5 txt-right">
+                      <Avatar size={64} src={this.props.user.image} children={this.props.user.fullName.charAt(0)} />
                     </div>
-                    <div className="column w-17">
+                    <div className="column w-19">
                       <UploadImage accept=".jpeg,.jpg,.png" filelimit={1} name="file" action="https://www.mocky.io/v2/5cc8019d300000980a055e76">
                         <button className="btn is-sld is-primary">
                           <i className="icon ri-upload-2-line"></i> Click to Upload
                         </button>
                       </UploadImage>
-                      <div className="is-sm mt-1rem">Supported image format: jpeg, jpg, png</div>
+                      <div className="is-sm">Supported image format: jpeg, jpg, png</div>
                     </div>
                   </div>
-                  <div>asa</div>
-                  <div>asa</div>
+                  <div className="grid align-middle has-gap-lg">
+                    <div className="column w-5 txt-right">Name</div>
+                    <div className="column w-19">
+                      <input type="text" className="input" defaultValue={this.props.user.fullName} />
+                    </div>
+                  </div>
+                  <div className="grid align-middle has-gap-lg">
+                    <div className="column w-5 txt-right">Email</div>
+                    <div className="column w-19">
+                      <input type="email" className="input" defaultValue={this.props.user.email} />
+                    </div>
+                  </div>
+                  <div className="grid align-middle has-gap-lg">
+                    <div className="column w-5 txt-right">Phone</div>
+                    <div className="column w-19">
+                      <input type="tel" className="input" defaultValue={this.props.user.phoneNumber} />
+                    </div>
+                  </div>
+                  <div className="grid align-middle has-gap-lg">
+                    <div className="column w-5 txt-right">Address</div>
+                    <div className="column w-19">
+                      <textarea className="input" rows={3} defaultValue={this.props.user.address}></textarea>
+                    </div>
+                  </div>
+                  <div className="grid align-middle has-gap-lg">
+                    <div className="column w-5 txt-right">Date Of Birth</div>
+                    <div className="column w-19">
+                      <DatePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Date" allowClear={false} defaultValue={moment(new Date(this.props.user.dob))} size="large" className="input is-round-sm<sm" format="D/M/YYYY" />
+                    </div>
+                  </div>
                 </div>
               ) : null}
 

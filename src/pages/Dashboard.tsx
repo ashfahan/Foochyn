@@ -78,7 +78,7 @@ class Dashboard extends Component<props, state> {
               <i className="icon ri-map-pin-2-fill"></i>
               <span>{this.formatArray(this.props.user.address, ", ")}</span>
             </div>
-            <div className="group">
+            <div className="group event-none">
               <button className="btn is-sld is-primary">05 Foodie</button>
               <button className="btn is-sld is-light inline-flex">(150 Pints To level up)</button>
             </div>

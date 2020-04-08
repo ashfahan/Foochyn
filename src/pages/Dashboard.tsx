@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../scss/dashboard.scss";
 import { Empty, List } from "antd";
 import Review, { props as ReviewProps } from "../components/Review";
+import UploadImage from "../components/UploadImage";
 
 interface props {
   user: {
@@ -153,6 +154,19 @@ class Dashboard extends Component<props, state> {
             <div className="bg-white is-round border p-1rem h-min-100 flex justify-center">
               {this.state.view === "Setting" ? (
                 <div className="w-24">
+                  <div className="grid align-middle has-gap-lg">
+                    <div className="column w-7 txt-right">
+                      <img className="img is-circle w-9" src="https://api.adorable.io/avatars/285/xyz.png" alt="profile" />
+                    </div>
+                    <div className="column w-17">
+                      <UploadImage accept=".jpeg,.jpg,.png" filelimit={1} name="file" action="https://www.mocky.io/v2/5cc8019d300000980a055e76">
+                        <button className="btn is-sld is-primary">
+                          <i className="icon ri-upload-2-line"></i> Click to Upload
+                        </button>
+                      </UploadImage>
+                      <div className="is-sm mt-1rem">Supported image format: jpeg, jpg, png</div>
+                    </div>
+                  </div>
                   <div>asa</div>
                   <div>asa</div>
                 </div>

@@ -44,9 +44,6 @@ class Dashboard extends Component<props, state> {
   }
 
   render() {
-    let empty_icon_list = ["ri-rocket-2-fill", "ri-compass-3-line"];
-    let empty_icon = empty_icon_list[Math.trunc((Math.random() * 100) % empty_icon_list.length)];
-
     return (
       <>
         <section className="pb-7px px-2 clr-white grid align-bottom has-gap-lg container is-round img-bg" style={{ backgroundImage: "linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.75)), url(https://source.unsplash.com/512x384/?plant)" }}>

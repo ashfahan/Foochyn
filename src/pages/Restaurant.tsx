@@ -212,7 +212,7 @@ class restaurant extends Component<props> {
 
                 <div className="column w-24 w-8>md">
                   <section className="mb-1rem">
-                    <img className="img w-24" src="https://www.google.com/maps/d/thumbnail?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA" />
+                    <img className="img w-24" src="https://www.google.com/maps/d/thumbnail?mid=1wMZLD-KoIBt-zG0r8ziRkZeqgUA" alt="map" />
                   </section>
 
                   <section className="py-1rem">

@@ -135,19 +135,12 @@ class Dashboard extends Component<props, state> {
               <div className="menu is-primary">
                 <button className="menu-item">Favorite Food</button>
                 <button className="menu-item">Order History</button>
-                <button className="menu-item">My Addresses</button>
               </div>
             </div>
 
             <div className="bg-white is-round border py-1rem mt-1rem">
               <div className="menu-item event-none clr-disabled">
-                <span className="is-sm txt-upper">My Subscription</span>
-              </div>
-              <div className="menu is-primary">
-                <button className="menu-item">Treat Subscription</button>
-              </div>
-              <div className="menu-item event-none clr-disabled">
-                <span className="is-sm txt-upper">Payments</span>
+                <span className="is-sm txt-upper">Payments & Subscription</span>
               </div>
               <div className="menu is-primary">
                 <button className="menu-item">Zomanto Credit</button>

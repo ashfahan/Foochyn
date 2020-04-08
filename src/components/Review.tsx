@@ -10,6 +10,7 @@ export interface props {
   rating: { overall: number; ambience: number; music: number; food: number; service: number };
   ratingDate: string;
   review: string;
+  canedit?: boolean;
 }
 
 export default class Review extends Component<props> {
@@ -24,8 +25,23 @@ export default class Review extends Component<props> {
           {this.props.userAddress ? <div>{this.props.userAddress}</div> : null}
         </div>
         <div className="column w-19">
-          <div className="mb-7px">
-            <Rate className="clr-primary is-md" allowHalf value={this.props.rating.overall} disabled /> • Reviewed on {this.props.ratingDate}
+          <div className="mb-7px flex justify-between align-middle">
+            <div>
+              <Rate className="clr-primary is-md" allowHalf value={this.props.rating.overall} disabled /> • Reviewed on {this.props.ratingDate}
+            </div>
+            {this.props.canedit === true ? (
+              <div>
+                <div className="dropdown on-hover">
+                  <button className="btn is-circle after-hide dropdown-trigger">
+                    <i className="icon ri-more-2-fill" />
+                  </button>
+                  <div className="menu is-primary right-0">
+                    <button className="menu-item">Edit</button>
+                    <button className="menu-item">Delete</button>
+                  </div>
+                </div>
+              </div>
+            ) : null}
           </div>
           <div className="mb-7px">
             <b>Ambience</b>&nbsp;&nbsp;{this.props.rating.ambience}&nbsp;&nbsp;•&nbsp;&nbsp;

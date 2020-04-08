@@ -3,7 +3,7 @@ import TitleBg from "../images/home-title-bg.jpg";
 import { Carousel, Select, DatePicker, TimePicker } from "antd";
 import moment from "moment";
 
-import ResturantCard from "../components/ResturantCard";
+import RestaurantCard from "../components/RestaurantCard";
 import LocationCard from "../components/LocationCard";
 import CuisinesCard from "../components/CuisinesCard";
 
@@ -210,14 +210,14 @@ class Home extends Component {
               },
             ]}
           >
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
           </Carousel>
         </section>
 
@@ -312,19 +312,19 @@ class Home extends Component {
               },
             ]}
           >
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
           </Carousel>
         </section>
 
         <section className="p-4 py-2>md container">
-          <h2 className="txt-cap mb-0">Newly added resturants in {"city"}</h2>
+          <h2 className="txt-cap mb-0">Newly added restaurants in {"city"}</h2>
           <hr className="clr-primary w-3 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
           <Carousel
             nextArrow={<this.NextArrow />}
@@ -364,14 +364,14 @@ class Home extends Component {
               },
             ]}
           >
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
-            <ResturantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,resturant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={true} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
+            <RestaurantCard link="#" favorite={false} name="Ceciches Ceciches" image="https://source.unsplash.com/512x384/?food,restaurant" address={["South Padre Island", "TX"]} pricerange={[1000, 5000]} reviews={500} rating={2.5} cuisines={["Barbecue Chinese", "North Indian"]} />
           </Carousel>
         </section>
 

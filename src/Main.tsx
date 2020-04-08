@@ -22,7 +22,7 @@ import Footer from "./components/Footer";
 import Sidebar from "./components/Sidebar";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
-import Resturant from "./pages/Resturant";
+import Restaurant from "./pages/Restaurant";
 import Dashboard from "./pages/Dashboard";
 
 interface props {
@@ -60,7 +60,7 @@ class Main extends Component<props, state> {
           <Layout.Content className={`lyt-main h-min-100vh shadow-sm ${this.props.location.pathname.replace("/", "").toUpperCase()}`} style={{ zIndex: 1 }}>
             <Switch>
               <Route path="/" component={() => <Home />} exact />
-              <Route path="/resturant/" component={() => <Resturant />} exact />
+              <Route path="/restaurant/" component={() => <Restaurant />} exact />
               <Route path="/dashboard" component={() => <Dashboard />} exact />
               <Route component={() => <Error error={404} />} />
             </Switch>

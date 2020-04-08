@@ -13,7 +13,7 @@ interface props {
   pricerange: number[];
 }
 
-export default class ResturantCard extends Component<props> {
+export default class restaurantCard extends Component<props> {
   render() {
     return (
       <div className="bg-white is-round overflow-hidden relative card-zoom card-hover">

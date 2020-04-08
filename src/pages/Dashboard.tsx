@@ -4,7 +4,7 @@ import { Empty } from "antd";
 
 interface props {}
 interface state {
-  view: "Dineline" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Resturant";
+  view: "Dineline" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Restaurant";
 }
 
 class Dashboard extends Component<props, state> {
@@ -82,8 +82,8 @@ class Dashboard extends Component<props, state> {
                 <button onClick={() => this.setState({ view: "Achivement" })} className={`menu-item ${this.state.view == "Achivement" ? "active" : ""}`}>
                   Achivement
                 </button>
-                <button onClick={() => this.setState({ view: "Recently viewed Resturant" })} className={`menu-item ${this.state.view == "Recently viewed Resturant" ? "active" : ""}`}>
-                  Recently viewed Resturant
+                <button onClick={() => this.setState({ view: "Recently viewed Restaurant" })} className={`menu-item ${this.state.view === "Recently viewed Restaurant" ? "active" : ""}`}>
+                  Recently viewed Restaurant
                 </button>
               </div>
             </div>

@@ -19,11 +19,11 @@ interface props {
   deliveryReviewCount?: number;
 }
 
-class Resturant extends Component<props> {
+class restaurant extends Component<props> {
   static defaultProps: props = {
     image: "",
     favorite: false,
-    name: "Resturant Name",
+    name: "Restaurant Name",
     rating: { overall: { five: 5, four: 4, three: 3, two: 2, one: 1 }, ambience: 3, music: 2, food: 1, service: 0 },
     reviews: [
       { uid: 1, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: 4, ambience: 4, music: 4, food: 4, service: 4 }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
@@ -52,7 +52,7 @@ class Resturant extends Component<props> {
                 </a>
               </li>
               <li className="breadcrumb-item active" data-separator="/">
-                Resturant
+                Restaurant
               </li>
             </ol>
             <h1 className="clr-black">{this.props.name}</h1>
@@ -97,14 +97,14 @@ class Resturant extends Component<props> {
 
         <section className="px-4 pb-2 grid container">
           <div className="column w-15>sm w-24">
-            <div className="is-round img-bg h-100" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
+            <div className="is-round img-bg h-100" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,restaurant)" }} />
           </div>
           <div className="column w-9>sm w-24 flex justify-between grid p-0">
             <div className="column w-24>sm w-12">
-              <div className="is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
+              <div className="is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,restaurant)" }} />
             </div>
             <div className="column w-24>sm w-12">
-              <div className="is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,resturant)" }} />
+              <div className="is-round img-bg" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,restaurant)" }} />
             </div>
           </div>
         </section>
@@ -276,10 +276,10 @@ class Resturant extends Component<props> {
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                   <div className="grid">
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                   </div>
                 </section>
@@ -289,37 +289,37 @@ class Resturant extends Component<props> {
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                   <div className="grid">
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                     <div className="column w-6>lg w-12>sm w-24">
-                      <img className="img is-round" src="https://source.unsplash.com/512x384/?resturant" alt="resturant" />
+                      <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
                     </div>
                   </div>
                 </section>
@@ -426,4 +426,4 @@ class Resturant extends Component<props> {
   }
 }
 
-export default Resturant;
+export default restaurant;

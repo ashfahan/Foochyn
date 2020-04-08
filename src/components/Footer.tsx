@@ -15,7 +15,7 @@ export default class Footer extends Component {
         </div>
         <div className="column w-8">
           <h3>Restaurants</h3>
-          <div>Join more than 1,300 resturants</div>
+          <div>Join more than 1,300 restaurants</div>
           <div>Who promote their restaurant with FOoChyn</div>
           <div className="mt-1rem">
             <button className="btn is-sld is-primary is-lg">Learn More</button>

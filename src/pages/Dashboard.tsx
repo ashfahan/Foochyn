@@ -4,14 +4,28 @@ import { Empty, List } from "antd";
 import Review, { props as ReviewProps } from "../components/Review";
 
 interface props {
+  user: {
+    fullName: string;
+    email: string;
+    phoneNumber: number;
+    dob: string;
+    address: string[];
+  };
   reviews?: ReviewProps[];
 }
 interface state {
-  view: "Dineline" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Restaurant";
+  view: "Setting" | "Dineline" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Restaurant";
 }
 
 class Dashboard extends Component<props, state> {
   static defaultProps: props = {
+    user: {
+      fullName: "Mike Edward",
+      email: "mail@mail.com",
+      phoneNumber: 12345,
+      dob: "01 01 0111",
+      address: ["South Padre Island", "TX"],
+    },
     reviews: [
       { uid: 1, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
       { uid: 2, userName: "Mini Ribeiro Speaks", userImage: "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png", userAddress: "Location", rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
@@ -39,7 +53,7 @@ class Dashboard extends Component<props, state> {
   constructor(props) {
     super(props);
     this.state = {
-      view: "Dineline",
+      view: "Setting",
     };
   }
 
@@ -56,13 +70,13 @@ class Dashboard extends Component<props, state> {
           </div>
 
           <div className="column">
-            <h3 className="mb-0">Mike Edward</h3>
+            <h3 className="mb-0">{this.props.user.fullName}</h3>
             <div className="mb-7px">
               <i className="icon ri-map-pin-2-fill"></i>
-              <span>Lisbon, Portugal</span>
+              <span>{this.formatArray(this.props.user.address, ", ")}</span>
             </div>
             <div className="group">
-              <button className="btn is-sld is-error">05 Foodie</button>
+              <button className="btn is-sld is-primary">05 Foodie</button>
               <button className="btn is-sld is-light inline-flex">(150 Pints To level up)</button>
             </div>
           </div>
@@ -90,14 +104,17 @@ class Dashboard extends Component<props, state> {
                 <span className="is-sm txt-upper">Profile</span>
               </div>
               <div className="menu is-primary">
-                <button onClick={() => this.setState({ view: "Dineline" })} className={`menu-item ${this.state.view === "Dineline" ? "active" : ""}`}>
-                  Dineline
+                <button onClick={() => this.setState({ view: "Setting" })} className={`menu-item ${this.state.view === "Setting" ? "active" : ""}`}>
+                  Setting
                 </button>
                 <button onClick={() => this.setState({ view: "Reviews" })} className={`menu-item ${this.state.view === "Reviews" ? "active" : ""}`}>
                   Reviews
                 </button>
                 <button onClick={() => this.setState({ view: "Favorite" })} className={`menu-item ${this.state.view === "Favorite" ? "active" : ""}`}>
                   Favorite
+                </button>
+                <button onClick={() => this.setState({ view: "Dineline" })} className={`menu-item ${this.state.view === "Dineline" ? "active" : ""}`}>
+                  Dineline
                 </button>
                 <button onClick={() => this.setState({ view: "Been There" })} className={`menu-item ${this.state.view === "Been There" ? "active" : ""}`}>
                   Been There
@@ -140,6 +157,14 @@ class Dashboard extends Component<props, state> {
             </div>
           </div>
           <div className="column pr-0">
+            <div className="bg-white is-round border p-1rem h-min-100 flex justify-center">
+              {this.state.view === "Setting" ? (
+                <div className="w-24">
+                  <div>asa</div>
+                  <div>asa</div>
+                </div>
+              ) : null}
+
               {this.state.view === "Reviews" ? (
                 <List
                   itemLayout="vertical"
@@ -161,6 +186,12 @@ class Dashboard extends Component<props, state> {
         </section>
       </>
     );
+  }
+
+  formatArray(value: any[] = [], separator = " • ") {
+    let result = "";
+    for (let index = 0; index < value.length - 1; index++) result = result + value[index] + separator;
+    return result + value[value.length - 1];
   }
 }
 

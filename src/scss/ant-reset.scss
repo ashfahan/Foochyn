@@ -121,3 +121,9 @@ h6 {
   line-height: 1;
   height: auto;
 }
+
+.ant-pagination-item-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}

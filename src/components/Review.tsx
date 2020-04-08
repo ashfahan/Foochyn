@@ -3,14 +3,16 @@ import { Avatar, Rate } from "antd";
 import Expend from "./Expend";
 
 export interface props {
+  user: {
+    name: string;
+    image?: string;
+    address?: string;
+  };
   uid: number;
-  userName: string;
-  userImage?: string;
-  userAddress?: string;
   rating: { overall: number; ambience: number; music: number; food: number; service: number };
   ratingDate: string;
   review: string;
-  canedit?: boolean;
+  canEdit?: boolean;
 }
 
 export default class Review extends Component<props> {
@@ -20,16 +22,16 @@ export default class Review extends Component<props> {
     return (
       <div className="REVIEW grid align-middle has-gap-lg border-bottom py-1rem">
         <div className="column w-5 txt-center">
-          <Avatar size={64} src={this.props.userImage} children={this.props.userName.charAt(0)} />
-          <div>{this.props.userName}</div>
-          {this.props.userAddress ? <div>{this.props.userAddress}</div> : null}
+          <Avatar size={64} src={this.props.user.image} children={this.props.user.name.charAt(0)} />
+          <div>{this.props.user.name}</div>
+          {this.props.user.address ? <div>{this.props.user.address}</div> : null}
         </div>
         <div className="column w-19">
           <div className="mb-7px flex justify-between align-middle">
             <div>
               <Rate className="clr-primary is-md" allowHalf value={this.props.rating.overall} disabled /> • Reviewed on {this.props.ratingDate}
             </div>
-            {this.props.canedit === true ? (
+            {this.props.canEdit === true ? (
               <div>
                 <div className="dropdown on-hover">
                   <button className="btn is-circle after-hide dropdown-trigger">

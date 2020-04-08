@@ -67,19 +67,19 @@ class Dashboard extends Component<props, state> {
                 <span className="is-sm txt-upper">Profile</span>
               </div>
               <div className="menu is-primary">
-                <button onClick={() => this.setState({ view: "Dineline" })} className={`menu-item ${this.state.view == "Dineline" ? "active" : ""}`}>
+                <button onClick={() => this.setState({ view: "Dineline" })} className={`menu-item ${this.state.view === "Dineline" ? "active" : ""}`}>
                   Dineline
                 </button>
-                <button onClick={() => this.setState({ view: "Reviews" })} className={`menu-item ${this.state.view == "Reviews" ? "active" : ""}`}>
+                <button onClick={() => this.setState({ view: "Reviews" })} className={`menu-item ${this.state.view === "Reviews" ? "active" : ""}`}>
                   Reviews
                 </button>
-                <button onClick={() => this.setState({ view: "Favorite" })} className={`menu-item ${this.state.view == "Favorite" ? "active" : ""}`}>
+                <button onClick={() => this.setState({ view: "Favorite" })} className={`menu-item ${this.state.view === "Favorite" ? "active" : ""}`}>
                   Favorite
                 </button>
-                <button onClick={() => this.setState({ view: "Been There" })} className={`menu-item ${this.state.view == "Been There" ? "active" : ""}`}>
+                <button onClick={() => this.setState({ view: "Been There" })} className={`menu-item ${this.state.view === "Been There" ? "active" : ""}`}>
                   Been There
                 </button>
-                <button onClick={() => this.setState({ view: "Achivement" })} className={`menu-item ${this.state.view == "Achivement" ? "active" : ""}`}>
+                <button onClick={() => this.setState({ view: "Achivement" })} className={`menu-item ${this.state.view === "Achivement" ? "active" : ""}`}>
                   Achivement
                 </button>
                 <button onClick={() => this.setState({ view: "Recently viewed Restaurant" })} className={`menu-item ${this.state.view === "Recently viewed Restaurant" ? "active" : ""}`}>

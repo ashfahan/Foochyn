@@ -130,7 +130,7 @@ class Dashboard extends Component<props, state> {
 
         <section className="grid has-gap-lg container px-0">
           <div className="column w-6 pl-0">
-            <div className="bg-white is-round border py-1rem mb-1rem">
+            <section className="bg-white is-round border border-light shadow-sm py-1rem mb-1rem">
               <div className="menu-item event-none clr-disabled">
                 <span className="is-sm txt-upper">Profile</span>
               </div>
@@ -154,9 +154,9 @@ class Dashboard extends Component<props, state> {
                   Recently viewed Restaurant
                 </button>
               </div>
-            </div>
+            </section>
 
-            <div className="bg-white is-round border py-1rem my-1rem">
+            <section className="bg-white is-round border border-light shadow-sm py-1rem my-1rem">
               <div className="menu-item event-none clr-disabled">
                 <span className="is-sm txt-upper">Online Ordering</span>
               </div>
@@ -164,9 +164,9 @@ class Dashboard extends Component<props, state> {
                 <button className="menu-item">Favorite Food</button>
                 <button className="menu-item">Order History</button>
               </div>
-            </div>
+            </section>
 
-            <div className="bg-white is-round border py-1rem mt-1rem">
+            <section className="bg-white is-round border border-light shadow-sm py-1rem mt-1rem">
               <div className="menu-item event-none clr-disabled">
                 <span className="is-sm txt-upper">Payments & Subscription</span>
               </div>
@@ -175,10 +175,10 @@ class Dashboard extends Component<props, state> {
                 <button className="menu-item">Manage Cards</button>
                 <button className="menu-item">Manage Wallets</button>
               </div>
-            </div>
+            </section>
           </div>
           <div className="column pr-0">
-            <div className="bg-white is-round border p-1rem h-min-100 flex justify-center">
+            <section className="bg-white is-round border border-light shadow-sm p-1rem h-min-100 flex justify-center">
               {this.state.view === "Setting" ? (
                 <div className="w-24">
                   <div className="grid align-middle has-gap-lg">
@@ -258,7 +258,7 @@ class Dashboard extends Component<props, state> {
               ) : null}
 
               {this.state.view === "Achivement" ? <Empty className="align-self-middle" description="COMING SOON" image={<i className="ri-7x ri-compass-3-line" />} /> : null}
-            </div>
+            </section>
           </div>
         </section>
       </>

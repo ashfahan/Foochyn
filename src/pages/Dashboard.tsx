@@ -28,7 +28,7 @@ interface props {
   reviews?: ReviewProps[];
 }
 interface state {
-  view: "Setting" | "Dineline" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Restaurant";
+  view: "Setting" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Restaurant";
 }
 
 class Dashboard extends Component<props, state> {
@@ -144,9 +144,6 @@ class Dashboard extends Component<props, state> {
                 <button onClick={() => this.setState({ view: "Favorite" })} className={`menu-item ${this.state.view === "Favorite" ? "active" : ""}`}>
                   Favorite
                 </button>
-                <button onClick={() => this.setState({ view: "Dineline" })} className={`menu-item ${this.state.view === "Dineline" ? "active" : ""}`}>
-                  Dineline
-                </button>
                 <button onClick={() => this.setState({ view: "Been There" })} className={`menu-item ${this.state.view === "Been There" ? "active" : ""}`}>
                   Been There
                 </button>
@@ -260,7 +257,7 @@ class Dashboard extends Component<props, state> {
                 />
               ) : null}
 
-              {this.state.view === "Dineline" ? <Empty className="align-self-middle" description="COMING SOON" image={<i className="ri-7x ri-compass-3-line" />} /> : null}
+              {this.state.view === "Achivement" ? <Empty className="align-self-middle" description="COMING SOON" image={<i className="ri-7x ri-compass-3-line" />} /> : null}
             </div>
           </div>
         </section>

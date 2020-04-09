@@ -4,6 +4,7 @@ import { Empty, List, DatePicker, Avatar } from "antd";
 import Review, { props as ReviewProps } from "../components/Review";
 import UploadImage from "../components/UploadImage";
 import moment from "moment";
+import RestaurantCard from "../components/RestaurantCard";
 
 interface props {
   user: {
@@ -14,6 +15,16 @@ interface props {
     dob: Date;
     address: string[];
   };
+  favorite?: {
+    link: string;
+    name: string;
+    image: string;
+    address: string[];
+    pricerange: number[];
+    reviews: number;
+    rating: number;
+    cuisines: string[];
+  }[];
   reviews?: ReviewProps[];
 }
 interface state {
@@ -30,6 +41,22 @@ class Dashboard extends Component<props, state> {
       dob: new Date(Date.now()),
       address: ["South Padre Island", "TX"],
     },
+    favorite: [
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+      { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
+    ],
     reviews: [
       { uid: 1, user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
       { uid: 2, user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
@@ -215,6 +242,21 @@ class Dashboard extends Component<props, state> {
                   }}
                   dataSource={this.props.reviews}
                   renderItem={(item) => <Review user={{ name: item.user.name, image: item.user.image, address: item.user.address }} canEdit={true} uid={item.uid} rating={item.rating} ratingDate={item.ratingDate} review={item.review} />}
+                />
+              ) : null}
+
+              {this.state.view === "Favorite" ? (
+                <List
+                  itemLayout="vertical"
+                  size="large"
+                  pagination={{
+                    onChange: (page) => {
+                      console.log(page);
+                    },
+                    pageSize: 6,
+                  }}
+                  dataSource={this.props.favorite}
+                  renderItem={(item) => <RestaurantCard address={item.address} cuisines={item.cuisines} favorite={true} image={item.image} link={item.link} name={item.name} pricerange={item.pricerange} rating={item.rating} reviews={item.reviews} display="inline-block" />}
                 />
               ) : null}
 

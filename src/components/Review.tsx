@@ -13,6 +13,7 @@ export interface props {
   ratingDate: string;
   review: string;
   canEdit?: boolean;
+  resturantName?: string;
 }
 
 export default class Review extends Component<props> {
@@ -27,9 +28,12 @@ export default class Review extends Component<props> {
           {this.props.user.address ? <div>{this.props.user.address}</div> : null}
         </div>
         <div className="column w-19">
-          <div className="mb-7px flex justify-between align-middle">
+          <div className="mb-7px flex justify-between">
             <div>
-              <Rate className="clr-primary is-md" allowHalf value={this.props.rating.overall} disabled /> • Reviewed on {this.props.ratingDate}
+              {this.props.resturantName ? <h3 className="mb-0">{this.props.resturantName}</h3> : null}
+              <div>
+                <Rate className="clr-primary is-md" allowHalf value={this.props.rating.overall} disabled /> • Reviewed on {this.props.ratingDate}
+              </div>
             </div>
             {this.props.canEdit === true ? (
               <div>

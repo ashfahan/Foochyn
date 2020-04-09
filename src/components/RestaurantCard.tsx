@@ -5,24 +5,28 @@ interface props {
   image: string;
   link: string;
   favorite: boolean;
+  display?: "block" | "inline-block";
+  hover?: boolean;
+  zoom?: boolean;
   name: string;
   rating: number;
   reviews: number;
   address: string[];
   cuisines: string[];
   pricerange: number[];
+  className?: string;
 }
 
-export default class restaurantCard extends Component<props> {
+export default class RestaurantCard extends Component<props> {
   render() {
     return (
-      <div className="bg-white is-round overflow-hidden relative card-zoom card-hover">
+      <div className={`RestaurantCard bg-white is-round overflow-hidden relative shadow-sm ${this.props.display == "inline-block" ? "inline-block m-7px" : ""} ${this.props.hover ? "card-hover" : ""} ${this.props.zoom ? "card-zoom" : ""} ${this.props.className}`}>
         <a href={this.props.link} className="stretch-link clr-hide absolute">
           .
         </a>
-        <div className="txt-right relative overflow-hidden">
-          <div className="img-bg" style={{ backgroundImage: `url(${this.props.image})` }} />
-          <i className={`absolute ri-2x txt-shadow-round right-0 py-7px px-1rem ${this.props.favorite ? "ri-heart-fill clr-primary" : "ri-heart-add-line clr-white"}`} />
+        <div className="txt-right relative overflow-hidden" style={{ height: "150px" }}>
+          <div className="img-bg w-24" style={{ height: "100%", backgroundImage: `url(${this.props.image})` }} />
+          <i className={`absolute ri-2x txt-shadow-round right-0 top-0 py-7px px-1rem ${this.props.favorite ? "ri-heart-fill clr-primary" : "ri-heart-add-line clr-white"}`} />
         </div>
         <div className="p-7px">
           <h5 className="my-7px">{this.props.name}</h5>

@@ -122,8 +122,32 @@ h6 {
   height: auto;
 }
 
-.ant-pagination-item-link {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
+.ant-pagination {
+  .ant-pagination-item-link {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: $body-color !important;
+  }
+
+  .ant-pagination-item:focus,
+  .ant-pagination-item:hover,
+  .ant-pagination-item:focus a,
+  .ant-pagination-item:hover a,
+  .ant-pagination-item-link:focus,
+  .ant-pagination-item-link:hover {
+    color: $body-color !important;
+    border-color: $primary !important;
+  }
+
+  .ant-pagination-prev:focus .ant-pagination-item-link,
+  .ant-pagination-next:focus .ant-pagination-item-link,
+  .ant-pagination-prev:hover .ant-pagination-item-link,
+  .ant-pagination-next:hover .ant-pagination-item-link,
+  .ant-pagination-item-link:hover,
+  .ant-pagination-item-active,
+  .ant-pagination-item-active:focus a {
+    color: $primary !important;
+    border-color: $primary !important;
+  }
 }

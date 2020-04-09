@@ -52,12 +52,14 @@ class Main extends Component<props, state> {
   };
 
   render() {
+    let mainclass = this.props.location.pathname == "/" ? "home" : this.props.location.pathname;
+    mainclass = mainclass.replace("/", "").toUpperCase();
     return (
       <Layout className="grid has-gap-0 is-x">
         <Sidebar />
         <div className="column">
           <Header location={this.props.location} />
-          <Layout.Content className={`lyt-main h-min-100vh shadow-sm ${this.props.location.pathname.replace("/", "").toUpperCase()}`} style={{ zIndex: 1 }}>
+          <Layout.Content className={`lyt-main h-min-100vh shadow-sm ${mainclass}`} style={{ zIndex: 1 }}>
             <Switch>
               <Route path="/" component={() => <Home />} exact />
               <Route path="/restaurant/" component={() => <Restaurant />} exact />

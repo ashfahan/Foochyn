@@ -58,40 +58,200 @@ class Dashboard extends Component<props, state> {
       { link: "#", name: "Ceciches Ceciches", image: "https://source.unsplash.com/512x384/?food,restaurant", address: ["South Padre Island", "TX"], pricerange: [1000, 5000], reviews: 500, rating: 2.5, cuisines: ["Barbecue Chinese", "North Indian"] },
     ],
     reviews: [
-      { uid: 1, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 2, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 3, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 4, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 5, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 6, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 7, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 8, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 9, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 10, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 11, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 12, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 13, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 14, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 15, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 16, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 17, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 18, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 19, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
-      { uid: 20, resturantName: "Resturant XYZ", user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" }, rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) }, ratingDate: "25 Novembder 2018", review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm." },
+      {
+        uid: 1,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 2,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 3,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 4,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 5,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 6,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 7,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 8,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 9,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 10,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 11,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 12,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 13,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 14,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 15,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 16,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 17,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 18,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 19,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
+      {
+        uid: 20,
+        images: ["https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png", "https://api.adorable.io/avatars/285/xyz.png"],
+        resturant: { name: "Resturant XYZ", address: ["South Padre Island", "TX"], cuisines: ["Chinese", "Italian", "Japanese"], image: "https://api.adorable.io/avatars/285/xyz.png" },
+        user: { name: "Mike Edward", image: "https://api.adorable.io/avatars/285/xyz.png", address: "Location" },
+        rating: { overall: Math.trunc((Math.random() * 100) % 5), ambience: Math.trunc((Math.random() * 100) % 5), music: Math.trunc((Math.random() * 100) % 5), food: Math.trunc((Math.random() * 100) % 5), service: Math.trunc((Math.random() * 100) % 5) },
+        ratingDate: "25 Novembder 2018",
+        review: "This all day dining place serves delectable buffets for breakfast, lunch and dinner apart from an À la carte menu which offers Indian and global cuisines. The seating arrangement is simple but well-spaced and the poolside view adds to the charm.",
+      },
     ],
   };
 
   constructor(props) {
     super(props);
     this.state = {
-      view: "Setting",
+      view: "Reviews",
     };
   }
 
   render() {
     return (
       <>
-        <section className="pb-7px px-2 clr-white grid align-bottom has-gap-lg container is-round img-bg" style={{ backgroundImage: "linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.75)), url(https://source.unsplash.com/512x384/?plant)" }}>
+        <section className="pb-7px px-2 clr-white grid align-bottom has-gap-lg container is-round img-bg" style={{ backgroundImage: "linear-gradient(to bottom,hsla(0,0%,0%, 0.3), hsla(0, 0%, 0%, 0.75)), url(https://source.unsplash.com/512x384/?plant)" }}>
           <div className="column w-auto">
             <button className="btn image p-2 bg-white is-circle">
               <img className="img is-circle" src={this.props.user.image} alt="profile" />
@@ -238,7 +398,24 @@ class Dashboard extends Component<props, state> {
                     pageSize: 5,
                   }}
                   dataSource={this.props.reviews}
-                  renderItem={(item) => <Review resturantName={item.resturantName} user={{ name: item.user.name, image: item.user.image, address: item.user.address }} canEdit={true} uid={item.uid} rating={item.rating} ratingDate={item.ratingDate} review={item.review} />}
+                  renderItem={(item) => (
+                    <Review
+                      type="Deck"
+                      resturant={{
+                        name: item.resturant?.name || "Error",
+                        address: item.resturant?.address || [],
+                        cuisines: item.resturant?.cuisines || [""],
+                        image: item.resturant?.image || "Error",
+                      }}
+                      user={{ name: item.user?.name || "Error", image: item.user?.image || "Error", address: item.user?.address || "Error" }}
+                      images={item.images}
+                      canEdit={true}
+                      uid={item.uid}
+                      rating={item.rating}
+                      ratingDate={item.ratingDate}
+                      review={item.review}
+                    />
+                  )}
                 />
               ) : null}
 

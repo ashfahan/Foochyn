@@ -127,7 +127,7 @@ class restaurant extends Component<props> {
 
         <section>
           <Tabs
-            defaultActiveKey="1"
+            defaultActiveKey="3"
             tabBarExtraContent={
               <button className="btn clr-primary">
                 <i className="icon ri-coupon-3-fill" />5 Great Discounts
@@ -421,7 +421,22 @@ class restaurant extends Component<props> {
                       pageSize: 5,
                     }}
                     dataSource={this.props.reviews}
-                    renderItem={(item) => <Review user={{ name: item.user.name, image: item.user.image, address: item.user.address }} canEdit={true} uid={item.uid} rating={item.rating} ratingDate={item.ratingDate} review={item.review} />}
+                    renderItem={(item) => (
+                      <>
+                        <Review
+                          user={{
+                            name: item.user?.name || "Error",
+                            image: item.user?.image,
+                            address: item.user?.address,
+                          }}
+                          canEdit={true}
+                          uid={item.uid}
+                          rating={item.rating}
+                          ratingDate={item.ratingDate}
+                          review={item.review}
+                        />
+                      </>
+                    )}
                   />
                 </section>
               </div>

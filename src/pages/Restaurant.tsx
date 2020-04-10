@@ -463,7 +463,7 @@ export default class Restaurant extends Component<props, state> {
                           </button>
                         </div>
                         <div className="column p-0">
-                          <input type="number" value={this.state.people} className="input is-unstyle hide-arrow" />
+                          <input type="number" value={this.state.people} className="input is-unstyle hide-arrow txt-center o-100" disabled />
                         </div>
                         <div className="column w-auto p-0">
                           <button className="btn is-sld is-primary is-circle" onClick={() => this.setState({ people: this.state.people + 1 })}>

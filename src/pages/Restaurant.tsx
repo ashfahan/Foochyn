@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
-import { Rate, Tabs, Tooltip, Progress, List } from "antd";
+import { Rate, Tabs, Tooltip, Progress, List, DatePicker, TimePicker } from "antd";
 import Expend from "../components/Expend";
 import Review, { props as ReviewProps } from "../components/Review";
+import moment from "moment";
 
 interface props {
   image?: "";
@@ -21,6 +22,8 @@ interface props {
 
 interface state {
   people: number;
+  table: string;
+  date: Date;
 }
 
 export default class Restaurant extends Component<props, state> {
@@ -64,6 +67,8 @@ export default class Restaurant extends Component<props, state> {
     super(props);
     this.state = {
       people: 1,
+      table: "",
+      date: moment(moment.now()).add(1, "hour").toDate(),
     };
   }
 
@@ -454,7 +459,7 @@ export default class Restaurant extends Component<props, state> {
                 <div className="column">
                   <section className="my-1rem border border-light is-round p-4 grid has-gap-lg">
                     <h5 className="column w-24">Information</h5>
-                    <div className="column w-12 grid">
+                    <div className="column w-12 grid align-middle">
                       <div className="column w-12">No of People</div>
                       <div className="column w-12 grid p-0">
                         <div className="column w-auto p-0">
@@ -472,16 +477,64 @@ export default class Restaurant extends Component<props, state> {
                         </div>
                       </div>
                     </div>
-                    <div className="column w-12">
-                      <select className="input">
-                        <option selected hidden value="">
-                          Select Table
-                        </option>
-                        <option>Table 1 (Circle) Capacity 2</option>
-                        <option>Table 2 (Square) Capacity 4</option>
-                        <option>Table 3 (Rectangle) Capacity 8</option>
-                        <option>Table 4 (Circle) Capacity 16</option>
-                      </select>
+                    <div className="column w-12 grid align-middle">
+                      <div className="column w-5">Table</div>
+                      <div className="column w-19">
+                        <select defaultValue="" className="input">
+                          <option hidden value="">
+                            Select Table
+                          </option>
+                          <option>Table 1 (Circle) Capacity 2</option>
+                          <option>Table 2 (Square) Capacity 4</option>
+                          <option>Table 3 (Rectangle) Capacity 8</option>
+                          <option>Table 4 (Circle) Capacity 16</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="column w-12 grid align-middle">
+                      <div className="column w-5">Date</div>
+                      <div className="column w-19">
+                        <div className="control has-icon-left">
+                          <i className="clr-body z-10 icon is-left ri-calendar-line"></i>
+                          <DatePicker
+                            suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />}
+                            onChange={(e) => {
+                              let _date = e?.toDate() || this.state.date;
+                              console.log(_date, typeof _date);
+                              this.setState({ date: _date });
+                            }}
+                            placeholder="Date"
+                            allowClear={false}
+                            defaultValue={moment(this.state.date)}
+                            className="input"
+                            format="D/M/YYYY"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column w-12 grid align-middle">
+                      <div className="column w-5">Time</div>
+                      <div className="column w-19">
+                        <div className="control has-icon-left">
+                          <i className="clr-body z-10 icon is-left ri-time-line"></i>
+                          <TimePicker
+                            suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />}
+                            onChange={(e) => {
+                              let _date = this.state.date;
+                              _date.setHours(e?.toDate().getHours() || 0);
+                              _date.setMinutes(e?.toDate().getMinutes() || 0);
+                              console.log(_date, typeof _date);
+                              this.setState({ date: _date });
+                            }}
+                            placeholder="Time"
+                            allowClear={false}
+                            defaultValue={moment(this.state.date)}
+                            className="input"
+                            format="h:mm a"
+                            minuteStep={15}
+                          />
+                        </div>
+                      </div>
                     </div>
                   </section>
 
@@ -542,17 +595,17 @@ export default class Restaurant extends Component<props, state> {
                       <div className="clr-disabled">Resturant Address</div>
                       <hr />
                       <div className="grid">
-                        <div className="column">
+                        <div className="column w-10">
                           <div className="clr-disabled">Date</div>
-                          <div>24 Feb, Mon</div>
+                          <div>{`${this.state.date.getDate()} ${this.state.date.toLocaleString("default", { month: "long" })}, ${this.state.date.toLocaleString("default", { weekday: "long" })}`}</div>
                         </div>
                         <div className="column">
                           <div className="clr-disabled">Time</div>
-                          <div>11:00 PM</div>
+                          <div>{this.state.date.toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}</div>
                         </div>
                         <div className="column">
-                          <div className="clr-disabled">Guests</div>
-                          <div>2</div>
+                          <div className="clr-disabled">people</div>
+                          <div>{this.state.people}</div>
                         </div>
                       </div>
                     </div>

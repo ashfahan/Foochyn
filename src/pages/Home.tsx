@@ -37,7 +37,7 @@ class Home extends Component {
                   <DatePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Date" allowClear={false} defaultValue={moment(moment.now())} size="large" className="input is-round-sm<sm" format="D/M/YYYY" />
                 </div>
                 <div className="control has-icon-left is-lg my-7px my-0>sm">
-                  <i className="clr-body z-10 icon is-left ri-calendar-line"></i>
+                  <i className="clr-body z-10 icon is-left ri-time-line"></i>
                   <TimePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Time" allowClear={false} defaultValue={moment(moment.now()).add(1, "hour")} size="large" className="input is-round-sm<sm" format="h:mm a" minuteStep={15} />
                 </div>
                 <div className="control has-icon-left is-lg my-0>sm">

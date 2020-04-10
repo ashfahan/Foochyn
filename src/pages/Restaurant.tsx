@@ -19,7 +19,11 @@ interface props {
   deliveryReviewCount?: number;
 }
 
-class restaurant extends Component<props> {
+interface state {
+  guests: number;
+}
+
+export default class Restaurant extends Component<props, state> {
   static defaultProps: props = {
     image: "",
     favorite: false,
@@ -55,6 +59,13 @@ class restaurant extends Component<props> {
     deliveryReview: 4.5,
     deliveryReviewCount: 2025,
   };
+
+  constructor(props: props) {
+    super(props);
+    this.state = {
+      guests: 1,
+    };
+  }
 
   render() {
     return (
@@ -127,7 +138,7 @@ class restaurant extends Component<props> {
 
         <section>
           <Tabs
-            defaultActiveKey="3"
+            defaultActiveKey="4"
             tabBarExtraContent={
               <button className="btn clr-primary">
                 <i className="icon ri-coupon-3-fill" />5 Great Discounts
@@ -423,6 +434,7 @@ class restaurant extends Component<props> {
                     dataSource={this.props.reviews}
                     renderItem={(item) => (
                       <>
+                        {}
                         <Review
                           user={{
                             name: item.user?.name || "Error",
@@ -442,7 +454,125 @@ class restaurant extends Component<props> {
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Book a table" key="4">
-              <div className="px-2 container"></div>
+              <div className="px-2 container grid">
+                <div className="column">
+                  <section className="my-1rem border border-light is-round p-4 grid has-gap-lg">
+                    <h5 className="column w-24">Information</h5>
+                    <div className="column w-12 grid">
+                      <div className="column w-12">Guests</div>
+                      <div className="column w-12 grid p-0">
+                        <div className="column w-auto p-0">
+                          <button className="btn is-sld is-primary is-circle" onClick={() => this.setState({ guests: this.state.guests - 1 })}>
+                            <i className="icon ri-subtract-line" />
+                          </button>
+                        </div>
+                        <div className="column p-0">
+                          <input type="number" value={this.state.guests} className="input is-unstyle txt-center" />
+                        </div>
+                        <div className="column w-auto p-0">
+                          <button className="btn is-sld is-primary is-circle" onClick={() => this.setState({ guests: this.state.guests + 1 })}>
+                            <i className="icon ri-add-line" />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column w-12">
+                      <select className="input">
+                        <option selected hidden value="">
+                          Select Table
+                        </option>
+                        <option>Table 1 (Circle) Capacity 2</option>
+                        <option>Table 2 (Square) Capacity 4</option>
+                        <option>Table 3 (Rectangle) Capacity 8</option>
+                        <option>Table 4 (Circle) Capacity 16</option>
+                      </select>
+                    </div>
+                  </section>
+
+                  <section className="my-1rem border border-light is-round p-4 grid has-gap-lg">
+                    <h5 className="column w-24">Continue as Guest</h5>
+                    <div className="column w-12">
+                      <input className="input" type="text" placeholder="Full Name" />
+                    </div>
+                    <div className="column w-12">
+                      <input className="input" type="tel" placeholder="Mobile Number" />
+                    </div>
+                    <div className="column w-12">
+                      <input className="input" type="text" placeholder="Email" />
+                    </div>
+                    <div className="column w-12">
+                      <input className="input" type="text" placeholder="Sepecial request" />
+                    </div>
+                    <label className="column control w-24">
+                      <input className="checkbox" type="checkbox" />
+                      <span className="label">Register with Foochyn</span>
+                    </label>
+                    <a className="column w-24" href="#">
+                      Already have an account? Log In
+                    </a>
+                  </section>
+
+                  <section className="my-1rem border border-light is-round p-4">
+                    <h5>Got a Promocode</h5>
+                    <div className="my-1rem group">
+                      <input className="input" type="text" placeholder="Have a code specially meant for you?" />
+                      <button className="btn is-sld">Apply</button>
+                    </div>
+                    <label className="control">
+                      <input className="checkbox" type="checkbox" />
+                      <span className="label block">
+                        <span className="font-bold">Enable Whatsapp Permissions</span> to receive updates about booking confirmation, latest offers and other alerts.
+                      </span>
+                    </label>
+                    <div className="my-1rem txt-center">
+                      By clicking on the BOOK button you agree to the <a href="#">terms & conditions</a>.
+                    </div>
+                    <div className="txt-center">
+                      <button className="btn is-sld is-primary w-12">Book</button>
+                    </div>
+                  </section>
+                </div>
+                <div className="column w-8">
+                  <section className="my-1rem">
+                    <div className="p-4">
+                      <div className="flex justify-between align-middle">
+                        <h5 className="mb-0">Booking Summary</h5>
+                        <button className="btn">
+                          <i className="icon ri-edit-2-line"></i> Edit
+                        </button>
+                      </div>
+                      <hr />
+                      <div className="font-bold">Resturant Name</div>
+                      <div className="clr-disabled">Resturant Address</div>
+                      <hr />
+                      <div className="grid">
+                        <div className="column">
+                          <div className="clr-disabled">Date</div>
+                          <div>24 Feb, Mon</div>
+                        </div>
+                        <div className="column">
+                          <div className="clr-disabled">Time</div>
+                          <div>11:00 PM</div>
+                        </div>
+                        <div className="column">
+                          <div className="clr-disabled">Guests</div>
+                          <div>2</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="p-4">
+                      <div className="py-7px px-1rem border border-valid clr-valid is-pill inline-block"> DEAL </div>
+                      <h6 className="my-1rem">1+1 on Food</h6>
+                      <h5 className="clr-disabled">TERMS AND CONDITIONS</h5>
+                      <ul className="clr-disabled">
+                        <li>Cannot be clubbed with any other deal.</li>
+                        <li>Prior reservation is mandatory to avail this deal.</li>
+                        <li>Deals might not be applicable on festive days, special occasions (e.g. valentine’s day or holi) and national holidays.</li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+              </div>
             </Tabs.TabPane>
           </Tabs>
         </section>
@@ -456,5 +586,3 @@ class restaurant extends Component<props> {
     return result + value[value.length - 1];
   }
 }
-
-export default restaurant;

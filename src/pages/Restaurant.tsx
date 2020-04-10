@@ -20,7 +20,7 @@ interface props {
 }
 
 interface state {
-  guests: number;
+  people: number;
 }
 
 export default class Restaurant extends Component<props, state> {
@@ -63,7 +63,7 @@ export default class Restaurant extends Component<props, state> {
   constructor(props: props) {
     super(props);
     this.state = {
-      guests: 1,
+      people: 1,
     };
   }
 
@@ -455,18 +455,18 @@ export default class Restaurant extends Component<props, state> {
                   <section className="my-1rem border border-light is-round p-4 grid has-gap-lg">
                     <h5 className="column w-24">Information</h5>
                     <div className="column w-12 grid">
-                      <div className="column w-12">Guests</div>
+                      <div className="column w-12">No of People</div>
                       <div className="column w-12 grid p-0">
                         <div className="column w-auto p-0">
-                          <button className="btn is-sld is-primary is-circle" onClick={() => this.setState({ guests: this.state.guests - 1 })}>
+                          <button className="btn is-sld is-primary is-circle" onClick={() => this.setState({ people: this.state.people - 1 })}>
                             <i className="icon ri-subtract-line" />
                           </button>
                         </div>
                         <div className="column p-0">
-                          <input type="number" value={this.state.guests} className="input is-unstyle txt-center" />
+                          <input type="number" value={this.state.people} className="input is-unstyle txt-center" />
                         </div>
                         <div className="column w-auto p-0">
-                          <button className="btn is-sld is-primary is-circle" onClick={() => this.setState({ guests: this.state.guests + 1 })}>
+                          <button className="btn is-sld is-primary is-circle" onClick={() => this.setState({ people: this.state.people + 1 })}>
                             <i className="icon ri-add-line" />
                           </button>
                         </div>

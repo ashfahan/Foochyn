@@ -584,12 +584,7 @@ export default class Restaurant extends Component<props, state> {
                 <div className="column w-8">
                   <section className="my-1rem">
                     <div className="p-4">
-                      <div className="flex justify-between align-middle">
-                        <h5 className="mb-0">Booking Summary</h5>
-                        <button className="btn">
-                          <i className="icon ri-edit-2-line"></i> Edit
-                        </button>
-                      </div>
+                      <h5 className="mb-0">Booking Summary</h5>
                       <hr />
                       <div className="font-bold">Resturant Name</div>
                       <div className="clr-disabled">Resturant Address</div>

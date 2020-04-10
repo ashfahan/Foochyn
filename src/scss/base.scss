@@ -205,3 +205,14 @@ body * {
 .h-min-100 {
   min-height: 100%;
 }
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"].hide-arrow {
+  -moz-appearance: textfield;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

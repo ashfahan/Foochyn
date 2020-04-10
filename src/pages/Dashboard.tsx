@@ -422,15 +422,25 @@ class Dashboard extends Component<props, state> {
               {this.state.view === "Favorite" ? (
                 <List
                   itemLayout="vertical"
-                  size="large"
                   pagination={{
                     onChange: (page) => {
                       console.log(page);
                     },
                     pageSize: 6,
                   }}
+                  grid={{
+                    gutter: 4,
+                    xs: 1,
+                    sm: 2,
+                    lg: 3,
+                    xxl: 4,
+                  }}
                   dataSource={this.props.favorite}
-                  renderItem={(item) => <RestaurantCard address={item.address} cuisines={item.cuisines} favorite={true} image={item.image} link={item.link} name={item.name} pricerange={item.pricerange} rating={item.rating} reviews={item.reviews} display="inline-block" />}
+                  renderItem={(item) => (
+                    <List.Item>
+                      <RestaurantCard address={item.address} cuisines={item.cuisines} favorite={true} image={item.image} link={item.link} name={item.name} pricerange={item.pricerange} rating={item.rating} reviews={item.reviews} />
+                    </List.Item>
+                  )}
                 />
               ) : null}
 

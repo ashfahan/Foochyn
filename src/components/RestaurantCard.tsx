@@ -5,7 +5,6 @@ interface props {
   image: string;
   link: string;
   favorite: boolean;
-  display?: "block" | "inline-block";
   hover?: boolean;
   zoom?: boolean;
   name: string;
@@ -20,7 +19,7 @@ interface props {
 export default class RestaurantCard extends Component<props> {
   render() {
     return (
-      <div className={`RestaurantCard bg-white is-round overflow-hidden relative shadow-sm ${this.props.display == "inline-block" ? "inline-block m-7px" : ""} ${this.props.hover ? "card-hover" : ""} ${this.props.zoom ? "card-zoom" : ""} ${this.props.className}`}>
+      <div className={`RestaurantCard bg-white is-round overflow-hidden relative shadow-sm ${this.props.hover ? "card-hover" : ""} ${this.props.zoom ? "card-zoom" : ""} ${this.props.className}`}>
         <a href={this.props.link} className="stretch-link clr-hide absolute">
           .
         </a>

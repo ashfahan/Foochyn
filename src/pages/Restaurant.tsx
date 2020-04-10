@@ -586,8 +586,8 @@ export default class Restaurant extends Component<props, state> {
                     <div className="p-4">
                       <h5 className="mb-0">Booking Summary</h5>
                       <hr />
-                      <div className="font-bold">Resturant Name</div>
-                      <div className="clr-disabled">Resturant Address</div>
+                      <div className="font-bold">{this.props.name}</div>
+                      <div className="clr-disabled">{this.formatArray(this.props.address,", ")}</div>
                       <hr />
                       <div className="grid">
                         <div className="column w-10">

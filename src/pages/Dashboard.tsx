@@ -31,7 +31,7 @@ interface state {
   view: "Setting" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Restaurant";
 }
 
-class Dashboard extends Component<props, state> {
+export default class Dashboard extends Component<props, state> {
   static defaultProps: props = {
     user: {
       image: "https://api.adorable.io/avatars/285/xyz.png",
@@ -244,7 +244,7 @@ class Dashboard extends Component<props, state> {
   constructor(props) {
     super(props);
     this.state = {
-      view: "Reviews",
+      view: "Setting",
     };
   }
 
@@ -458,5 +458,3 @@ class Dashboard extends Component<props, state> {
     return result + value[value.length - 1];
   }
 }
-
-export default Dashboard;

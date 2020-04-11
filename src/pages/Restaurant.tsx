@@ -75,7 +75,7 @@ export default class Restaurant extends Component<props, state> {
   render() {
     return (
       <>
-        <section className="px-4 pt-2 grid container">
+        <section className="pt-2 grid container">
           <div className="column w-16>lg w-24">
             <ol className="breadcrumb p-0">
               <li className="breadcrumb-item" data-separator="/">
@@ -127,7 +127,7 @@ export default class Restaurant extends Component<props, state> {
           </div>
         </section>
 
-        <section className="px-4 pb-2 grid container">
+        <section className="pb-2 grid container">
           <div className="column w-15>sm w-24">
             <div className="is-round img-bg h-100" style={{ minHeight: "200px", backgroundImage: "url(https://source.unsplash.com/512x384/?food,restaurant)" }} />
           </div>
@@ -151,7 +151,7 @@ export default class Restaurant extends Component<props, state> {
             }
           >
             <Tabs.TabPane tab="Overview" key="1">
-              <div className="grid has-gap-lg container px-2">
+              <div className="grid container">
                 <div className="column w-24 w-16>md">
                   <section className="py-1rem">
                     <h3 className="txt-cap mb-0">Known For</h3>
@@ -315,7 +315,7 @@ export default class Restaurant extends Component<props, state> {
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Gallary" key="2">
-              <div className="container px-2">
+              <div className="container">
                 <section className="grid">
                   <div className="column w-6>lg w-12>sm w-24">
                     <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
@@ -354,7 +354,7 @@ export default class Restaurant extends Component<props, state> {
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Reviews" key="3">
-              <div className="px-2 container">
+              <div className="container">
                 <section className="py-1rem w-16>md">
                   <h3 className="txt-cap mb-0">Overall ratings and reviews</h3>
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
@@ -455,7 +455,7 @@ export default class Restaurant extends Component<props, state> {
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Book a table" key="4">
-              <div className="px-2 container grid">
+              <div className="container grid">
                 <div className="column">
                   <section className="my-1rem border border-light is-round p-4 grid has-gap-lg">
                     <h5 className="column w-24">Information</h5>
@@ -538,7 +538,7 @@ export default class Restaurant extends Component<props, state> {
                     </div>
                   </section>
 
-                  <section className="my-1rem border border-light is-round p-4 grid has-gap-lg">
+                  <section className="my-1rem border border-light is-round p-4 grid">
                     <h5 className="column w-24">Continue as Guest</h5>
                     <div className="column w-12">
                       <input className="input" type="text" placeholder="Full Name" />

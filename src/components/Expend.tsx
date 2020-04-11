@@ -33,7 +33,7 @@ export default class Expend extends Component<props, state> {
   render() {
     return (
       <>
-        {this.props.inlineEllipsis && this.props.inlineEllipsis && !this.state.expended ? "…" : null}
+        {this.props.inlineEllipsis && this.props.inlineEllipsis && !this.state.expended && "…"}
         <Collapse bordered={false} className={`Expend ${this.props.inline ? "inline" : ""}`} activeKey={this.state.expended ? "1" : "-1"}>
           <Collapse.Panel header="" className="p-0" showArrow={false} key="1">
             {this.props.children}

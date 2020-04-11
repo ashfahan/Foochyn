@@ -29,20 +29,20 @@ export default class Review extends Component<props> {
   render() {
     return (
       <div className="REVIEW grid align-middle has-gap-lg border-bottom py-1rem">
-        {this.props.type !== "Deck" ? (
+        {this.props.type !== "Deck" && (
           <div className="column w-5 txt-center">
             <Avatar size={64} src={this.props.user?.image} children={this.props.user?.name.charAt(0)} />
             <div>{this.props.user?.name}</div>
-            {this.props.user?.address ? <div>{this.props.user?.address}</div> : null}
+            {this.props.user?.address && <div>{this.props.user?.address}</div>}
           </div>
-        ) : null}
+        )}
         <div className={`column ${this.props.type === "Deck" ? "w-24" : "w-19"}`}>
           <div className={`grid ${this.props.type === "Deck" ? "" : ""}`}>
-            {this.props.type === "Deck" ? (
+            {this.props.type === "Deck" && (
               <div className="column w-3 pl-0">
                 <img src={this.props.resturant?.image} className="img is-round-lg" alt="Resturant LOGO" />
               </div>
-            ) : null}
+            )}
             <div className="column align-self-middle">
               {this.props.type === "Deck" ? (
                 <>
@@ -56,9 +56,9 @@ export default class Review extends Component<props> {
                 </>
               )}
             </div>
-            {this.props.canEdit === true ? (
+            {this.props.canEdit === true && (
               <div className="column txt-right">
-                {this.props.type === "Deck" ? <> {this.props.ratingDate}&nbsp;&nbsp;</> : null}
+                {this.props.type === "Deck" && <> {this.props.ratingDate}&nbsp;&nbsp;</>}
                 <div className="dropdown on-hover txt-left">
                   <button className="btn is-circle after-hide dropdown-trigger">
                     <i className="icon ri-more-2-fill" />
@@ -69,13 +69,13 @@ export default class Review extends Component<props> {
                   </div>
                 </div>
               </div>
-            ) : null}
+            )}
           </div>
-          {this.props.type === "Deck" ? (
+          {this.props.type === "Deck" && (
             <div>
               <Rate className="clr-primary" allowHalf value={this.props.rating.overall} disabled /> • {this.props.rating.overall}
             </div>
-          ) : null}
+          )}
           <div>
             <b>Ambience</b>&nbsp;&nbsp;{this.props.rating.ambience}&nbsp;&nbsp;•&nbsp;&nbsp;
             <b>Music</b>&nbsp;&nbsp;{this.props.rating.music}&nbsp;&nbsp;•&nbsp;&nbsp;

@@ -339,7 +339,7 @@ export default class Dashboard extends Component<props, state> {
           </div>
           <div className="column pr-0">
             <section className="bg-white is-round border border-light shadow-sm p-1rem h-min-100 flex justify-center">
-              {this.state.view === "Setting" ? (
+              {this.state.view === "Setting" && (
                 <div className="w-24">
                   <div className="grid align-middle has-gap-lg">
                     <div className="column w-5 txt-right">
@@ -385,9 +385,9 @@ export default class Dashboard extends Component<props, state> {
                     </div>
                   </div>
                 </div>
-              ) : null}
+              )}
 
-              {this.state.view === "Reviews" ? (
+              {this.state.view === "Reviews" && (
                 <List
                   itemLayout="vertical"
                   size="large"
@@ -417,9 +417,9 @@ export default class Dashboard extends Component<props, state> {
                     />
                   )}
                 />
-              ) : null}
+              )}
 
-              {this.state.view === "Favorite" ? (
+              {this.state.view === "Favorite" && (
                 <List
                   itemLayout="vertical"
                   pagination={{
@@ -442,9 +442,9 @@ export default class Dashboard extends Component<props, state> {
                     </List.Item>
                   )}
                 />
-              ) : null}
+              )}
 
-              {this.state.view === "Achivement" ? <Empty className="align-self-middle" description="COMING SOON" image={<i className="ri-7x ri-compass-3-line" />} /> : null}
+              {this.state.view === "Achivement" && <Empty className="align-self-middle" description="COMING SOON" image={<i className="ri-7x ri-compass-3-line" />} />}
             </section>
           </div>
         </section>

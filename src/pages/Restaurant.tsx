@@ -160,7 +160,7 @@ export default class Restaurant extends Component<props, state> {
             <Tabs.TabPane tab="Overview" key="1">
               <div className="grid container">
                 <div className="column w-24 w-16>md">
-                  <section className="py-1rem">
+                  <section className="py-1rem border-bottom">
                     <h3 className="txt-cap mb-0">Known For</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div>
@@ -171,14 +171,14 @@ export default class Restaurant extends Component<props, state> {
                     </div>
                   </section>
 
-                  <section className="py-1rem">
+                  <section className="py-1rem border-bottom">
                     <h3 className="txt-cap mb-0">Cuisines</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <button className="btn is-out is-primary is-pill mr-7px">North Indian</button>
                     <button className="btn is-out is-primary is-pill mr-7px">Chinese</button>
                   </section>
 
-                  <section className="py-1rem">
+                  <section className="py-1rem border-bottom">
                     <h3 className="txt-cap mb-0">Menu</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div className="grid">
@@ -191,7 +191,7 @@ export default class Restaurant extends Component<props, state> {
                     </div>
                   </section>
 
-                  <section className="py-1rem">
+                  <section className="py-1rem border-bottom">
                     <h3 className="txt-cap mb-0">Average Cost</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div className="clr-dark">{this.formatArray(this.props.pricerange, " - ")} PKR for two people (approx.)</div>
@@ -201,7 +201,7 @@ export default class Restaurant extends Component<props, state> {
                     </Tooltip>
                   </section>
 
-                  <section className="py-1rem">
+                  <section className="py-1rem border-bottom">
                     <h3 className="txt-cap mb-0">Features</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div className="grid">
@@ -226,7 +226,7 @@ export default class Restaurant extends Component<props, state> {
                     </div>
                   </section>
 
-                  <section className="py-1rem">
+                  <section className="py-1rem border-bottom">
                     <h3 className="txt-cap mb-0">Open Hours</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div className="clr-disabled">
@@ -362,7 +362,7 @@ export default class Restaurant extends Component<props, state> {
             </Tabs.TabPane>
             <Tabs.TabPane tab="Reviews" key="3">
               <div className="container">
-                <section className="py-1rem w-16>md">
+                <section className="py-1rem border-bottom w-16>md">
                   <h3 className="txt-cap mb-0">Overall ratings and reviews</h3>
                   <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                   <div className="grid">
@@ -413,7 +413,7 @@ export default class Restaurant extends Component<props, state> {
                   </div>
                 </section>
 
-                <section className="py-1rem">
+                <section className="py-1rem border-bottom">
                   <div className="flex justify-between">
                     <h3 className="txt-cap mb-0">Reviews</h3>
                     <button className="btn is-sld is-primary">Write review</button>
@@ -464,7 +464,7 @@ export default class Restaurant extends Component<props, state> {
             <Tabs.TabPane tab="Book a table" key="4">
               <div className="container grid">
                 <div className="column">
-                  <section className="my-1rem border border-light is-round p-4 grid">
+                  <section className="my-1rem border is-round p-4 grid">
                     <h5 className="column w-24">Booking</h5>
                     <div className="column w-12 grid align-middle">
                       <div className="column w-12">No of People</div>
@@ -545,7 +545,7 @@ export default class Restaurant extends Component<props, state> {
                     </div>
                   </section>
 
-                  <section className="my-1rem border border-light is-round p-4 grid">
+                  <section className="my-1rem border is-round p-4 grid">
                     <h5 className="column w-24">Continue as Guest</h5>
                     <div className="column w-12">
                       <input className="input" type="text" placeholder="Full Name" />
@@ -568,7 +568,7 @@ export default class Restaurant extends Component<props, state> {
                     </a>
                   </section>
 
-                  <section className="my-1rem border border-light is-round p-4">
+                  <section className="my-1rem border is-round p-4">
                     <h5>Got a Promocode</h5>
                     <div className="my-1rem group">
                       <input className="input" type="text" placeholder="Have a code specially meant for you?" />

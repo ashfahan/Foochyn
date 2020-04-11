@@ -182,11 +182,11 @@ export default class Restaurant extends Component<props, state> {
                     <h3 className="txt-cap mb-0">Menu</h3>
                     <hr className="clr-primary w-1 mt-7px mb-1rem o-100" style={{ height: "3px", minWidth: "3rem" }} />
                     <div className="grid">
-                      <div className="column w-6>lg w-12>sm w-24">
-                        <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
+                      <div className="column w-5>lg w-6>md w-12>sm w-24">
+                        <img className="img is-round" src="https://source.unsplash.com/384x512/?restaurant" alt="restaurant" />
                       </div>
-                      <div className="column w-6>lg w-12>sm w-24">
-                        <img className="img is-round" src="https://source.unsplash.com/512x384/?restaurant" alt="restaurant" />
+                      <div className="column w-5>lg w-6>md w-12>sm w-24">
+                        <img className="img is-round" src="https://source.unsplash.com/384x512/?restaurant" alt="restaurant" />
                       </div>
                     </div>
                   </section>

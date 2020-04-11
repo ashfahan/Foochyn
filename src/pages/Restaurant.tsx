@@ -6,7 +6,7 @@ import Review, { props as ReviewProps } from "../components/Review";
 import moment from "moment";
 
 interface props {
-  image?: "";
+  image?: string;
   favorite?: boolean;
   name: string;
   rating: { overall: { five: number; four: number; three: number; two: number; one: number }; ambience: number; music: number; food: number; service: number };
@@ -28,7 +28,7 @@ interface state {
 
 export default class Restaurant extends Component<props, state> {
   static defaultProps: props = {
-    image: "",
+    image: "https://source.unsplash.com/512x512/?logo",
     favorite: false,
     name: "Restaurant Name",
     rating: { overall: { five: 5, four: 4, three: 3, two: 2, one: 1 }, ambience: 3, music: 2, food: 1, service: 0 },
@@ -87,11 +87,18 @@ export default class Restaurant extends Component<props, state> {
                 Restaurant
               </li>
             </ol>
-            <h1 className="clr-black">{this.props.name}</h1>
-            <div className="is-lg">
-              {this.formatArray(this.props.pricerange)} PKR Approx Per User - <span className="block inline>sm">{this.formatArray(this.props.cuisines)}</span>
+            <div className="grid">
+              <div className="column w-15%">
+                <img src={this.props.image} className="img is-round" alt="" />
+              </div>
+              <div className="column w-20">
+                <h1 className="clr-black mb-7px">{this.props.name}</h1>
+                <div className="is-lg">
+                  {this.formatArray(this.props.pricerange)} PKR Approx Per User - <span className="block inline>sm">{this.formatArray(this.props.cuisines)}</span>
+                </div>
+                <div className="is-lg">{this.formatArray(this.props.address, ", ")}</div>
+              </div>
             </div>
-            <div className="is-lg">{this.formatArray(this.props.address, ", ")}</div>
             <div className="mt-2 grid justify-center justify-start>lg">
               <div className="column w-12 w-auto>sm">
                 <button className="btn is-lg is-sld is-primary is-round w-24 w-auto>sm">
@@ -587,7 +594,7 @@ export default class Restaurant extends Component<props, state> {
                       <h5 className="mb-0">Summary</h5>
                       <hr />
                       <div className="font-bold">{this.props.name}</div>
-                      <div className="clr-disabled">{this.formatArray(this.props.address,", ")}</div>
+                      <div className="clr-disabled">{this.formatArray(this.props.address, ", ")}</div>
                       <hr />
                       <div className="grid">
                         <div className="column w-10">

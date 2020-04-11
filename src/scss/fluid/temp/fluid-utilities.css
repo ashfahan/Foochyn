@@ -116,7 +116,7 @@
 
 .scrollbar::-webkit-scrollbar-thumb:focus { background-color: #2b2b2b; }
 
-.scrollbar::-webkit-scrollbar:hover { background-color: #d4d4d4; }
+.scrollbar::-webkit-scrollbar:hover { background-color: #e6e6e6; }
 
 .float-left { float: left !important; }
 
@@ -346,23 +346,23 @@
 
 .left-100 { left: 100% !important; }
 
-.border { border: 1px solid #d4d4d4 !important; }
+.border { border: 1px solid #e6e6e6 !important; }
 
 .border-none { border: 0 !important; }
 
-.border-top { border-top: 1px solid #d4d4d4 !important; }
+.border-top { border-top: 1px solid #e6e6e6 !important; }
 
 .border-top-none { border-top: 0 !important; }
 
-.border-bottom { border-bottom: 1px solid #d4d4d4 !important; }
+.border-bottom { border-bottom: 1px solid #e6e6e6 !important; }
 
 .border-bottom-none { border-bottom: 0 !important; }
 
-.border-right { border-right: 1px solid #d4d4d4 !important; }
+.border-right { border-right: 1px solid #e6e6e6 !important; }
 
 .border-right-none { border-right: 0 !important; }
 
-.border-left { border-left: 1px solid #d4d4d4 !important; }
+.border-left { border-left: 1px solid #e6e6e6 !important; }
 
 .border-left-none { border-left: 0 !important; }
 

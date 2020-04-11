@@ -143,7 +143,7 @@ export default class Restaurant extends Component<props, state> {
 
         <section>
           <Tabs
-            defaultActiveKey="4"
+            defaultActiveKey="1"
             tabBarExtraContent={
               <button className="btn clr-primary">
                 <i className="icon ri-coupon-3-fill" />5 Great Discounts
@@ -457,8 +457,8 @@ export default class Restaurant extends Component<props, state> {
             <Tabs.TabPane tab="Book a table" key="4">
               <div className="container grid">
                 <div className="column">
-                  <section className="my-1rem border border-light is-round p-4 grid has-gap-lg">
-                    <h5 className="column w-24">Information</h5>
+                  <section className="my-1rem border border-light is-round p-4 grid">
+                    <h5 className="column w-24">Booking</h5>
                     <div className="column w-12 grid align-middle">
                       <div className="column w-12">No of People</div>
                       <div className="column w-12 grid p-0">
@@ -584,7 +584,7 @@ export default class Restaurant extends Component<props, state> {
                 <div className="column w-8">
                   <section className="my-1rem">
                     <div className="p-4">
-                      <h5 className="mb-0">Booking Summary</h5>
+                      <h5 className="mb-0">Summary</h5>
                       <hr />
                       <div className="font-bold">{this.props.name}</div>
                       <div className="clr-disabled">{this.formatArray(this.props.address,", ")}</div>

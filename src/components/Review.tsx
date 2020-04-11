@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Avatar, Rate, List } from "antd";
+import { Avatar, Rate } from "antd";
 import Expend from "./Expend";
 
 export interface props {
@@ -37,14 +37,14 @@ export default class Review extends Component<props> {
           </div>
         ) : null}
         <div className={`column ${this.props.type === "Deck" ? "w-24" : "w-19"}`}>
-          <div className={`grid ${this.props.type == "Deck" ? "" : ""}`}>
-            {this.props.type == "Deck" ? (
+          <div className={`grid ${this.props.type === "Deck" ? "" : ""}`}>
+            {this.props.type === "Deck" ? (
               <div className="column w-3 pl-0">
                 <img src={this.props.resturant?.image} className="img is-round-lg" alt="Resturant LOGO" />
               </div>
             ) : null}
             <div className="column align-self-middle">
-              {this.props.type == "Deck" ? (
+              {this.props.type === "Deck" ? (
                 <>
                   <h3 className="mb-0">{this.props.resturant?.name}</h3>
                   <div>{this.formatArray(this.props.resturant?.cuisines)}</div>
@@ -58,7 +58,7 @@ export default class Review extends Component<props> {
             </div>
             {this.props.canEdit === true ? (
               <div className="column txt-right">
-                {this.props.type == "Deck" ? <> {this.props.ratingDate}&nbsp;&nbsp;</> : null}
+                {this.props.type === "Deck" ? <> {this.props.ratingDate}&nbsp;&nbsp;</> : null}
                 <div className="dropdown on-hover txt-left">
                   <button className="btn is-circle after-hide dropdown-trigger">
                     <i className="icon ri-more-2-fill" />
@@ -71,7 +71,7 @@ export default class Review extends Component<props> {
               </div>
             ) : null}
           </div>
-          {this.props.type == "Deck" ? (
+          {this.props.type === "Deck" ? (
             <div>
               <Rate className="clr-primary" allowHalf value={this.props.rating.overall} disabled /> • {this.props.rating.overall}
             </div>

@@ -49,7 +49,7 @@ export default class UploadImage extends Component<props, state> {
         return file;
       });
 
-      if (info.file.status === "done" && this.props.filelimit == 1) fileList = [];
+      if (info.file.status === "done" && this.props.filelimit === 1) fileList = [];
     }
     this.setState({ fileList });
 

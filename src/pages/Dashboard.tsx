@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../scss/dashboard.scss";
 import { Empty, List, DatePicker, Avatar } from "antd";
 import Review, { props as ReviewProps } from "../components/Review";
-import UploadImage from "../components/UploadImage";
+import UploadFile from "../components/UploadFile";
 import moment from "moment";
 import RestaurantCard from "../components/RestaurantCard";
 
@@ -346,11 +346,11 @@ export default class Dashboard extends Component<props, state> {
                       <Avatar size={64} src={this.props.user.image} children={this.props.user.fullName.charAt(0)} />
                     </div>
                     <div className="column w-19">
-                      <UploadImage accept=".jpeg,.jpg,.png" filelimit={1} name="file" action="https://www.mocky.io/v2/5cc8019d300000980a055e76">
+                      <UploadFile accept=".jpeg,.jpg,.png" filelimit={1} name="file" action="https://www.mocky.io/v2/5cc8019d300000980a055e76">
                         <button className="btn is-sld is-primary">
                           <i className="icon ri-upload-2-line"></i> Click to Upload
                         </button>
-                      </UploadImage>
+                      </UploadFile>
                       <div className="is-sm">Supported image format: jpeg, jpg, png</div>
                     </div>
                   </div>

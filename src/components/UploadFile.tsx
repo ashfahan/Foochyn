@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { Upload, message } from "antd";
-import { UploadProps, UploadFile, UploadChangeParam, RcFile } from "antd/lib/upload/interface";
+import { UploadProps, UploadFile as AntFile, UploadChangeParam, RcFile } from "antd/lib/upload/interface";
 
 interface props extends UploadProps {
   filelimit: number;
 }
 
 interface state {
-  fileList: Array<UploadFile>;
+  fileList: Array<AntFile>;
 }
 
-export default class UploadImage extends Component<props, state> {
+export default class UploadFile extends Component<props, state> {
   static defaultProps: props = {
     filelimit: 0,
     headers: {

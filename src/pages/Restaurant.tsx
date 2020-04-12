@@ -88,7 +88,7 @@ export default class Restaurant extends Component<props, state> {
               </li>
             </ol>
             <div className="grid">
-              <div className="column w-15%">
+              <div className="column w-logo">
                 <img src={this.props.image} className="img is-round" alt="" />
               </div>
               <div className="column w-20">

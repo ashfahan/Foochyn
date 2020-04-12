@@ -24,6 +24,7 @@ import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Restaurant from "./pages/Restaurant";
 import Dashboard from "./pages/Dashboard";
+import Review from "./pages/Review";
 
 interface props {
   SetLoaded: Function;
@@ -64,6 +65,7 @@ class Main extends Component<props, state> {
               <Route path="/" component={() => <Home />} exact />
               <Route path="/restaurant/" component={() => <Restaurant />} exact />
               <Route path="/dashboard" component={() => <Dashboard />} exact />
+              <Route path="/review" component={() => <Review />} exact />
               <Route component={() => <Error error={404} />} />
             </Switch>
           </Layout.Content>

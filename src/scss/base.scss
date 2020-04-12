@@ -185,7 +185,7 @@ body * {
 }
 
 .after-hide::after {
-  content: none;
+  content: none !important;
 }
 
 .transform-none {

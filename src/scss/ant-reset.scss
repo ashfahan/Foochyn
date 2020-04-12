@@ -159,3 +159,9 @@ h6 {
 .ant-steps-item-custom.ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon {
   color: $primary;
 }
+.ant-steps-item-custom .ant-steps-item-icon > .ant-steps-icon {
+  line-height: 1 !important;
+}
+.anticon {
+  transform: translateY(-4px);
+}

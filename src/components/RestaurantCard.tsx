@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Rate } from "antd";
 
-interface props {
+export interface props {
   image: string;
   link: string;
   favorite: boolean;
@@ -19,7 +19,7 @@ interface props {
 export default class RestaurantCard extends Component<props> {
   render() {
     return (
-      <div className={`RestaurantCard bg-white is-round overflow-hidden relative shadow-sm ${this.props.hover ? "card-hover" : ""} ${this.props.zoom ? "card-zoom" : ""} ${this.props.className}`}>
+      <div className={`border border-light RestaurantCard bg-white is-round overflow-hidden relative shadow-sm ${this.props.hover ? "card-hover" : ""} ${this.props.zoom ? "card-zoom" : ""} ${this.props.className}`}>
         <a href={this.props.link} className="stretch-link clr-hide absolute">
           .
         </a>

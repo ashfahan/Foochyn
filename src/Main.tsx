@@ -25,6 +25,7 @@ import Home from "./pages/Home";
 import Restaurant from "./pages/Restaurant";
 import Dashboard from "./pages/Dashboard";
 import Review from "./pages/Review";
+import Search from "./pages/Search";
 
 interface props {
   SetLoaded: Function;
@@ -47,10 +48,26 @@ class Main extends Component<props, state> {
     };
   }
 
-  componentDidUpdate = () => {
+  componentDidMount() {
+    var menutriggers = document.getElementsByClassName("menu-trigger");
+    Object.keys(menutriggers).forEach(function (k) {
+      menutriggers[k].onclick = function (e) {
+        e.target.classList.toggle("active");
+      };
+    });
+  }
+
+  componentDidUpdate() {
     console.log(this.props);
     console.log("current location is ", this.props.location.pathname);
-  };
+
+    var menutriggers = document.getElementsByClassName("menu-trigger");
+    Object.keys(menutriggers).forEach(function (k) {
+      menutriggers[k].onclick = function (e) {
+        e.target.classList.toggle("active");
+      };
+    });
+  }
 
   render() {
     let mainclass = this.props.location.pathname === "/" ? "home" : this.props.location.pathname;
@@ -66,6 +83,7 @@ class Main extends Component<props, state> {
               <Route path="/restaurant/" component={() => <Restaurant />} exact />
               <Route path="/dashboard" component={() => <Dashboard />} exact />
               <Route path="/review" component={() => <Review />} exact />
+              <Route path="/search" component={() => <Search />} exact />
               <Route component={() => <Error error={404} />} />
             </Switch>
           </Layout.Content>

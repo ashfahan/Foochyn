@@ -225,3 +225,19 @@ input[type="number"].hide-arrow {
   flex: none !important;
   width: 110px !important;
 }
+
+.ant-menu-submenu-title {
+  padding: inherit !important;
+}
+
+.ant-menu-item.ant-menu-item-only-child {
+  padding-left: $nestedMenu-indent !important;
+}
+
+.ant-menu-sub.ant-menu-inline .ant-menu-item-group-title {
+  padding-left: $nestedMenu-indent / 2 !important;
+}
+
+.ant-menu {
+  border: none;
+}

@@ -53,9 +53,9 @@ Search.defaultProps = {
 export default function Search(props: props) {
   return (
     <>
-      <section className="py-1rem container grid">
+      <section className="py-1rem container grid has-gap-lg">
         <div className="column w-6">
-          <form className="p-1rem is-round">
+          <form>
             <div className="menu">
               <div className="my-7px">DATE</div>
               <div className="control has-icon-left">

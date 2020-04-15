@@ -292,7 +292,7 @@ export default function Search(props: props) {
         </div>
         <div className="column w-18">
           <div className="flex justify-between align-middle mb-7px">
-            <h5>Book Best Restaurants in Powai</h5>
+            <input type="search" className="input mr-1rem is-min is-primary is-lg" placeholder="Search  " />
             <div className="input px-1rem py-0 inline-flex align-middle w-auto event-none">
               <span className="clr-disabled">Sort By </span>
               <select className="input is-unstyle w-auto event-auto">

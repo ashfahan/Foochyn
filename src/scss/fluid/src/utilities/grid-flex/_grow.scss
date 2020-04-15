@@ -5,10 +5,10 @@
 @if $generate-utility-classes {
   $config: (
     properties: flex-grow,
-    selector: "flex",
+    selector: "flex-grow",
     values: (
-      grow: 1,
-      grow-0: 0
+      null: 1,
+      0: 0
     ),
     enable-important-values: true
   );

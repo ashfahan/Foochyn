@@ -107,7 +107,11 @@ export default function Search(props: props) {
 
             <div className="menu">
               <div className="my-7px">Pricing</div>
-              <Slider range defaultValue={[1000, 5000]} min={100} max={20000} tipFormatter={(value) => `${value} PKR`} />
+              <div className="flex">
+                <i className="icon is-lg ri-wallet-line" />
+                <Slider className="flex-grow" step={100} range defaultValue={[1000, 5000]} min={100} max={20000} tipFormatter={(value) => `${value} PKR`} />
+                <i className="icon is-lg ri-wallet-2-line" />
+              </div>
             </div>
 
             <div className="menu">
@@ -116,25 +120,47 @@ export default function Search(props: props) {
               </button>
               <div>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Offer Discount</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-coupon-3-fill" />
+                    Offer Discount
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Credit card</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-bank-card-line" /> Credit card
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Parking</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-parking-box-line" /> Parking
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">DJ</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-disc-line" /> DJ
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Indoor Seating</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-store-2-line" /> Indoor Seating
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Booking</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-cake-line" /> Booking
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Wifi</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-wifi-line" /> Wifi
+                  </span>
                 </label>
                 <Expend buttonClass="btn is-unstyle is-block clr-primary" showText="+9 more">
                   <label className="control w-24 my-2">
@@ -171,67 +197,124 @@ export default function Search(props: props) {
               </div>
             </div>
             <div className="menu">
-              <button type="button" className="menu-trigger btn is-unstyle is-block py-7px active">
+              <button type="button" className="menu-trigger btn is-unstyle is-block py-7px active flex">
                 CUISINES
               </button>
               <div>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">North Indian</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-restaurant-line" /> North Indian
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Chinese</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-restaurant-line" /> Chinese
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Modern Indian</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-restaurant-line" /> Modern Indian
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Italian</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-restaurant-line" /> Italian
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Cafe</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-restaurant-line" /> Cafe
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">Pan Asian</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-restaurant-line" /> Pan Asian
+                  </span>
                 </label>
                 <label className="control w-24 my-2">
-                  <input className="checkbox" type="checkbox" /> <span className="label block">South Indian</span>
+                  <input className="checkbox" type="checkbox" />
+                  <span className="label block">
+                    <i className="icon is-lg ri-restaurant-line" /> South Indian
+                  </span>
                 </label>
                 <Expend buttonClass="btn is-unstyle is-block clr-primary" showText="+11 more">
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Fast Food</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Fast Food
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Finger Food</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Finger Food
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Fusion</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Fusion
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Indian</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Indian
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Mughlai</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Mughlai
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">European</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> European
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Lebanese</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Lebanese
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Greek</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Greek
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Bengali</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Bengali
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Gujarati</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Gujarati
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Goan</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Goan
+                    </span>
                   </label>
                   <label className="control w-24 my-2">
-                    <input className="checkbox" type="checkbox" /> <span className="label block">Multicuisine</span>
+                    <input className="checkbox" type="checkbox" />
+                    <span className="label block">
+                      <i className="icon is-lg ri-restaurant-line" /> Multicuisine
+                    </span>
                   </label>
                 </Expend>
               </div>

@@ -104,7 +104,7 @@ export default class Review extends Component<props> {
           <div className="grid">
             {this.props.images?.map((item) => (
               <div className="column w-4">
-                <img className="is-round img" src={item} alt="" />
+                <img className="is-round img" src={item} alt="ReviewImage" />
               </div>
             ))}
           </div>

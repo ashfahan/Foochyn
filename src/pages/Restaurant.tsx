@@ -75,6 +75,7 @@ export default function Restaurant(props: props) {
     message.success("Processing complete!");
   }
   function ReviewReset() {
+    setWriteReview("no");
     SetReviewStep(0);
   }
 
@@ -155,6 +156,7 @@ export default function Restaurant(props: props) {
 
       <section>
         <Tabs
+          onChange={ReviewReset}
           defaultActiveKey="1"
           tabBarExtraContent={
             <button className="btn clr-primary">
@@ -469,14 +471,8 @@ export default function Restaurant(props: props) {
                   </section>
                 </Tabs.TabPane>
                 <Tabs.TabPane key="1">
-                  <button
-                    className="my-1rem btn is-sld is-primary is-circle"
-                    onClick={() => {
-                      setWriteReview("no");
-                      ReviewReset();
-                    }}
-                  >
-                    <i className="icon ri-arrow-left-line" />
+                  <button className="my-1rem btn is-sld is-primary" onClick={ReviewReset}>
+                    <i className="icon ri-arrow-left-line" /> See All Reviews
                   </button>
                   <Steps current={reivewstep}>
                     <Steps.Step title="Review" icon={reivewstep === 0 ? <LoadingOutlined /> : <i className="icon after-hide ri-file-edit-line" />} />
@@ -771,7 +767,7 @@ export default function Restaurant(props: props) {
                         Done
                       </button>
                     )}
-                  </div>{" "}
+                  </div>
                 </Tabs.TabPane>
               </Tabs>
             </div>

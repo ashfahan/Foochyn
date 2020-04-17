@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../scss/dashboard.scss";
+import "../scss/userDashboard.scss";
 import { Empty, List, DatePicker, Avatar } from "antd";
 import Review, { props as ReviewProps } from "../components/Review";
 import UploadFile from "../components/UploadFile";
@@ -31,7 +31,7 @@ interface state {
   view: "Setting" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Restaurant";
 }
 
-export default class Dashboard extends Component<props, state> {
+export default class UserDashboard extends Component<props, state> {
   static defaultProps: props = {
     user: {
       image: "https://api.adorable.io/avatars/285/xyz.png",

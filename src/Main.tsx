@@ -78,11 +78,11 @@ class Main extends Component<props, state> {
           <Header location={this.props.location} />
           <Layout.Content className={`lyt-main h-min-100vh shadow-sm ${mainclass} px-4`} style={{ zIndex: 1 }}>
             <Switch>
-              <Route path="/" component={() => <Home />} exact />
-              <Route path="/restaurant/" component={() => <Restaurant />} exact />
-              <Route path="/dashboard" component={() => <UserDashboard />} exact />
-              <Route path="/search" component={() => <Search />} exact />
-              <Route component={() => <Error error={404} />} />
+              <Route path="/" component={Home} exact />
+              <Route path="/restaurant/" component={Restaurant} exact />
+              <Route path="/dashboard" component={UserDashboard} exact />
+              <Route path="/search" component={Search} exact />
+              <Route render={(props: any) => <Error {...props} error={404} />} />
             </Switch>
           </Layout.Content>
           <Footer />

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./locationcard.scss";
 
 interface props {
   image: string;

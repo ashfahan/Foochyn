@@ -14,6 +14,7 @@ import "animate.css";
 import "./scss/fluid/temp/fluid.css";
 import "remixicon/fonts/remixicon.css";
 import "./scss/base.scss";
+import "./scss/pages.scss";
 
 import "./fonts/Poppins/fonts.css";
 

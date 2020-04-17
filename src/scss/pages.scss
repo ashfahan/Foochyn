@@ -4,9 +4,10 @@
 @import "./fluid/src/settings/placeholders/prefers-reduced-motion";
 
 .DASHBOARD {
-  padding: 1rem 4%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
-  > section:first-child {
+  > section:first-child.COVER {
     padding-top: 10rem !important;
     margin-bottom: 3rem !important;
 
@@ -27,4 +28,14 @@
       min-height: 7.5rem;
     }
   }
+}
+
+.HOME {
+  padding: 0 !important;
+}
+
+.REVIEW .button-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,6 +1,6 @@
 import React, { Component, ReactNode } from "react";
 import { Collapse } from "antd";
-import "./Expend.scss";
+import "./expend.scss";
 
 interface props {
   showText?: string;

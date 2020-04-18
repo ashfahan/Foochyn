@@ -29,6 +29,10 @@
       min-height: 7.5rem;
     }
   }
+
+  .SEARCHOPTIONS:focus-within ~ div {
+    display: block !important;
+  }
 }
 
 .HOME {

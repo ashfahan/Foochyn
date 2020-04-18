@@ -59,11 +59,11 @@ Restaurant.defaultProps = {
 };
 
 export default function Restaurant(props: props) {
-  const [people, setPeople]: [number, Function] = useState(1);
-  const [writeReview, setWriteReview]: [string, Function] = useState("no");
-  const [date, setDate]: [Date, Function] = useState(moment(moment.now()).add(1, "hour").toDate());
-  const [reviewdate, SetReviewDate]: [Date, Function] = useState(moment(moment.now()).subtract(1, "hour").toDate());
-  const [reivewstep, SetReviewStep]: [number, Function] = useState(0);
+  const [people, setPeople] = useState<number>(1);
+  const [writeReview, setWriteReview] = useState<"yes" | "no">("no");
+  const [date, setDate] = useState<Date>(moment(moment.now()).add(1, "hour").toDate());
+  const [reviewdate, SetReviewDate] = useState<Date>(moment(moment.now()).subtract(1, "hour").toDate());
+  const [reivewstep, SetReviewStep] = useState<number>(0);
 
   function formatArray(value: any[] = [], separator = " • ") {
     let result = "";
@@ -164,7 +164,7 @@ export default function Restaurant(props: props) {
             </button>
           }
         >
-          <Tabs.TabPane tab="Overview" key="1">
+          <Tabs.TabPane className="mt-1rem" tab="Overview" key="1">
             <div className="grid container">
               <div className="column w-24 w-16>md">
                 <section className="py-1rem border-bottom">
@@ -328,7 +328,7 @@ export default function Restaurant(props: props) {
               </div>
             </div>
           </Tabs.TabPane>
-          <Tabs.TabPane tab="Gallary" key="2">
+          <Tabs.TabPane className="mt-1rem" tab="Gallary" key="2">
             <div className="container">
               <section className="grid">
                 <div className="column w-6>lg w-12>sm w-24">
@@ -367,7 +367,7 @@ export default function Restaurant(props: props) {
               </section>
             </div>
           </Tabs.TabPane>
-          <Tabs.TabPane tab="Reviews" key="3">
+          <Tabs.TabPane className="mt-1rem" tab="Reviews" key="3">
             <div className="container">
               <section className="py-1rem w-16>md">
                 <h3 className="txt-cap mb-0">Overall ratings and reviews</h3>
@@ -421,7 +421,7 @@ export default function Restaurant(props: props) {
               </section>
 
               <Tabs activeKey={writeReview === "yes" ? "1" : "0"}>
-                <Tabs.TabPane key="0">
+                <Tabs.TabPane className="mt-1rem" key="0">
                   <section className="py-1rem border-bottom">
                     <div className="flex justify-between">
                       <h3 className="txt-cap mb-0">Reviews</h3>
@@ -470,7 +470,7 @@ export default function Restaurant(props: props) {
                     />
                   </section>
                 </Tabs.TabPane>
-                <Tabs.TabPane key="1">
+                <Tabs.TabPane className="mt-1rem" key="1">
                   <button className="my-1rem btn is-sld is-primary" onClick={ReviewReset}>
                     <i className="icon ri-arrow-left-line" /> See All Reviews
                   </button>
@@ -772,7 +772,7 @@ export default function Restaurant(props: props) {
               </Tabs>
             </div>
           </Tabs.TabPane>
-          <Tabs.TabPane tab="Book a table" key="4">
+          <Tabs.TabPane className="mt-1rem" tab="Book a table" key="4">
             <div className="container grid">
               <div className="column">
                 <section className="my-1rem border is-round p-4 grid">

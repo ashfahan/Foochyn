@@ -79,12 +79,12 @@ h6 {
 }
 
 .ant-tabs-tabpane {
-  padding: 0.5em 0.5em 2% 0.5em !important;
   outline: 0 !important;
 }
 
 .ant-tabs-bar {
   padding: 0 4% !important;
+  margin-bottom: 0;
   @include media-breakpoint-above(sm) {
     padding: 0 10% !important;
   }

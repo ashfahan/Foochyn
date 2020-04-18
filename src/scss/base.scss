@@ -218,3 +218,41 @@ input[type="number"].hide-arrow {
 .ant-menu {
   border: none;
 }
+
+.autoExpand {
+  transition: transition(width);
+  &:focus {
+    width: 30rem;
+  }
+}
+
+.h-min-90vh {
+  min-height: 90vh;
+}
+
+.ant-tabs {
+  &.center {
+    .ant-tabs-bar {
+      text-align: center;
+    }
+  }
+
+  &.expand {
+    .ant-tabs-bar {
+      padding: 0 !important;
+    }
+    .ant-tabs-nav {
+      width: 100%;
+      > div:first-child {
+        display: flex;
+        > .ant-tabs-tab {
+          margin: 0;
+          text-align: center;
+          flex: 1 0 0%;
+          min-width: 0;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -26,7 +26,8 @@ h6 {
 
 .ant-picker-input > input,
 .ant-picker-suffix {
-  color: $body-color !important;
+  color: inherit !important;
+  text-align: inherit;
 }
 
 .ant-select-arrow,
@@ -165,7 +166,7 @@ h6 {
   transform: translateY(-4px) !important;
 }
 
-.ant-picker {
+.ant-picker:not(.shadow-none) {
   @include hover(".ant-picker-focused") {
     border-color: rgba(218, 55, 67, 0.5) !important;
     box-shadow: inset 0 1px 2px rgba(15, 15, 15, 0.1), 0 0 0 0.2rem rgba(218, 55, 67, 0.5) !important;
@@ -177,4 +178,21 @@ h6 {
   height: auto !important;
   border: 0 !important;
   line-height: $lineheight-default !important;
+}
+
+.ant-picker-dropdown.center {
+  .ant-picker-panel-container {
+    position: relative;
+    overflow: visible;
+  }
+  .ant-picker-panel {
+    position: absolute;
+    left: 22%;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    background: $white;
+    transform: translateX(-22%);
+  }
+}
+.test:focus-within ~ div {
+  background: red;
 }

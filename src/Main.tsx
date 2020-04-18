@@ -26,8 +26,10 @@ import Home from "./pages/Home";
 import Restaurant from "./pages/Restaurant";
 import Search from "./pages/Search";
 import UserDashboard from "./pages/UserDashboard";
+import ResturantDashboard from "./pages/ResturantDashboard";
 
 interface props {
+  userType: string;
   SetLoaded: Function;
   location: { hash: string; key: string; pathname: string; search: string; state: object };
 }
@@ -77,11 +79,22 @@ class Main extends Component<props, state> {
         <Sidebar />
         <div className="column">
           <Header location={this.props.location} />
-          <Layout.Content className={`lyt-main h-min-100vh shadow-sm ${mainclass} px-4`} style={{ zIndex: 1 }}>
+          <Layout.Content className={`lyt-main h-min-90vh shadow-sm ${mainclass} px-4`} style={{ zIndex: 1 }}>
             <Switch>
               <Route path="/" component={Home} exact />
               <Route path="/restaurant/" component={Restaurant} exact />
-              <Route path="/dashboard" component={UserDashboard} exact />
+              <Route
+                path="/dashboard"
+                render={(props: any, userType = this.props.userType) => {
+                  switch (userType) {
+                    case "User":
+                      return <UserDashboard {...props} />;
+                    case "ResturantOwner":
+                      return <ResturantDashboard {...props} />;
+                  }
+                }}
+                exact
+              />
               <Route path="/search" component={Search} exact />
               <Route render={(props: any) => <Error {...props} error={404} />} />
             </Switch>
@@ -144,6 +157,7 @@ class Main extends Component<props, state> {
 
 const mapStateToProps = (store) => ({
   loaded: store.setting.loaded,
+  userType: store.user.userType,
 });
 
 const mapDispatchToProps = {

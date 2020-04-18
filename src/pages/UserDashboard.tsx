@@ -249,7 +249,7 @@ export default class UserDashboard extends Component<props, state> {
 
   render() {
     return (
-      <>
+      <div className="px-4 py-1rem">
         <section className="COVER pb-7px px-2 clr-white grid align-bottom has-gap-lg container is-round img-bg" style={{ backgroundImage: "linear-gradient(to bottom,hsla(0,0%,0%, 0.3), hsla(0, 0%, 0%, 0.75)), url(https://source.unsplash.com/512x384/?plant)" }}>
           <div className="column w-auto">
             <button className="btn image p-2 bg-white is-circle">
@@ -447,7 +447,7 @@ export default class UserDashboard extends Component<props, state> {
             </section>
           </div>
         </section>
-      </>
+      </div>
     );
   }
 

@@ -4,10 +4,11 @@
 @import "./fluid/src/settings/placeholders/prefers-reduced-motion";
 
 .DASHBOARD {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
 
-  > section:first-child.COVER {
+  section:first-child.COVER {
     padding-top: 10rem !important;
     margin-bottom: 3rem !important;
 

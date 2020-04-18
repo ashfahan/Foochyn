@@ -22,6 +22,10 @@
     display: flex;
     flex-wrap: wrap;
 
+    .input {
+      height: 100%;
+    }
+
     &.is-lg {
       > .addon,
       > .btn {

@@ -45,39 +45,39 @@ export default function ResturantDashboard() {
         <div style={{ flex: "none", width: "7rem" }} className="column lyt-sidebar p-0 bg-dark clr-white menu txt-center">
           <button className="menu-item py-10" onClick={() => setView("Reserve")}>
             <i className="icon is-lg ri-add-circle-fill" />
-            <div>RESERVE</div>
+            <div className="txt-upper">Reserve</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("Floor")}>
             <i className="icon is-lg ri-function-fill" />
-            <div>FLOOR</div>
+            <div className="txt-upper">Floor</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("List")}>
             <i className="icon is-lg ri-file-list-fill" />
-            <div>LIST</div>
+            <div className="txt-upper">List</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("Grid")}>
             <i className="icon is-lg ri-grid-fill" />
-            <div>GRID</div>
+            <div className="txt-upper">Grid</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("Timefill")}>
             <i className="icon is-lg ri-calendar-todo-fill" />
-            <div>Timeline</div>
+            <div className="txt-upper">Timeline</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("Guests")}>
             <i className="icon is-lg ri-user-3-line" />
-            <div>GUESTS</div>
+            <div className="txt-upper">Guests</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("Reports")}>
             <i className="icon is-lg ri-file-list-3-fill" />
-            <div>REPORTS</div>
+            <div className="txt-upper">Reports</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("Support")}>
             <i className="icon is-lg ri-headphone-fill" />
-            <div>SUPPORT</div>
+            <div className="txt-upper">Support</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("Settings")}>
             <i className="icon is-lg ri-settings-fill" />
-            <div>SETTINGS</div>
+            <div className="txt-upper">Settings</div>
           </button>
         </div>
         <div className="column p-0">

@@ -3,7 +3,7 @@ import { DatePicker, Tabs } from "antd";
 import moment from "moment";
 
 export default function ResturantDashboard() {
-  const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timefill" | "Guests" | "Reports" | "Support" | "Settings">("Reserve");
+  const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timeline" | "Guests" | "Reports" | "Support" | "Settings">("Reserve");
 
   return (
     <>
@@ -61,7 +61,7 @@ export default function ResturantDashboard() {
           </button>
           <button className="menu-item py-10" onClick={() => setView("Timefill")}>
             <i className="icon is-lg ri-calendar-todo-fill" />
-            <div>TIMEfill</div>
+            <div>Timeline</div>
           </button>
           <button className="menu-item py-10" onClick={() => setView("Guests")}>
             <i className="icon is-lg ri-user-3-line" />
@@ -85,7 +85,7 @@ export default function ResturantDashboard() {
           {view === "Floor" && <Floor />}
           {view === "List" && <Reserve />}
           {view === "Grid" && <Reserve />}
-          {view === "Timefill" && <Reserve />}
+          {view === "Timeline" && <Reserve />}
           {view === "Guests" && <Reserve />}
           {view === "Reports" && <Reserve />}
           {view === "Support" && <Reserve />}

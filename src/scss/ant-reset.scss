@@ -80,7 +80,6 @@ h6 {
 }
 
 .ant-tabs-tabpane {
-  height: auto !important;
   outline: 0 !important;
 }
 
@@ -193,8 +192,4 @@ h6 {
     background: $white;
     transform: translateX(-22%);
   }
-}
-
-.ant-tabs-content {
-  height: 100%;
 }

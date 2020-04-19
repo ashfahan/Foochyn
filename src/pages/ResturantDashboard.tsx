@@ -96,7 +96,15 @@ export default function ResturantDashboard() {
   );
 }
 
-export function Reserve() {
+function Reserve() {
+  return (
+    <>
+      <div>Reserve</div>
+    </>
+  );
+}
+
+function Floor() {
   const [searchOption, setSearchOption] = useState<boolean>(false);
 
   const [status, setStatus] = useState<null | "notconfirmed" | "noanswer" | "confirmed" | "denied" | "canceled" | "noshow" | "arrived" | "late" | "checkdropped" | "finished">(null);
@@ -193,14 +201,6 @@ export function Reserve() {
         </div>
         <div className="column bg-light">asd</div>
       </div>
-    </>
-  );
-}
-
-export function Floor() {
-  return (
-    <>
-      <div>Floor</div>
     </>
   );
 }

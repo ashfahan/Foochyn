@@ -117,7 +117,7 @@ function Floor() {
         <div className="column bg-white p-0" style={{ flex: "none", width: "400px" }}>
           <Tabs defaultActiveKey="1" className="expand h-100">
             <Tabs.TabPane tab="Reservations" key="1" style={{ height: 200 }}>
-              <div className="group">
+              <div className="group relative">
                 <label className="control has-icon-left w-21">
                   <i className="icon is-lg is-left ri-search-2-line" />
                   <input onFocus={() => setSearchOption(false)} type="search" className="input is-min bg-hide is-box py-7px" />
@@ -125,9 +125,7 @@ function Floor() {
                 <button className="btn is-box is-out border-none border-left border-bottom" onClick={() => setSearchOption(!searchOption)}>
                   <i className="after-hide icon ri-2x ri-filter-3-line" />
                 </button>
-              </div>
-              <div className="relative bottom-0 left-0 right-0 top-0 flex justify-center h-100">
-                <div className={`bg-white absolute top-0 left-0 ${!searchOption ? "hidden" : ""}`}>
+                <div className={`bg-white absolute top-100 right-0 ${!searchOption ? "hidden" : ""}`}>
                   <div className="p-7px">
                     <h3>Sort By</h3>
                     <button className={`btn is-pill mt-7px mr-7px ${sort == "reservationtimeASC" || sort == "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
@@ -187,7 +185,8 @@ function Floor() {
                     </div>
                   </div>
                 </div>
-
+              </div>
+              <div className="flex justify-center h-100">
                 <div className="align-self-middle">No reservations</div>
               </div>
             </Tabs.TabPane>

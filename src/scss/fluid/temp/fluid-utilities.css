@@ -86,7 +86,7 @@
 
 .txt-clip { color: transparent !important; -webkit-background-clip: text !important; background-clip: text !important; }
 
-.txt-reset { text-transform: none; text-align: left; text-align: start; text-decoration: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; overflow-wrap: normal; word-break: normal; white-space: normal; text-shadow: none; font-family: "Poppins", -apple-system, blinkmacsystemfont, blinkmacsystemfont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Ubuntu", "Cantarell", "Noto Sans", "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 400; font-style: normal; line-height: 1.5; line-break: auto; }
+.txt-reset { text-transform: none; text-align: left; text-align: start; text-decoration: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; overflow-wrap: normal; word-break: normal; white-space: normal; text-shadow: none; font-family: "Poppins", -apple-system, blinkmacsystemfont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Ubuntu", "Cantarell", "Noto Sans", "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 400; font-style: normal; line-height: 1.5; line-break: auto; }
 
 .txt-hide { border: 0 !important; color: transparent !important; background-color: transparent !important; text-shadow: none !important; font: "0/0" a !important; }
 
@@ -1286,7 +1286,7 @@ a.clr-white-75.hover, a.clr-white-75:hover, a.clr-white-75.focus, a.clr-white-75
 
 .font-bolder { font-weight: bolder !important; }
 
-.font-sans-serif { font-family: "Poppins", -apple-system, blinkmacsystemfont, blinkmacsystemfont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Ubuntu", "Cantarell", "Noto Sans", "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
+.font-sans-serif { font-family: "Poppins", -apple-system, blinkmacsystemfont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Ubuntu", "Cantarell", "Noto Sans", "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
 
 .font-serif { font-family: georgia, cambria, "Times New Roman", times, serif !important; }
 

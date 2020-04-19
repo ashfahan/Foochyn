@@ -8,22 +8,21 @@
 $fontsize-normal:             1rem !default;
 
 $fontfamily-sans-serif:       "Poppins",
-  -apple-system,
-  blinkmacsystemfont,
-  blinkmacsystemfont,
-  "Segoe UI",
-  "PingFang SC",
-  "Hiragino Sans GB",
-  "Ubuntu",
-  "Cantarell",
-  "Noto Sans",
-  "Helvetica Neue",
-  arial,
-  sans-serif,
-  "Apple Color Emoji",
-  "Segoe UI Emoji",
-  "Segoe UI Symbol",
-  "Noto Color Emoji" !default; // Linux emoji
+                              -apple-system,
+                              blinkmacsystemfont,
+                              "Segoe UI",
+                              "PingFang SC",
+                              "Hiragino Sans GB",
+                              "Ubuntu",
+                              "Cantarell",
+                              "Noto Sans",
+                              "Helvetica Neue",
+                              arial,
+                              sans-serif,
+                              "Apple Color Emoji",
+                              "Segoe UI Emoji",
+                              "Segoe UI Symbol",
+                              "Noto Color Emoji" !default; // Linux emoji
 $fontfamily-serif:            georgia, cambria, "Times New Roman", times, serif !default;
 $fontfamily-monospace:        "Menlo", // macOS 10.10+
                               "Ubuntu monospace", // Ubuntu 10.10+

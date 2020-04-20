@@ -221,7 +221,7 @@ svg:not([fill]) { fill: currentColor; }
 
 svg:not(:root) { overflow: hidden; }
 
-caption { caption-side: bottom; padding-top: 0.8em; padding-bottom: 0.8em; color: #9c9c9c; text-align: left; }
+caption { caption-side: bottom; padding-top: 0; padding-bottom: 0; color: #9c9c9c; text-align: left; }
 
 table { width: 100%; vertical-align: middle; }
 
@@ -395,9 +395,9 @@ pre > code[data-lang]::before { content: attr(data-lang); position: absolute; to
 
 .scrollbar::-webkit-scrollbar:hover { background-color: #e6e6e6; }
 
-.table th, .table td { padding: 0.8em; border: 0 solid #e6e6e6; border-bottom-width: 1px; }
+.table th, .table td { padding: 0; border: 0 solid #e6e6e6; border-bottom-width: 1px; }
 
-.table thead td, .table thead th { padding-top: .5em; padding-bottom: .5em; border-bottom: 2px solid #2b2b2b; }
+.table thead td, .table thead th { padding-top: 0; padding-bottom: 0; border-bottom: 1px solid #da3743; }
 
 .table tfoot, .table tbody + tbody { border-top: 3px solid #e6e6e6; }
 
@@ -409,13 +409,15 @@ pre > code[data-lang]::before { content: attr(data-lang); position: absolute; to
 
 .table.is-fixed { table-layout: fixed; }
 
-.is-bordered { border: 2px solid #e6e6e6; }
+.is-bordered { border: 1px solid #e6e6e6; }
 
 .is-bordered th, .is-bordered td { border-width: 1px; }
 
 .is-borderless th, .is-borderless td, .is-borderless thead, .is-borderless tbody + tbody { border: 0; }
 
-.on-hover tbody tr.hover, .on-hover tbody tr:hover { border-width: 3px; background-color: #e6e6e6; }
+.on-hover tbody tr { transition: background-color 0.3s; }
+
+.on-hover tbody tr.hover, .on-hover tbody tr:hover { background-color: #e6e6e6; }
 
 .has-table-responsive { display: block; overflow: auto; width: 100%; white-space: nowrap; -webkit-overflow-scrolling: touch; }
 
@@ -423,7 +425,7 @@ pre > code[data-lang]::before { content: attr(data-lang); position: absolute; to
 
 .table.has-sticky-scope [scope="row"] { left: 0; z-index: 1; }
 
-.table.has-sticky-scope [scope="col"] { top: 0; z-index: 2; box-shadow: 0 2px 0 0 #2b2b2b; }
+.table.has-sticky-scope [scope="col"] { top: 0; z-index: 2; box-shadow: 0 2px 0 0 #da3743; }
 
 .input { width: 100%; border-color: #b8b8b8; color: #474747; background-color: #fff; }
 
@@ -1707,6 +1709,12 @@ a.clr-white-75.hover, a.clr-white-75:hover, a.clr-white-75.focus, a.clr-white-75
 .bg-white-50 { background-color: rgba(255, 255, 255, 0.5) !important; }
 
 .bg-white-75 { background-color: rgba(255, 255, 255, 0.75) !important; }
+
+.bg-primary-25 { background-color: rgba(218, 55, 67, 0.25) !important; }
+
+.bg-primary-50 { background-color: rgba(218, 55, 67, 0.5) !important; }
+
+.bg-primary-75 { background-color: rgba(218, 55, 67, 0.75) !important; }
 
 .bg-hide { background-color: transparent !important; }
 

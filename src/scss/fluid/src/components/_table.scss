@@ -17,8 +17,8 @@
     thead {
       td,
       th {
-        padding-top: .5em; // padding inside table's cell
-        padding-bottom: .5em; // padding inside table's cell
+        padding-top: $table-head-padding; // padding inside table's cell
+        padding-bottom: $table-head-padding; // padding inside table's cell
         border-bottom: $table-head-border-width solid $table-head-border-color;
         color: $table-head-color;
         background-color: $table-head-background;
@@ -97,8 +97,8 @@
 
   .on-hover {
     tbody tr {
+      transition: transition(background-color .3s);
       @include hover {
-        border-width: 3px;
         background-color: $table-body-hover-background;
       }
     }

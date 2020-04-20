@@ -794,6 +794,12 @@ a.clr-white-75.hover, a.clr-white-75:hover, a.clr-white-75.focus, a.clr-white-75
 
 .bg-white-75 { background-color: rgba(255, 255, 255, 0.75) !important; }
 
+.bg-primary-25 { background-color: rgba(218, 55, 67, 0.25) !important; }
+
+.bg-primary-50 { background-color: rgba(218, 55, 67, 0.5) !important; }
+
+.bg-primary-75 { background-color: rgba(218, 55, 67, 0.75) !important; }
+
 .bg-hide { background-color: transparent !important; }
 
 .flex-fill { flex: 1 1 auto !important; }

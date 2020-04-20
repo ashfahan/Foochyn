@@ -136,7 +136,7 @@ svg:not([fill]) { fill: currentColor; }
 
 svg:not(:root) { overflow: hidden; }
 
-caption { caption-side: bottom; padding-top: 0.8em; padding-bottom: 0.8em; color: #9c9c9c; text-align: left; }
+caption { caption-side: bottom; padding-top: 0; padding-bottom: 0; color: #9c9c9c; text-align: left; }
 
 table { width: 100%; vertical-align: middle; }
 

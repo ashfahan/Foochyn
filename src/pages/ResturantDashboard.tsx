@@ -1,9 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { DatePicker, Tabs } from "antd";
 import moment from "moment";
 
 export default function ResturantDashboard() {
-  const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timeline" | "Guests" | "Reports" | "Support" | "Settings">("Reserve");
+  const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timeline" | "Guests" | "Reports" | "Support" | "Settings">("List");
+
+  useEffect(() => {
+    var menutriggers = document.getElementsByClassName("menu-trigger");
+    Object.keys(menutriggers).forEach(function (k) {
+      menutriggers[k].onclick = function (e) {
+        e.target.classList.toggle("active");
+      };
+    });
+  }, [view]);
 
   return (
     <>
@@ -125,22 +134,24 @@ function Floor() {
                 <button className="btn is-box is-out border-none border-left border-bottom" onClick={() => setSearchOption(!searchOption)}>
                   <i className="after-hide icon ri-2x ri-filter-3-line" />
                 </button>
-                <div style={{ width: "400px" }} className={`bg-white absolute top-100 right-0 ${!searchOption ? "hidden" : ""}`}>
-                  <div className="p-7px">
-                    <h3>Sort By</h3>
-                    <button className={`btn is-pill mt-7px mr-7px ${sort == "reservationtimeASC" || sort == "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
-                      <i className={`icon is-lg ri-arrow-${sort == "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
-                    </button>
-                    <button className={`btn is-pill mt-7px mr-7px ${sort == "createdtimeASC" || sort == "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
-                      <i className={`icon is-lg ri-arrow-${sort == "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
-                    </button>
+                <div style={{ height: "68vh", minWidth: "400px" }} className={`overflow-auto bg-white absolute top-100 right-0 py-4 ${!searchOption ? "hidden" : ""}`}>
+                  <div className="border-bottom py-7px">
+                    <h3 className="px-1rem">Sort By</h3>
+                    <div className="px-1rem">
+                      <button className={`btn is-pill mt-7px mr-7px ${sort == "reservationtimeASC" || sort == "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
+                        <i className={`icon is-lg ri-arrow-${sort == "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
+                      </button>
+                      <button className={`btn is-pill mt-7px mr-7px ${sort == "createdtimeASC" || sort == "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
+                        <i className={`icon is-lg ri-arrow-${sort == "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
+                      </button>
+                    </div>
                   </div>
 
-                  <div className="p-7px">
-                    <h3>Filter By</h3>
-                    <div className="p-7px">
-                      <h5 className="font-normal">Status</h5>
-                      <div>
+                  <div className="py-7px">
+                    <h3 className="px-1rem">Filter By</h3>
+                    <div className="menu border-bottom is-unstyle">
+                      <button className="menu-item menu-trigger py-1rem">Status</button>
+                      <div className="pb-1rem px-1rem">
                         <button className={`btn is-pill mt-7px mr-7px ${status == "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "notconfirmed" ? null : "notconfirmed")}>
                           Not confirmed
                         </button>
@@ -174,14 +185,17 @@ function Floor() {
                       </div>
                     </div>
 
-                    <div className="p-7px">
-                      <h5 className="font-normal">Reservation type</h5>
-                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "online" ? null : "online")}>
-                        Online
-                      </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "in-house" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "in-house" ? null : "in-house")}>
-                        in-house
-                      </button>
+                    <div className="menu border-bottom is-unstyle">
+                      <button className="menu-item menu-trigger py-1rem">Reservation type</button>
+                      <div className="pb-1rem px-1rem">
+                        <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "online" ? null : "online")}>
+                          Online
+                        </button>
+                        <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "in-house" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "in-house" ? null : "in-house")}>
+                          in-house
+                        </button>
+                      </div>
+                    </div>
                     </div>
                   </div>
                 </div>

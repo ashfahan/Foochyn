@@ -924,6 +924,8 @@ textarea.input { height: auto; min-height: 2.4em; }
 
 .menu.is-error .menu-item.active { color: #0f0f0f; background-color: #f5222d; }
 
+.menu-item.is-unstyle, .menu.is-unstyle .menu-item { background-color: transparent; color: inherit; }
+
 .menu > .menu { overflow: hidden; font-size: inherit; }
 
 .menu > .menu > * { padding-right: 3em; margin-left: 1.5em; }

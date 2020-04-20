@@ -83,6 +83,12 @@
     }
   }
 
+  .menu-item.is-unstyle,
+  .menu.is-unstyle .menu-item {
+    background-color: transparent;
+    color: inherit;
+  }
+
   //
   // Nested Menu
   //

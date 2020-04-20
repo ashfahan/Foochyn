@@ -52,39 +52,39 @@ export default function ResturantDashboard() {
 
       <div className="grid" style={{ flex: "1" }}>
         <div style={{ flex: "none", width: "5rem" }} className="column lyt-sidebar p-0 bg-dark clr-white menu txt-center">
-          <button className="menu-item py-10 px-0" onClick={() => setView("Reserve")}>
+          <button className={`menu-item py-10 px-0 ${view == "Reserve" ? "active" : ""}`} onClick={() => setView("Reserve")}>
             <i className="icon is-lg ri-add-circle-fill" />
             <div className="txt-upper">Reserve</div>
           </button>
-          <button className="menu-item py-10 px-0" onClick={() => setView("Floor")}>
+          <button className={`menu-item py-10 px-0 ${view == "Floor" ? "active" : ""}`} onClick={() => setView("Floor")}>
             <i className="icon is-lg ri-function-fill" />
             <div className="txt-upper">Floor</div>
           </button>
-          <button className="menu-item py-10 px-0" onClick={() => setView("List")}>
+          <button className={`menu-item py-10 px-0 ${view == "List" ? "active" : ""}`} onClick={() => setView("List")}>
             <i className="icon is-lg ri-file-list-fill" />
             <div className="txt-upper">List</div>
           </button>
-          <button className="menu-item py-10 px-0" onClick={() => setView("Grid")}>
+          <button className={`menu-item py-10 px-0 ${view == "Grid" ? "active" : ""}`} onClick={() => setView("Grid")}>
             <i className="icon is-lg ri-grid-fill" />
             <div className="txt-upper">Grid</div>
           </button>
-          <button className="menu-item py-10 px-0" onClick={() => setView("Timeline")}>
+          <button className={`menu-item py-10 px-0 ${view == "Timeline" ? "active" : ""}`} onClick={() => setView("Timeline")}>
             <i className="icon is-lg ri-calendar-todo-fill" />
             <div className="txt-upper">Timeline</div>
           </button>
-          <button className="menu-item py-10 px-0" onClick={() => setView("Guests")}>
+          <button className={`menu-item py-10 px-0 ${view == "Guests" ? "active" : ""}`} onClick={() => setView("Guests")}>
             <i className="icon is-lg ri-user-3-line" />
             <div className="txt-upper">Guests</div>
           </button>
-          <button className="menu-item py-10 px-0" onClick={() => setView("Reports")}>
+          <button className={`menu-item py-10 px-0 ${view == "Reports" ? "active" : ""}`} onClick={() => setView("Reports")}>
             <i className="icon is-lg ri-file-list-3-fill" />
             <div className="txt-upper">Reports</div>
           </button>
-          <button className="menu-item py-10 px-0" onClick={() => setView("Support")}>
+          <button className={`menu-item py-10 px-0 ${view == "Support" ? "active" : ""}`} onClick={() => setView("Support")}>
             <i className="icon is-lg ri-headphone-fill" />
             <div className="txt-upper">Support</div>
           </button>
-          <button className="menu-item py-10 px-0" onClick={() => setView("Settings")}>
+          <button className={`menu-item py-10 px-0 ${view == "Settings" ? "active" : ""}`} onClick={() => setView("Settings")}>
             <i className="icon is-lg ri-settings-fill" />
             <div className="txt-upper">Settings</div>
           </button>

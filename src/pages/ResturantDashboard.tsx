@@ -118,6 +118,7 @@ function Floor() {
 
   const [status, setStatus] = useState<null | "notconfirmed" | "noanswer" | "confirmed" | "denied" | "canceled" | "noshow" | "arrived" | "late" | "checkdropped" | "finished">(null);
   const [reservationtype, setReservationtype] = useState<null | "online" | "in-house">(null);
+  const [room, setRoom] = useState<null | string>(null);
   const [sort, setSort] = useState<"reservationtimeASC" | "reservationtimeDEC" | "createdtimeASC" | "createdtimeDEC">("reservationtimeDEC");
 
   return (
@@ -196,6 +197,17 @@ function Floor() {
                         </button>
                       </div>
                     </div>
+
+                    <div className="menu border-bottom is-unstyle">
+                      <button className="menu-item menu-trigger py-1rem">Rooms</button>
+                      <div className="pb-1rem px-1rem">
+                        <button className={`btn is-pill mt-7px mr-7px ${room == "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room == "Room 1" ? null : "Room 1")}>
+                          Room 1
+                        </button>
+                        <button className={`btn is-pill mt-7px mr-7px ${room == "Room 2" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room == "Room 2" ? null : "Room 2")}>
+                          Room 2
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>

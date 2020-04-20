@@ -132,7 +132,7 @@ function Floor() {
                   <i className="icon is-lg is-left ri-search-2-line" />
                   <input onFocus={() => setSearchOption(false)} type="search" className="input is-min bg-hide is-box py-7px" />
                 </label>
-                <button className="btn is-box is-out border-none border-left border-bottom" onClick={() => setSearchOption(!searchOption)}>
+                <button className="btn is-box is-out border-none border-left border-bottom w-3 px-0" onClick={() => setSearchOption(!searchOption)}>
                   <i className="after-hide icon ri-2x ri-filter-3-line" />
                 </button>
                 <div className={`SEARCHOPTIONS overflow-auto bg-white absolute top-100 right-0 left-0 ${searchOption ? "show" : ""}`}>
@@ -248,7 +248,7 @@ function List() {
                 <i className="icon is-lg is-left ri-search-2-line" />
                 <input onFocus={() => setSearchOption(false)} type="search" className="input is-min bg-hide is-box py-7px" />
               </label>
-              <button className="btn is-box is-out border-none border-left border-right py-0" onClick={() => setSearchOption(!searchOption)}>
+              <button className="btn is-box is-out border-none border-left border-right p-0 w-3" onClick={() => setSearchOption(!searchOption)}>
                 <i className="after-hide icon ri-2x ri-filter-3-line" />
               </button>
 
@@ -369,7 +369,7 @@ function Grid() {
                 <i className="icon is-lg is-left ri-search-2-line" />
                 <input onFocus={() => setSearchOption(false)} type="search" className="input is-min bg-hide is-box py-7px" />
               </label>
-              <button className="btn is-box is-out border-none border-left border-right py-0" onClick={() => setSearchOption(!searchOption)}>
+              <button className="btn is-box is-out border-none border-left border-right p-0 w-3" onClick={() => setSearchOption(!searchOption)}>
                 <i className="after-hide icon ri-2x ri-filter-3-line" />
               </button>
 

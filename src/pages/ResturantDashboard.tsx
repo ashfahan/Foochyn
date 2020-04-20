@@ -135,7 +135,7 @@ function Floor() {
                 <button className="btn is-box is-out border-none border-left border-bottom" onClick={() => setSearchOption(!searchOption)}>
                   <i className="after-hide icon ri-2x ri-filter-3-line" />
                 </button>
-                <div style={{ height: "68vh", minWidth: "400px" }} className={`overflow-auto bg-white absolute top-100 right-0 py-4 ${!searchOption ? "hidden" : ""}`}>
+                <div className={`SEARCHOPTIONS overflow-auto bg-white absolute top-100 right-0 left-0 ${searchOption ? "show" : ""}`}>
                   <div className="border-bottom py-7px">
                     <h3 className="px-1rem">Sort By</h3>
                     <div className="px-1rem">

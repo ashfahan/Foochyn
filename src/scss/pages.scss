@@ -30,8 +30,15 @@
     }
   }
 
-  .SEARCHOPTIONS:focus-within ~ div {
-    display: block !important;
+  .SEARCHOPTIONS {
+    min-width: 400px;
+    height: 0;
+    transition: transition(height .5s);
+    &.show {
+      height: 70vh;
+      padding-top: 4%;
+      padding-bottom: 4%;
+    }
   }
 }
 

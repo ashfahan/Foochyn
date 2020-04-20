@@ -68,8 +68,9 @@ body * {
     transition: none;
   }
 }
+
 .clr-inherit {
-  color: inherit;
+  color: inherit !important;
 }
 
 .ant-carousel {

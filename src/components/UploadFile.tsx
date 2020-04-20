@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Upload, message } from "antd";
-import { UploadProps, UploadFile as AntFile, UploadChangeParam, RcFile } from "antd/lib/upload/interface";
+import { UploadProps, UploadFile as AntFile, UploadChangeParam } from "antd/lib/upload/interface";
+// import { RcFile } from "antd/lib/upload/interface";
 
 interface props extends UploadProps {
   filelimit: number;

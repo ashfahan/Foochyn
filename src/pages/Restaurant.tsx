@@ -478,7 +478,7 @@ export default function Restaurant(props: props) {
                     <Steps.Step title="Review" icon={reivewstep === 0 ? <LoadingOutlined /> : <i className="icon after-hide ri-file-edit-line" />} />
                     <Steps.Step title="Rate" icon={reivewstep === 1 ? <LoadingOutlined /> : <i className="icon after-hide ri-star-half-line" />} />
                     <Steps.Step title="Extra" icon={reivewstep === 2 ? <LoadingOutlined /> : <i className="icon after-hide ri-add-circle-line" />} />
-                    <Steps.Step title="Summary" icon={reivewstep == 3 ? <LoadingOutlined /> : <i className="icon after-hide ri-file-list-2-line" />} />
+                    <Steps.Step title="Summary" icon={reivewstep === 3 ? <LoadingOutlined /> : <i className="icon after-hide ri-file-list-2-line" />} />
                   </Steps>
                   <div className="py-1rem">
                     {reivewstep === 0 && (

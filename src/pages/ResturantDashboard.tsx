@@ -52,39 +52,39 @@ export default function ResturantDashboard() {
 
       <div className="grid" style={{ flex: "1" }}>
         <div style={{ flex: "none", width: "5rem" }} className="column lyt-sidebar p-0 bg-dark clr-white menu txt-center">
-          <button className={`menu-item py-10 px-0 ${view == "Reserve" ? "active" : ""}`} onClick={() => setView("Reserve")}>
+          <button className={`menu-item py-10 px-0 ${view === "Reserve" ? "active" : ""}`} onClick={() => setView("Reserve")}>
             <i className="icon is-lg ri-add-circle-fill" />
             <div className="txt-upper">Reserve</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view == "Floor" ? "active" : ""}`} onClick={() => setView("Floor")}>
+          <button className={`menu-item py-10 px-0 ${view === "Floor" ? "active" : ""}`} onClick={() => setView("Floor")}>
             <i className="icon is-lg ri-function-fill" />
             <div className="txt-upper">Floor</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view == "List" ? "active" : ""}`} onClick={() => setView("List")}>
+          <button className={`menu-item py-10 px-0 ${view === "List" ? "active" : ""}`} onClick={() => setView("List")}>
             <i className="icon is-lg ri-file-list-fill" />
             <div className="txt-upper">List</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view == "Grid" ? "active" : ""}`} onClick={() => setView("Grid")}>
+          <button className={`menu-item py-10 px-0 ${view === "Grid" ? "active" : ""}`} onClick={() => setView("Grid")}>
             <i className="icon is-lg ri-grid-fill" />
             <div className="txt-upper">Grid</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view == "Timeline" ? "active" : ""}`} onClick={() => setView("Timeline")}>
+          <button className={`menu-item py-10 px-0 ${view === "Timeline" ? "active" : ""}`} onClick={() => setView("Timeline")}>
             <i className="icon is-lg ri-calendar-todo-fill" />
             <div className="txt-upper">Timeline</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view == "Guests" ? "active" : ""}`} onClick={() => setView("Guests")}>
+          <button className={`menu-item py-10 px-0 ${view === "Guests" ? "active" : ""}`} onClick={() => setView("Guests")}>
             <i className="icon is-lg ri-user-3-line" />
             <div className="txt-upper">Guests</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view == "Reports" ? "active" : ""}`} onClick={() => setView("Reports")}>
+          <button className={`menu-item py-10 px-0 ${view === "Reports" ? "active" : ""}`} onClick={() => setView("Reports")}>
             <i className="icon is-lg ri-file-list-3-fill" />
             <div className="txt-upper">Reports</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view == "Support" ? "active" : ""}`} onClick={() => setView("Support")}>
+          <button className={`menu-item py-10 px-0 ${view === "Support" ? "active" : ""}`} onClick={() => setView("Support")}>
             <i className="icon is-lg ri-headphone-fill" />
             <div className="txt-upper">Support</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view == "Settings" ? "active" : ""}`} onClick={() => setView("Settings")}>
+          <button className={`menu-item py-10 px-0 ${view === "Settings" ? "active" : ""}`} onClick={() => setView("Settings")}>
             <i className="icon is-lg ri-settings-fill" />
             <div className="txt-upper">Settings</div>
           </button>
@@ -139,11 +139,11 @@ function Floor() {
                   <div className="border-bottom py-7px">
                     <h3 className="px-1rem">Sort By</h3>
                     <div className="px-1rem">
-                      <button className={`btn is-pill mt-7px mr-7px ${sort == "reservationtimeASC" || sort == "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
-                        <i className={`icon is-lg ri-arrow-${sort == "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
+                      <button className={`btn is-pill mt-7px mr-7px ${sort === "reservationtimeASC" || sort === "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
+                        <i className={`icon is-lg ri-arrow-${sort === "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${sort == "createdtimeASC" || sort == "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
-                        <i className={`icon is-lg ri-arrow-${sort == "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
+                      <button className={`btn is-pill mt-7px mr-7px ${sort === "createdtimeASC" || sort === "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
+                        <i className={`icon is-lg ri-arrow-${sort === "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
                       </button>
                     </div>
                   </div>
@@ -153,34 +153,34 @@ function Floor() {
                     <div className="menu border-bottom is-unstyle">
                       <button className="menu-item menu-trigger py-1rem">Status</button>
                       <div className="pb-1rem px-1rem">
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "notconfirmed" ? null : "notconfirmed")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "notconfirmed" ? null : "notconfirmed")}>
                           Not confirmed
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "noanswer" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "noanswer" ? null : "noanswer")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "noanswer" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "noanswer" ? null : "noanswer")}>
                           No answer
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "confirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "confirmed" ? null : "confirmed")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "confirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "confirmed" ? null : "confirmed")}>
                           Confirmed
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "denied" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "denied" ? null : "denied")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "denied" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "denied" ? null : "denied")}>
                           Denied
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "canceled" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "canceled" ? null : "canceled")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "canceled" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "canceled" ? null : "canceled")}>
                           Canceled
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "noshow" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "noshow" ? null : "noshow")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "noshow" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "noshow" ? null : "noshow")}>
                           No show
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "arrived" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "arrived" ? null : "arrived")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "arrived" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "arrived" ? null : "arrived")}>
                           Arrived
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "late" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "late" ? null : "late")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "late" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "late" ? null : "late")}>
                           Late
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "checkdropped" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "checkdropped" ? null : "checkdropped")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "checkdropped" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "checkdropped" ? null : "checkdropped")}>
                           Check dropped
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${status == "finished" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "finished" ? null : "finished")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${status === "finished" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "finished" ? null : "finished")}>
                           Finished
                         </button>
                       </div>
@@ -189,10 +189,10 @@ function Floor() {
                     <div className="menu border-bottom is-unstyle">
                       <button className="menu-item menu-trigger py-1rem">Reservation type</button>
                       <div className="pb-1rem px-1rem">
-                        <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "online" ? null : "online")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "online" ? null : "online")}>
                           Online
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "in-house" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "in-house" ? null : "in-house")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "in-house" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "in-house" ? null : "in-house")}>
                           in-house
                         </button>
                       </div>
@@ -201,10 +201,10 @@ function Floor() {
                     <div className="menu border-bottom is-unstyle">
                       <button className="menu-item menu-trigger py-1rem">Rooms</button>
                       <div className="pb-1rem px-1rem">
-                        <button className={`btn is-pill mt-7px mr-7px ${room == "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room == "Room 1" ? null : "Room 1")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${room === "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 1" ? null : "Room 1")}>
                           Room 1
                         </button>
-                        <button className={`btn is-pill mt-7px mr-7px ${room == "Room 2" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room == "Room 2" ? null : "Room 2")}>
+                        <button className={`btn is-pill mt-7px mr-7px ${room === "Room 2" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 2" ? null : "Room 2")}>
                           Room 2
                         </button>
                       </div>
@@ -256,11 +256,11 @@ function List() {
                 <div className="border-bottom py-7px">
                   <h3 className="px-1rem">Sort By</h3>
                   <div className="px-1rem">
-                    <button className={`btn is-pill mt-7px mr-7px ${sort == "reservationtimeASC" || sort == "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
-                      <i className={`icon is-lg ri-arrow-${sort == "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
+                    <button className={`btn is-pill mt-7px mr-7px ${sort === "reservationtimeASC" || sort === "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
+                      <i className={`icon is-lg ri-arrow-${sort === "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
                     </button>
-                    <button className={`btn is-pill mt-7px mr-7px ${sort == "createdtimeASC" || sort == "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
-                      <i className={`icon is-lg ri-arrow-${sort == "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
+                    <button className={`btn is-pill mt-7px mr-7px ${sort === "createdtimeASC" || sort === "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
+                      <i className={`icon is-lg ri-arrow-${sort === "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
                     </button>
                   </div>
                 </div>
@@ -270,34 +270,34 @@ function List() {
                   <div className="menu border-bottom is-unstyle">
                     <button className="menu-item menu-trigger py-1rem">Status</button>
                     <div className="pb-1rem px-1rem">
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "notconfirmed" ? null : "notconfirmed")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "notconfirmed" ? null : "notconfirmed")}>
                         Not confirmed
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "noanswer" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "noanswer" ? null : "noanswer")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "noanswer" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "noanswer" ? null : "noanswer")}>
                         No answer
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "confirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "confirmed" ? null : "confirmed")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "confirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "confirmed" ? null : "confirmed")}>
                         Confirmed
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "denied" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "denied" ? null : "denied")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "denied" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "denied" ? null : "denied")}>
                         Denied
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "canceled" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "canceled" ? null : "canceled")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "canceled" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "canceled" ? null : "canceled")}>
                         Canceled
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "noshow" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "noshow" ? null : "noshow")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "noshow" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "noshow" ? null : "noshow")}>
                         No show
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "arrived" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "arrived" ? null : "arrived")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "arrived" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "arrived" ? null : "arrived")}>
                         Arrived
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "late" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "late" ? null : "late")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "late" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "late" ? null : "late")}>
                         Late
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "checkdropped" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "checkdropped" ? null : "checkdropped")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "checkdropped" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "checkdropped" ? null : "checkdropped")}>
                         Check dropped
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "finished" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "finished" ? null : "finished")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "finished" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "finished" ? null : "finished")}>
                         Finished
                       </button>
                     </div>
@@ -306,10 +306,10 @@ function List() {
                   <div className="menu border-bottom is-unstyle">
                     <button className="menu-item menu-trigger py-1rem">Reservation type</button>
                     <div className="pb-1rem px-1rem">
-                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "online" ? null : "online")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "online" ? null : "online")}>
                         Online
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "in-house" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "in-house" ? null : "in-house")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "in-house" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "in-house" ? null : "in-house")}>
                         in-house
                       </button>
                     </div>
@@ -318,10 +318,10 @@ function List() {
                   <div className="menu border-bottom is-unstyle">
                     <button className="menu-item menu-trigger py-1rem">Rooms</button>
                     <div className="pb-1rem px-1rem">
-                      <button className={`btn is-pill mt-7px mr-7px ${room == "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room == "Room 1" ? null : "Room 1")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${room === "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 1" ? null : "Room 1")}>
                         Room 1
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${room == "Room 2" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room == "Room 2" ? null : "Room 2")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${room === "Room 2" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 2" ? null : "Room 2")}>
                         Room 2
                       </button>
                     </div>
@@ -331,11 +331,11 @@ function List() {
             </div>
           </div>
           <div className="column p-0 flex align-middle">
-            <button className={`btn is-pill mr-7px ${sort == "reservationtimeASC" || sort == "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
-              <i className={`icon is-lg ri-arrow-${sort == "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
+            <button className={`btn is-pill mr-7px ${sort === "reservationtimeASC" || sort === "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
+              <i className={`icon is-lg ri-arrow-${sort === "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
             </button>
-            <button className={`btn is-pill mr-7px ${sort == "createdtimeASC" || sort == "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
-              <i className={`icon is-lg ri-arrow-${sort == "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
+            <button className={`btn is-pill mr-7px ${sort === "createdtimeASC" || sort === "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
+              <i className={`icon is-lg ri-arrow-${sort === "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
             </button>
           </div>
         </section>
@@ -358,7 +358,6 @@ function Grid() {
 
   const hours = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23];
   const minutes = [0, 15, 30, 45];
-  const date = new Date();
 
   return (
     <>
@@ -378,11 +377,11 @@ function Grid() {
                 <div className="border-bottom py-7px">
                   <h3 className="px-1rem">Sort By</h3>
                   <div className="px-1rem">
-                    <button className={`btn is-pill mt-7px mr-7px ${sort == "reservationtimeASC" || sort == "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
-                      <i className={`icon is-lg ri-arrow-${sort == "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
+                    <button className={`btn is-pill mt-7px mr-7px ${sort === "reservationtimeASC" || sort === "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
+                      <i className={`icon is-lg ri-arrow-${sort === "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
                     </button>
-                    <button className={`btn is-pill mt-7px mr-7px ${sort == "createdtimeASC" || sort == "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
-                      <i className={`icon is-lg ri-arrow-${sort == "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
+                    <button className={`btn is-pill mt-7px mr-7px ${sort === "createdtimeASC" || sort === "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
+                      <i className={`icon is-lg ri-arrow-${sort === "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
                     </button>
                   </div>
                 </div>
@@ -392,34 +391,34 @@ function Grid() {
                   <div className="menu border-bottom is-unstyle">
                     <button className="menu-item menu-trigger py-1rem">Status</button>
                     <div className="pb-1rem px-1rem">
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "notconfirmed" ? null : "notconfirmed")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "notconfirmed" ? null : "notconfirmed")}>
                         Not confirmed
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "noanswer" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "noanswer" ? null : "noanswer")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "noanswer" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "noanswer" ? null : "noanswer")}>
                         No answer
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "confirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "confirmed" ? null : "confirmed")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "confirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "confirmed" ? null : "confirmed")}>
                         Confirmed
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "denied" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "denied" ? null : "denied")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "denied" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "denied" ? null : "denied")}>
                         Denied
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "canceled" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "canceled" ? null : "canceled")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "canceled" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "canceled" ? null : "canceled")}>
                         Canceled
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "noshow" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "noshow" ? null : "noshow")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "noshow" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "noshow" ? null : "noshow")}>
                         No show
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "arrived" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "arrived" ? null : "arrived")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "arrived" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "arrived" ? null : "arrived")}>
                         Arrived
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "late" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "late" ? null : "late")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "late" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "late" ? null : "late")}>
                         Late
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "checkdropped" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "checkdropped" ? null : "checkdropped")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "checkdropped" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "checkdropped" ? null : "checkdropped")}>
                         Check dropped
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${status == "finished" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status == "finished" ? null : "finished")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${status === "finished" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "finished" ? null : "finished")}>
                         Finished
                       </button>
                     </div>
@@ -428,10 +427,10 @@ function Grid() {
                   <div className="menu border-bottom is-unstyle">
                     <button className="menu-item menu-trigger py-1rem">Reservation type</button>
                     <div className="pb-1rem px-1rem">
-                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "online" ? null : "online")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "online" ? null : "online")}>
                         Online
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype == "in-house" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype == "in-house" ? null : "in-house")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "in-house" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "in-house" ? null : "in-house")}>
                         in-house
                       </button>
                     </div>
@@ -440,10 +439,10 @@ function Grid() {
                   <div className="menu border-bottom is-unstyle">
                     <button className="menu-item menu-trigger py-1rem">Rooms</button>
                     <div className="pb-1rem px-1rem">
-                      <button className={`btn is-pill mt-7px mr-7px ${room == "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room == "Room 1" ? null : "Room 1")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${room === "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 1" ? null : "Room 1")}>
                         Room 1
                       </button>
-                      <button className={`btn is-pill mt-7px mr-7px ${room == "Room 2" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room == "Room 2" ? null : "Room 2")}>
+                      <button className={`btn is-pill mt-7px mr-7px ${room === "Room 2" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 2" ? null : "Room 2")}>
                         Room 2
                       </button>
                     </div>
@@ -453,11 +452,11 @@ function Grid() {
             </div>
           </div>
           <div className="column p-0 flex align-middle">
-            <button className={`btn is-pill mr-7px ${sort == "reservationtimeASC" || sort == "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
-              <i className={`icon is-lg ri-arrow-${sort == "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
+            <button className={`btn is-pill mr-7px ${sort === "reservationtimeASC" || sort === "reservationtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "reservationtimeASC" ? "reservationtimeDEC" : "reservationtimeASC")}>
+              <i className={`icon is-lg ri-arrow-${sort === "reservationtimeASC" ? "up" : "down"}-s-fill`} /> Reservation time
             </button>
-            <button className={`btn is-pill mr-7px ${sort == "createdtimeASC" || sort == "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort == "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
-              <i className={`icon is-lg ri-arrow-${sort == "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
+            <button className={`btn is-pill mr-7px ${sort === "createdtimeASC" || sort === "createdtimeDEC" ? "is-sld" : "is-out"}`} onClick={() => setSort(sort === "createdtimeASC" ? "createdtimeDEC" : "createdtimeASC")}>
+              <i className={`icon is-lg ri-arrow-${sort === "createdtimeASC" ? "up" : "down"}-s-fill`} /> Created time
             </button>
           </div>
         </section>
@@ -478,7 +477,7 @@ function Grid() {
                     {moment(moment.now()).minute(0).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}
                   </th>
                   {minutes.map((minute) => (
-                    <td scope="row" className="font-normal border-bottom-primary">
+                    <td className="font-normal border-bottom-primary">
                       <div className="bg-primary-25">{moment(moment.now()).minute(minute).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}</div>
                       <div className="border-top border-bottom flex justify-between px-1rem">No Reservation</div>
                       <button className="btn is-sld is-primary">Add Reservation</button>

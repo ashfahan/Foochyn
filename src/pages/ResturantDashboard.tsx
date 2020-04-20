@@ -212,8 +212,8 @@ function Floor() {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-center">
-                <div className="align-self-middle py-10">No reservations</div>
+              <div className="flex">
+                <div className="align-self-middle w-24 txt-center py-10">No Reservations</div>
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Waitlist" key="2">

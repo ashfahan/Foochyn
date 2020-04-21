@@ -555,7 +555,7 @@ function Reports() {
 function Settings() {
   const [name, setName] = useState<string>("Testing");
   const [email, setEmail] = useState<string>("testin@email.com");
-  const [country, setCountry] = useState<string>("pakistan");
+  const [country, setCountry] = useState<string>("islamabad");
   const [showTimeconflicts, setShowTimeconflicts] = useState<boolean>(true);
   const [showTableconflicts, setShowTableconflicts] = useState<boolean>(true);
   const [showSuggestions, setShowSuggestions] = useState<boolean>(true);
@@ -567,15 +567,15 @@ function Settings() {
             <div className="column w-8">
               <label className="control w-24 my-1rem">
                 <span>RESTAURANT NAME</span>
-                <input defaultValue={name} type="text" className="input py-1rem" />
+                <input onChange={(e) => setName(e.target.value)} defaultValue={name} type="text" className="input py-1rem" />
               </label>
               <label className="control w-24 my-1rem">
                 <span>EMAIL</span>
-                <input defaultValue={email} type="text" className="input py-1rem" />
+                <input onChange={(e) => setEmail(e.target.value)} defaultValue={email} type="text" className="input py-1rem" />
               </label>
               <label className="control w-24 my-1rem">
                 <span>Country</span>
-                <Select bordered={false} suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input py-1rem" showSearch placeholder="Country">
+                <Select onChange={(e) => setCountry(e)} bordered={false} defaultValue={country} suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input py-1rem" showSearch placeholder="Country">
                   <Select.Option value="lahore">Lahore</Select.Option>
                   <Select.Option value="karachi">Karachi</Select.Option>
                   <Select.Option value="islamabad">Islamabad</Select.Option>
@@ -609,11 +609,11 @@ function Settings() {
                 <span>SHOW RESERVATION TIME CONFLICTS</span>
                 <div>
                   <label className="control my-1rem">
-                    <input defaultChecked={showTimeconflicts ? true : false} name="showTimeconflicts" type="radio" className="radio" />
+                    <input onChange={(e) => setShowTimeconflicts(e.target.checked)} defaultChecked={showTimeconflicts ? true : false} name="showTimeconflicts" type="radio" className="radio" />
                     <span className="label">SHOW</span>
                   </label>
                   <label className="control my-1rem">
-                    <input defaultChecked={showTimeconflicts ? false : true} name="showTimeconflicts" type="radio" className="radio" />
+                    <input onChange={(e) => setShowTimeconflicts(e.target.checked)} defaultChecked={showTimeconflicts ? false : true} name="showTimeconflicts" type="radio" className="radio" />
                     <span className="label">HIDE</span>
                   </label>
                 </div>
@@ -622,11 +622,11 @@ function Settings() {
                 <span>SHOW RESERVATION TABLE COVER CONFLICTS</span>
                 <div>
                   <label className="control my-1rem">
-                    <input defaultChecked={showTimeconflicts ? true : false} name="showTimeconflicts" type="radio" className="radio" />
+                    <input onChange={(e) => setShowTableconflicts(e.target.checked)} defaultChecked={showTableconflicts ? true : false} name="showTableconflicts" type="radio" className="radio" />
                     <span className="label">SHOW</span>
                   </label>
                   <label className="control my-1rem">
-                    <input defaultChecked={showTimeconflicts ? false : true} name="showTimeconflicts" type="radio" className="radio" />
+                    <input onChange={(e) => setShowTableconflicts(e.target.checked)} defaultChecked={showTableconflicts ? false : true} name="showTableconflicts" type="radio" className="radio" />
                     <span className="label">HIDE</span>
                   </label>
                 </div>
@@ -635,11 +635,11 @@ function Settings() {
                 <span>SHOW TABLE SUGGESTIONS</span>
                 <div>
                   <label className="control my-1rem">
-                    <input defaultChecked={showTimeconflicts ? true : false} name="showTimeconflicts" type="radio" className="radio" />
+                    <input onChange={(e) => setShowSuggestions(e.target.checked)} defaultChecked={showSuggestions ? true : false} name="showSuggestions" type="radio" className="radio" />
                     <span className="label">SHOW</span>
                   </label>
                   <label className="control my-1rem">
-                    <input defaultChecked={showTimeconflicts ? false : true} name="showTimeconflicts" type="radio" className="radio" />
+                    <input onChange={(e) => setShowSuggestions(e.target.checked)} defaultChecked={showSuggestions ? false : true} name="showSuggestions" type="radio" className="radio" />
                     <span className="label">HIDE</span>
                   </label>
                 </div>

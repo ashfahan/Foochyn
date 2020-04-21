@@ -96,7 +96,7 @@ export default function ResturantDashboard() {
           {view === "Grid" && <Grid />}
           {view === "Timeline" && <Reserve />}
           {view === "Guests" && <Guests />}
-          {view === "Reports" && <Reserve />}
+          {view === "Reports" && <Reports />}
           {view === "Support" && <Reserve />}
           {view === "Settings" && <Reserve />}
         </div>
@@ -514,6 +514,30 @@ function Guests() {
             <div>click below to add your first one!</div>
             <button className="mt-1rem btn is-sld is-primary is-lg txt-upper">ADD New Guest</button>
           </div>
+        </section>
+      </div>
+    </>
+  );
+}
+
+function Reports() {
+  return (
+    <>
+      <div className="flex is-y h-100">
+        <section className="grid lyt-header border-top-none border-bottom is-collapse px-0">
+          <div className="column w-8 p-0 align-self-stretch">
+            <div className="group relative h-100">
+              <label className="control has-icon-left w-21">
+                <i className="icon is-lg is-left ri-search-2-line" />
+                <input type="search" placeholder="Search" className="input is-min bg-hide is-box py-7px" />
+              </label>
+            </div>
+          </div>
+          <div className="column w-8 txt-center txt-upper">Reports</div>
+        </section>
+
+        <section className="h-100 flex">
+          <div className="align-self-middle txt-center w-24">No data to generate daily reports, please select another date.</div>
         </section>
       </div>
     </>

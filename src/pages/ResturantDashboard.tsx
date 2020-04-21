@@ -241,8 +241,8 @@ function List() {
   return (
     <>
       <div className="flex is-y h-100">
-        <section className="grid align-stretch lyt-header border-top-none border-bottom is-collapse px-0">
-          <div className="column w-8 p-0">
+        <section className="grid lyt-header border-top-none border-bottom is-collapse px-0">
+          <div className="column w-8 p-0 align-self-stretch">
             <div className="group relative h-100">
               <label className="control has-icon-left w-21">
                 <i className="icon is-lg is-left ri-search-2-line" />
@@ -362,8 +362,8 @@ function Grid() {
   return (
     <>
       <div className="flex is-y h-100">
-        <section className="grid align-stretch lyt-header border-top-none border-bottom is-collapse px-0">
-          <div className="column w-8 p-0">
+        <section className="grid lyt-header border-top-none border-bottom is-collapse px-0">
+          <div className="column w-8 p-0 align-self-stretch">
             <div className="group relative h-100">
               <label className="control has-icon-left w-21">
                 <i className="icon is-lg is-left ri-search-2-line" />
@@ -496,8 +496,8 @@ function Guests() {
   return (
     <>
       <div className="flex is-y h-100">
-        <section className="grid align-stretch lyt-header border-top-none border-bottom is-collapse px-0">
-          <div className="column w-8 p-0">
+        <section className="grid lyt-header border-top-none border-bottom is-collapse px-0">
+          <div className="column w-8 p-0 align-self-stretch">
             <div className="group relative h-100">
               <label className="control has-icon-left w-21">
                 <i className="icon is-lg is-left ri-search-2-line" />

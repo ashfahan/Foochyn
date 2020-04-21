@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { DatePicker, Tabs } from "antd";
+import { DatePicker, Tabs, Select } from "antd";
 import moment from "moment";
 
 export default function ResturantDashboard() {
-  const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timeline" | "Guests" | "Reports" | "Settings">("Grid");
+  const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timeline" | "Guests" | "Reports" | "Settings">("Settings");
 
   useEffect(() => {
     var menutriggers = document.getElementsByClassName("menu-trigger");
@@ -53,6 +53,7 @@ export default function ResturantDashboard() {
               </div>
             </div>
           </>
+        )}
       </section>
 
       <div className="grid" style={{ flex: "1" }}>
@@ -98,7 +99,7 @@ export default function ResturantDashboard() {
           {view === "Timeline" && <Timeline />}
           {view === "Guests" && <Guests />}
           {view === "Reports" && <Reports />}
-          {view === "Settings" && <Reserve />}
+          {view === "Settings" && <Settings />}
         </div>
       </div>
     </>
@@ -546,6 +547,106 @@ function Reports() {
         <section className="h-100 flex">
           <div className="align-self-middle txt-center w-24">No data to generate daily reports, please select another date.</div>
         </section>
+      </div>
+    </>
+  );
+}
+
+function Settings() {
+  const [name, setName] = useState<string>("Testing");
+  const [email, setEmail] = useState<string>("testin@email.com");
+  const [country, setCountry] = useState<string>("pakistan");
+  const [showTimeconflicts, setShowTimeconflicts] = useState<boolean>(true);
+  const [showTableconflicts, setShowTableconflicts] = useState<boolean>(true);
+  const [showSuggestions, setShowSuggestions] = useState<boolean>(true);
+  return (
+    <>
+      <div className="flex is-y h-100">
+        <Tabs defaultActiveKey="1" className="center h-100">
+          <Tabs.TabPane tab="RESTAURANT PROFILE" className="bg-light grid justify-center" key="1">
+            <div className="column w-8">
+              <label className="control w-24 my-1rem">
+                <span>RESTAURANT NAME</span>
+                <input defaultValue={name} type="text" className="input py-1rem" />
+              </label>
+              <label className="control w-24 my-1rem">
+                <span>EMAIL</span>
+                <input defaultValue={email} type="text" className="input py-1rem" />
+              </label>
+              <label className="control w-24 my-1rem">
+                <span>Country</span>
+                <Select bordered={false} suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input py-1rem" showSearch placeholder="Country">
+                  <Select.Option value="lahore">Lahore</Select.Option>
+                  <Select.Option value="karachi">Karachi</Select.Option>
+                  <Select.Option value="islamabad">Islamabad</Select.Option>
+                  <Select.Option value="peshawar">Peshawar</Select.Option>
+                  <Select.Option value="rawalpindi">Rawalpindi</Select.Option>
+                  <Select.Option value="multan">Multan</Select.Option>
+                  <Select.Option value="faisalabad">Faisalabad</Select.Option>
+                  <Select.Option value="gujranwala">Gujranwala</Select.Option>
+                  <Select.Option value="quetta">Quetta</Select.Option>
+                  <Select.Option value="sialkot">Sialkot</Select.Option>
+                  <Select.Option value="hyderabad">Hyderabad</Select.Option>
+                  <Select.Option value="bahawalpur">Bahawalpur</Select.Option>
+                  <Select.Option value="sargodha">Sargodha</Select.Option>
+                  <Select.Option value="gujrat">Gujrat</Select.Option>
+                  <Select.Option value="sukkhur">Sukkhur</Select.Option>
+                  <Select.Option value="jhelum">Jhelum</Select.Option>
+                  <Select.Option value="sheikhupura">Sheikhupura</Select.Option>
+                  <Select.Option value="sahiwal">Sahiwal</Select.Option>
+                  <Select.Option value="jhang">Jhang</Select.Option>
+                  <Select.Option value="abbotabad">Abbotabad</Select.Option>
+                  <Select.Option value="kasur">Kasur</Select.Option>
+                  <Select.Option value="miawali">Miawali</Select.Option>
+                  <Select.Option value="attok">Attok</Select.Option>
+                  <Select.Option value="mardan">Mardan</Select.Option>
+                  <Select.Option value="deraIsmailKhan">Deraismailkhan</Select.Option>
+                  <Select.Option value="mansehra">Mansehra</Select.Option>
+                </Select>
+              </label>
+
+              <div>
+                <span>SHOW RESERVATION TIME CONFLICTS</span>
+                <div>
+                  <label className="control my-1rem">
+                    <input defaultChecked={showTimeconflicts ? true : false} name="showTimeconflicts" type="radio" className="radio" />
+                    <span className="label">SHOW</span>
+                  </label>
+                  <label className="control my-1rem">
+                    <input defaultChecked={showTimeconflicts ? false : true} name="showTimeconflicts" type="radio" className="radio" />
+                    <span className="label">HIDE</span>
+                  </label>
+                </div>
+              </div>
+              <div>
+                <span>SHOW RESERVATION TABLE COVER CONFLICTS</span>
+                <div>
+                  <label className="control my-1rem">
+                    <input defaultChecked={showTimeconflicts ? true : false} name="showTimeconflicts" type="radio" className="radio" />
+                    <span className="label">SHOW</span>
+                  </label>
+                  <label className="control my-1rem">
+                    <input defaultChecked={showTimeconflicts ? false : true} name="showTimeconflicts" type="radio" className="radio" />
+                    <span className="label">HIDE</span>
+                  </label>
+                </div>
+              </div>
+              <div>
+                <span>SHOW TABLE SUGGESTIONS</span>
+                <div>
+                  <label className="control my-1rem">
+                    <input defaultChecked={showTimeconflicts ? true : false} name="showTimeconflicts" type="radio" className="radio" />
+                    <span className="label">SHOW</span>
+                  </label>
+                  <label className="control my-1rem">
+                    <input defaultChecked={showTimeconflicts ? false : true} name="showTimeconflicts" type="radio" className="radio" />
+                    <span className="label">HIDE</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </Tabs.TabPane>
+        </Tabs>
       </div>
     </>
   );

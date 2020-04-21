@@ -49,6 +49,7 @@ h6 {
   border-width: 0.1px !important;
 }
 
+.ant-select-single .ant-select-selector .ant-select-selection-item,
 .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item,
 .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder {
   line-height: $lineheight-default !important;
@@ -63,8 +64,10 @@ h6 {
   padding-left: 2em !important;
 }
 
-.ant-select.input {
-  padding-left: 0 !important;
+.control.has-icon-left {
+  .ant-select.input {
+    padding-left: 0 !important;
+  }
 }
 
 .ant-select-selection-search {
@@ -89,6 +92,10 @@ h6 {
   @include media-breakpoint-above(sm) {
     padding: 0 10% !important;
   }
+}
+
+.ant-tabs-content {
+  height: inherit;
 }
 
 .ant-tooltip-inner {

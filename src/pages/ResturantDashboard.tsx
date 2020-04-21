@@ -3,7 +3,7 @@ import { DatePicker, Tabs } from "antd";
 import moment from "moment";
 
 export default function ResturantDashboard() {
-  const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timeline" | "Guests" | "Reports" | "Support" | "Settings">("Grid");
+  const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timeline" | "Guests" | "Reports" | "Settings">("Grid");
 
   useEffect(() => {
     var menutriggers = document.getElementsByClassName("menu-trigger");
@@ -80,10 +80,6 @@ export default function ResturantDashboard() {
             <i className="icon is-lg ri-file-list-3-fill" />
             <div className="txt-upper">Reports</div>
           </button>
-          <button className={`menu-item py-10 px-0 ${view === "Support" ? "active" : ""}`} onClick={() => setView("Support")}>
-            <i className="icon is-lg ri-headphone-fill" />
-            <div className="txt-upper">Support</div>
-          </button>
           <button className={`menu-item py-10 px-0 ${view === "Settings" ? "active" : ""}`} onClick={() => setView("Settings")}>
             <i className="icon is-lg ri-settings-fill" />
             <div className="txt-upper">Settings</div>
@@ -97,7 +93,6 @@ export default function ResturantDashboard() {
           {view === "Timeline" && <Reserve />}
           {view === "Guests" && <Guests />}
           {view === "Reports" && <Reports />}
-          {view === "Support" && <Reserve />}
           {view === "Settings" && <Reserve />}
         </div>
       </div>

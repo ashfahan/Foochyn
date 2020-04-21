@@ -90,7 +90,7 @@ export default function ResturantDashboard() {
           {view === "Floor" && <Floor />}
           {view === "List" && <List />}
           {view === "Grid" && <Grid />}
-          {view === "Timeline" && <Reserve />}
+          {view === "Timeline" && <Timeline />}
           {view === "Guests" && <Guests />}
           {view === "Reports" && <Reports />}
           {view === "Settings" && <Reserve />}
@@ -483,6 +483,14 @@ function Grid() {
           </table>
         </section>
       </div>
+    </>
+  );
+}
+
+function Timeline() {
+  return (
+    <>
+      <div>Timeline</div>
     </>
   );
 }

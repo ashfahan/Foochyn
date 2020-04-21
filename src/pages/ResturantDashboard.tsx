@@ -505,6 +505,7 @@ function Guests() {
               </label>
             </div>
           </div>
+          <div className="column w-8 txt-center txt-upper">Guests</div>
         </section>
 
         <section className="h-100 flex">

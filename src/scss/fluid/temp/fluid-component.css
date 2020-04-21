@@ -33,7 +33,7 @@
 
 .control > .focus.radio ~ .label::before, .control > .focus.checkbox ~ .label::before, .control > .focus.switch ~ .label::before, .control > .radio:focus ~ .label::before, .control > .checkbox:focus ~ .label::before, .control > .switch:focus ~ .label::before { animation: ripple 1s ease-out both; }
 
-.control > .radio ~ .label, .control > .checkbox ~ .label, .control > .switch ~ .label { position: relative; cursor: pointer; padding-left: 1.71429em; margin-bottom: 0; }
+.control > .radio ~ .label, .control > .checkbox ~ .label, .control > .switch ~ .label { display: block; position: relative; cursor: pointer; padding-left: 1.71429em; margin-bottom: 0; }
 
 .control > .radio ~ .label:not(:empty), .control > .checkbox ~ .label:not(:empty), .control > .switch ~ .label:not(:empty) { padding-right: .5rem; }
 

@@ -17,37 +17,42 @@ export default function ResturantDashboard() {
   return (
     <>
       <section className="grid justify-between bg-primary lyt-header is-collapse clr-white">
-        <div className="column w-8">
-          <label className="control has-icon-left">
-            <i className="icon is-left ri-search-2-line" />
-            <input type="search" className="input is-min bg-hide is-light autoExpand" placeholder="Search" />
-          </label>
-        </div>
-        <div className="column w-8 txt-center">
-          <DatePicker dropdownClassName="center" suffixIcon={<i className="icon ri-arrow-down-s-fill" />} placeholder="Date" allowClear={false} defaultValue={moment(moment.now())} className="bg-hide input border-hide shadow-none clr-inherit txt-center w-auto" format="dddd,  D MMM YYYY" />
-        </div>
-        <div className="column w-8 flex align-middle justify-end">
-          <button className="mr-1rem btn is-unstyle inline-flex align-middle">
-            <i className="icon is-lg ri-check-line bg-white clr-primary is-circle mr-7px after-hide" style={{ padding: "10px" }} />
-            Clear
-          </button>
-          <div>
-            <button className="mr-1rem btn is-unstyle inline-flex align-middle">
-              <i className="icon is-lg ri-file-list-fill mr-7px" />
-              Notes
-            </button>
-          </div>
-          <button className="mr-1rem btn is-unstyle inline-flex align-middle">
-            <i className="icon is-lg ri-printer-fill mr-7px" />
-            Print
-          </button>
-          <div>
-            <button className="mr-1rem btn is-unstyle inline-flex align-middle">
-              <i className="icon is-lg ri-timer-2-fill mr-7px" />
-              Operating hours
-            </button>
-          </div>
-        </div>
+        {view === "Settings" || view == "Guests" ? (
+          <div className="column txt-center txt-upper">{view}</div>
+        ) : (
+          <>
+            <div className="column w-8">
+              <label className="control has-icon-left">
+                <i className="icon is-left ri-search-2-line" />
+                <input type="search" className="input is-min bg-hide is-light autoExpand" placeholder="Search" />
+              </label>
+            </div>
+            <div className="column w-8 txt-center">
+              <DatePicker dropdownClassName="center" suffixIcon={<i className="icon ri-arrow-down-s-fill" />} placeholder="Date" allowClear={false} defaultValue={moment(moment.now())} className="bg-hide input border-hide shadow-none clr-inherit txt-center w-auto" format="dddd,  D MMM YYYY" />
+            </div>
+            <div className="column w-8 flex align-middle justify-end">
+              <button className="mr-1rem btn is-unstyle inline-flex align-middle">
+                <i className="icon is-lg ri-check-line bg-white clr-primary is-circle mr-7px after-hide" style={{ padding: "10px" }} />
+                Clear
+              </button>
+              <div>
+                <button className="mr-1rem btn is-unstyle inline-flex align-middle">
+                  <i className="icon is-lg ri-file-list-fill mr-7px" />
+                  Notes
+                </button>
+              </div>
+              <button className="mr-1rem btn is-unstyle inline-flex align-middle">
+                <i className="icon is-lg ri-printer-fill mr-7px" />
+                Print
+              </button>
+              <div>
+                <button className="mr-1rem btn is-unstyle inline-flex align-middle">
+                  <i className="icon is-lg ri-timer-2-fill mr-7px" />
+                  Operating hours
+                </button>
+              </div>
+            </div>
+          </>
       </section>
 
       <div className="grid" style={{ flex: "1" }}>
@@ -508,7 +513,6 @@ function Guests() {
               </label>
             </div>
           </div>
-          <div className="column w-8 txt-center txt-upper">Guests</div>
         </section>
 
         <section className="h-100 flex">

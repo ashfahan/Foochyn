@@ -95,7 +95,7 @@ export default function ResturantDashboard() {
           {view === "List" && <List />}
           {view === "Grid" && <Grid />}
           {view === "Timeline" && <Reserve />}
-          {view === "Guests" && <Reserve />}
+          {view === "Guests" && <Guests />}
           {view === "Reports" && <Reserve />}
           {view === "Support" && <Reserve />}
           {view === "Settings" && <Reserve />}
@@ -130,7 +130,7 @@ function Floor() {
               <div className="group relative">
                 <label className="control has-icon-left w-21">
                   <i className="icon is-lg is-left ri-search-2-line" />
-                  <input onFocus={() => setSearchOption(false)} type="search" className="input is-min bg-hide is-box py-7px" />
+                  <input onFocus={() => setSearchOption(false)} type="search" placeholder="Search" className="input is-min bg-hide is-box py-7px" />
                 </label>
                 <button className="btn is-box is-out border-none border-left border-bottom w-3 px-0" onClick={() => setSearchOption(!searchOption)}>
                   <i className="after-hide icon ri-2x ri-filter-3-line" />
@@ -246,7 +246,7 @@ function List() {
             <div className="group relative h-100">
               <label className="control has-icon-left w-21">
                 <i className="icon is-lg is-left ri-search-2-line" />
-                <input onFocus={() => setSearchOption(false)} type="search" className="input is-min bg-hide is-box py-7px" />
+                <input onFocus={() => setSearchOption(false)} type="search" placeholder="Search" className="input is-min bg-hide is-box py-7px" />
               </label>
               <button className="btn is-box is-out border-none border-left border-right p-0 w-3" onClick={() => setSearchOption(!searchOption)}>
                 <i className="after-hide icon ri-2x ri-filter-3-line" />
@@ -367,7 +367,7 @@ function Grid() {
             <div className="group relative h-100">
               <label className="control has-icon-left w-21">
                 <i className="icon is-lg is-left ri-search-2-line" />
-                <input onFocus={() => setSearchOption(false)} type="search" className="input is-min bg-hide is-box py-7px" />
+                <input onFocus={() => setSearchOption(false)} type="search" placeholder="Search" className="input is-min bg-hide is-box py-7px" />
               </label>
               <button className="btn is-box is-out border-none border-left border-right p-0 w-3" onClick={() => setSearchOption(!searchOption)}>
                 <i className="after-hide icon ri-2x ri-filter-3-line" />
@@ -480,13 +480,39 @@ function Grid() {
                     <td className="font-normal border-bottom-primary">
                       <div className="bg-primary-25">{moment(moment.now()).minute(minute).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}</div>
                       <div className="border-top border-bottom flex justify-between px-1rem">No Reservation</div>
-                      <button className="btn is-sld is-primary">Add Reservation</button>
                     </td>
                   ))}
                 </tr>
               ))}
             </tbody>
           </table>
+        </section>
+      </div>
+    </>
+  );
+}
+
+function Guests() {
+  return (
+    <>
+      <div className="flex is-y h-100">
+        <section className="grid align-stretch lyt-header border-top-none border-bottom is-collapse px-0">
+          <div className="column w-8 p-0">
+            <div className="group relative h-100">
+              <label className="control has-icon-left w-21">
+                <i className="icon is-lg is-left ri-search-2-line" />
+                <input type="search" placeholder="Search" className="input is-min bg-hide is-box py-7px" />
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section className="h-100 flex">
+          <div className="align-self-middle txt-center w-24">
+            <div>Looks like you don’t have any guests yet,</div>
+            <div>click below to add your first one!</div>
+            <button className="mt-1rem btn is-sld is-primary is-lg txt-upper">ADD New Guest</button>
+          </div>
         </section>
       </div>
     </>

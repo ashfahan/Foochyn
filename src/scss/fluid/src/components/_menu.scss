@@ -133,11 +133,12 @@
       align-self: center;
       margin-left: auto; // align .menu-trigger caret to end of flex
       @include triangle(bottom, $menu-trigger-caret-size, $menu-trigger-caret-color);
+      transition: transition(transform .15s linear);
     }
 
     &.active {
       @include after {
-        transform: scale(-1);
+        transform: rotateX(180deg);
       }
     }
 

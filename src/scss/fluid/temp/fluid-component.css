@@ -604,9 +604,9 @@ textarea.input { height: auto; min-height: 2.4em; }
 
 .menu-trigger { display: inline-flex; }
 
-.menu-trigger::after { content: ""; align-self: center; margin-left: auto; border: 6px solid transparent; border-top-color: currentColor; border-bottom: 0; }
+.menu-trigger::after { content: ""; align-self: center; margin-left: auto; border: 6px solid transparent; border-top-color: currentColor; border-bottom: 0; transition: transform 0.15s linear; }
 
-.menu-trigger.active::after { transform: scale(-1); }
+.menu-trigger.active::after { transform: rotateX(180deg); }
 
 .menu-trigger ~ * { animation: fadein 0.3s ease-out both; }
 

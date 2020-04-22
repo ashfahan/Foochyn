@@ -50,25 +50,9 @@ class Main extends Component<props, state> {
     };
   }
 
-  componentDidMount() {
-    var menutriggers = document.getElementsByClassName("menu-trigger");
-    Object.keys(menutriggers).forEach(function (k) {
-      menutriggers[k].onclick = function (e) {
-        e.target.classList.toggle("active");
-      };
-    });
-  }
-
   componentDidUpdate() {
     console.log(this.props);
     console.log("current location is ", this.props.location.pathname);
-
-    var menutriggers = document.getElementsByClassName("menu-trigger");
-    Object.keys(menutriggers).forEach(function (k) {
-      menutriggers[k].onclick = function (e) {
-        e.target.classList.toggle("active");
-      };
-    });
   }
 
   render() {

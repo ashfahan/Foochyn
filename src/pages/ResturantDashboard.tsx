@@ -5,15 +5,6 @@ import moment from "moment";
 export default function ResturantDashboard() {
   const [view, setView] = useState<"Reserve" | "Floor" | "List" | "Grid" | "Timeline" | "Guests" | "Reports" | "Settings">("Settings");
 
-  useEffect(() => {
-    var menutriggers = document.getElementsByClassName("menu-trigger");
-    Object.keys(menutriggers).forEach(function (k) {
-      menutriggers[k].onclick = function (e) {
-        e.target.classList.toggle("active");
-      };
-    });
-  }, [view]);
-
   return (
     <>
       <section className="grid justify-between bg-primary lyt-header is-collapse clr-white">
@@ -152,7 +143,9 @@ function Floor() {
                   <div className="py-7px">
                     <h3 className="px-1rem">Filter By</h3>
                     <div className="menu border-bottom is-unstyle">
-                      <button className="menu-item menu-trigger py-1rem">Status</button>
+                      <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                        Status
+                      </button>
                       <div className="pb-1rem px-1rem">
                         <button className={`btn is-pill mt-7px mr-7px ${status === "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "notconfirmed" ? null : "notconfirmed")}>
                           Not confirmed
@@ -188,7 +181,9 @@ function Floor() {
                     </div>
 
                     <div className="menu border-bottom is-unstyle">
-                      <button className="menu-item menu-trigger py-1rem">Reservation type</button>
+                      <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                        Reservation type
+                      </button>
                       <div className="pb-1rem px-1rem">
                         <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "online" ? null : "online")}>
                           Online
@@ -200,7 +195,9 @@ function Floor() {
                     </div>
 
                     <div className="menu border-bottom is-unstyle">
-                      <button className="menu-item menu-trigger py-1rem">Rooms</button>
+                      <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                        Rooms
+                      </button>
                       <div className="pb-1rem px-1rem">
                         <button className={`btn is-pill mt-7px mr-7px ${room === "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 1" ? null : "Room 1")}>
                           Room 1
@@ -269,7 +266,9 @@ function List() {
                 <div className="py-7px">
                   <h3 className="px-1rem">Filter By</h3>
                   <div className="menu border-bottom is-unstyle">
-                    <button className="menu-item menu-trigger py-1rem">Status</button>
+                    <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                      Status
+                    </button>
                     <div className="pb-1rem px-1rem">
                       <button className={`btn is-pill mt-7px mr-7px ${status === "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "notconfirmed" ? null : "notconfirmed")}>
                         Not confirmed
@@ -305,7 +304,9 @@ function List() {
                   </div>
 
                   <div className="menu border-bottom is-unstyle">
-                    <button className="menu-item menu-trigger py-1rem">Reservation type</button>
+                    <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                      Reservation type
+                    </button>
                     <div className="pb-1rem px-1rem">
                       <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "online" ? null : "online")}>
                         Online
@@ -317,7 +318,9 @@ function List() {
                   </div>
 
                   <div className="menu border-bottom is-unstyle">
-                    <button className="menu-item menu-trigger py-1rem">Rooms</button>
+                    <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                      Rooms
+                    </button>
                     <div className="pb-1rem px-1rem">
                       <button className={`btn is-pill mt-7px mr-7px ${room === "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 1" ? null : "Room 1")}>
                         Room 1
@@ -390,7 +393,9 @@ function Grid() {
                 <div className="py-7px">
                   <h3 className="px-1rem">Filter By</h3>
                   <div className="menu border-bottom is-unstyle">
-                    <button className="menu-item menu-trigger py-1rem">Status</button>
+                    <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                      Status
+                    </button>
                     <div className="pb-1rem px-1rem">
                       <button className={`btn is-pill mt-7px mr-7px ${status === "notconfirmed" ? "is-sld" : "is-out"}`} onClick={() => setStatus(status === "notconfirmed" ? null : "notconfirmed")}>
                         Not confirmed
@@ -426,7 +431,9 @@ function Grid() {
                   </div>
 
                   <div className="menu border-bottom is-unstyle">
-                    <button className="menu-item menu-trigger py-1rem">Reservation type</button>
+                    <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                      Reservation type
+                    </button>
                     <div className="pb-1rem px-1rem">
                       <button className={`btn is-pill mt-7px mr-7px ${reservationtype === "online" ? "is-sld" : "is-out"}`} onClick={() => setReservationtype(reservationtype === "online" ? null : "online")}>
                         Online
@@ -438,7 +445,9 @@ function Grid() {
                   </div>
 
                   <div className="menu border-bottom is-unstyle">
-                    <button className="menu-item menu-trigger py-1rem">Rooms</button>
+                    <button className="menu-item menu-trigger py-1rem" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+                      Rooms
+                    </button>
                     <div className="pb-1rem px-1rem">
                       <button className={`btn is-pill mt-7px mr-7px ${room === "Room 1" ? "is-sld" : "is-out"}`} onClick={() => setRoom(room === "Room 1" ? null : "Room 1")}>
                         Room 1

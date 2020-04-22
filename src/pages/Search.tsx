@@ -115,7 +115,7 @@ export default function Search(props: props) {
             </div>
 
             <div className="menu">
-              <button type="button" className="menu-trigger active btn is-unstyle is-block py-7px">
+              <button type="button" onClick={(e) => (e.target as Element).classList.toggle("active")} className="menu-trigger active btn is-unstyle is-block py-7px">
                 Features
               </button>
               <div>
@@ -197,7 +197,7 @@ export default function Search(props: props) {
               </div>
             </div>
             <div className="menu">
-              <button type="button" className="menu-trigger btn is-unstyle is-block py-7px active flex">
+              <button type="button" onClick={(e) => (e.target as Element).classList.toggle("active")} className="menu-trigger btn is-unstyle is-block py-7px active flex">
                 CUISINES
               </button>
               <div>
@@ -320,7 +320,7 @@ export default function Search(props: props) {
               </div>
             </div>
             <div className="menu">
-              <button type="button" className="menu-trigger btn is-unstyle is-block py-7px">
+              <button type="button" onClick={(e) => (e.target as Element).classList.toggle("active")} className="menu-trigger btn is-unstyle is-block py-7px">
                 CATEGORIES
               </button>
               <div>
@@ -356,7 +356,7 @@ export default function Search(props: props) {
               </div>
             </div>
             <div className="menu">
-              <button type="button" className="menu-trigger btn is-unstyle is-block py-7px">
+              <button type="button" onClick={(e) => (e.target as Element).classList.toggle("active")} className="menu-trigger btn is-unstyle is-block py-7px">
                 MEAL TYPES
               </button>
               <div>

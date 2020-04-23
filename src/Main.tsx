@@ -27,6 +27,7 @@ import Restaurant from "./pages/Restaurant";
 import Search from "./pages/Search";
 import UserDashboard from "./pages/UserDashboard";
 import ResturantDashboard from "./pages/ResturantDashboard";
+import AdminDashboard from "./pages/AdminDashboard";
 
 interface props {
   userType: string;
@@ -69,12 +70,14 @@ class Main extends Component<props, state> {
               <Route path="/restaurant/" component={Restaurant} exact />
               <Route
                 path="/dashboard"
-                render={(props: any, userType = this.props.userType) => {
-                  switch (userType) {
+                render={(props: any) => {
+                  switch (this.props.userType) {
                     case "User":
                       return <UserDashboard {...props} />;
                     case "ResturantOwner":
                       return <ResturantDashboard {...props} />;
+                    case "Admin":
+                      return <AdminDashboard {...props} />;
                   }
                 }}
                 exact

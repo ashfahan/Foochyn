@@ -9,7 +9,7 @@ interface Model {
 interface State extends Model {}
 
 const initialState: State = {
-  userType: "ResturantOwner",
+  userType: "Admin",
 };
 
 // Actions

@@ -2,13 +2,19 @@
 // Store
 //
 
-const initialState = {
+interface Model {
+  userType: "User" | "Admin" | "ResturantOwner";
+}
+
+interface State extends Model {}
+
+const initialState: State = {
   userType: "ResturantOwner",
 };
 
 // Actions
 
-export const SetUserType = (value) => {
+export const SetUserType = (value: string) => {
   return {
     type: "SetUserType",
     data: value,
@@ -17,7 +23,7 @@ export const SetUserType = (value) => {
 
 // Reducers
 
-export default function (props = initialState, action) {
+export default function (props = initialState, action: { type: "SetUserType"; data: any }) {
   switch (action.type) {
     case "SetUserType":
       return { ...props, userType: action.data };

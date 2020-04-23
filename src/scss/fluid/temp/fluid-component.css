@@ -33,7 +33,7 @@
 
 .control > .focus.radio ~ .label::before, .control > .focus.checkbox ~ .label::before, .control > .focus.switch ~ .label::before, .control > .radio:focus ~ .label::before, .control > .checkbox:focus ~ .label::before, .control > .switch:focus ~ .label::before { animation: ripple 1s ease-out both; }
 
-.control > .radio ~ .label, .control > .checkbox ~ .label, .control > .switch ~ .label { display: block; position: relative; cursor: pointer; padding-left: 1.71429em; margin-bottom: 0; }
+.control > .radio ~ .label, .control > .checkbox ~ .label, .control > .switch ~ .label { position: relative; display: block; cursor: pointer; padding-left: 1.71429em; margin-bottom: 0; }
 
 .control > .radio ~ .label:not(:empty), .control > .checkbox ~ .label:not(:empty), .control > .switch ~ .label:not(:empty) { padding-right: .5rem; }
 
@@ -592,7 +592,7 @@ textarea.input { height: auto; min-height: 2.4em; }
 
 .menu.is-error .menu-item.active { color: #0f0f0f; background-color: #f5222d; }
 
-.menu-item.is-unstyle, .menu.is-unstyle .menu-item { background-color: transparent; color: inherit; }
+.menu-item.is-unstyle, .menu.is-unstyle .menu-item { color: inherit; background-color: transparent; }
 
 .menu > .menu { overflow: hidden; font-size: inherit; }
 
@@ -604,7 +604,7 @@ textarea.input { height: auto; min-height: 2.4em; }
 
 .menu-trigger { padding-right: 2.35714em; }
 
-.menu-trigger::after { content: ""; position: absolute; right: 1.5em; top: 50%; transform: translateY(-50%); border: 6px solid transparent; border-top-color: currentColor; border-bottom: 0; transition: transform 0.15s linear; }
+.menu-trigger::after { content: ""; position: absolute; top: 50%; right: 1.5em; transform: translateY(-50%); border: 6px solid transparent; border-top-color: currentColor; border-bottom: 0; transition: transform 0.2s linear; }
 
 .menu-trigger.active::after { transform: translateY(-50%) rotateX(180deg); }
 

@@ -97,7 +97,7 @@
 
   .on-hover {
     tbody tr {
-      transition: transition(background-color .3s);
+      transition: transition(background-color 0.3s);
       @include hover {
         background-color: $table-body-hover-background;
       }
@@ -126,12 +126,11 @@
     .table.has-sticky-scope {
       [scope] {
         position: sticky;
-        background:
-          if(
-            $table-head-background == null,
-            $body-background,
-            $table-head-background
-          );
+        background: if(
+          $table-head-background == null,
+          $body-background,
+          $table-head-background
+        );
       }
 
       [scope="row"] {
@@ -142,10 +141,9 @@
       [scope="col"] {
         top: 0;
         z-index: 2;
-        box-shadow:
-          box-shadow(
-            0 2px 0 0 $table-head-border-color
-          ); // doesn't appear on Edge 44
+        box-shadow: box-shadow(
+          0 2px 0 0 $table-head-border-color
+        ); // doesn't appear on Edge 44
       }
     }
   }

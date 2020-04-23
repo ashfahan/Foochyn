@@ -13,7 +13,7 @@
 
 .btn:not([disabled]):not(:disabled), .menu-item:not([disabled]):not(:disabled) { cursor: pointer; }
 
-@media (prefers-reduced-motion: reduce) { .control > .radio ~ .label::before, .control > .checkbox ~ .label::before, .control > .switch ~ .label::before, .input, .btn, .range, .menu-item, .addon, .control.has-floating-label > .input[placeholder=" "] ~ .label, .btn.is-min::before, .btn.is-unstyle, .range::-webkit-slider-thumb, .range::-moz-range-thumb, .range::-ms-thumb, .range::-moz-range-track, .range::-webkit-slider-runnable-track, .range::-ms-track, .control > .switch ~ .label::after, .menu-item::before, .menu-item.hover:not(.active)::before, .menu-item:not(.active):hover::before, .menu-item.focus:not(.active)::before, .menu-item:not(.active):focus::before { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .control > .radio ~ .label::before, .control > .checkbox ~ .label::before, .control > .switch ~ .label::before, .input, .btn, .range, .menu-item, .addon, .control.has-floating-label > .input[placeholder=" "] ~ .label, .btn.is-min::before, .btn.is-unstyle, .range::-webkit-slider-thumb, .range::-moz-range-thumb, .range::-ms-thumb, .range::-moz-range-track, .range::-webkit-slider-runnable-track, .range::-ms-track, .control > .switch ~ .label::after, .menu-item::before, .menu-item.hover:not(.active)::before, .menu-item:not(.active):hover::before, .menu-item.focus:not(.active)::before, .menu-item:not(.active):focus::before, .menu-trigger::after { transition: none; } }
 
 .control > .radio ~ .label::before, .control > .checkbox ~ .label::before, .control > .switch ~ .label::before, .input, .btn, .range, .menu-item, .addon { position: relative; display: inline-block; user-select: none; padding: 0.375em 0.75em; border: 1px solid transparent; border-radius: 0.25em; background-color: transparent; vertical-align: middle; text-decoration: none; font-weight: 400; line-height: 1.5; font-size: 1rem; transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border 0.15s ease-in-out,box-shadow 0.15s ease-in-out; }
 
@@ -600,13 +600,13 @@ textarea.input { height: auto; min-height: 2.4em; }
 
 .menu > .menu > .menu { padding-right: 0; }
 
-.menu > .menu > .menu-trigger { padding-right: 1.5em; margin-left: 0; }
+.menu > .menu > .menu-trigger { padding-right: 2.35714em; margin-left: 0; }
 
-.menu-trigger { display: inline-flex; }
+.menu-trigger { padding-right: 2.35714em; }
 
-.menu-trigger::after { content: ""; align-self: center; margin-left: auto; border: 6px solid transparent; border-top-color: currentColor; border-bottom: 0; transition: transform 0.15s linear; }
+.menu-trigger::after { content: ""; position: absolute; right: 1.5em; top: 50%; transform: translateY(-50%); border: 6px solid transparent; border-top-color: currentColor; border-bottom: 0; transition: transform 0.15s linear; }
 
-.menu-trigger.active::after { transform: rotateX(180deg); }
+.menu-trigger.active::after { transform: translateY(-50%) rotateX(180deg); }
 
 .menu-trigger ~ * { animation: fadein 0.3s ease-out both; }
 

@@ -85,8 +85,8 @@
 
   .menu-item.is-unstyle,
   .menu.is-unstyle .menu-item {
-    background-color: transparent;
     color: inherit;
+    background-color: transparent;
   }
 
   //
@@ -119,8 +119,8 @@
     }
 
     > .menu-trigger {
-    padding-right: $nestedMenu-indent + convert-unit($menu-trigger-caret-size, em) * 2; // restore padding to default value
-    margin-left: 0; // override style from nested menu items
+      padding-right: $nestedMenu-indent + convert-unit($menu-trigger-caret-size, em) * 2; // restore padding to default value
+      margin-left: 0; // override style from nested menu items
     }
   }
 
@@ -130,8 +130,8 @@
     @include after {
       content: "";
       position: absolute;
-      right: $nestedMenu-indent;
       top: 50%;
+      right: $nestedMenu-indent;
       transform: translateY(-50%);
       @include triangle(bottom, $menu-trigger-caret-size, $menu-trigger-caret-color);
       @include transition(transform .15s linear);
@@ -139,7 +139,7 @@
 
     &.active {
       @include after {
-        transform:  translateY(-50%) rotateX(180deg);
+        transform: translateY(-50%) rotateX(180deg);
       }
     }
 

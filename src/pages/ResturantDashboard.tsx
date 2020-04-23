@@ -475,7 +475,7 @@ function Grid() {
           <table className="table is-bordered has-sticky-scope" style={{ lineHeight: "2.7" }}>
             <thead>
               <tr>
-                <th colSpan={24} className="pl-1rem">
+                <th colSpan={24} className="p-0 pl-1rem">
                   Shift 1
                 </th>
               </tr>
@@ -483,11 +483,11 @@ function Grid() {
             <tbody className="txt-center">
               {hours.map((hour) => (
                 <tr>
-                  <th scope="row" className="font-normal">
+                  <th scope="row" className="p-0 font-normal">
                     {moment(moment.now()).minute(0).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}
                   </th>
                   {minutes.map((minute) => (
-                    <td className="font-normal border-bottom-primary">
+                    <td className="font-normal border-bottom-primary p-0">
                       <div className="bg-primary-25">{moment(moment.now()).minute(minute).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}</div>
                       <div className="border-top border-bottom flex justify-between px-1rem">No Reservation</div>
                     </td>

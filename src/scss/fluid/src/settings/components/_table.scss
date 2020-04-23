@@ -12,8 +12,8 @@ $table-body-inner-width:                             $borderwidth-wide !default;
 //
 // Settings
 //
-$table-cell-padding:                                 0 !default;
-$table-head-padding:                                 0 !default;
+$table-cell-padding:                                 .8em !default;
+$table-head-padding:                                 .5em !default;
 
 $table-border-color:                                 $border-color !default;
 $table-border-width-wide:                            ceil($borderwidth-wide / 2) !default;
@@ -21,7 +21,7 @@ $table-border-width-wide:                            ceil($borderwidth-wide / 2)
 $table-head-color:                                   null !default;
 $table-head-background:                              null !default;
 $table-head-border-color:                            $primary !default;
-$table-head-border-width:                            $borderwidth-default !default;
+$table-head-border-width:                            $table-border-width-wide !default;
 
 $table-body-vertical-align:                          middle !default;
 

@@ -472,30 +472,30 @@ function Grid() {
         </section>
 
         <section className="h-100 flex has-table-responsive">
-          <table className="table is-bordered has-sticky-scope" style={{ lineHeight: "2.7" }}>
-            <thead>
-              <tr>
-                <th colSpan={24} className="p-0 pl-1rem">
-                  Shift 1
-                </th>
-              </tr>
-            </thead>
-            <tbody className="txt-center">
-              {hours.map((hour) => (
-                <tr>
-                  <th scope="row" className="p-0 font-normal">
-                    {moment(moment.now()).minute(0).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}
-                  </th>
-                  {minutes.map((minute) => (
-                    <td className="font-normal border-bottom-primary p-0">
-                      <div className="bg-primary-25">{moment(moment.now()).minute(minute).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}</div>
-                      <div className="border-top border-bottom flex justify-between px-1rem">No Reservation</div>
-                    </td>
+          <div className="menu w-24">
+            <button className="btn is-block txt-left menu-trigger py-1rem is-box border-primary border-none border-bottom border-wide" onClick={(e) => (e.target as Element).classList.toggle("active")}>
+              Shift 1
+            </button>
+            <div>
+              <table className="table is-bordered has-sticky-scope" style={{ lineHeight: "2.7" }}>
+                <tbody className="txt-center">
+                  {hours.map((hour) => (
+                    <tr>
+                      <th scope="row" className="p-0 font-normal">
+                        {moment(moment.now()).minute(0).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}
+                      </th>
+                      {minutes.map((minute) => (
+                        <td className="font-normal border-bottom-primary p-0">
+                          <div className="bg-primary-25">{moment(moment.now()).minute(minute).add(hour, "hour").toDate().toLocaleString("en-US", { hour: "numeric", minute: "numeric", hour12: true })}</div>
+                          <div className="border-top border-bottom flex justify-between px-1rem">No Reservation</div>
+                        </td>
+                      ))}
+                    </tr>
                   ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </section>
       </div>
     </>

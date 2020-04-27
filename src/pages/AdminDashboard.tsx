@@ -6,14 +6,14 @@ export default function AdminDashboard() {
   return (
     <>
       <div className="grid" style={{ flex: "1" }}>
-        <div style={{ flex: "none", width: "20rem" }} className="column lyt-sidebar px-0 py-1rem bg-dark clr-white">
-          <div className="menu is-primary">
+        <div style={{ flex: "none", width: "20rem" }} className="column lyt-sidebar px-0 py-1rem bg-dark clr-white menu is-primary">
+          <div className="menu">
             <button className="menu-trigger menu-item py-7px active" onClick={(e) => (e.target as Element).classList.toggle("active")}>
               <i className="icon is-lg ri-team-fill" />
               User Management
             </button>
 
-            <div className="menu">
+            <div className="menu ml-0">
               <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "AllUser" ? "focus" : ""}`} onClick={() => setView("AllUser")}>
                 <i className="icon is-lg ri-team-fill" />
                 All User
@@ -33,13 +33,13 @@ export default function AdminDashboard() {
             </div>
           </div>
 
-          <div className="menu is-primary">
+          <div className="menu">
             <button className="menu-trigger menu-item py-7px" onClick={(e) => (e.target as Element).classList.toggle("active")}>
               <i className="icon is-lg ri-team-fill" />
               Restaurant Management
             </button>
 
-            <div className="menu">
+            <div className="menu ml-0">
               <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "AllRestaurants" ? "focus" : ""}`} onClick={() => setView("AllRestaurants")}>
                 <i className="icon is-lg ri-add-circle-fill" />
                 All Restaurants

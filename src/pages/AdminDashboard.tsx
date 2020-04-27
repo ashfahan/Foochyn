@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function AdminDashboard() {
-  const [view, setView] = useState<"AllUser" | "VerifiedUser" | "NonVerifiedUser" | "BannedUser" | "AllRestaurants" | "VerifiedRestaurants" | "NonVerifiedRestaurants" | "BannedRestaurants">("AllUser");
+  const [view, setView] = useState<"AllUser" | "VerifiedUser" | "NonVerifiedUser" | "BannedUser" | "AllRestaurants" | "VerifiedRestaurants" | "NonVerifiedRestaurants" | "BannedRestaurants" | "AccountSetting">("AccountSetting");
 
   return (
     <>
@@ -58,6 +58,11 @@ export default function AdminDashboard() {
               </button>
             </div>
           </div>
+
+          <button className={`ml-0 menu-item py-7px ${view === "VerifiedRestaurants" ? "focus" : ""}`} onClick={() => setView("AccountSetting")}>
+            <i className="icon is-lg ri-settings-line" />
+            Account Setting
+          </button>
         </div>
         <div className="column p-2">
           {view === "AllUser" && <AllUser />}
@@ -68,6 +73,7 @@ export default function AdminDashboard() {
           {view === "VerifiedRestaurants" && <VerifiedRestaurants />}
           {view === "NonVerifiedRestaurants" && <NonVerifiedRestaurants />}
           {view === "BannedRestaurants" && <BannedRestaurants />}
+          {view === "AccountSetting" && <AccountSetting />}
         </div>
       </div>
     </>
@@ -1053,6 +1059,36 @@ function BannedRestaurants() {
             </tr>
           </tbody>
         </table>
+      </div>
+    </>
+  );
+}
+
+function AccountSetting() {
+  return (
+    <>
+      <h1 className="border-bottom pb-1rem">Accont Setting</h1>
+      <div className="grid">
+        <label className="column control block w-13 py-2">
+          <span>Username</span>
+          <input value="admin" className="input mt-1rem" type="text" />
+        </label>
+
+        <label className="column control block w-13">
+          <span>Old Password</span>
+          <input className="input" type="password" />
+        </label>
+        <label className="column control block w-13">
+          <span>New Password</span>
+          <input className="input" type="password" />
+        </label>
+        <label className="column control block w-13">
+          <span>Confirm Password</span>
+          <input className="input" type="password" />
+        </label>
+        <div className="column control block w-24 py-2 txt-right">
+          <button className="btn is-sld is-valid is-pill">Update</button>
+        </div>
       </div>
     </>
   );

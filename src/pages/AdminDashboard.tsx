@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function AdminDashboard() {
-  const [view, setView] = useState<"AllUser" | "VerifiedUser" | "NonVerifiedUser" | "BannedUser" | "AllRestaurant" | "VerifiedRestaurant" | "NonVerifiedRestaurant" | "BannedRestaurant" |"Restaurant"| "AccountSetting" | "AllCuisine" | "AddCuisine">("AddCuisine");
+  const [view, setView] = useState<"AllUser" | "VerifiedUser" | "NonVerifiedUser" | "BannedUser" | "AllRestaurant" | "VerifiedRestaurant" | "NonVerifiedRestaurant" | "BannedRestaurant" | "RestaurantFeature" | "AccountSetting" | "AllCuisine" | "AddCuisine">("AddCuisine");
 
   return (
     <>
@@ -56,6 +56,10 @@ export default function AdminDashboard() {
                 <i className="icon is-lg ri-add-circle-fill" />
                 Banned Restaurant
               </button>
+              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "RestaurantFeature" ? "focus" : ""}`} onClick={() => setView("RestaurantFeature")}>
+                <i className="icon is-lg ri-add-circle-fill" />
+                Restaurant Feature
+              </button>
             </div>
           </div>
 
@@ -91,6 +95,7 @@ export default function AdminDashboard() {
           {view === "VerifiedRestaurant" && <VerifiedRestaurant />}
           {view === "NonVerifiedRestaurant" && <NonVerifiedRestaurant />}
           {view === "BannedRestaurant" && <BannedRestaurant />}
+          {view === "RestaurantFeature" && <RestaurantFeature />}
           {view === "AccountSetting" && <AccountSetting />}
           {view === "AllCuisine" && <AllCuisine />}
           {view === "AddCuisine" && <AddCuisine />}
@@ -965,6 +970,129 @@ function BannedRestaurant() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">Banned Restaurant</h1>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
+        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </>
+  );
+}
+
+function RestaurantFeature() {
+  return (
+    <>
+      <h1 className="border-bottom pb-1rem">RestaurantFeature</h1>
 
       <div className="flex justify-between align-middle pb-1rem border-bottom">
         <h5 className="mb-0">User List</h5>

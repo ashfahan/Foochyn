@@ -40,7 +40,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "npm-run-all -p local watch",
-    "local": "set BROWSER=C:\\Program Files (x86)\\Google\\Chrome Beta\\Application\\chrome.exe && react-scripts start",
+    "local": "set BROWSER=C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe && react-scripts start",
     "watch": "cd src/scss/fluid && yarn start",
     "start": "react-scripts start",
     "build": "react-scripts build",

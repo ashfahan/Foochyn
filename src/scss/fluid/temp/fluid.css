@@ -1028,7 +1028,7 @@ label.control { margin-bottom: 0; }
 
 .breadcrumb-item { padding-right: 0.5em; }
 
-.breadcrumb-item:not(:first-child)::before { content: "🠚"; padding-right: 0.25em; color: #9c9c9c; }
+.breadcrumb-item:not(:first-child)::before { content: "→"; padding-right: 0.25em; color: #9c9c9c; }
 
 .breadcrumb-item:not([disabled]):not(:disabled).active, .breadcrumb-item:not([disabled]):not(:disabled):active { color: #9c9c9c; }
 

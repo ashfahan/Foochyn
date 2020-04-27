@@ -78,121 +78,120 @@ function AllUser() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">All User</h1>
-      <div className="border p-2">
-        <div className="flex justify-between align-middle pb-1rem border-bottom">
-          <h5 className="mb-0">User List</h5>
-          <div className="flex align-middle">
-            <input type="search" className="input" />
-            <button className="btn is-out is-primary is-circle">
-              <i className="icon ri-search-line" />
-            </button>
-          </div>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
         </div>
-        <div className="has-table-responsive">
-          <table className="table is-striped mt-1rem">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>User Name</th>
-                <th>Phone</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
@@ -202,121 +201,120 @@ function VerifiedUser() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">Verified User</h1>
-      <div className="border p-2">
-        <div className="flex justify-between align-middle pb-1rem border-bottom">
-          <h5 className="mb-0">User List</h5>
-          <div className="flex align-middle">
-            <input type="search" className="input" />
-            <button className="btn is-out is-primary is-circle">
-              <i className="icon ri-search-line" />
-            </button>
-          </div>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
         </div>
-        <div className="has-table-responsive">
-          <table className="table is-striped mt-1rem">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>User Name</th>
-                <th>Phone</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
@@ -326,121 +324,120 @@ function NonVerifiedUser() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">Non Verified User</h1>
-      <div className="border p-2">
-        <div className="flex justify-between align-middle pb-1rem border-bottom">
-          <h5 className="mb-0">User List</h5>
-          <div className="flex align-middle">
-            <input type="search" className="input" />
-            <button className="btn is-out is-primary is-circle">
-              <i className="icon ri-search-line" />
-            </button>
-          </div>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
         </div>
-        <div className="has-table-responsive">
-          <table className="table is-striped mt-1rem">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>User Name</th>
-                <th>Phone</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
@@ -450,121 +447,120 @@ function BannedUser() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">Banned User</h1>
-      <div className="border p-2">
-        <div className="flex justify-between align-middle pb-1rem border-bottom">
-          <h5 className="mb-0">User List</h5>
-          <div className="flex align-middle">
-            <input type="search" className="input" />
-            <button className="btn is-out is-primary is-circle">
-              <i className="icon ri-search-line" />
-            </button>
-          </div>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
         </div>
-        <div className="has-table-responsive">
-          <table className="table is-striped mt-1rem">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>User Name</th>
-                <th>Phone</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
@@ -574,121 +570,120 @@ function AllRestaurants() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">All Restaurants</h1>
-      <div className="border p-2">
-        <div className="flex justify-between align-middle pb-1rem border-bottom">
-          <h5 className="mb-0">User List</h5>
-          <div className="flex align-middle">
-            <input type="search" className="input" />
-            <button className="btn is-out is-primary is-circle">
-              <i className="icon ri-search-line" />
-            </button>
-          </div>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
         </div>
-        <div className="has-table-responsive">
-          <table className="table is-striped mt-1rem">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>User Name</th>
-                <th>Phone</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
@@ -698,121 +693,120 @@ function VerifiedRestaurants() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">Verified Restaurants</h1>
-      <div className="border p-2">
-        <div className="flex justify-between align-middle pb-1rem border-bottom">
-          <h5 className="mb-0">User List</h5>
-          <div className="flex align-middle">
-            <input type="search" className="input" />
-            <button className="btn is-out is-primary is-circle">
-              <i className="icon ri-search-line" />
-            </button>
-          </div>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
         </div>
-        <div className="has-table-responsive">
-          <table className="table is-striped mt-1rem">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>User Name</th>
-                <th>Phone</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
@@ -822,121 +816,120 @@ function NonVerifiedRestaurants() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">NonVerified Restaurants</h1>
-      <div className="border p-2">
-        <div className="flex justify-between align-middle pb-1rem border-bottom">
-          <h5 className="mb-0">User List</h5>
-          <div className="flex align-middle">
-            <input type="search" className="input" />
-            <button className="btn is-out is-primary is-circle">
-              <i className="icon ri-search-line" />
-            </button>
-          </div>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
         </div>
-        <div className="has-table-responsive">
-          <table className="table is-striped mt-1rem">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>User Name</th>
-                <th>Phone</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
@@ -946,121 +939,120 @@ function BannedRestaurants() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">Banned Restaurants</h1>
-      <div className="border p-2">
-        <div className="flex justify-between align-middle pb-1rem border-bottom">
-          <h5 className="mb-0">User List</h5>
-          <div className="flex align-middle">
-            <input type="search" className="input" />
-            <button className="btn is-out is-primary is-circle">
-              <i className="icon ri-search-line" />
-            </button>
-          </div>
+
+      <div className="flex justify-between align-middle pb-1rem border-bottom">
+        <h5 className="mb-0">User List</h5>
+        <div className="flex align-middle">
+          <input type="search" className="input mr-7px" />
+          <button className="btn is-out is-primary is-circle">
+            <i className="icon ri-search-line" />
+          </button>
         </div>
-        <div className="has-table-responsive">
-          <table className="table is-striped mt-1rem">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>User Name</th>
-                <th>Phone</th>
-                <th>Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-              <tr>
-                <td>xyz</td>
-                <td>Email@mail.com</td>
-                <td>MYusername</td>
-                <td>5646468768465</td>
-                <td>
-                  <button className="btn is-out is-primary">View</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <div className="has-table-responsive">
+        <table className="table is-striped mt-1rem">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>User Name</th>
+              <th>Phone</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+            <tr>
+              <td>xyz</td>
+              <td>Email@mail.com</td>
+              <td>MYusername</td>
+              <td>5646468768465</td>
+              <td>
+                <button className="btn is-out is-primary">View</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );

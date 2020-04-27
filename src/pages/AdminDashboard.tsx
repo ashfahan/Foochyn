@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function AdminDashboard() {
-  const [view, setView] = useState<"AllUser" | "VerifiedUser" | "NonVerifiedUser" | "BannedUser" | "AllRestaurants" | "VerifiedRestaurants" | "NonVerifiedRestaurants" | "BannedRestaurants" | "AccountSetting" | "AllCuisines" | "AddCuisine">("AddCuisine");
+  const [view, setView] = useState<"AllUser" | "VerifiedUser" | "NonVerifiedUser" | "BannedUser" | "AllRestaurant" | "VerifiedRestaurant" | "NonVerifiedRestaurant" | "BannedRestaurant" |"Restaurant"| "AccountSetting" | "AllCuisine" | "AddCuisine">("AddCuisine");
 
   return (
     <>
@@ -40,21 +40,21 @@ export default function AdminDashboard() {
             </button>
 
             <div className="menu ml-0">
-              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "AllRestaurants" ? "focus" : ""}`} onClick={() => setView("AllRestaurants")}>
+              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "AllRestaurant" ? "focus" : ""}`} onClick={() => setView("AllRestaurant")}>
                 <i className="icon is-lg ri-add-circle-fill" />
-                All Restaurants
+                All Restaurant
               </button>
-              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "VerifiedRestaurants" ? "focus" : ""}`} onClick={() => setView("VerifiedRestaurants")}>
+              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "VerifiedRestaurant" ? "focus" : ""}`} onClick={() => setView("VerifiedRestaurant")}>
                 <i className="icon is-lg ri-add-circle-fill" />
-                Verified Restaurants
+                Verified Restaurant
               </button>
-              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "NonVerifiedRestaurants" ? "focus" : ""}`} onClick={() => setView("NonVerifiedRestaurants")}>
+              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "NonVerifiedRestaurant" ? "focus" : ""}`} onClick={() => setView("NonVerifiedRestaurant")}>
                 <i className="icon is-lg ri-add-circle-fill" />
-                Non Verified Restaurants
+                Non Verified Restaurant
               </button>
-              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "BannedRestaurants" ? "focus" : ""}`} onClick={() => setView("BannedRestaurants")}>
+              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "BannedRestaurant" ? "focus" : ""}`} onClick={() => setView("BannedRestaurant")}>
                 <i className="icon is-lg ri-add-circle-fill" />
-                Banned Restaurants
+                Banned Restaurant
               </button>
             </div>
           </div>
@@ -66,18 +66,18 @@ export default function AdminDashboard() {
             </button>
 
             <div className="menu ml-0">
-              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "AllCuisines" ? "focus" : ""}`} onClick={() => setView("AllCuisines")}>
+              <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "AllCuisine" ? "focus" : ""}`} onClick={() => setView("AllCuisine")}>
                 <i className="icon is-lg ri-add-circle-fill" />
-                All Cuisines
+                All Cuisine
               </button>
               <button style={{ paddingLeft: "3em" }} className={`ml-0 menu-item py-7px ${view === "AddCuisine" ? "focus" : ""}`} onClick={() => setView("AddCuisine")}>
                 <i className="icon is-lg ri-add-circle-fill" />
-                Add Cuisines
+                Add Cuisine
               </button>
             </div>
           </div>
 
-          <button className={`ml-0 menu-item py-7px ${view === "VerifiedRestaurants" ? "focus" : ""}`} onClick={() => setView("AccountSetting")}>
+          <button className={`ml-0 menu-item py-7px ${view === "VerifiedRestaurant" ? "focus" : ""}`} onClick={() => setView("AccountSetting")}>
             <i className="icon is-lg ri-settings-line" />
             Account Setting
           </button>
@@ -87,12 +87,12 @@ export default function AdminDashboard() {
           {view === "VerifiedUser" && <VerifiedUser />}
           {view === "NonVerifiedUser" && <NonVerifiedUser />}
           {view === "BannedUser" && <BannedUser />}
-          {view === "AllRestaurants" && <AllRestaurants />}
-          {view === "VerifiedRestaurants" && <VerifiedRestaurants />}
-          {view === "NonVerifiedRestaurants" && <NonVerifiedRestaurants />}
-          {view === "BannedRestaurants" && <BannedRestaurants />}
+          {view === "AllRestaurant" && <AllRestaurant />}
+          {view === "VerifiedRestaurant" && <VerifiedRestaurant />}
+          {view === "NonVerifiedRestaurant" && <NonVerifiedRestaurant />}
+          {view === "BannedRestaurant" && <BannedRestaurant />}
           {view === "AccountSetting" && <AccountSetting />}
-          {view === "AllCuisines" && <AllCuisines />}
+          {view === "AllCuisine" && <AllCuisine />}
           {view === "AddCuisine" && <AddCuisine />}
         </div>
       </div>
@@ -592,10 +592,10 @@ function BannedUser() {
   );
 }
 
-function AllRestaurants() {
+function AllRestaurant() {
   return (
     <>
-      <h1 className="border-bottom pb-1rem">All Restaurants</h1>
+      <h1 className="border-bottom pb-1rem">All Restaurant</h1>
 
       <div className="flex justify-between align-middle pb-1rem border-bottom">
         <h5 className="mb-0">User List</h5>
@@ -715,10 +715,10 @@ function AllRestaurants() {
   );
 }
 
-function VerifiedRestaurants() {
+function VerifiedRestaurant() {
   return (
     <>
-      <h1 className="border-bottom pb-1rem">Verified Restaurants</h1>
+      <h1 className="border-bottom pb-1rem">Verified Restaurant</h1>
 
       <div className="flex justify-between align-middle pb-1rem border-bottom">
         <h5 className="mb-0">User List</h5>
@@ -838,10 +838,10 @@ function VerifiedRestaurants() {
   );
 }
 
-function NonVerifiedRestaurants() {
+function NonVerifiedRestaurant() {
   return (
     <>
-      <h1 className="border-bottom pb-1rem">NonVerified Restaurants</h1>
+      <h1 className="border-bottom pb-1rem">NonVerified Restaurant</h1>
 
       <div className="flex justify-between align-middle pb-1rem border-bottom">
         <h5 className="mb-0">User List</h5>
@@ -961,10 +961,10 @@ function NonVerifiedRestaurants() {
   );
 }
 
-function BannedRestaurants() {
+function BannedRestaurant() {
   return (
     <>
-      <h1 className="border-bottom pb-1rem">Banned Restaurants</h1>
+      <h1 className="border-bottom pb-1rem">Banned Restaurant</h1>
 
       <div className="flex justify-between align-middle pb-1rem border-bottom">
         <h5 className="mb-0">User List</h5>
@@ -1114,12 +1114,12 @@ function AccountSetting() {
   );
 }
 
-function AllCuisines() {
+function AllCuisine() {
   return (
     <>
       <h1 className="border-bottom pb-1rem">All Cuisine</h1>
       <div>
-        <h5>All Cuisines</h5>
+        <h5>All Cuisine</h5>
         <table className="table">
           <thead>
             <th>Cuisine</th>

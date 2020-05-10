@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { DatePicker, Tabs, Select } from "antd";
 import moment from "moment";
 
@@ -8,7 +8,7 @@ export default function ResturantDashboard() {
   return (
     <>
       <section className="grid justify-between bg-primary lyt-header is-collapse clr-white">
-        {view === "Settings" || view == "Guests" ? (
+        {view === "Settings" || view === "Guests" ? (
           <div className="column txt-center txt-upper">{view}</div>
         ) : (
           <>

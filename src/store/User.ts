@@ -2,14 +2,30 @@
 // Store
 //
 
-interface Model {
-  userType: "User" | "Admin" | "ResturantOwner";
+export interface Model {
+  userType: "User" | "Admin" | "ResturantOwner" | "Affiliate";
+  fullName: string;
+  email: string;
+  phoneNumber: number;
+  dob: Date;
+  address: string[];
+  image?: string;
+  reffrelid?: number;
+  verified: boolean;
 }
 
-interface State extends Model {}
+export interface State extends Model {}
 
 const initialState: State = {
-  userType: "Admin",
+  userType: "Affiliate",
+  image: "https://api.adorable.io/avatars/285/xyz.png",
+  fullName: "Mike Edward",
+  email: "mail@mail.com",
+  phoneNumber: 12345,
+  dob: new Date(Date.now()),
+  address: ["South Padre Island", "TX"],
+  reffrelid: 0,
+  verified: false,
 };
 
 // Actions

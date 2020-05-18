@@ -108,13 +108,14 @@ body * {
       z-index: 10;
       transition: transition(padding-left, padding-right);
     }
+
+    &::before {
+      content: "\EB76";
+    }
   }
 
   .slick-prev {
     left: -3%;
-    &::before {
-      content: "\EB64";
-    }
     &::after {
       content: "\EA5D";
     }
@@ -122,9 +123,6 @@ body * {
 
   .slick-next {
     right: -3%;
-    &::before {
-      content: "\EB64";
-    }
     &::after {
       content: "\EA69";
     }

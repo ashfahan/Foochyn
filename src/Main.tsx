@@ -58,7 +58,7 @@ class Main extends Component<props, state> {
 
   render() {
     let mainclass = this.props.location.pathname === "/" ? "home" : this.props.location.pathname;
-    mainclass = mainclass.replace("/", "").toUpperCase();
+    mainclass = mainclass.split("/")[1].toUpperCase();
     return (
       <Layout className="grid has-gap-0 is-x">
         <Sidebar />
@@ -68,20 +68,9 @@ class Main extends Component<props, state> {
             <Switch>
               <Route path="/" component={Home} exact />
               <Route path="/restaurant/" component={Restaurant} exact />
-              <Route
-                path="/dashboard"
-                render={(props: any) => {
-                  switch (this.props.userType) {
-                    case "User":
-                      return <UserDashboard {...props} />;
-                    case "ResturantOwner":
-                      return <ResturantDashboard {...props} />;
-                    case "Admin":
-                      return <AdminDashboard {...props} />;
-                  }
-                }}
-                exact
-              />
+              <Route path="/dashboard/user" component={UserDashboard} exact />
+              <Route path="/dashboard/resturant" component={ResturantDashboard} exact />
+              <Route path="/dashboard/admin" component={AdminDashboard} exact />
               <Route path="/search" component={Search} exact />
               <Route render={(props: any) => <Error {...props} error={404} />} />
             </Switch>

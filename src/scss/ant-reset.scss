@@ -78,8 +78,13 @@ h6 {
 .ant-tabs-nav .ant-tabs-tab-active {
   color: $primary !important;
 }
+.ant-slider-track,
 .ant-tabs-ink-bar {
   background-color: $primary !important;
+}
+
+.ant-slider-handle {
+  border-color: $primary !important;
 }
 
 .ant-tabs-tabpane {

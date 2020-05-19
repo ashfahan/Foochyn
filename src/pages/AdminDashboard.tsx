@@ -1260,7 +1260,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1269,7 +1269,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1278,7 +1278,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1287,7 +1287,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1296,7 +1296,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1305,7 +1305,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1314,7 +1314,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1323,7 +1323,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1332,7 +1332,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>
@@ -1341,7 +1341,7 @@ function AllCuisine() {
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, similique hic cum laborum saepe adipisci.</td>
               <td>
                 <a className="ml-1rem" href="#">
-                  <i className="icon ri-delete-bin-2-line"></i> Remove
+                  <i className="icon ri-delete-bin-2-line" /> Remove
                 </a>
               </td>
             </tr>

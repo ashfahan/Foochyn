@@ -262,7 +262,7 @@ export default class UserDashboard extends Component<props, state> {
           <div className="column">
             <h3 className="mb-0">{this.props.user.fullName}</h3>
             <div className="mb-7px">
-              <i className="icon ri-map-pin-2-fill"></i>
+              <i className="icon ri-map-pin-2-fill" />
               <span>{this.formatArray(this.props.user.address, ", ")}</span>
             </div>
             <div className="group event-none">
@@ -357,7 +357,7 @@ export default class UserDashboard extends Component<props, state> {
                     <div className="column w-19">
                       <UploadFile accept=".jpeg,.jpg,.png" filelimit={1} name="file" action="https://www.mocky.io/v2/5cc8019d300000980a055e76">
                         <button className="btn is-sld is-primary">
-                          <i className="icon ri-upload-2-line"></i> Click to Upload
+                          <i className="icon ri-upload-2-line" /> Click to Upload
                         </button>
                       </UploadFile>
                       <div className="is-sm">Supported image format: jpeg, jpg, png</div>

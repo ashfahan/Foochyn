@@ -42,7 +42,7 @@ export default class Expend extends Component<props, state> {
         <div className="button-area">
           <button type="button" className={this.props.buttonClass} onClick={() => this.setState({ expended: !this.state.expended })}>
             {this.state.expended ? this.props.hideText : this.props.showText}&nbsp;
-            <i className={`icon ${this.state.expended ? "ri-arrow-up-s-line" : "ri-arrow-down-s-line"}`}></i>
+            <i className={`icon ${this.state.expended ? "ri-arrow-up-s-line" : "ri-arrow-down-s-line"}`} />
           </button>
           {this.props.extrabuttons}
         </div>

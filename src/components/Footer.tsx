@@ -27,10 +27,10 @@ export default class Footer extends Component {
           <div>Who rave absolute FOoChyn on social</div>
           <div className="mt-1rem">
             <a href="#">
-              <i className="icon title is-sm ri-facebook-box-line"></i>
+              <i className="icon title is-sm ri-facebook-box-line" />
             </a>
             <a href="#">
-              <i className="icon title is-sm ri-instagram-line"></i>
+              <i className="icon title is-sm ri-instagram-line" />
             </a>
           </div>
         </div>

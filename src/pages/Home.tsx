@@ -33,15 +33,15 @@ class Home extends Component {
             <div className="grid block flex>lg">
               <div className="column group w-11>lg block flex>sm">
                 <div className="control has-icon-left is-lg my-0>sm">
-                  <i className="clr-body z-10 icon is-left ri-calendar-line"></i>
+                  <i className="clr-body z-10 icon is-left ri-calendar-line" />
                   <DatePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Date" allowClear={false} defaultValue={moment(moment.now())} size="large" className="input is-round-sm<sm" format="D/M/YYYY" />
                 </div>
                 <div className="control has-icon-left is-lg my-7px my-0>sm">
-                  <i className="clr-body z-10 icon is-left ri-time-line"></i>
+                  <i className="clr-body z-10 icon is-left ri-time-line" />
                   <TimePicker suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} placeholder="Time" allowClear={false} defaultValue={moment(moment.now()).add(1, "hour")} size="large" className="input is-round-sm<sm" format="h:mm a" minuteStep={15} />
                 </div>
                 <div className="control has-icon-left is-lg my-0>sm">
-                  <i className="clr-body z-10 icon is-left ri-user-line"></i>
+                  <i className="clr-body z-10 icon is-left ri-user-line" />
                   <Select bordered={false} size="large" suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input is-round-sm<sm" showSearch defaultValue="2">
                     <Select.Option value="1">1 People</Select.Option>
                     <Select.Option value="2">2 People</Select.Option>
@@ -63,7 +63,7 @@ class Home extends Component {
               </div>
               <div className="column w-7>lg">
                 <div className="control has-icon-left is-lg">
-                  <i className="clr-body z-10 icon is-left ri-map-pin-line"></i>
+                  <i className="clr-body z-10 icon is-left ri-map-pin-line" />
                   <Select bordered={false} size="large" suffixIcon={<i className="clr-body icon ri-arrow-down-s-fill" />} className="input" showSearch placeholder="Location, Restaurant, Cuisine">
                     <Select.Option value="lahore">Lahore</Select.Option>
                     <Select.Option value="karachi">Karachi</Select.Option>

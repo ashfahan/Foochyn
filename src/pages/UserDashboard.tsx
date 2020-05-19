@@ -27,7 +27,7 @@ interface props {
   reviews?: ReviewProps[];
 }
 interface state {
-  view: "Setting" | "Reviews" | "Favorite" | "Been There" | "Achivement" | "Recently viewed Restaurant";
+  view: "Setting" | "Reviews" | "Favorite" | "ComingSoon";
 }
 
 export default class UserDashboard extends Component<props, state> {
@@ -303,13 +303,13 @@ export default class UserDashboard extends Component<props, state> {
                 <button onClick={() => this.setState({ view: "Favorite" })} className={`menu-item ${this.state.view === "Favorite" ? "active" : ""}`}>
                   Favorite
                 </button>
-                <button onClick={() => this.setState({ view: "Been There" })} className={`menu-item ${this.state.view === "Been There" ? "active" : ""}`}>
+                <button onClick={() => this.setState({ view: "ComingSoon" })} className={`menu-item ${this.state.view === "ComingSoon" ? "hover" : ""}`}>
                   Been There
                 </button>
-                <button onClick={() => this.setState({ view: "Achivement" })} className={`menu-item ${this.state.view === "Achivement" ? "active" : ""}`}>
+                <button onClick={() => this.setState({ view: "ComingSoon" })} className={`menu-item ${this.state.view === "ComingSoon" ? "hover" : ""}`}>
                   Achivement
                 </button>
-                <button onClick={() => this.setState({ view: "Recently viewed Restaurant" })} className={`menu-item ${this.state.view === "Recently viewed Restaurant" ? "active" : ""}`}>
+                <button onClick={() => this.setState({ view: "ComingSoon" })} className={`menu-item ${this.state.view === "ComingSoon" ? "hover" : ""}`}>
                   Recently viewed Restaurant
                 </button>
               </div>
@@ -320,8 +320,12 @@ export default class UserDashboard extends Component<props, state> {
                 <span className="is-sm txt-upper">Online Ordering</span>
               </div>
               <div className="menu is-primary">
-                <button className="menu-item">Favorite Food</button>
-                <button className="menu-item">Order History</button>
+                <button onClick={() => this.setState({ view: "ComingSoon" })} className={`menu-item ${this.state.view === "ComingSoon" ? "hover" : ""}`}>
+                  Favorite Food
+                </button>
+                <button onClick={() => this.setState({ view: "ComingSoon" })} className={`menu-item ${this.state.view === "ComingSoon" ? "hover" : ""}`}>
+                  Order History
+                </button>
               </div>
             </section>
 
@@ -330,9 +334,15 @@ export default class UserDashboard extends Component<props, state> {
                 <span className="is-sm txt-upper">Payments & Subscription</span>
               </div>
               <div className="menu is-primary">
-                <button className="menu-item">Zomanto Credit</button>
-                <button className="menu-item">Manage Cards</button>
-                <button className="menu-item">Manage Wallets</button>
+                <button onClick={() => this.setState({ view: "ComingSoon" })} className={`menu-item ${this.state.view === "ComingSoon" ? "hover" : ""}`}>
+                  Credit
+                </button>
+                <button onClick={() => this.setState({ view: "ComingSoon" })} className={`menu-item ${this.state.view === "ComingSoon" ? "hover" : ""}`}>
+                  Manage Cards
+                </button>
+                <button onClick={() => this.setState({ view: "ComingSoon" })} className={`menu-item ${this.state.view === "ComingSoon" ? "hover" : ""}`}>
+                  Manage Wallets
+                </button>
               </div>
             </section>
           </div>
@@ -443,7 +453,7 @@ export default class UserDashboard extends Component<props, state> {
                 />
               )}
 
-              {this.state.view === "Achivement" && <Empty className="align-self-middle" description="COMING SOON" image={<i className="ri-7x ri-compass-3-line" />} />}
+              {this.state.view === "ComingSoon" && <Empty className="align-self-middle" description="COMING SOON" image={<i className="ri-7x ri-compass-3-line" />} />}
             </section>
           </div>
         </section>

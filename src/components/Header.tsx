@@ -62,7 +62,9 @@ export default class Header extends Component<props> {
   render() {
     return (
       <header ref={this.ref} className={`ant-layout-header lyt-header grid ${this.props.className}`}>
-        <div className="column w-4 font-bold is-lg">Foochyn</div>
+        <NavLink className="column w-4 font-bold is-lg txt-decor-none" to="/">
+          Foochyn
+        </NavLink>
         <div className="column w-20 txt-right hidden>sm block">
           <button className="btn is-circle is-lg" onClick={() => window.dispatchEvent(this.event)}>
             <i className="icon ri-menu-line" />

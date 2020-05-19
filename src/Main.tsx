@@ -57,7 +57,7 @@ class Main extends Component<props, state> {
   }
 
   render() {
-    let mainclass = this.props.location.pathname === "/" ? "home" : this.props.location.pathname;
+    let mainclass = this.props.location.pathname === "/" ? "/home" : this.props.location.pathname;
     mainclass = mainclass.split("/")[1].toUpperCase();
     return (
       <Layout className="grid has-gap-0 is-x">

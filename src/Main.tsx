@@ -26,7 +26,7 @@ import Home from "./pages/Home";
 import Restaurant from "./pages/Restaurant";
 import Search from "./pages/Search";
 import UserDashboard from "./pages/UserDashboard";
-import ResturantDashboard from "./pages/ResturantDashboard";
+import RestaurantDashboard from "./pages/RestaurantDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 
 interface props {
@@ -69,7 +69,7 @@ class Main extends Component<props, state> {
               <Route path="/" component={Home} exact />
               <Route path="/restaurant/" component={Restaurant} exact />
               <Route path="/dashboard/user" component={UserDashboard} exact />
-              <Route path="/dashboard/resturant" component={ResturantDashboard} exact />
+              <Route path="/dashboard/resturant" component={RestaurantDashboard} exact />
               <Route path="/dashboard/admin" component={AdminDashboard} exact />
               <Route path="/search" component={Search} exact />
               <Route render={(props: any) => <Error {...props} error={404} />} />
